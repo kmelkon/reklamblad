@@ -213,8 +213,8 @@ def parse_paged_publication(data, store_name: str) -> list[dict]:
     return products
 
 
-def scrape_willys_inventory(page, store_name: str, base_url: str) -> list[dict]:
-    """Scrape Willys inventory view which has structured product data."""
+def scrape_inventory_view(page, store_name: str, base_url: str) -> list[dict]:
+    """Scrape inventory view which has structured product data (Willys, ICA Maxi, ICA Kvantum)."""
     print(f"\n=== Scraping {store_name} (inventory view) ===")
 
     products = []
@@ -390,10 +390,13 @@ def main():
         )
         page = context.new_page()
 
+        # Stores that use inventory view for better price data
+        inventory_stores = {'Willys', 'ICA Maxi', 'ICA Kvantum'}
+
         for store_name, url in stores:
             try:
-                if store_name == 'Willys':
-                    products = scrape_willys_inventory(page, store_name, url)
+                if store_name in inventory_stores:
+                    products = scrape_inventory_view(page, store_name, url)
                 else:
                     products = scrape_ereklamblad(page, store_name, url)
                 all_products.extend(products)
