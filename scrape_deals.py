@@ -391,7 +391,7 @@ def main():
         page = context.new_page()
 
         # Stores that use inventory view for better price data
-        inventory_stores = {'Willys', 'ICA Maxi', 'ICA Kvantum'}
+        inventory_stores = {'Willys', 'ICA Maxi', 'ICA Kvantum', 'Stora Coop', 'Coop'}
 
         for store_name, url in stores:
             try:

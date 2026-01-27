@@ -1,12 +1,75 @@
 [
   {
     "store": "ICA Supermarket",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 179:00 kr.",
+    "ord_pris": "179:00",
+    "jfr_pris": null
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Fryst hamburgare",
+    "price": "139:-",
+    "unit": "2 för",
+    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 90:90 kr.",
+    "ord_pris": "90:90",
+    "jfr_pris": "96:53"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 47:90-51:90 kr.",
+    "ord_pris": "47:90-51:90",
+    "jfr_pris": "1:29-1:35"
+  },
+  {
+    "store": "ICA Supermarket",
     "name": "Cookies",
     "price": "50:-",
     "unit": "2 för",
     "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 36:90-39:90 kr.",
     "ord_pris": "36:90-39:90",
     "jfr_pris": "135:87-189:39"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Röda kärnfria druvor i ask",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA | Jfr pris 60:00/kg | Ord.pris 49:90 kr.",
+    "ord_pris": "49:90",
+    "jfr_pris": "60:00"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Tulpaner 12-pack",
+    "price": "99:-",
+    "unit": "/st",
+    "description": "Flera färger. 3 kr går till Glada Hudik | ICA | Jfr pris 99:00/st | Ord.pris 149:00 kr.",
+    "ord_pris": "149:00",
+    "jfr_pris": "99:00"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Yoghurt",
+    "price": "45:-",
+    "unit": "2 för",
+    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi | Jfr pris 22:50/kg | Ord.pris 30:90-32:90 kr.",
+    "ord_pris": "30:90-32:90",
+    "jfr_pris": "22:50"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Schampo, balsam",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "200-250 ml | Elvital | Jfr pris 110:00-137:50/liter | Ord.pris 43:90 kr.",
+    "ord_pris": "43:90",
+    "jfr_pris": "110:00-137:50"
   },
   {
     "store": "ICA Supermarket",
@@ -25,15 +88,6 @@
     "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs | Jfr pris 140:00-145:83/kg | Ord.pris 24:90-26:90 kr.",
     "ord_pris": "24:90-26:90",
     "jfr_pris": "140:00-145:83"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Fryst hamburgare",
-    "price": "139:-",
-    "unit": "2 för",
-    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 90:90 kr.",
-    "ord_pris": "90:90",
-    "jfr_pris": "96:53"
   },
   {
     "store": "ICA Supermarket",
@@ -106,60 +160,6 @@
     "description": "1530 g | Storpack Fryst | Billys | Max 2 köp/hushåll | Jfr pris 62:09/kg | Ord.pris 112:00 kr. 30dgr.pris 95:00 kr.",
     "ord_pris": "112:00",
     "jfr_pris": "62:09"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Färsk kycklingfilé",
-    "price": "119:-",
-    "unit": "/kg",
-    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 179:00 kr.",
-    "ord_pris": "179:00",
-    "jfr_pris": null
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Flytande tvättmedel",
-    "price": "119:-",
-    "unit": "4 för",
-    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 47:90-51:90 kr.",
-    "ord_pris": "47:90-51:90",
-    "jfr_pris": "1:29-1:35"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Röda kärnfria druvor i ask",
-    "price": "30:-",
-    "unit": "/st",
-    "description": "500 g | Klass 1 | ICA | Jfr pris 60:00/kg | Ord.pris 49:90 kr.",
-    "ord_pris": "49:90",
-    "jfr_pris": "60:00"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Tulpaner 12-pack",
-    "price": "99:-",
-    "unit": "/st",
-    "description": "Flera färger. 3 kr går till Glada Hudik | ICA | Jfr pris 99:00/st | Ord.pris 149:00 kr.",
-    "ord_pris": "149:00",
-    "jfr_pris": "99:00"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Yoghurt",
-    "price": "45:-",
-    "unit": "2 för",
-    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi | Jfr pris 22:50/kg | Ord.pris 30:90-32:90 kr.",
-    "ord_pris": "30:90-32:90",
-    "jfr_pris": "22:50"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Schampo, balsam",
-    "price": "55:-",
-    "unit": "2 för",
-    "description": "200-250 ml | Elvital | Jfr pris 110:00-137:50/liter | Ord.pris 43:90 kr.",
-    "ord_pris": "43:90",
-    "jfr_pris": "110:00-137:50"
   },
   {
     "store": "ICA Supermarket",
@@ -244,24 +244,6 @@
   },
   {
     "store": "ICA Supermarket",
-    "name": "Spareribs",
-    "price": null,
-    "unit": "/kg",
-    "description": "Ca 1200 g | ICA | Ord.pris 99:00 kr.",
-    "ord_pris": "99:00",
-    "jfr_pris": null
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Umamifärs",
-    "price": null,
-    "unit": "/st",
-    "description": "500 g | Kryddad fläskfärs. Max 20% fetthalt. | ICA | Jfr pris 79:80/kg | Ord.pris 54:90 kr.",
-    "ord_pris": "54:90",
-    "jfr_pris": "79:80"
-  },
-  {
-    "store": "ICA Supermarket",
     "name": "Smörgåsmat",
     "price": "20:-",
     "unit": "/st",
@@ -316,12 +298,21 @@
   },
   {
     "store": "ICA Supermarket",
-    "name": "Duschtvål",
-    "price": "34:-",
-    "unit": "2 för",
-    "description": "250 ml | Gäller ej Ren baby | Barnängen | Jfr pris 68:00/liter | Ord.pris 26:90 kr.",
-    "ord_pris": "26:90",
-    "jfr_pris": "68:00"
+    "name": "Spareribs",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1200 g | ICA | Ord.pris 99:00 kr.",
+    "ord_pris": "99:00",
+    "jfr_pris": null
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Umamifärs",
+    "price": null,
+    "unit": "/st",
+    "description": "500 g | Kryddad fläskfärs. Max 20% fetthalt. | ICA | Jfr pris 79:80/kg | Ord.pris 54:90 kr.",
+    "ord_pris": "54:90",
+    "jfr_pris": "79:80"
   },
   {
     "store": "ICA Supermarket",
@@ -334,30 +325,12 @@
   },
   {
     "store": "ICA Supermarket",
-    "name": "Crème Fraiche",
-    "price": "24:-",
+    "name": "Duschtvål",
+    "price": "34:-",
     "unit": "2 för",
-    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket | Jfr pris 60:00/liter | Ord.pris 15:90-22:90 kr.",
-    "ord_pris": "15:90-22:90",
-    "jfr_pris": "60:00"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Juice",
-    "price": "40:-",
-    "unit": "/st",
-    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo | Jfr pris 20:00-22:86/liter | Ord.pris 49:90 kr.",
-    "ord_pris": "49:90",
-    "jfr_pris": "20:00-22:86"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Risi-, Mannafrutti",
-    "price": "40:-",
-    "unit": "4 för",
-    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti | Max 1 köp/hushåll | Jfr pris 57:14-60:61/kg | Ord.pris 14:90-16:90 kr.",
-    "ord_pris": "14:90-16:90",
-    "jfr_pris": "57:14-60:61"
+    "description": "250 ml | Gäller ej Ren baby | Barnängen | Jfr pris 68:00/liter | Ord.pris 26:90 kr.",
+    "ord_pris": "26:90",
+    "jfr_pris": "68:00"
   },
   {
     "store": "ICA Supermarket",
@@ -397,21 +370,30 @@
   },
   {
     "store": "ICA Supermarket",
-    "name": "Kryddor små glas",
-    "price": "100:-",
-    "unit": "8 för",
-    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria | Max 1 köp/hushåll | Jfr pris 277:78/kg utan spad, 150:60-4 166:67/kg | Ord.pris 19:90-41:90 kr.",
-    "ord_pris": "19:90-41:90",
-    "jfr_pris": "277:78"
+    "name": "Crème Fraiche",
+    "price": "24:-",
+    "unit": "2 för",
+    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket | Jfr pris 60:00/liter | Ord.pris 15:90-22:90 kr.",
+    "ord_pris": "15:90-22:90",
+    "jfr_pris": "60:00"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Tortillabröd, Tacosås, Chips",
-    "price": "100:-",
-    "unit": "10 för",
-    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria | Max 1 köp/hushåll | Jfr pris 31:25-54:05/kg | Ord.pris 17:50-31:90 kr.",
-    "ord_pris": "17:50-31:90",
-    "jfr_pris": "31:25-54:05"
+    "name": "Juice",
+    "price": "40:-",
+    "unit": "/st",
+    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo | Jfr pris 20:00-22:86/liter | Ord.pris 49:90 kr.",
+    "ord_pris": "49:90",
+    "jfr_pris": "20:00-22:86"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Risi-, Mannafrutti",
+    "price": "40:-",
+    "unit": "4 för",
+    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti | Max 1 köp/hushåll | Jfr pris 57:14-60:61/kg | Ord.pris 14:90-16:90 kr.",
+    "ord_pris": "14:90-16:90",
+    "jfr_pris": "57:14-60:61"
   },
   {
     "store": "ICA Supermarket",
@@ -468,13 +450,76 @@
     "jfr_pris": "6:33"
   },
   {
+    "store": "ICA Supermarket",
+    "name": "Kryddor små glas",
+    "price": "100:-",
+    "unit": "8 för",
+    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria | Max 1 köp/hushåll | Jfr pris 277:78/kg utan spad, 150:60-4 166:67/kg | Ord.pris 19:90-41:90 kr.",
+    "ord_pris": "19:90-41:90",
+    "jfr_pris": "277:78"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Tortillabröd, Tacosås, Chips",
+    "price": "100:-",
+    "unit": "10 för",
+    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria | Max 1 köp/hushåll | Jfr pris 31:25-54:05/kg | Ord.pris 17:50-31:90 kr.",
+    "ord_pris": "17:50-31:90",
+    "jfr_pris": "31:25-54:05"
+  },
+  {
     "store": "ICA Nära",
-    "name": "Smör",
-    "price": "55:-",
-    "unit": "/st",
-    "description": "500 g | Gäller ej laktosfritt | Valio | Jfr pris 110:00/kg | Ord.pris 78:00 kr.",
-    "ord_pris": "78:00",
-    "jfr_pris": "110:00"
+    "name": "Fryst hamburgare",
+    "price": "139:-",
+    "unit": "2 för",
+    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 92:00 kr.",
+    "ord_pris": "92:00",
+    "jfr_pris": "96:53"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Frysta Thaiboxar",
+    "price": "89:-",
+    "unit": "3 för",
+    "description": "300-350 g | Kitchen Joy | Jfr pris 84:76-98:89/kg | Ord.pris 46:95 kr.",
+    "ord_pris": "46:95",
+    "jfr_pris": "84:76-98:89"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Pizza Ristorante",
+    "price": "90:-",
+    "unit": "3 för",
+    "description": "320-360 g | Fryst. Gäller ej glutenfri | Dr. Oetker | Jfr pris 83:33-93:75/kg | Ord.pris 39:95-43:95 kr.",
+    "ord_pris": "39:95-43:95",
+    "jfr_pris": "83:33-93:75"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Gräddglass",
+    "price": "49:-",
+    "unit": "3 för",
+    "description": "0,5 liter | Gäller ej sorbet. | SIA | Jfr pris 32:67/liter | Ord.pris 21:95-23:95 kr.",
+    "ord_pris": "21:95-23:95",
+    "jfr_pris": "32:67"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 177:00 kr.",
+    "ord_pris": "177:00",
+    "jfr_pris": null
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 51:95-53:95 kr.",
+    "ord_pris": "51:95-53:95",
+    "jfr_pris": "1:29-1:35"
   },
   {
     "store": "ICA Nära",
@@ -484,6 +529,24 @@
     "description": "750 g | Pågen | Jfr pris 40:00/kg | Ord.pris 37:95 kr.",
     "ord_pris": "37:95",
     "jfr_pris": "40:00"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Cookies",
+    "price": "25:-",
+    "unit": "/st",
+    "description": "132-184 g | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 35:95-41:95 kr. 30dgr.pris 35:95-41:95 kr.",
+    "ord_pris": "35:95-41:95",
+    "jfr_pris": "135:87-189:39"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Smör",
+    "price": "55:-",
+    "unit": "/st",
+    "description": "500 g | Gäller ej laktosfritt | Valio | Jfr pris 110:00/kg | Ord.pris 78:00 kr.",
+    "ord_pris": "78:00",
+    "jfr_pris": "110:00"
   },
   {
     "store": "ICA Nära",
@@ -511,33 +574,6 @@
     "description": "55 g | Swebar | Jfr pris 333:33/kg | Ord.pris 27:95-28:95 kr.",
     "ord_pris": "27:95-28:95",
     "jfr_pris": "333:33"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Färsk kycklingfilé",
-    "price": "119:-",
-    "unit": "/kg",
-    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 177:00 kr.",
-    "ord_pris": "177:00",
-    "jfr_pris": null
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Fryst hamburgare",
-    "price": "139:-",
-    "unit": "2 för",
-    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 92:00 kr.",
-    "ord_pris": "92:00",
-    "jfr_pris": "96:53"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Flytande tvättmedel",
-    "price": "119:-",
-    "unit": "4 för",
-    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 51:95-53:95 kr.",
-    "ord_pris": "51:95-53:95",
-    "jfr_pris": "1:29-1:35"
   },
   {
     "store": "ICA Nära",
@@ -574,42 +610,6 @@
     "description": "1 kg | Klass 2 | ICA | Jfr pris 15:00/kg | Ord.pris 19:95 kr.",
     "ord_pris": "19:95",
     "jfr_pris": "15:00"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Cookies",
-    "price": "25:-",
-    "unit": "/st",
-    "description": "132-184 g | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 35:95-41:95 kr. 30dgr.pris 35:95-41:95 kr.",
-    "ord_pris": "35:95-41:95",
-    "jfr_pris": "135:87-189:39"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Frysta Thaiboxar",
-    "price": "89:-",
-    "unit": "3 för",
-    "description": "300-350 g | Kitchen Joy | Jfr pris 84:76-98:89/kg | Ord.pris 46:95 kr.",
-    "ord_pris": "46:95",
-    "jfr_pris": "84:76-98:89"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Pizza Ristorante",
-    "price": "90:-",
-    "unit": "3 för",
-    "description": "320-360 g | Fryst. Gäller ej glutenfri | Dr. Oetker | Jfr pris 83:33-93:75/kg | Ord.pris 39:95-43:95 kr.",
-    "ord_pris": "39:95-43:95",
-    "jfr_pris": "83:33-93:75"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Gräddglass",
-    "price": "49:-",
-    "unit": "3 för",
-    "description": "0,5 liter | Gäller ej sorbet. | SIA | Jfr pris 32:67/liter | Ord.pris 21:95-23:95 kr.",
-    "ord_pris": "21:95-23:95",
-    "jfr_pris": "32:67"
   },
   {
     "store": "ICA Nära",
@@ -2539,26 +2539,116 @@
   },
   {
     "store": "Stora Coop",
+    "name": "Gröna druvor",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Blomkål",
+    "price": "25:-",
+    "unit": null,
+    "description": "1 kg • 25 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "25"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Plommontomater",
+    "price": "25:-",
+    "unit": null,
+    "description": "500 g • 50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "50"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Mango",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x330 g • 45,45 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "45,45"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Sockerärtor/Sugarsnaps/Haricot Verts",
+    "price": "50:-",
+    "unit": null,
+    "description": "2x150 g • 166,67 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "166,67"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Rödbetor",
+    "price": "12:-",
+    "unit": null,
+    "description": "1000 g • 12 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "12"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Svenska äpplen",
+    "price": "25:-",
+    "unit": null,
+    "description": "1 kg • 25 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "25"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Ekologisk sallad i påse",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x65 g • 230,77 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "230,77"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Högrev",
+    "price": "175:-",
+    "unit": null,
+    "description": "1 kg • 175 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "175"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Blandfärs",
+    "price": "85:-",
+    "unit": null,
+    "description": "800 g • 106,25 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "106,25"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Torskrygg",
+    "price": "99:-",
+    "unit": null,
+    "description": "375 g • 264 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "264"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kycklinglårfilé",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
     "name": "Kebab/Falafel/Gyros",
     "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Tex mex",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Tacokrydda",
-    "price": "15:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2575,39 +2665,21 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Torskrygg",
-    "price": "99:-",
+    "name": "Färsk Lammrostbiff",
+    "price": "289:-",
     "unit": null,
-    "description": null,
+    "description": "1 kg • 289 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "289"
   },
   {
     "store": "Stora Coop",
-    "name": "Gröna druvor",
-    "price": "Medlemspris",
+    "name": "Handskalade räkor",
+    "price": "89:-",
     "unit": null,
-    "description": null,
+    "description": "240 g • 370,83 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Färsk fläskkotlett",
-    "price": "109:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Kassler",
-    "price": "99:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "370,83"
   },
   {
     "store": "Stora Coop",
@@ -2620,17 +2692,26 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Högrev",
-    "price": "175:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
     "name": "Strimlad kyckling",
-    "price": "79.9:-",
+    "price": "79.90:-",
+    "unit": null,
+    "description": "600 g • 133,17 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "133,17"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Parmesanost",
+    "price": "45:-",
+    "unit": null,
+    "description": "150 g • 300 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "300"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Havremjölk",
+    "price": "Medlemspris",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2638,116 +2719,17 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Blandfärs",
-    "price": "85:-",
+    "name": "Färskost",
+    "price": "20:-",
     "unit": null,
-    "description": null,
+    "description": "145-200 g • 137,93 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "137,93"
   },
   {
     "store": "Stora Coop",
-    "name": "Färsk Lammrostbiff",
-    "price": "289:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Kryddor i småglas",
-    "price": "39:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Handskalade räkor",
-    "price": "89:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Blomkål",
-    "price": "25:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Svenska äpplen",
-    "price": "25:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Rödbetor",
-    "price": "12:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Sockerärtor/Sugarsnaps/Haricot Verts",
-    "price": "50:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Plommontomater",
-    "price": "25:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Ekologisk sallad i påse",
-    "price": "30:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Mango",
-    "price": "30:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Ekologiska klämpåsar",
-    "price": "99:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Pizza",
-    "price": "105:-",
+    "name": "Gräddfil",
+    "price": "Medlemspris",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2764,107 +2746,35 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Parmesanost",
-    "price": "45:-",
+    "name": "Dessertost",
+    "price": "30:-",
     "unit": null,
-    "description": null,
+    "description": "125-150 g • 240 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "240"
   },
   {
     "store": "Stora Coop",
     "name": "Yoghurt",
     "price": "46:-",
     "unit": null,
-    "description": null,
+    "description": "2x1000 g • 23 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Granola",
-    "price": "75:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Gräddfil",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "23"
   },
   {
     "store": "Stora Coop",
     "name": "Vegetariskt pålägg",
     "price": "20:-",
     "unit": null,
-    "description": null,
+    "description": "100 g • 200 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "200"
   },
   {
     "store": "Stora Coop",
-    "name": "Färskost",
-    "price": "20:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Havremjölk",
+    "name": "Smörgåspålägg",
     "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Bröd",
-    "price": "25:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Chokladsnacks",
-    "price": "49:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Choklad stycksaker",
-    "price": "25:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Kakor",
-    "price": "49:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Jordnötter",
-    "price": "45:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2881,8 +2791,26 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Dessertost",
-    "price": "30:-",
+    "name": "Lasagne",
+    "price": "79:-",
+    "unit": null,
+    "description": "1000-1400 g • 79 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "79"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Pizza",
+    "price": "105:-",
+    "unit": null,
+    "description": "2x487-520 g • 107,80 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "107,80"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Matpaj",
+    "price": "Medlemspris",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2890,8 +2818,89 @@
   },
   {
     "store": "Stora Coop",
+    "name": "Snabbkaffe",
+    "price": "90:-",
+    "unit": null,
+    "description": "200 g • 450 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "450"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Tex mex",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Granola",
+    "price": "75:-",
+    "unit": null,
+    "description": "2x375 g • 100 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "100"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Tacokrydda",
+    "price": "15:-",
+    "unit": null,
+    "description": "2x28 g • 267,86 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "267,86"
+  },
+  {
+    "store": "Stora Coop",
     "name": "Majskakor",
     "price": "35:-",
+    "unit": null,
+    "description": "2x120-130 g • 145,83 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "145,83"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kryddor i småglas",
+    "price": "39:-",
+    "unit": null,
+    "description": "2x8-53 g • 2 437,50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "437,50"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Jordnötter",
+    "price": "45:-",
+    "unit": null,
+    "description": "2x150-300 g • 150 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "150"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Tösalt",
+    "price": "139:-",
+    "unit": null,
+    "description": "2x5 kg • 13,90 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "13,90"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Läsk 4-pack",
+    "price": "59.90:-",
+    "unit": null,
+    "description": "4x1500 ml • 9,98 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kolsyrepatron",
+    "price": "79:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2902,14 +2911,14 @@
     "name": "Energidryck",
     "price": "30:-",
     "unit": null,
-    "description": null,
+    "description": "2x330 ml • 45,45 kr/l",
     "ord_pris": null,
     "jfr_pris": null
   },
   {
     "store": "Stora Coop",
-    "name": "Halstabletter",
-    "price": "32:-",
+    "name": "Fuse 3-pack",
+    "price": "199:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2917,8 +2926,143 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Kosttillskott",
-    "price": "99:-",
+    "name": "Bröd",
+    "price": "25:-",
+    "unit": null,
+    "description": "420 g • 59,52 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "59,52"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Snacks",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kakor",
+    "price": "49:-",
+    "unit": null,
+    "description": "2x132-184 g • 185,61 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "185,61"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Chokladsnacks",
+    "price": "49:-",
+    "unit": null,
+    "description": "2x90-150 g • 272,22 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "272,22"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Choklad stycksaker",
+    "price": "25:-",
+    "unit": null,
+    "description": "3x37-60 g • 225,23 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "225,23"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Spolarvätska 3 liter",
+    "price": "149:-",
+    "unit": null,
+    "description": "4x3 l • 12,42 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Porslin Hedda",
+    "price": null,
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Vacuumpåse",
+    "price": "24.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Bunke med lock",
+    "price": "59:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Snöredskap",
+    "price": "69:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kolsyremaskin",
+    "price": "899:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Sprayflaska",
+    "price": "19.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Bordstablett",
+    "price": "29.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Glasunderlägg 4-pack",
+    "price": "29.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kökstextil",
+    "price": "29.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Örngott",
+    "price": "29.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2929,7 +3073,7 @@
     "name": "Såjord",
     "price": "69:-",
     "unit": null,
-    "description": null,
+    "description": "2x8 l • 4,31 kr/l",
     "ord_pris": null,
     "jfr_pris": null
   },
@@ -2944,7 +3088,70 @@
   },
   {
     "store": "Stora Coop",
+    "name": "Dammsugare",
+    "price": "295:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Dammsugarmunstycke",
+    "price": "149:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Ekologiska klämpåsar",
+    "price": "99:-",
+    "unit": null,
+    "description": "9x100 g • 110 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "110"
+  },
+  {
+    "store": "Stora Coop",
     "name": "Kattmat",
+    "price": "99:-",
+    "unit": null,
+    "description": "2x890-1020 g • 55,62 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "55,62"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Underkläder",
+    "price": null,
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Strumpor 5-pack",
+    "price": "179:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Damunderkläder 2-pack",
+    "price": "199:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Barnmössa",
     "price": "99:-",
     "unit": null,
     "description": null,
@@ -2953,8 +3160,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Lasagne",
-    "price": "79:-",
+    "name": "Långkalsonger",
+    "price": "149:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2962,8 +3169,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Läsk 4-pack",
-    "price": "59.9:-",
+    "name": "Mössa cold",
+    "price": "149:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2971,8 +3178,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Snabbkaffe",
-    "price": "90:-",
+    "name": "Herrunderkläder 2-pack",
+    "price": "199:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2980,8 +3187,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Dammsugare",
-    "price": "1295:-",
+    "name": "Strumpor 10-pack",
+    "price": "199:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2989,8 +3196,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Sprayflaska",
-    "price": "19.9:-",
+    "name": "Skidhandskar",
+    "price": "249:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2998,8 +3205,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Matpaj",
-    "price": "Medlemspris",
+    "name": "Barnunderkläder 2-pack",
+    "price": null,
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3007,35 +3214,17 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Kycklinglårfilé",
-    "price": "Medlemspris",
+    "name": "Halstabletter",
+    "price": "32:-",
     "unit": null,
-    "description": null,
+    "description": "2x72 g • 222,22 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null
+    "jfr_pris": "222,22"
   },
   {
     "store": "Stora Coop",
-    "name": "Snacks",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Smörgåspålägg",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Coop",
-    "name": "Kebab/Falafel",
-    "price": "Medlemspris",
+    "name": "Kosttillskott",
+    "price": "99:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3052,7 +3241,106 @@
   },
   {
     "store": "Coop",
-    "name": "Tex-mex",
+    "name": "Vitkål",
+    "price": "12:-",
+    "unit": null,
+    "description": "1 kg • 12 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "12"
+  },
+  {
+    "store": "Coop",
+    "name": "Frysta grönsaker",
+    "price": "49:-",
+    "unit": null,
+    "description": "3x400-500 g • 40,83 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "40,83"
+  },
+  {
+    "store": "Coop",
+    "name": "Ekologisk sallad i påse",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x65 g • 230,77 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "230,77"
+  },
+  {
+    "store": "Coop",
+    "name": "Blåbär",
+    "price": "49:-",
+    "unit": null,
+    "description": "300 g • 163,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "163,33"
+  },
+  {
+    "store": "Coop",
+    "name": "Champinjoner",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x250 g • 60 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "60"
+  },
+  {
+    "store": "Coop",
+    "name": "Färsk kycklingfilé",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Kycklingfärs",
+    "price": "45:-",
+    "unit": null,
+    "description": "500 g • 90 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "90"
+  },
+  {
+    "store": "Coop",
+    "name": "Torskryggfilé 3-pack",
+    "price": "129:-",
+    "unit": null,
+    "description": "3x125 g • 344,00 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "344,00"
+  },
+  {
+    "store": "Coop",
+    "name": "Fläsklägg",
+    "price": "49.90:-",
+    "unit": null,
+    "description": "1 kg • 49,90 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "49,90"
+  },
+  {
+    "store": "Coop",
+    "name": "Färsk biff",
+    "price": "59.90:-",
+    "unit": null,
+    "description": "180 g • 332,78 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "332,78"
+  },
+  {
+    "store": "Coop",
+    "name": "Kebab/Falafel",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Bacon",
     "price": "Medlemspris",
     "unit": null,
     "description": null,
@@ -3070,8 +3358,251 @@
   },
   {
     "store": "Coop",
+    "name": "Biff",
+    "price": "59.90:-",
+    "unit": null,
+    "description": "180 g • 332,78 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "332,78"
+  },
+  {
+    "store": "Coop",
+    "name": "Svenskt smör",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Matgrädde",
+    "price": "20:-",
+    "unit": null,
+    "description": "5 dl • 40 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Smaksatt crème fraiche",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x2 dl • 75 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Dessertost",
+    "price": "59.90:-",
+    "unit": null,
+    "description": "150-180 g • 399,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "399,33"
+  },
+  {
+    "store": "Coop",
+    "name": "Färskost",
+    "price": "22:-",
+    "unit": null,
+    "description": "145-200 g • 151,72 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "151,72"
+  },
+  {
+    "store": "Coop",
+    "name": "Ost",
+    "price": "139:-",
+    "unit": null,
+    "description": "1 kg • 139 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "139"
+  },
+  {
+    "store": "Coop",
+    "name": "Glass",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Pizza",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Vegetariskt protein",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Kalkonköttbullar/Kalkonfärs",
+    "price": "57.90:-",
+    "unit": null,
+    "description": "400-500 g • 144,75 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "144,75"
+  },
+  {
+    "store": "Coop",
+    "name": "Matpaj",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Färdiga pannkakor 6-pack",
+    "price": "17.90:-",
+    "unit": null,
+    "description": "360 g • 49,72 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "49,72"
+  },
+  {
+    "store": "Coop",
+    "name": "Lasagne",
+    "price": "49.90:-",
+    "unit": null,
+    "description": "350 g • 142,57 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "142,57"
+  },
+  {
+    "store": "Coop",
+    "name": "Kaffe",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Snabbkaffe Original",
+    "price": "130:-",
+    "unit": null,
+    "description": "2x200 g • 325 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "325"
+  },
+  {
+    "store": "Coop",
+    "name": "Tex-mex",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Rapsolja",
+    "price": "49:-",
+    "unit": null,
+    "description": "2x1 l • 24,50 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
     "name": "Makaroner",
     "price": "22:-",
+    "unit": null,
+    "description": "2x750 g • 14,67 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "14,67"
+  },
+  {
+    "store": "Coop",
+    "name": "Kebabsås",
+    "price": "45:-",
+    "unit": null,
+    "description": "2x250 ml • 90 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Majskakor",
+    "price": "39:-",
+    "unit": null,
+    "description": "2x125-130 g • 156 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "156"
+  },
+  {
+    "store": "Coop",
+    "name": "Ekologiska popcorn",
+    "price": "40:-",
+    "unit": null,
+    "description": "2x400 g • 50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "50"
+  },
+  {
+    "store": "Coop",
+    "name": "Kylda såser/Dressing",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Nötter",
+    "price": "49:-",
+    "unit": null,
+    "description": "2x150-300 g • 163,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "163,33"
+  },
+  {
+    "store": "Coop",
+    "name": "Läsk",
+    "price": "35:-",
+    "unit": null,
+    "description": "5x33 cl • 21,21 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Energidryck",
+    "price": "32:-",
+    "unit": null,
+    "description": "2x355 ml • 45,07 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Fruktdryck",
+    "price": "30:-",
+    "unit": null,
+    "description": "1 l • 30 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Baguette",
+    "price": "Medlemspris",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3080,7 +3611,61 @@
   {
     "store": "Coop",
     "name": "Rostbröd",
-    "price": "29.9:-",
+    "price": "29.90:-",
+    "unit": null,
+    "description": "1000 g • 29,90 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "29,90"
+  },
+  {
+    "store": "Coop",
+    "name": "Kakor",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x150 g • 100 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "100"
+  },
+  {
+    "store": "Coop",
+    "name": "Chokladkaka",
+    "price": "50:-",
+    "unit": null,
+    "description": "2x160-180 g • 156,25 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "156,25"
+  },
+  {
+    "store": "Coop",
+    "name": "Chokladkakor",
+    "price": "35:-",
+    "unit": null,
+    "description": "100 g • 350,00 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "350,00"
+  },
+  {
+    "store": "Coop",
+    "name": "Snacks",
+    "price": "55:-",
+    "unit": null,
+    "description": "2x35-450 g • 785,71 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "785,71"
+  },
+  {
+    "store": "Coop",
+    "name": "Proteinbar",
+    "price": "35:-",
+    "unit": null,
+    "description": "2x35-50 g • 500 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "500"
+  },
+  {
+    "store": "Coop",
+    "name": "Kex TUC",
+    "price": "Medlemspris",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3088,12 +3673,48 @@
   },
   {
     "store": "Coop",
-    "name": "Chokladkakor",
-    "price": "35:-",
+    "name": "Maskindisktabletter",
+    "price": "69:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Tvätt-/sköljmedel",
+    "price": "79:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Stekpanna 28 cm",
+    "price": "149:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Laddkabel",
+    "price": "39.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Coop",
+    "name": "Ekologisk smoothie i klämpåse",
+    "price": "28:-",
+    "unit": null,
+    "description": "3x90-120 g • 103,70 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "103,70"
   },
   {
     "store": "Willys",
@@ -3214,15 +3835,6 @@
   },
   {
     "store": "Willys",
-    "name": "FÄRSK FLÄSKFILÉ",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null
-  },
-  {
-    "store": "Willys",
     "name": "VARMRÖKT REGNBÅGSLAX",
     "price": "Medlemspris",
     "unit": null,
@@ -3233,6 +3845,15 @@
   {
     "store": "Willys",
     "name": "KYCKLINGBEN",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null
+  },
+  {
+    "store": "Willys",
+    "name": "FÄRSK FLÄSKFILÉ",
     "price": "Medlemspris",
     "unit": null,
     "description": null,
