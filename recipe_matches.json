@@ -1,0 +1,4222 @@
+{
+  "last_updated": "2026-01-27T10:07:12.082333Z",
+  "total_deals": 107,
+  "total_recipes": 98,
+  "recipes": [
+    {
+      "name": "Falukorvsgratäng med pasta",
+      "url": "https://www.ica.se/recept/falukorvsgratang-med-pasta-740482/",
+      "category": "Budget",
+      "total_ingredients": 10,
+      "matched_count": 6,
+      "match_percentage": 60.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "falukorv",
+          "deal_name": "Falukorv",
+          "deal_price": "69:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "mozzarella",
+          "deal_name": "Västerbottensost®",
+          "deal_price": "89:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "lätt crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "riven ost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "portioner pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ajvar relish",
+        "hackad inlagd gurka",
+        "chilisås",
+        "vitlöksklyfta"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.2,
+      "reviews": 105
+    },
+    {
+      "name": "Tacolåda",
+      "url": "https://www.ica.se/recept/tacolada-740480/",
+      "category": "Matlåda",
+      "total_ingredients": 11,
+      "matched_count": 6,
+      "match_percentage": 54.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfärs eller hushållsfärs",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "passerade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche paprika & chili",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "tortillabröd , small",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "riven ost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "olja",
+        "röd paprika",
+        "majskorn",
+        "taco kryddmix",
+        "matlådor"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 38
+    },
+    {
+      "name": "Panerad torsk",
+      "url": "https://www.ica.se/recept/panerad-torsk-722794/",
+      "category": "Fisk",
+      "total_ingredients": 16,
+      "matched_count": 6,
+      "match_percentage": 37.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "broccoli",
+          "deal_name": "Broccoli",
+          "deal_price": "15:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "rostad lök",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "ströbröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "potatis",
+        "ägg",
+        "vetemjöl",
+        "salt",
+        "peppar",
+        "ca 600 g torskfilé",
+        "chilisås",
+        "salt",
+        "peppar",
+        "citron"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 57
+    },
+    {
+      "name": "Spaghetti och köttfärssås",
+      "url": "https://www.ica.se/recept/spaghetti-och-kottfarssas-712805/",
+      "category": "Pasta",
+      "total_ingredients": 16,
+      "matched_count": 6,
+      "match_percentage": 37.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "nötfärs",
+          "deal_name": "Umamifärs",
+          "deal_price": null,
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "kycklingbuljongtärning",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "portioner spaghetti",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "vitlöksklyftor",
+        "morötter",
+        "matolja",
+        "tomatpuré",
+        "vatten",
+        "kinesisk soja",
+        "salt",
+        "svartpeppar",
+        "ev färsk timjan"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 3.9,
+      "reviews": 1324
+    },
+    {
+      "name": "Marry me chicken",
+      "url": "https://www.ica.se/recept/marry-me-chicken-730140/",
+      "category": "Kyckling",
+      "total_ingredients": 18,
+      "matched_count": 6,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfiléer",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "strimlade  soltorkade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "kycklingbuljongtärning",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ris",
+        "salt",
+        "peppar",
+        "vetemjöl",
+        "olivolja",
+        "vitlöksklyftor",
+        "chiliflakes",
+        "torkad oregano",
+        "torkad timjan",
+        "vatten",
+        "vispgrädde",
+        "kruka basilika"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 349
+    },
+    {
+      "name": "Krämig pasta med kyckling",
+      "url": "https://www.ica.se/recept/kramig-pasta-med-kyckling-718338/",
+      "category": "Kyckling",
+      "total_ingredients": 9,
+      "matched_count": 5,
+      "match_percentage": 55.6,
+      "matched_ingredients": [
+        {
+          "ingredient": "penne pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "strimlad kycklingfilé",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "körsbärstomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche vitlök/parmesan",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "kycklingbuljongtärning",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "olja",
+        "mjölk",
+        "salt",
+        "peppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 430
+    },
+    {
+      "name": "Krämig kycklinggryta med soltorkade tomater",
+      "url": "https://www.ica.se/recept/kramig-kycklinggryta-med-soltorkade-tomater-723346/",
+      "category": "Kyckling",
+      "total_ingredients": 10,
+      "matched_count": 5,
+      "match_percentage": 50.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "- ca 700 g kycklingfilé eller kycklinginnerfilé",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "kycklingbuljong",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "soltorkade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "gröna ärtor eller 150 g sockerärtor",
+          "deal_name": "Gröna druvor",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.75
+        }
+      ],
+      "unmatched_ingredients": [
+        "ris eller couscous",
+        "olja",
+        "salt",
+        "peppar",
+        "vitlöksklyfta"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.3,
+      "reviews": 818
+    },
+    {
+      "name": "Fisktacos med mangosalsa och fetaost",
+      "url": "https://www.ica.se/recept/fisktacos-med-mangosalsa-och-fetaost-722367/",
+      "category": "Fisk",
+      "total_ingredients": 12,
+      "matched_count": 5,
+      "match_percentage": 41.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "ca 300 g tärnad mango",
+          "deal_name": "Mango",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "avokador",
+          "deal_name": "Avokado",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smulad fetaost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "små tortillabröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "panerade fiskfiléer",
+        "strimlade salladslökar",
+        "röd peppar",
+        "grovhackad färsk koriander",
+        "saften av 2 lime",
+        "salt",
+        "eventuellt ris"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 200
+    },
+    {
+      "name": "Makaronilåda med tomatsallad",
+      "url": "https://www.ica.se/recept/makaronilada-med-tomatsallad-727335/",
+      "category": "Pasta",
+      "total_ingredients": 12,
+      "matched_count": 5,
+      "match_percentage": 41.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "blandfärs",
+          "deal_name": "Blandfärs",
+          "deal_price": "85:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "pastasås basilika",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "riven ost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "plommontomater",
+          "deal_name": "Plommontomater",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "olja",
+        "salt",
+        "peppar",
+        "ägg",
+        "mjölk",
+        "rödvinsvinäger",
+        "olja"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 3.9,
+      "reviews": 36
+    },
+    {
+      "name": "Kycklingpasta med tomat och spenat",
+      "url": "https://www.ica.se/recept/kycklingpasta-med-tomat-och-spenat-716957/",
+      "category": "Pasta",
+      "total_ingredients": 12,
+      "matched_count": 5,
+      "match_percentage": 41.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta, gärna gnocchi",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "småtomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "ca 600 g kycklinglårfilé",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "knorr kycklingbuljongtärning",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "grovt riven ost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitlöksklyftor",
+        "citron",
+        "olivolja",
+        "salt",
+        "peppar",
+        "vispgrädde",
+        "babyspenat"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.7,
+      "reviews": 69
+    },
+    {
+      "name": "Turkisk pasta",
+      "url": "https://www.ica.se/recept/turkisk-pasta-750457/",
+      "category": "Matlåda",
+      "total_ingredients": 18,
+      "matched_count": 5,
+      "match_percentage": 27.8,
+      "matched_ingredients": [
+        {
+          "ingredient": "portioner pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "nötfärs",
+          "deal_name": "Umamifärs",
+          "deal_price": null,
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "turkisk eller grekisk yoghurt",
+          "deal_name": "Yoghurt",
+          "deal_price": "45:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "körsbärstomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "lökpulver",
+        "mald spiskummin",
+        "paprikapulver",
+        "salt",
+        "svartpeppar",
+        "tomatpuré",
+        "vitlöksklyfta",
+        "citron",
+        "salt",
+        "paprikapulver",
+        "chiliflakes",
+        "kruka persilja"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.7,
+      "reviews": 21
+    },
+    {
+      "name": "Lasagnette",
+      "url": "https://www.ica.se/recept/lasagnette-750593/",
+      "category": "Pasta",
+      "total_ingredients": 18,
+      "matched_count": 5,
+      "match_percentage": 27.8,
+      "matched_ingredients": [
+        {
+          "ingredient": "nötfärs",
+          "deal_name": "Umamifärs",
+          "deal_price": null,
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "passerade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "lasagnette pasta eller t ex farfalle",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "riven ost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "gula lökar",
+        "vitlöksklyftor",
+        "olja",
+        "tomatpuré eller pesto tomat",
+        "torkad timjan",
+        "torkad rosmarin",
+        "chiliflakes",
+        "soja",
+        "vatten",
+        "köttbuljongtärning",
+        "salt",
+        "peppar",
+        "blandsallad"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 3.7,
+      "reviews": 7
+    },
+    {
+      "name": "Smörgåstårta med räkor och lax",
+      "url": "https://www.ica.se/recept/smorgastarta-med-rakor-och-lax-720205/",
+      "category": "Fisk",
+      "total_ingredients": 26,
+      "matched_count": 5,
+      "match_percentage": 19.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "handskalade räkor i lake",
+          "deal_name": "Handskalade räkor",
+          "deal_price": "89:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "avokador",
+          "deal_name": "Avokado",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "landgångsbröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ägg",
+        "kallrökt lax i skivor",
+        "finskuren gräslök",
+        "salt",
+        "peppar",
+        "finskuren dill",
+        "majonnäs",
+        "dijonsenap",
+        "finriven pepparrot",
+        "citron",
+        "salt",
+        "citron",
+        "råa sparrisar",
+        "fänkål",
+        "polka- eller  gulbeta",
+        "ärtskott",
+        "salladsärtor",
+        "skivor kallrökt lax",
+        "regnbågsrom, laxrom eller caviar",
+        "dillvippor",
+        "picklad rödlök"
+      ],
+      "time": "PT90M",
+      "servings": "6",
+      "rating": 3.2,
+      "reviews": 638
+    },
+    {
+      "name": "Biryani",
+      "url": "https://www.ica.se/recept/biryani-750521/",
+      "category": "Matlåda",
+      "total_ingredients": 33,
+      "matched_count": 5,
+      "match_percentage": 15.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "matyoghurt",
+          "deal_name": "Yoghurt",
+          "deal_price": "45:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "kycklinglårfilé",
+          "deal_name": "Kycklinglårfilé",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "kycklingbuljongtärning",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "färsk mynta , myntayoghurt eller turkisk yoghurt",
+          "deal_name": "Yoghurt",
+          "deal_price": "45:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "rostade sötmandlar",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitlöksklyfta",
+        "riven ingefära",
+        "spiskummin",
+        "svartpeppar",
+        "malen koriander",
+        "paprikapulver",
+        "salt",
+        "basmatiris",
+        "gula lökar",
+        "riven ingefära",
+        "olja",
+        "vitlöksklyftor",
+        "kanelstänger",
+        "spiskummin",
+        "gurkmeja",
+        "malen kardemumma",
+        "stjärnanis",
+        "lagerblad",
+        "kryddpepparkorn",
+        "vatten enligt förpackningen på riset",
+        "salt",
+        "svartpeppar",
+        "citron",
+        "röd peppar",
+        "röd paprika",
+        "olja",
+        "kruka koriander",
+        "russin"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 5,
+      "reviews": 2
+    },
+    {
+      "name": "Carbonaranudlar",
+      "url": "https://www.ica.se/recept/carbonaranudlar-750043/",
+      "category": "Budget",
+      "total_ingredients": 7,
+      "matched_count": 4,
+      "match_percentage": 57.1,
+      "matched_ingredients": [
+        {
+          "ingredient": "bacon",
+          "deal_name": "Bacon",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "kyckling- eller grönsaks- snabbnudlar",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "finskuren salladslök",
+        "äggula",
+        "svartpeppar"
+      ],
+      "time": "PT15M",
+      "servings": "1",
+      "rating": 4.3,
+      "reviews": 24
+    },
+    {
+      "name": "Ugnsstekt kycklingklubba (grundrecept)",
+      "url": "https://www.ica.se/recept/ugnsstekt-kycklingklubba-grundrecept-695661/",
+      "category": "Budget",
+      "total_ingredients": 12,
+      "matched_count": 4,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "frysta eller färska kycklingklubbor",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "rostade rotfrukter",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "het yoghurtsås",
+          "deal_name": "Yoghurt",
+          "deal_price": "45:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "japansk soja",
+        "ketchup",
+        "rosmarin",
+        "oregano",
+        "rapsolja",
+        "nymalen svartpeppar",
+        "vitlöksklyfta",
+        "vatten"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 258
+    },
+    {
+      "name": "Hot tuna pasta",
+      "url": "https://www.ica.se/recept/hot-tuna-pasta-721263/",
+      "category": "Budget",
+      "total_ingredients": 12,
+      "matched_count": 4,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "tonfisk i vatten",
+          "deal_name": "Kolsyrat vatten",
+          "deal_price": "19:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "plommontomater",
+          "deal_name": "Plommontomater",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "rödlök",
+        "vitlöksklyfta",
+        "olja",
+        "mjölk",
+        "-  2 krm chiliflakes",
+        "salt",
+        "peppar",
+        "majskorn"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 3.6,
+      "reviews": 66
+    },
+    {
+      "name": "Chicken tikka masala",
+      "url": "https://www.ica.se/recept/chicken-tikka-masala-714087/",
+      "category": "Kyckling",
+      "total_ingredients": 12,
+      "matched_count": 4,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingbröstfilé",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "påse tikka masala kryddmix",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "matyoghurt",
+          "deal_name": "Yoghurt",
+          "deal_price": "45:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "vitlöksklyfta",
+        "morot",
+        "riven ingefära",
+        "olja",
+        "salt",
+        "matlagningsgrädde",
+        "ris eller annat gryn"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 620
+    },
+    {
+      "name": "Fiskarhustruns fisksoppa",
+      "url": "https://www.ica.se/recept/fiskarhustruns-fisksoppa-3760/",
+      "category": "Fisk",
+      "total_ingredients": 12,
+      "matched_count": 4,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "hela skalade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "räkor med skal eller skalade",
+          "deal_name": "Räkor med skal 90/120",
+          "deal_price": "79:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "bröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "ca 10 små gula lökar",
+        "fiskbuljong",
+        "ev 1/2 dl vitt vin",
+        "söndersmulad timjan",
+        "blandad fiskfilé",
+        "vispgrädde",
+        "finhackad dill",
+        "salt och peppar"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.2,
+      "reviews": 745
+    },
+    {
+      "name": "Lättlagad kräftsoppa",
+      "url": "https://www.ica.se/recept/lattlagad-kraftsoppa-722443/",
+      "category": "Soppa",
+      "total_ingredients": 12,
+      "matched_count": 4,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "kräftost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "bröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "-  4 morötter",
+        "vetemjöl",
+        "vatten",
+        "hönsbuljongtärning",
+        "salt",
+        "peppar",
+        "kräftstjärtar",
+        "ev dill"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 427
+    },
+    {
+      "name": "Kycklingcurry med ingefära",
+      "url": "https://www.ica.se/recept/kycklingcurry-med-ingefara-723311/",
+      "category": "Budget",
+      "total_ingredients": 13,
+      "matched_count": 4,
+      "match_percentage": 30.8,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingklubba",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "-  10 dl vatten",
+          "deal_name": "Kolsyrat vatten",
+          "deal_price": "19:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "matyoghurt",
+          "deal_name": "Yoghurt",
+          "deal_price": "45:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "mango chutney",
+          "deal_name": "Mango",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gula lökar",
+        "vitlöksklyftor",
+        "potatis",
+        "finhackad, färsk ingefära",
+        "olivolja",
+        "curry",
+        "ketchup",
+        "salt",
+        "port, kokt jasmin- eller  basmatiris"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 20
+    },
+    {
+      "name": "Pasta med ädelost, valnötter och bacon",
+      "url": "https://www.ica.se/recept/pasta-med-adelost-valnotter-och-bacon-750485/",
+      "category": "Matlåda",
+      "total_ingredients": 13,
+      "matched_count": 4,
+      "match_percentage": 30.8,
+      "matched_ingredients": [
+        {
+          "ingredient": "portioner tagliatelle",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "bacon",
+          "deal_name": "Bacon",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "krämig mild ädelost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "rödkål",
+        "olja",
+        "schalottenlök",
+        "salt",
+        "svartpeppar",
+        "vitlöksklyftor",
+        "spenat",
+        "vispgrädde",
+        "valnötter"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.2,
+      "reviews": 11
+    },
+    {
+      "name": "Krämig sweet chilikyckling i ugn",
+      "url": "https://www.ica.se/recept/kramig-sweet-chilikyckling-i-ugn-729884/",
+      "category": "Kyckling",
+      "total_ingredients": 13,
+      "matched_count": 4,
+      "match_percentage": 30.8,
+      "matched_ingredients": [
+        {
+          "ingredient": "fryst eller färsk kycklingfilé",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "kycklingbuljongtärning",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitkål",
+        "japansk soja",
+        "matolja",
+        "salt",
+        "svartpeppar",
+        "mjölk",
+        "majsstärkelse",
+        "sweet chilisås",
+        "kokt ris"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 3.9,
+      "reviews": 43
+    },
+    {
+      "name": "Morotssoppa med kokos",
+      "url": "https://www.ica.se/recept/morotssoppa-med-kokos-722533/",
+      "category": "Soppa",
+      "total_ingredients": 13,
+      "matched_count": 4,
+      "match_percentage": 30.8,
+      "matched_ingredients": [
+        {
+          "ingredient": "kokosmjölk",
+          "deal_name": "Havremjölk",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "konc grönsaksfond",
+          "deal_name": "Fond",
+          "deal_price": "60:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "färskpressad limejuice",
+          "deal_name": "Juice",
+          "deal_price": "40:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "pumpakärnor",
+          "deal_name": "Pumpakärnor, Chiafrön",
+          "deal_price": "35:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "olivolja",
+        "hackad gul lök",
+        "hackade vitlöksklyftor",
+        "skivade morötter",
+        "spiskummin",
+        "-  2 msk riven ingefära",
+        "chiliflakes",
+        "vatten",
+        "salt"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 631
+    },
+    {
+      "name": "Tomatsoppa med basilikacrème",
+      "url": "https://www.ica.se/recept/tomatsoppa-med-basilikacreme-1777/",
+      "category": "Soppa",
+      "total_ingredients": 14,
+      "matched_count": 4,
+      "match_percentage": 28.6,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör eller olja",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "färska tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "stor gul lök",
+        "vitlöksklyfta",
+        "tomatpuré",
+        "oregano",
+        "grönsaksbuljongtärning",
+        "vatten",
+        "salt",
+        "peppar",
+        "mellan- eller vispgrädde",
+        "basilikapesto"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 817
+    },
+    {
+      "name": "Grönkålspasta",
+      "url": "https://www.ica.se/recept/gronkalspasta-750191/",
+      "category": "Pasta",
+      "total_ingredients": 15,
+      "matched_count": 4,
+      "match_percentage": 26.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "finriven parmesan eller pecorino",
+          "deal_name": "Västerbottensost®",
+          "deal_price": "89:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "portioner tagliatelle",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "ev hasselnötter, valnötter pinjenötter och/eller smulad ädelost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "bananschalottenlökar",
+        "vitlöksklyftor",
+        "färsk grönkål",
+        "vitt matlagningsvin",
+        "vispgrädde",
+        "grönsaksbuljong",
+        "chiliflakes",
+        "vatten",
+        "majsstärkelse",
+        "salt",
+        "svartpeppar"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 3.9,
+      "reviews": 17
+    },
+    {
+      "name": "Köttfärssås med spaghetti",
+      "url": "https://www.ica.se/recept/kottfarssas-med-spaghetti-720707/",
+      "category": "Pasta",
+      "total_ingredients": 15,
+      "matched_count": 4,
+      "match_percentage": 26.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "ca 500 g nötfärs eller  hushållsfärs",
+          "deal_name": "Umamifärs",
+          "deal_price": null,
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "spaghetti",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "morötter",
+        "olivolja",
+        "vitlöksklyfta",
+        "timjan",
+        "balsamvinäger",
+        "köttbuljongtärning",
+        "salt",
+        "peppar",
+        "kruka persilja",
+        "olivolja",
+        "rödvinsvinäger"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4,
+      "reviews": 368
+    },
+    {
+      "name": "Kycklingkebab",
+      "url": "https://www.ica.se/recept/kycklingkebab-316944/",
+      "category": "Kyckling",
+      "total_ingredients": 17,
+      "matched_count": 4,
+      "match_percentage": 23.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklinglårfilé",
+          "deal_name": "Kycklinglårfilé",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "pitabröd eller libabröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "skivad tomat",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitlöksklyfta",
+        "chilipulver",
+        "salt",
+        "spiskummin",
+        "paprikapulver",
+        "nymalen svartpeppar",
+        "torkad oregano",
+        "torkad koriander",
+        "olivolja",
+        "röd kebabsås",
+        "vit kebabsås",
+        "skivad rödlök",
+        "feferoni"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 3.1,
+      "reviews": 12
+    },
+    {
+      "name": "Krämig pasta med fläskfilé",
+      "url": "https://www.ica.se/recept/kramig-pasta-med-flaskfile-730323/",
+      "category": "Pasta",
+      "total_ingredients": 17,
+      "matched_count": 4,
+      "match_percentage": 23.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "ca 500 g fläskfilé",
+          "deal_name": "Läsk",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "strimlade soltorkade tomater i olja",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "portioner tagliatelle",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "vitlöksklyftor",
+        "färska champinjoner",
+        "salt",
+        "svartpeppar",
+        "vatten",
+        "hönsbuljongtärning",
+        "vispgrädde",
+        "majsstärkelse",
+        "vatten",
+        "citron",
+        "babyspenat",
+        "kruka basilika"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 55
+    },
+    {
+      "name": "Makaroner e fagioli",
+      "url": "https://www.ica.se/recept/makaroner-e-fagioli-750758/",
+      "category": "Matlåda",
+      "total_ingredients": 18,
+      "matched_count": 4,
+      "match_percentage": 22.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "konserverade körsbärstomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "makaroner",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "flagad parmesan",
+          "deal_name": "Västerbottensost®",
+          "deal_price": "89:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "bröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "morötter",
+        "selleristjälkar",
+        "gul lök",
+        "vitlöksklyftor",
+        "olivolja",
+        "grönkål",
+        "torkad timjan",
+        "lagerblad",
+        "grönsaksbuljongtärningar",
+        "vatten",
+        "kokta borlottibönor",
+        "salt",
+        "peppar",
+        "olivolja"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 5
+    },
+    {
+      "name": "Lysande gul fiskgryta",
+      "url": "https://www.ica.se/recept/lysande-gul-fiskgryta-1677/",
+      "category": "Fisk",
+      "total_ingredients": 19,
+      "matched_count": 4,
+      "match_percentage": 21.1,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör eller olivolja",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "räkor med skal",
+          "deal_name": "Räkor med skal 90/120",
+          "deal_price": "79:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "ev. bröd och vitlöksmajonnäs",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "torskfilé, sej eller hoki",
+        "laxfilé",
+        "purjolök",
+        "gul lök",
+        "vitlöksklyfta",
+        "tomatpuré",
+        "torkad timjan",
+        "torkad basilika",
+        "torrt vitt vin",
+        "fiskbuljongtärning",
+        "vispgrädde",
+        "vatten",
+        "pkt saffran",
+        "salt",
+        "musslor"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 1595
+    },
+    {
+      "name": "Pasta Alfredo",
+      "url": "https://www.ica.se/recept/pasta-alfredo-724258/",
+      "category": "Pasta",
+      "total_ingredients": 6,
+      "matched_count": 3,
+      "match_percentage": 50.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "schalottenlök",
+        "vispgrädde",
+        "peppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 410
+    },
+    {
+      "name": "Krämig carbonara",
+      "url": "https://www.ica.se/recept/kramig-carbonara-722780/",
+      "category": "Pasta",
+      "total_ingredients": 8,
+      "matched_count": 3,
+      "match_percentage": 37.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "spaghetti",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "bacon",
+          "deal_name": "Bacon",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ägg",
+        "vispgrädde",
+        "salt",
+        "nymalen  svartpeppar",
+        "rucola"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4,
+      "reviews": 3668
+    },
+    {
+      "name": "Busenkel broccolisoppa",
+      "url": "https://www.ica.se/recept/busenkel-broccolisoppa-712859/",
+      "category": "Budget",
+      "total_ingredients": 9,
+      "matched_count": 3,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "broccoli",
+          "deal_name": "Broccoli",
+          "deal_price": "15:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "bröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "kräftstjärtar eller räkor",
+          "deal_name": "Räkor med skal 90/120",
+          "deal_price": "79:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "lök",
+        "-  4 potatisar",
+        "grönsaksbuljong",
+        "matlagningsgrädde",
+        "salt",
+        "peppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 1803
+    },
+    {
+      "name": "Pasta pomodoro",
+      "url": "https://www.ica.se/recept/pasta-pomodoro-723908/",
+      "category": "Pasta",
+      "total_ingredients": 9,
+      "matched_count": 3,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "ev parmesan till servering",
+          "deal_name": "Västerbottensost®",
+          "deal_price": "89:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "finhackad gul lök",
+        "olivolja",
+        "-  2 vitlöksklyftor",
+        "salt",
+        "svartpeppar",
+        "basilikapesto"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4,
+      "reviews": 74
+    },
+    {
+      "name": "Pad Thai",
+      "url": "https://www.ica.se/recept/pad-thai-720986/",
+      "category": "Kyckling",
+      "total_ingredients": 10,
+      "matched_count": 3,
+      "match_percentage": 30.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "strimlad kycklingfilé",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "flaska woksås",
+          "deal_name": "Läsk",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "grovt hackade  jordnötter",
+          "deal_name": "Jordnötter",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "risnudlar",
+        "matolja",
+        "finstrimlad vitkål",
+        "liten strimlad morot",
+        "vispat ägg",
+        "lime",
+        "koriander"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 553
+    },
+    {
+      "name": "Korv stroganoff med crème fraiche",
+      "url": "https://www.ica.se/recept/korv-stroganoff-med-creme-fraiche-712815/",
+      "category": "Budget",
+      "total_ingredients": 11,
+      "matched_count": 3,
+      "match_percentage": 27.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "ca 500 g falukorv eller kycklingstekkorv",
+          "deal_name": "Falukorv",
+          "deal_price": "69:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "lätt crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ris",
+        "purjolök",
+        "tomatpuré",
+        "vatten",
+        "paprikapulver",
+        "svartpeppar",
+        "salt",
+        "saltgurka"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 3.8,
+      "reviews": 146
+    },
+    {
+      "name": "Flygande Jacob",
+      "url": "https://www.ica.se/recept/flygande-jacob-717569/",
+      "category": "Kyckling",
+      "total_ingredients": 11,
+      "matched_count": 3,
+      "match_percentage": 27.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfiléer",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "tärnat bacon",
+          "deal_name": "Bacon",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "olja",
+        "salt",
+        "peppar",
+        "banan",
+        "matlagningsgrädde",
+        "chilisås",
+        "ris eller couscous",
+        "saltade jordnötter"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 782
+    },
+    {
+      "name": "Stekt kycklingfilé med rostade rotfrukter",
+      "url": "https://www.ica.se/recept/stekt-kycklingfile-med-rostade-rotfrukter-724993/",
+      "category": "Kyckling",
+      "total_ingredients": 11,
+      "matched_count": 3,
+      "match_percentage": 27.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "soltorkade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "kycklingfilé",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "potatis",
+        "palsternackor",
+        "rotselleri",
+        "olja",
+        "salt",
+        "peppar",
+        "vitlöksklyfta",
+        "timjan"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 15
+    },
+    {
+      "name": "Krämig kantarellpasta med parmesan",
+      "url": "https://www.ica.se/recept/kramig-kantarellpasta-med-parmesan-750034/",
+      "category": "Pasta",
+      "total_ingredients": 11,
+      "matched_count": 3,
+      "match_percentage": 27.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "portioner pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ca 1 liter kantareller",
+        "vitlöksklyfta",
+        "bananschalottenlökar",
+        "salt",
+        "svartpeppar",
+        "vitt vin eller vitt matlagningsvin",
+        "vispgrädde",
+        "kruka persilja"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 93
+    },
+    {
+      "name": "Vodkapasta",
+      "url": "https://www.ica.se/recept/vodkapasta-729011/",
+      "category": "Pasta",
+      "total_ingredients": 12,
+      "matched_count": 3,
+      "match_percentage": 25.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "hyvlad parmesan",
+          "deal_name": "Västerbottensost®",
+          "deal_price": "89:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "sallad",
+          "deal_name": "Ekologisk sallad i påse",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitlöksklyftor",
+        "olivolja",
+        "tomatpuré",
+        "chiliflakes",
+        "vodka",
+        "vispgrädde",
+        "salt",
+        "svartpeppar",
+        "färsk basilika"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 250
+    },
+    {
+      "name": "Klassiska köttbullar",
+      "url": "https://www.ica.se/recept/klassiska-kottbullar-712807/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 14,
+      "matched_count": 3,
+      "match_percentage": 21.4,
+      "matched_ingredients": [
+        {
+          "ingredient": "ströbröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "nöt- eller blandfärs",
+          "deal_name": "Blandfärs",
+          "deal_price": "85:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "mjölk",
+        "vispgrädde",
+        "salt",
+        "ägg",
+        "gul lök",
+        "peppar",
+        "socker",
+        "olja",
+        "kokt potatis eller potatismos",
+        "lingonsylt",
+        "pressgurka"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 1357
+    },
+    {
+      "name": "Höstsoppa med linser och rimmat fläsk",
+      "url": "https://www.ica.se/recept/hostsoppa-med-linser-och-rimmat-flask-263703/",
+      "category": "Soppa",
+      "total_ingredients": 14,
+      "matched_count": 3,
+      "match_percentage": 21.4,
+      "matched_ingredients": [
+        {
+          "ingredient": "torra röda linser",
+          "deal_name": "Röda kärnfria druvor i ask",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "tärnat rimmat sidfläsk",
+          "deal_name": "Läsk",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "konc kycklingfond",
+          "deal_name": "Fond",
+          "deal_price": "60:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "vitlöksklyftor",
+        "selleristjälk",
+        "morot",
+        "olja",
+        "torkad timjan",
+        "strösocker",
+        "torrt vitt vin",
+        "vatten",
+        "salt",
+        "peppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.2,
+      "reviews": 13
+    },
+    {
+      "name": "Palak paneer med tomat och halloumi",
+      "url": "https://www.ica.se/recept/palak-paneer-med-tomat-och-halloumi-722056/",
+      "category": "Budget",
+      "total_ingredients": 15,
+      "matched_count": 3,
+      "match_percentage": 20.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "halloumi eller grillost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ris eller havreris",
+        "gul lök eller schalottenlök",
+        "vitlöksklyftor",
+        "riven ingefära",
+        "olivolja",
+        "tomatpuré",
+        "garam masala",
+        "vatten",
+        "vispgrädde",
+        "grönsaksbuljongtärning",
+        "färsk spenat",
+        "salt"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.7,
+      "reviews": 2781
+    },
+    {
+      "name": "Poké bowl",
+      "url": "https://www.ica.se/recept/poke-bowl-720870/",
+      "category": "Fisk",
+      "total_ingredients": 15,
+      "matched_count": 3,
+      "match_percentage": 20.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "rostade sesamfrön",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "avokado",
+          "deal_name": "Avokado",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "mango",
+          "deal_name": "Mango",
+          "deal_price": "30:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "japansk soja",
+        "sesamolja",
+        "chiliflakes",
+        "tunt skivad salladslök",
+        "tärnad rå fisk",
+        "portioner rundkornigt kokt ris",
+        "rädisor",
+        "gurka",
+        "gari",
+        "sojabönor",
+        "färsk koriander",
+        "alger"
+      ],
+      "time": "PT30M",
+      "servings": "2",
+      "rating": 4.5,
+      "reviews": 224
+    },
+    {
+      "name": "Potatissoppa (grundrecept)",
+      "url": "https://www.ica.se/recept/potatissoppa-grundrecept-727219/",
+      "category": "Soppa",
+      "total_ingredients": 15,
+      "matched_count": 3,
+      "match_percentage": 20.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "hackade rostade mandlar",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "bröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "fast potatis",
+        "gul lök",
+        "liten vitlöksklyfta",
+        "finhackad färsk timjan",
+        "vatten",
+        "vispgrädde",
+        "grönsaksbuljongtärning",
+        "finrivet citronskal",
+        "-  2 msk vitvinsvinäger",
+        "salt",
+        "svartpeppar",
+        "färsk timjan"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 149
+    },
+    {
+      "name": "Chili con carne",
+      "url": "https://www.ica.se/recept/chili-con-carne-424/",
+      "category": "Budget",
+      "total_ingredients": 17,
+      "matched_count": 3,
+      "match_percentage": 17.6,
+      "matched_ingredients": [
+        {
+          "ingredient": "nötfärs",
+          "deal_name": "Umamifärs",
+          "deal_price": null,
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "hela tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "chips eller brytbröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gula lökar",
+        "olja",
+        "vitlöksklyftor",
+        "chilipulver",
+        "paprikapulver",
+        "svartpeppar",
+        "salt",
+        "japansk soja",
+        "köttbuljongtärning",
+        "burkar vita bönor i tomatsås",
+        "salladskål",
+        "hackad persilja",
+        "vinägrett",
+        "jalapeñopeppar"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.2,
+      "reviews": 1221
+    },
+    {
+      "name": "Oxfilépasta",
+      "url": "https://www.ica.se/recept/oxfilepasta-728866/",
+      "category": "Pasta",
+      "total_ingredients": 17,
+      "matched_count": 3,
+      "match_percentage": 17.6,
+      "matched_ingredients": [
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "riven parmesan",
+          "deal_name": "Parmesanost",
+          "deal_price": "45:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "färska champinjoner",
+        "oxfilé",
+        "schalottenlökar",
+        "vitlöksklyftor",
+        "olivolja",
+        "salt",
+        "peppar",
+        "chiliflakes",
+        "vitt vin eller vitt matlagningsvin",
+        "dijonsenap",
+        "vispgrädde",
+        "mjölk",
+        "majsstärkelse",
+        "färsk persilja"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 196
+    },
+    {
+      "name": "Koka pasta",
+      "url": "https://www.ica.se/recept/koka-pasta-750687/",
+      "category": "Pasta",
+      "total_ingredients": 4,
+      "matched_count": 2,
+      "match_percentage": 50.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "liter vatten",
+          "deal_name": "Kolsyrat vatten",
+          "deal_price": "19:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "pasta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "salt",
+        "olivolja"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 5,
+      "reviews": 2
+    },
+    {
+      "name": "Kycklinglår i airfryer",
+      "url": "https://www.ica.se/recept/kycklinglar-i-airfryer-750764/",
+      "category": "Budget",
+      "total_ingredients": 5,
+      "matched_count": 2,
+      "match_percentage": 40.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "flytande honung",
+          "deal_name": "Flytande tvättmedel",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "kycklinglår",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitlöksklyftor",
+        "japansk soja",
+        "olja"
+      ],
+      "time": "PT90M",
+      "servings": "2",
+      "rating": 0,
+      "reviews": 0
+    },
+    {
+      "name": "Spaghetti med kräftstjärtar och spenat",
+      "url": "https://www.ica.se/recept/spaghetti-med-kraftstjartar-och-spenat-750813/",
+      "category": "Matlåda",
+      "total_ingredients": 5,
+      "matched_count": 2,
+      "match_percentage": 40.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "färsk spaghetti eller fettuccine",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "crème fraiche paprika & chili​",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "​2 förp kräftstjärtar",
+        "färsk gräslök",
+        "babyspenat"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 0,
+      "reviews": 0
+    },
+    {
+      "name": "Hasselbackspotatis",
+      "url": "https://www.ica.se/recept/hasselbackspotatis-3679/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 6,
+      "matched_count": 2,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "ströbröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "fasta potatisar",
+        "salt",
+        "svartpeppar",
+        "paprikapulver"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 4.3,
+      "reviews": 555
+    },
+    {
+      "name": "Salsiccia med tomatsås, tortellini och rucola",
+      "url": "https://www.ica.se/recept/salsiccia-med-tomatsas-tortellini-och-rucola-750770/",
+      "category": "Matlåda",
+      "total_ingredients": 8,
+      "matched_count": 2,
+      "match_percentage": 25.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "körsbärstomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "pastasås eller pastasås med ricotta",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "salsiccia",
+        "olivolja",
+        "färsk tortellini med basilika eller pesto",
+        "vatten",
+        "rucola",
+        "svartpeppar från kvarnen"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 0,
+      "reviews": 0
+    },
+    {
+      "name": "Ugnslax med thailändska smaker",
+      "url": "https://www.ica.se/recept/ugnslax-med-thailandska-smaker-750815/",
+      "category": "Matlåda",
+      "total_ingredients": 8,
+      "matched_count": 2,
+      "match_percentage": 25.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "blomkål",
+          "deal_name": "Blomkål",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "broccoli",
+          "deal_name": "Broccoli",
+          "deal_price": "15:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "ris",
+        "grytbas thai​",
+        "salt",
+        "laxfilé i bit utan skinn",
+        "salladsärtor",
+        "snackmorot"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 0,
+      "reviews": 0
+    },
+    {
+      "name": "Kycklingschnitzel i airfryer",
+      "url": "https://www.ica.se/recept/kycklingschnitzel-i-airfryer-750765/",
+      "category": "Matlåda",
+      "total_ingredients": 8,
+      "matched_count": 2,
+      "match_percentage": 25.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfiléer",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "ca 1 dl ströbröd eller panko",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "salt",
+        "svartpeppar",
+        "vetemjöl",
+        "ägg",
+        "rapsolja",
+        "citronklyftor"
+      ],
+      "time": "PT45M",
+      "servings": "2",
+      "rating": 5,
+      "reviews": 2
+    },
+    {
+      "name": "Raggmunk med fläsk",
+      "url": "https://www.ica.se/recept/raggmunk-med-flask-721803/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 9,
+      "matched_count": 2,
+      "match_percentage": 22.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "ca 375 g skivat rimmat sidfläsk eller stekfläsk",
+          "deal_name": "Läsk",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "vetemjöl",
+        "mjölk",
+        "ägg",
+        "salt",
+        "fast potatis",
+        "morötter",
+        "lingonsylt"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.3,
+      "reviews": 784
+    },
+    {
+      "name": "Rotmos",
+      "url": "https://www.ica.se/recept/rotmos-1261/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 9,
+      "matched_count": 2,
+      "match_percentage": 22.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "grönsaksbuljong eller vatten + tärning eller fond",
+          "deal_name": "Fond",
+          "deal_price": "60:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "-  1 1/2 msk smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "kålrot",
+        "morötter",
+        "medelstora mjöliga potatisar",
+        "vitpepparkorn",
+        "kryddpepparkorn",
+        "salt",
+        "svartpeppar"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 351
+    },
+    {
+      "name": "Torsk i ugn med dill- och citronsås",
+      "url": "https://www.ica.se/recept/torsk-i-ugn-med-dill-och-citronsas-719374/",
+      "category": "Fisk",
+      "total_ingredients": 10,
+      "matched_count": 2,
+      "match_percentage": 20.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "smetana eller crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "broccoli",
+          "deal_name": "Broccoli",
+          "deal_price": "15:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "fast potatis",
+        "torskfilé eller kapkummel",
+        "salt",
+        "peppar",
+        "fiskbuljongtärning",
+        "vatten",
+        "färsk  dill",
+        "citron"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 3.7,
+      "reviews": 1239
+    },
+    {
+      "name": "Kanelbullar",
+      "url": "https://www.ica.se/recept/kanelbullar-5342/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 11,
+      "matched_count": 2,
+      "match_percentage": 18.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "rumsvarmt smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "jäst",
+        "mjölk",
+        "strösocker",
+        "salt",
+        "vetemjöl",
+        "malen kanel",
+        "strösocker",
+        "ägg",
+        "pärlsocker"
+      ],
+      "time": "PT90M",
+      "servings": "20 st",
+      "rating": 4.1,
+      "reviews": 4251
+    },
+    {
+      "name": "Gubbröra med matjessill",
+      "url": "https://www.ica.se/recept/gubbrora-med-matjessill-723661/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 11,
+      "matched_count": 2,
+      "match_percentage": 18.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "gärna knäckebröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ägg",
+        "matjessill",
+        "majonnäs",
+        "kaviar",
+        "medelstora kalla kokta potatisar",
+        "finskuren gräslök",
+        "finskuren dill",
+        "salt",
+        "svartpeppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 255
+    },
+    {
+      "name": "Familjens bästa kycklingfilé i ugn",
+      "url": "https://www.ica.se/recept/familjens-basta-kycklingfile-i-ugn-723574/",
+      "category": "Kyckling",
+      "total_ingredients": 11,
+      "matched_count": 2,
+      "match_percentage": 18.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfiléer",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "olja",
+        "salt",
+        "peppar",
+        "matlagningsgrädde",
+        "chilisås",
+        "senap dijon",
+        "kruka basilika",
+        "ris eller kokt potatis",
+        "cosmopolitansallad"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.3,
+      "reviews": 169
+    },
+    {
+      "name": "Kyckling cashew",
+      "url": "https://www.ica.se/recept/kyckling-cashew-728972/",
+      "category": "Kyckling",
+      "total_ingredients": 11,
+      "matched_count": 2,
+      "match_percentage": 18.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "snabbfiléer av kyckling",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        },
+        {
+          "ingredient": "ostronsås",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ris",
+        "gul lök",
+        "paprikor",
+        "morot",
+        "olja",
+        "salt",
+        "peppar",
+        "vatten",
+        "saltade cashewnötter"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4,
+      "reviews": 18
+    },
+    {
+      "name": "Fisk i ugn med citron- och gräslökssås",
+      "url": "https://www.ica.se/recept/fisk-i-ugn-med-citron-och-graslokssas-720954/",
+      "category": "Fisk",
+      "total_ingredients": 11,
+      "matched_count": 2,
+      "match_percentage": 18.2,
+      "matched_ingredients": [
+        {
+          "ingredient": "färska eller frysta haricots verts",
+          "deal_name": "Frysta Thaiboxar",
+          "deal_price": "89:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "crème fraiche",
+          "deal_name": "Crème Fraiche",
+          "deal_price": "24:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "fast potatis",
+        "torsk eller sej",
+        "salt",
+        "peppar",
+        "fiskbuljongtärning",
+        "vatten",
+        "färsk gräslök",
+        "citron",
+        "cosmopolitansallad"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 231
+    },
+    {
+      "name": "Pasta med makrill i tomatsås",
+      "url": "https://www.ica.se/recept/pasta-med-makrill-i-tomatsas-730241/",
+      "category": "Budget",
+      "total_ingredients": 12,
+      "matched_count": 2,
+      "match_percentage": 16.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "spaghetti",
+          "deal_name": "Lasagne",
+          "deal_price": "79:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "finriven parmesan eller annan lagrad hårdost",
+          "deal_name": "Riven ost",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitlöksklyftor",
+        "olivolja",
+        "chiliflakes",
+        "finrivet citronskal",
+        "hackad kapris",
+        "makrillfilé i tomatsås",
+        "finhackad persilja",
+        "salt",
+        "svartpeppar",
+        "citronklyftor"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 65
+    },
+    {
+      "name": "Räksoppa med aioli",
+      "url": "https://www.ica.se/recept/raksoppa-med-aioli-726295/",
+      "category": "Soppa",
+      "total_ingredients": 13,
+      "matched_count": 2,
+      "match_percentage": 15.4,
+      "matched_ingredients": [
+        {
+          "ingredient": "passerade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "frysta skalade räkor",
+          "deal_name": "Räkor med skal 90/120",
+          "deal_price": "79:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "bakpotatis",
+        "morötter",
+        "matlagningsgrädde",
+        "vatten",
+        "fiskbuljongtärning",
+        "ask färsk persilja",
+        "salt",
+        "peppar",
+        "bake off baguetter",
+        "vitlöksklyfta",
+        "majonnäs"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.3,
+      "reviews": 55
+    },
+    {
+      "name": "Fish and chips",
+      "url": "https://www.ica.se/recept/fish-and-chips-750467/",
+      "category": "Fisk",
+      "total_ingredients": 14,
+      "matched_count": 2,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "kolsyrat vatten",
+          "deal_name": "Kolsyrat vatten",
+          "deal_price": "19:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "gröna ärtor",
+          "deal_name": "Gröna druvor",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.75
+        }
+      ],
+      "unmatched_ingredients": [
+        "vetemjöl",
+        "majsstärkelse",
+        "bakpulver",
+        "salt",
+        "svartpeppar",
+        "öl",
+        "citron",
+        "frityrolja",
+        "vita fiskfiléer",
+        "remouladsås",
+        "pommes frites",
+        "citronklyftor"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 11
+    },
+    {
+      "name": "Linssoppa med tomat",
+      "url": "https://www.ica.se/recept/linssoppa-med-tomat-541439/",
+      "category": "Soppa",
+      "total_ingredients": 14,
+      "matched_count": 2,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "torkade röda linser",
+          "deal_name": "Röda kärnfria druvor i ask",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.75
+        },
+        {
+          "ingredient": "krossade tomater",
+          "deal_name": "Babyplommontomater i ask",
+          "deal_price": "25:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "olja",
+        "vitlöksklyftor",
+        "torkad timjan",
+        "torkad basilika",
+        "paprikapulver",
+        "grönsaksbuljongtärningar",
+        "lagerblad",
+        "vatten",
+        "rödvinsvinäger",
+        "salt",
+        "peppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 1729
+    },
+    {
+      "name": "Kålpudding (grundrecept)",
+      "url": "https://www.ica.se/recept/kalpudding-grundrecept-720980/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 15,
+      "matched_count": 2,
+      "match_percentage": 13.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "blandfärs",
+          "deal_name": "Blandfärs",
+          "deal_price": "85:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        },
+        {
+          "ingredient": "konc kalvfond",
+          "deal_name": "Fond",
+          "deal_price": "60:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vitkål",
+        "olja",
+        "ljus sirap",
+        "salt",
+        "svartpeppar",
+        "gul lök",
+        "ägg",
+        "japansk soja",
+        "vispgrädde",
+        "ljus sirap",
+        "salt",
+        "svartpeppar",
+        "rårörda lingon"
+      ],
+      "time": "PT60M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 1453
+    },
+    {
+      "name": "Vietnamesisk pho med biff",
+      "url": "https://www.ica.se/recept/vietnamesisk-pho-med-biff-713462/",
+      "category": "Soppa",
+      "total_ingredients": 20,
+      "matched_count": 2,
+      "match_percentage": 10.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör till stekning",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        },
+        {
+          "ingredient": "konc kyckling- eller kalvfond",
+          "deal_name": "Fond",
+          "deal_price": "60:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "risnudlar",
+        "olja till nudlarna",
+        "morot",
+        "schalottenlök",
+        "sockerärtor",
+        "färska böngroddar",
+        "salta jordnötter",
+        "skivor biff",
+        "salt",
+        "svartpeppar",
+        "plockade örter",
+        "lime i klyftor",
+        "ev asiatisk fisksås",
+        "ev het chilisås",
+        "vatten",
+        "citrongräs",
+        "cm ingefära",
+        "schalottenlök"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 4.3,
+      "reviews": 110
+    },
+    {
+      "name": "Pocherad torsk (grundrecept)",
+      "url": "https://www.ica.se/recept/pocherad-torsk-grundrecept-726203/",
+      "category": "Fisk",
+      "total_ingredients": 3,
+      "matched_count": 1,
+      "match_percentage": 33.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "bitar fryst torskrygg",
+          "deal_name": "Torskrygg",
+          "deal_price": "99:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "salt",
+        "vatten"
+      ],
+      "time": "PT30M",
+      "servings": "8",
+      "rating": 3.6,
+      "reviews": 16
+    },
+    {
+      "name": "Ugnspannkaka (grundrecept)",
+      "url": "https://www.ica.se/recept/ugnspannkaka-grundrecept-720978/",
+      "category": "Budget",
+      "total_ingredients": 6,
+      "matched_count": 1,
+      "match_percentage": 16.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vetemjöl",
+        "strösocker",
+        "salt",
+        "mjölk",
+        "ägg"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 1038
+    },
+    {
+      "name": "Pannkakor - grundsmet",
+      "url": "https://www.ica.se/recept/pannkakor-grundsmet-2083/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 6,
+      "matched_count": 1,
+      "match_percentage": 16.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "vetemjöl",
+        "salt",
+        "mjölk",
+        "ägg",
+        "sylt, bär eller frukt till servering"
+      ],
+      "time": "PT35M",
+      "servings": "4",
+      "rating": 4.1,
+      "reviews": 10758
+    },
+    {
+      "name": "Stekt potatis",
+      "url": "https://www.ica.se/recept/stekt-potatis-750475/",
+      "category": "Matlåda",
+      "total_ingredients": 6,
+      "matched_count": 1,
+      "match_percentage": 16.7,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "kall kokt potatis",
+        "rapsolja",
+        "salt",
+        "svartpeppar",
+        "kruka persilja"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 5,
+      "reviews": 2
+    },
+    {
+      "name": "Havregrynsgröt",
+      "url": "https://www.ica.se/recept/havregrynsgrot-730321/",
+      "category": "Budget",
+      "total_ingredients": 7,
+      "matched_count": 1,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "rårivna eller hackade äpplen",
+          "deal_name": "Svenska äpplen",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "havregryn",
+        "vatten",
+        "salt",
+        "mjölk",
+        "lingonsylt eller äppelmos",
+        "honung"
+      ],
+      "time": "PT15M",
+      "servings": "1",
+      "rating": 4.7,
+      "reviews": 116
+    },
+    {
+      "name": "Muffins (grundrecept)",
+      "url": "https://www.ica.se/recept/muffins-grundrecept-750369/",
+      "category": "Budget",
+      "total_ingredients": 7,
+      "matched_count": 1,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "rumstempererat smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "strösocker",
+        "ägg",
+        "mjölk",
+        "vetemjöl",
+        "vaniljsocker",
+        "bakpulver"
+      ],
+      "time": "PT45M",
+      "servings": "12 st",
+      "rating": 4.2,
+      "reviews": 237
+    },
+    {
+      "name": "Tekakor",
+      "url": "https://www.ica.se/recept/tekakor-729946/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 7,
+      "matched_count": 1,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "jäst",
+        "mjölk",
+        "strösocker",
+        "salt",
+        "ägg",
+        "ca 13 dl vetemjöl"
+      ],
+      "time": "PT90M",
+      "servings": "20 st",
+      "rating": 4.8,
+      "reviews": 108
+    },
+    {
+      "name": "Kalkonfilé i ugn",
+      "url": "https://www.ica.se/recept/kalkonfile-i-ugn-750509/",
+      "category": "Matlåda",
+      "total_ingredients": 7,
+      "matched_count": 1,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "ca 800 g kalkonfilé",
+        "citron",
+        "torkad timjan",
+        "svartpeppar",
+        "salt",
+        "honung"
+      ],
+      "time": "PT90M",
+      "servings": "6",
+      "rating": 4.4,
+      "reviews": 7
+    },
+    {
+      "name": "Klassisk skagenröra",
+      "url": "https://www.ica.se/recept/klassisk-skagenrora-729651/",
+      "category": "Fisk",
+      "total_ingredients": 7,
+      "matched_count": 1,
+      "match_percentage": 14.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "räkor i lake",
+          "deal_name": "Räkor med skal 90/120",
+          "deal_price": "79:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "kruka dill",
+        "majonnäs",
+        "citron",
+        "salt",
+        "peppar",
+        "löjrom eller röd stenbitsrom"
+      ],
+      "time": "PT30M",
+      "servings": "6",
+      "rating": 4.6,
+      "reviews": 51
+    },
+    {
+      "name": "Dillstuvad potatis",
+      "url": "https://www.ica.se/recept/dillstuvad-potatis-729699/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 8,
+      "matched_count": 1,
+      "match_percentage": 12.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "kokt, skalad  potatis",
+        "vetemjöl",
+        "mjölk",
+        "vispgrädde",
+        "salt",
+        "svartpeppar",
+        "kruka dill"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.6,
+      "reviews": 62
+    },
+    {
+      "name": "Rödspätta med grädde, dill och citron",
+      "url": "https://www.ica.se/recept/rodspatta-med-gradde-dill-och-citron-750812/",
+      "category": "Matlåda",
+      "total_ingredients": 8,
+      "matched_count": 1,
+      "match_percentage": 12.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör eller margarin",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.85
+        }
+      ],
+      "unmatched_ingredients": [
+        "delikatesspotatis",
+        "rödspättafilé",
+        "salt",
+        "svartpeppar",
+        "citron",
+        "färsk dill",
+        "vispgrädde"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 0,
+      "reviews": 0
+    },
+    {
+      "name": "Grillspett med kyckling",
+      "url": "https://www.ica.se/recept/grillspett-med-kyckling-720550/",
+      "category": "Kyckling",
+      "total_ingredients": 8,
+      "matched_count": 1,
+      "match_percentage": 12.5,
+      "matched_ingredients": [
+        {
+          "ingredient": "ca 600 g kycklinglårfilé",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "trägrillspett",
+        "salt",
+        "peppar",
+        "grillolja eller bbq-sås med smak av persilja och vitlök",
+        "citroner",
+        "kruka persilja",
+        "gärna srirachamajonnäs"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 3.1,
+      "reviews": 48
+    },
+    {
+      "name": "Helstekt kyckling i ugn",
+      "url": "https://www.ica.se/recept/helstekt-kyckling-i-ugn-729067/",
+      "category": "Kyckling",
+      "total_ingredients": 9,
+      "matched_count": 1,
+      "match_percentage": 11.1,
+      "matched_ingredients": [
+        {
+          "ingredient": "hel kyckling",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "olja",
+        "dijonsenap",
+        "japansk soja",
+        "honung",
+        "hackade färska  örter",
+        "salt",
+        "svartpeppar",
+        "vatten"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 4.7,
+      "reviews": 90
+    },
+    {
+      "name": "Krämig potatis- och purjolökssoppa",
+      "url": "https://www.ica.se/recept/kramig-potatis-och-purjolokssoppa-716077/",
+      "category": "Soppa",
+      "total_ingredients": 9,
+      "matched_count": 1,
+      "match_percentage": 11.1,
+      "matched_ingredients": [
+        {
+          "ingredient": "bröd , stekt bacon, finhackad persilja",
+          "deal_name": "Bacon",
+          "deal_price": "Medlemspris",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "potatis",
+        "purjolök",
+        "olja",
+        "torkad timjan",
+        "ca 10 dl grönsaksbuljong",
+        "vispgrädde",
+        "salt",
+        "peppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 2077
+    },
+    {
+      "name": "Kycklingvingar i airfryer",
+      "url": "https://www.ica.se/recept/kycklingvingar-i-airfryer-750763/",
+      "category": "Budget",
+      "total_ingredients": 10,
+      "matched_count": 1,
+      "match_percentage": 10.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingvingar",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "salt",
+        "nymalen svartpeppar",
+        "paprikapulver",
+        "rökt paprikapulver",
+        "vitlökspulver",
+        "lökpulver",
+        "torkad oregano",
+        "bakpulver",
+        "olivolja"
+      ],
+      "time": "PT45M",
+      "servings": "2",
+      "rating": 0,
+      "reviews": 0
+    },
+    {
+      "name": "Glögg",
+      "url": "https://www.ica.se/recept/glogg-730087/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 10,
+      "matched_count": 1,
+      "match_percentage": 10.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "flaska rödvin",
+          "deal_name": "Läsk",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "cm färsk ingefära",
+        "strösocker",
+        "vodka",
+        "kanelstänger",
+        "bitar pomeransskal",
+        "ca 10 hela nejlikor",
+        "hela kardemummakärnor",
+        "russin",
+        "hel skållad sötmandel"
+      ],
+      "time": "PT60M",
+      "servings": "1 liter",
+      "rating": 4.7,
+      "reviews": 16
+    },
+    {
+      "name": "Ägg- och tonfiskröra",
+      "url": "https://www.ica.se/recept/agg-och-tonfiskrora-376522/",
+      "category": "Matlåda",
+      "total_ingredients": 10,
+      "matched_count": 1,
+      "match_percentage": 10.0,
+      "matched_ingredients": [
+        {
+          "ingredient": "bröd",
+          "deal_name": "Bröd",
+          "deal_price": "25:-",
+          "deal_store": "Stora Coop",
+          "match_score": 1.0
+        }
+      ],
+      "unmatched_ingredients": [
+        "ägg",
+        "tonfisk i olja",
+        "rödlök",
+        "majonnäs",
+        "chilisås",
+        "chiliflakes",
+        "hackad dill",
+        "salt",
+        "svartpeppar"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 2.6,
+      "reviews": 105
+    },
+    {
+      "name": "Balkan bolognese med paprika",
+      "url": "https://www.ica.se/recept/balkan-bolognese-med-paprika-726940/",
+      "category": "Matlåda",
+      "total_ingredients": 11,
+      "matched_count": 1,
+      "match_percentage": 9.1,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfärs",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "gul lök",
+        "olja",
+        "salt",
+        "peppar",
+        "vitlöksklyfta",
+        "ris eller annat gryn",
+        "röd paprika",
+        "ajvar relish",
+        "matlagningsgrädde eller havrebaserad grädde",
+        "krispsallad"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.2,
+      "reviews": 119
+    },
+    {
+      "name": "Grillad kycklingfilé",
+      "url": "https://www.ica.se/recept/grillad-kycklingfile-712727/",
+      "category": "Kyckling",
+      "total_ingredients": 11,
+      "matched_count": 1,
+      "match_percentage": 9.1,
+      "matched_ingredients": [
+        {
+          "ingredient": "kycklingfiléer",
+          "deal_name": "Färsk kycklingfilé",
+          "deal_price": "119:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "rosmarinkvistar",
+        "flingsalt",
+        "nymalen svartpeppar",
+        "kvistar färsk rosmarin",
+        "citroner",
+        "japansk soja",
+        "malen spiskummin",
+        "tabasco",
+        "salt",
+        "olivolja"
+      ],
+      "time": "PT90M",
+      "servings": "8",
+      "rating": 4.1,
+      "reviews": 34
+    },
+    {
+      "name": "Kroppkakor av kokt potatis",
+      "url": "https://www.ica.se/recept/kroppkakor-av-kokt-potatis-3693/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 12,
+      "matched_count": 1,
+      "match_percentage": 8.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "rimmat fläsk",
+          "deal_name": "Läsk",
+          "deal_price": "30:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "mjölig potatis",
+        "vatten att koka potatisen i",
+        "salt",
+        "stort ägg",
+        "-  3 dl vetemjöl",
+        "salt",
+        "gul eller röd lök",
+        "vitpeppar",
+        "stött eller malen kryddpeppar",
+        "vatten",
+        "salt"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 260
+    },
+    {
+      "name": "Jordärtskockssoppa med parmachips",
+      "url": "https://www.ica.se/recept/jordartskockssoppa-med-parmachips-504081/",
+      "category": "Soppa",
+      "total_ingredients": 12,
+      "matched_count": 1,
+      "match_percentage": 8.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "smör",
+          "deal_name": "Smörgåsmat",
+          "deal_price": "20:-",
+          "deal_store": "ICA Supermarket",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "skivor parmaskinka",
+        "jordärtskockor",
+        "potatisar",
+        "vitlöksklyftor",
+        "vitt vin",
+        "vatten",
+        "hönsbuljongtärningar",
+        "vispgrädde",
+        "salt",
+        "svartpeppar",
+        "-  10 timjankvistar till garnering, eller välj färsk krydda efter säsong och smak"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 873
+    },
+    {
+      "name": "Cowboysoppa",
+      "url": "https://www.ica.se/recept/cowboysoppa-725483/",
+      "category": "Soppa",
+      "total_ingredients": 12,
+      "matched_count": 1,
+      "match_percentage": 8.3,
+      "matched_ingredients": [
+        {
+          "ingredient": "blandfärs eller kycklingfärs",
+          "deal_name": "Strimlad kyckling",
+          "deal_price": "79.9:-",
+          "deal_store": "Stora Coop",
+          "match_score": 0.9
+        }
+      ],
+      "unmatched_ingredients": [
+        "paprikor",
+        "bakpotatisar à ca 250 g",
+        "olja",
+        "vitlöksklyfta",
+        "paprikapulver",
+        "torkad oregano",
+        "salt",
+        "peppar",
+        "vita bönor i tomatsås",
+        "vispgrädde",
+        "köttbuljong"
+      ],
+      "time": "PT30M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 390
+    },
+    {
+      "name": "Pressgurka",
+      "url": "https://www.ica.se/recept/pressgurka-5070/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 7,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "färsk gurka",
+        "salt",
+        "ättiksprit",
+        "vatten",
+        "socker",
+        "vitpeppar",
+        "hackad persilja"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 4.4,
+      "reviews": 727
+    },
+    {
+      "name": "Gravad lax på färsk lax",
+      "url": "https://www.ica.se/recept/gravad-lax-pa-farsk-lax-725365/",
+      "category": "Svenska klassiker",
+      "total_ingredients": 7,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "odlad laxfilé i bit med skinn",
+        "finkornigt salt",
+        "strösocker",
+        "grovstött vitpeppar",
+        "hackad dill",
+        "färsk dill",
+        "citron"
+      ],
+      "time": "PT90M",
+      "servings": "6-8",
+      "rating": 4.2,
+      "reviews": 180
+    },
+    {
+      "name": "Laxfilé i ugn med citron",
+      "url": "https://www.ica.se/recept/laxfile-i-ugn-med-citron-724126/",
+      "category": "Fisk",
+      "total_ingredients": 5,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "ca 1 1/4 kg färsk laxfilé utan skinn",
+        "olja",
+        "salt",
+        "svartpeppar",
+        "finrivet citronskal"
+      ],
+      "time": "PT30M",
+      "servings": "8",
+      "rating": 4.3,
+      "reviews": 425
+    },
+    {
+      "name": "Enkel lax i ugn",
+      "url": "https://www.ica.se/recept/enkel-lax-i-ugn-725188/",
+      "category": "Fisk",
+      "total_ingredients": 3,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "laxfilé",
+        "salt",
+        "nymalen svartpeppar"
+      ],
+      "time": "PT30M",
+      "servings": "8",
+      "rating": 4.4,
+      "reviews": 95
+    },
+    {
+      "name": "Varmröka lax",
+      "url": "https://www.ica.se/recept/varmroka-lax-729952/",
+      "category": "Fisk",
+      "total_ingredients": 5,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "ca 1200 g lax i bit med skinn",
+        "salt",
+        "farinsocker",
+        "rökflis",
+        "briketter"
+      ],
+      "time": "PT750M",
+      "servings": "10",
+      "rating": 4.8,
+      "reviews": 9
+    },
+    {
+      "name": "Snabbgravad lax, grundrecept",
+      "url": "https://www.ica.se/recept/snabbgravad-lax-grundrecept-718703/",
+      "category": "Fisk",
+      "total_ingredients": 4,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "odlad laxfilé",
+        "salt",
+        "socker",
+        "vatten"
+      ],
+      "time": "PT90M",
+      "servings": "4",
+      "rating": 3.5,
+      "reviews": 70
+    },
+    {
+      "name": "Grönsakssoppa",
+      "url": "https://www.ica.se/recept/gronsakssoppa-750594/",
+      "category": "Soppa",
+      "total_ingredients": 14,
+      "matched_count": 0,
+      "match_percentage": 0.0,
+      "matched_ingredients": [],
+      "unmatched_ingredients": [
+        "potatisar",
+        "morötter",
+        "palsternacka",
+        "olja",
+        "stjälkar stjälkselleri",
+        "purjolök",
+        "lagerblad",
+        "torkad timjan",
+        "fänkålsfrö",
+        "vatten",
+        "grönsaksbuljongtärningar",
+        "kruka färsk persilja",
+        "salt",
+        "svartpeppar"
+      ],
+      "time": "PT45M",
+      "servings": "4",
+      "rating": 4.5,
+      "reviews": 19
+    }
+  ]
+}

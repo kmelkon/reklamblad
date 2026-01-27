@@ -1,0 +1,751 @@
+[
+  {
+    "store": "ICA Supermarket",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Fryst hamburgare",
+    "price": "139:-",
+    "unit": "2 för",
+    "description": "720 g | 8-pack | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Frysta Thaiboxar",
+    "price": "89:-",
+    "unit": "3 för",
+    "description": "300-350 g | Kitchen Joy"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Ätklara kycklingdelar",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "350-500 g | Fryst. Gäller ej salladskyckling och kycklingspett bbq | Guldfågeln"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Dagens Enportionsrätter",
+    "price": "60:-",
+    "unit": "2 för",
+    "description": "340-400 g | Fryst. Flera olika sorter | Findus"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Gräddglass, Sorbet",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "0,5 liter | Gäller ej Finaste | SIA Glass"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Cookies",
+    "price": "50:-",
+    "unit": "2 för",
+    "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Levainbröd",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "650 g | Gäller råg- och vetelevain | Pågen"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Majs-, Riskakor",
+    "price": "35:-",
+    "unit": "2 för",
+    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Räkor med skal 90/120",
+    "price": "79:-",
+    "unit": "2 för",
+    "description": "400 g | Fryst | Royal Greenland"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Renskav",
+    "price": "75:-",
+    "unit": "/st",
+    "description": "240 g | Lapin Liha"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Vegetariska produkter",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "220-320 g | Fryst. Gäller Färs, Filè, Bitar, Lasagne | Quorn"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Panpizza",
+    "price": "95:-",
+    "unit": "/st",
+    "description": "1530 g | Storpack Fryst | Billys"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Röda kärnfria druvor i ask",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Tulpaner 12-pack",
+    "price": "99:-",
+    "unit": "/st",
+    "description": "Flera färger. 3 kr går till Glada Hudik | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Yoghurt",
+    "price": "45:-",
+    "unit": "2 för",
+    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Schampo, balsam",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "200-250 ml | Elvital"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Broccoli",
+    "price": "15:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Babyplommontomater i ask",
+    "price": "25:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Blodapelsiner i nät",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "1 kg | Klass 1 | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Avokado",
+    "price": "20:-",
+    "unit": "2 för",
+    "description": "165 g | Klass 1 | Spanien/Marocko/Chile"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Svenska äpplen",
+    "price": "20:-",
+    "unit": "/kg",
+    "description": "Klass 1. Flera sorter | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Falukorv",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "800 g | Scan"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
+    "price": "79:-",
+    "unit": "/st",
+    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Skinkstek",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1100 g | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Köttbullar",
+    "price": "69:-",
+    "unit": "/st",
+    "description": "1000 g | Kylda | Scan"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Spareribs",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1200 g | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Umamifärs",
+    "price": null,
+    "unit": "/st",
+    "description": "500 g | Kryddad fläskfärs. Max 20% fetthalt. | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Smörgåsmat",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "90-105 g | Plånbokspackad. Gäller ej basturökt kalkon | Lönneberga"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Skinkschnitzel",
+    "price": null,
+    "unit": "/st",
+    "description": "300 g | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Färskost",
+    "price": "40:-",
+    "unit": "2 för",
+    "description": "145-200 g | Flera olika sorter | Philadelphia"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Västerbottensost®",
+    "price": "89:-",
+    "unit": "/st",
+    "description": "450 g | Norrmejerier"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Bacon, Stekfläsk",
+    "price": "115:-",
+    "unit": "/st",
+    "description": "1000 g | Skivat | Tulip"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Pannkakor",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "200-240 g | Flera olika sorter | POP! Bakery"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Batterier",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "10-pack | Finns som AA och AAA | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Duschtvål",
+    "price": "34:-",
+    "unit": "2 för",
+    "description": "250 ml | Gäller ej Ren baby | Barnängen"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Toalettpapper, Hushållspapper Classic",
+    "price": "95:-",
+    "unit": "3 för",
+    "description": "8-pack, 4-pack | Lambi"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Fond",
+    "price": "60:-",
+    "unit": "2 för",
+    "description": "180 ml | Gäller ej Eko | Touch of taste"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Läsk",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "1,5 liter | Flera olika sorter | Coca-Cola, Fanta, Sprite"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Kexchoklad",
+    "price": "40:-",
+    "unit": "5 för",
+    "description": "60 g | Cloetta"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Crème Fraiche",
+    "price": "24:-",
+    "unit": "2 för",
+    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Juice",
+    "price": "40:-",
+    "unit": "/st",
+    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Risi-, Mannafrutti",
+    "price": "40:-",
+    "unit": "4 för",
+    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Energidryck",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "330-355 ml | Nocco"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Chips, Ostbågar",
+    "price": "50:-",
+    "unit": "2 för",
+    "description": "200-275 g | OLW"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Pumpakärnor, Chiafrön",
+    "price": "35:-",
+    "unit": "/st",
+    "description": "300 g | Risenta"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Excellence",
+    "price": "65:-",
+    "unit": "2 för",
+    "description": "100 g | Gäller Lindt Excellence | Lindt"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Tomater på burk",
+    "price": "45:-",
+    "unit": "3 för",
+    "description": "400 g | Finkrossade, körsbärs, hela original | Mutti"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Kolsyrat vatten",
+    "price": "19:-",
+    "unit": "2 för",
+    "description": "1,5 liter | Loka"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Kryddor små glas",
+    "price": "100:-",
+    "unit": "8 för",
+    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Tortillabröd, Tacosås, Chips",
+    "price": "100:-",
+    "unit": "10 för",
+    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kebab/Falafel/Gyros",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Tex mex",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Tacokrydda",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Bacon",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Torskrygg",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Gröna druvor",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Färsk fläskkotlett",
+    "price": "109:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kassler",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Varmkorv/Wienerkorv",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Högrev",
+    "price": "175:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Strimlad kyckling",
+    "price": "79.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Blandfärs",
+    "price": "85:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Färsk Lammrostbiff",
+    "price": "289:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kryddor i småglas",
+    "price": "39:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Handskalade räkor",
+    "price": "89:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Blomkål",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Svenska äpplen",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Rödbetor",
+    "price": "12:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Sockerärtor/Sugarsnaps/Haricot Verts",
+    "price": "50:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Plommontomater",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Ekologisk sallad i påse",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Mango",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Ekologiska klämpåsar",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Pizza",
+    "price": "105:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Riven ost",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Parmesanost",
+    "price": "45:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Yoghurt",
+    "price": "46:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Granola",
+    "price": "75:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Gräddfil",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Vegetariskt pålägg",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Färskost",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Havremjölk",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Bröd",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Chokladsnacks",
+    "price": "49:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Choklad stycksaker",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kakor",
+    "price": "49:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Jordnötter",
+    "price": "45:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Glass flerpack",
+    "price": "85:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Dessertost",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Majskakor",
+    "price": "35:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Energidryck",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Halstabletter",
+    "price": "32:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kosttillskott",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Såjord",
+    "price": "69:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Plastkrukor",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kattmat",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Lasagne",
+    "price": "79:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Läsk 4-pack",
+    "price": "59.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Snabbkaffe",
+    "price": "90:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Dammsugare",
+    "price": "1295:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Sprayflaska",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Matpaj",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kycklinglårfilé",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Snacks",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Smörgåspålägg",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  }
+]
