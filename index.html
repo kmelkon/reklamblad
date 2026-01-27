@@ -44,19 +44,8 @@
                 <input type="text" id="searchInput" class="search-input" placeholder="Sök recept...">
             </div>
 
-            <div class="filter-group">
-                <button class="filter-btn active" data-store="all">
-                    <span class="filter-icon">◉</span>
-                    Alla butiker
-                </button>
-                <button class="filter-btn" data-store="ICA Supermarket">
-                    <span class="filter-dot ica"></span>
-                    ICA
-                </button>
-                <button class="filter-btn" data-store="Stora Coop">
-                    <span class="filter-dot coop"></span>
-                    Coop
-                </button>
+            <div class="filter-group" id="filterGroup">
+                <!-- Dynamically generated -->
             </div>
 
             <select id="sortSelect" class="sort-select">
@@ -89,7 +78,7 @@
     </main>
 
     <footer class="footer">
-        <p>Data hämtas från <strong>ICA</strong> och <strong>Coop</strong> reklamblad</p>
+        <p>Data hämtas från <strong>ICA</strong>, <strong>Coop</strong> och <strong>Willys</strong> reklamblad</p>
     </footer>
 
     <script src="app.js"></script>

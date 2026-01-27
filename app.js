@@ -16,7 +16,7 @@ class RecipeApp {
         this.elements = {
             recipeGrid: document.getElementById('recipeGrid'),
             searchInput: document.getElementById('searchInput'),
-            filterBtns: document.querySelectorAll('.filter-btn'),
+            filterGroup: document.getElementById('filterGroup'),
             lastUpdated: document.getElementById('lastUpdated'),
             recipeCount: document.getElementById('recipeCount'),
             dealCount: document.getElementById('dealCount'),
@@ -24,8 +24,10 @@ class RecipeApp {
             categoryPills: document.getElementById('categoryPills'),
         };
 
+        this.filtersExpanded = false;
+
         // Validate required elements
-        const required = ['recipeGrid', 'searchInput', 'sortSelect', 'categoryPills'];
+        const required = ['recipeGrid', 'searchInput', 'sortSelect', 'categoryPills', 'filterGroup'];
         for (const id of required) {
             if (!this.elements[id]) {
                 console.error(`Missing required element: #${id}`);
@@ -79,6 +81,9 @@ class RecipeApp {
             this.categories = Array.from(categorySet).sort();
             this.renderCategoryPills();
 
+            // Build store filter buttons
+            this.renderStoreFilters();
+
             this.updateStats();
             this.updateLastUpdated();
         } catch (error) {
@@ -92,16 +97,6 @@ class RecipeApp {
         this.elements.searchInput.addEventListener('input', (e) => {
             this.searchQuery = e.target.value.toLowerCase().trim();
             this.filterRecipes();
-        });
-
-        // Store filters
-        this.elements.filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                this.elements.filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                this.currentStore = btn.dataset.store;
-                this.filterRecipes();
-            });
         });
 
         // Sort select
@@ -128,6 +123,114 @@ class RecipeApp {
             `<button class="category-pill" data-category="${this.escapeHtml(cat)}">${this.escapeHtml(cat)}</button>`
         ).join('');
         container.innerHTML = allPill + pills;
+    }
+
+    renderStoreFilters() {
+        // Count deals per store
+        const storeCounts = {};
+        this.deals.forEach(deal => {
+            const store = deal.store;
+            storeCounts[store] = (storeCounts[store] || 0) + 1;
+        });
+
+        // Sort stores by deal count (descending)
+        const sortedStores = Object.entries(storeCounts)
+            .sort((a, b) => b[1] - a[1])
+            .map(([store]) => store);
+
+        const PRIMARY_COUNT = 3;
+        const primaryStores = sortedStores.slice(0, PRIMARY_COUNT);
+        const overflowStores = sortedStores.slice(PRIMARY_COUNT);
+
+        const container = this.elements.filterGroup;
+
+        // "Alla butiker" button
+        let html = `
+            <button class="filter-btn active" data-store="all">
+                <span class="filter-icon">◉</span>
+                Alla butiker
+            </button>
+        `;
+
+        // Primary store buttons
+        primaryStores.forEach(store => {
+            const storeClass = this.getStoreClass(store);
+            const shortName = this.getShortStoreName(store);
+            html += `
+                <button class="filter-btn" data-store="${this.escapeHtml(store)}">
+                    <span class="filter-dot ${storeClass}"></span>
+                    ${this.escapeHtml(shortName)}
+                </button>
+            `;
+        });
+
+        // Overflow toggle + container
+        if (overflowStores.length > 0) {
+            html += `
+                <button class="filter-toggle" id="filterToggle">
+                    <span>Fler</span>
+                    <span class="filter-count">${overflowStores.length}</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+                <div class="filter-overflow" id="filterOverflow">
+            `;
+
+            overflowStores.forEach(store => {
+                const storeClass = this.getStoreClass(store);
+                const shortName = this.getShortStoreName(store);
+                html += `
+                    <button class="filter-btn" data-store="${this.escapeHtml(store)}">
+                        <span class="filter-dot ${storeClass}"></span>
+                        ${this.escapeHtml(shortName)}
+                    </button>
+                `;
+            });
+
+            html += `</div>`;
+        }
+
+        container.innerHTML = html;
+        this.bindFilterEvents();
+    }
+
+    getShortStoreName(store) {
+        // Return shorter display names for buttons
+        if (store === 'ICA Supermarket') return 'ICA';
+        if (store === 'ICA Nära') return 'ICA Nära';
+        if (store === 'ICA Maxi') return 'ICA Maxi';
+        if (store === 'ICA Kvantum') return 'ICA Kvantum';
+        if (store === 'Stora Coop') return 'Stora Coop';
+        if (store === 'Coop') return 'Coop';
+        if (store === 'Willys') return 'Willys';
+        return store;
+    }
+
+    bindFilterEvents() {
+        // Store filter buttons
+        const filterBtns = this.elements.filterGroup.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                this.currentStore = btn.dataset.store;
+                this.filterRecipes();
+            });
+        });
+
+        // Toggle button for overflow
+        const toggleBtn = document.getElementById('filterToggle');
+        const overflow = document.getElementById('filterOverflow');
+        if (toggleBtn && overflow) {
+            toggleBtn.addEventListener('click', () => {
+                this.filtersExpanded = !this.filtersExpanded;
+                this.elements.filterGroup.classList.toggle('expanded', this.filtersExpanded);
+                toggleBtn.classList.toggle('expanded', this.filtersExpanded);
+                toggleBtn.querySelector('span:first-child').textContent =
+                    this.filtersExpanded ? 'Färre' : 'Fler';
+            });
+        }
     }
 
     parseTime(isoTime) {
@@ -203,8 +306,9 @@ class RecipeApp {
     }
 
     getStoreClass(store) {
-        if (store === 'ICA Supermarket') return 'ica';
-        if (store === 'Stora Coop') return 'coop';
+        if (store.startsWith('ICA')) return 'ica';
+        if (store.includes('Coop')) return 'coop';
+        if (store === 'Willys') return 'willys';
         return '';
     }
 

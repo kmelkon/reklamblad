@@ -1,6 +1,27 @@
 [
   {
     "store": "ICA Supermarket",
+    "name": "Cookies",
+    "price": "50:-",
+    "unit": "2 för",
+    "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Levainbröd",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "650 g | Gäller råg- och vetelevain | Pågen"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Majs-, Riskakor",
+    "price": "35:-",
+    "unit": "2 för",
+    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs"
+  },
+  {
+    "store": "ICA Supermarket",
     "name": "Färsk kycklingfilé",
     "price": "119:-",
     "unit": "/kg",
@@ -47,27 +68,6 @@
     "price": "30:-",
     "unit": "2 för",
     "description": "0,5 liter | Gäller ej Finaste | SIA Glass"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Cookies",
-    "price": "50:-",
-    "unit": "2 för",
-    "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Levainbröd",
-    "price": "30:-",
-    "unit": "/st",
-    "description": "650 g | Gäller råg- och vetelevain | Pågen"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Majs-, Riskakor",
-    "price": "35:-",
-    "unit": "2 för",
-    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs"
   },
   {
     "store": "ICA Supermarket",
@@ -127,6 +127,34 @@
   },
   {
     "store": "ICA Supermarket",
+    "name": "Falukorv",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "800 g | Scan"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
+    "price": "79:-",
+    "unit": "/st",
+    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Skinkstek",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1100 g | ICA"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Köttbullar",
+    "price": "69:-",
+    "unit": "/st",
+    "description": "1000 g | Kylda | Scan"
+  },
+  {
+    "store": "ICA Supermarket",
     "name": "Broccoli",
     "price": "15:-",
     "unit": "/st",
@@ -159,34 +187,6 @@
     "price": "20:-",
     "unit": "/kg",
     "description": "Klass 1. Flera sorter | ICA"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Falukorv",
-    "price": "69:-",
-    "unit": "2 för",
-    "description": "800 g | Scan"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
-    "price": "79:-",
-    "unit": "/st",
-    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Skinkstek",
-    "price": null,
-    "unit": "/kg",
-    "description": "Ca 1100 g | ICA"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Köttbullar",
-    "price": "69:-",
-    "unit": "/st",
-    "description": "1000 g | Kylda | Scan"
   },
   {
     "store": "ICA Supermarket",
@@ -260,6 +260,27 @@
   },
   {
     "store": "ICA Supermarket",
+    "name": "Crème Fraiche",
+    "price": "24:-",
+    "unit": "2 för",
+    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Juice",
+    "price": "40:-",
+    "unit": "/st",
+    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Risi-, Mannafrutti",
+    "price": "40:-",
+    "unit": "4 för",
+    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti"
+  },
+  {
+    "store": "ICA Supermarket",
     "name": "Toalettpapper, Hushållspapper Classic",
     "price": "95:-",
     "unit": "3 för",
@@ -288,24 +309,17 @@
   },
   {
     "store": "ICA Supermarket",
-    "name": "Crème Fraiche",
-    "price": "24:-",
-    "unit": "2 för",
-    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket"
+    "name": "Kryddor små glas",
+    "price": "100:-",
+    "unit": "8 för",
+    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Juice",
-    "price": "40:-",
-    "unit": "/st",
-    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Risi-, Mannafrutti",
-    "price": "40:-",
-    "unit": "4 för",
-    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti"
+    "name": "Tortillabröd, Tacosås, Chips",
+    "price": "100:-",
+    "unit": "10 för",
+    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria"
   },
   {
     "store": "ICA Supermarket",
@@ -350,18 +364,1691 @@
     "description": "1,5 liter | Loka"
   },
   {
-    "store": "ICA Supermarket",
-    "name": "Kryddor små glas",
-    "price": "100:-",
-    "unit": "8 för",
-    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria"
+    "store": "ICA Nära",
+    "name": "Skärgårdskaka",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "750 g | Pågen"
   },
   {
-    "store": "ICA Supermarket",
-    "name": "Tortillabröd, Tacosås, Chips",
+    "store": "ICA Nära",
+    "name": "Cookies",
+    "price": "25:-",
+    "unit": "/st",
+    "description": "132-184 g | Marabou"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Fryst hamburgare",
+    "price": "139:-",
+    "unit": "2 för",
+    "description": "720 g | 8-pack | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Clementiner Nadorcott",
+    "price": "25:-",
+    "unit": "/kg",
+    "description": "Klass 1 | Marocko"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Röd spetspaprika i påse",
+    "price": "18:-",
+    "unit": "/st",
+    "description": "200 g | Klass 1 | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Sötpotatis",
+    "price": "20:-",
+    "unit": "/kg",
+    "description": "Klass 1 | Egypten"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Äpplen Pink Lady",
+    "price": "30:-",
+    "unit": "/kg",
+    "description": "Klass 1 | Italien/Frankrike"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Päron i korg",
+    "price": "15:-",
+    "unit": "/st",
+    "description": "1 kg | Klass 2 | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Smör",
+    "price": "55:-",
+    "unit": "/st",
+    "description": "500 g | Gäller ej laktosfritt | Valio"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "LED Lampor",
+    "price": "60:-",
+    "unit": "3 för",
+    "description": "Erbjudandet gäller: LED SMD E27 806lm/E27 470lm/E27 250lm/E14 250lm/E14 140lm/E14 250lm | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Proteinbar",
+    "price": "55:-",
+    "unit": "3 för",
+    "description": "55 g | Swebar"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Frysta Thaiboxar",
+    "price": "89:-",
+    "unit": "3 för",
+    "description": "300-350 g | Kitchen Joy"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Pizza Ristorante",
+    "price": "90:-",
+    "unit": "3 för",
+    "description": "320-360 g | Fryst. Gäller ej glutenfri | Dr. Oetker"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Gräddglass",
+    "price": "49:-",
+    "unit": "3 för",
+    "description": "0,5 liter | Gäller ej sorbet. | SIA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Falukorv",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "800 g | Scan"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Smörgåsmat",
+    "price": "40:-",
+    "unit": "2 för",
+    "description": "90-160 g | Plånbokspackad | Pärsons"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Feta",
+    "price": "40:-",
+    "unit": "2 för",
+    "description": "130-150 g | Gäller ej ekologisk | Fontana"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Fläskytterfilé",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1000 g | Mörmarinerad. Av benfri kotlett | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Kryddkorv",
+    "price": "59:-",
+    "unit": "2 för",
+    "description": "180-300 g | Scan"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Ädelost",
+    "price": "29:-",
+    "unit": "/st",
+    "description": "140 g | Kvibille"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Präst®, Herrgård®, Grevé®",
+    "price": "95:-",
+    "unit": "/st",
+    "description": "670-675 g | Olika sorter. Fetthalt 17-35%. Gäller 12-14 månader. Gäller ej ekologisk | Allerum"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Mjukost i tub",
+    "price": "39:-",
+    "unit": "/st",
+    "description": "250-275 g | Kavli"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Pepparbiff",
+    "price": null,
+    "unit": "/st",
+    "description": "300 g | Av rostbiff | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Grytbitar av gris",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 500 g | ICA"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Juice, Smoothie",
+    "price": "32:-",
+    "unit": null,
+    "description": "750-900 ml | + pant. Gäller ej Juicy Refresher | Innocent"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Mild kvarg/Grekisk Yoghurt",
+    "price": "35:-",
+    "unit": "/st",
+    "description": "1 kg | Flera olika sorter | Arla"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Chokladkaka",
+    "price": "45:-",
+    "unit": "2 för",
+    "description": "160 g | Gäller ej caramello och vitchoklad | Marabou"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Maskindisktabletter",
+    "price": "59:-",
+    "unit": "/st",
+    "description": "30-pack,42-pack | Finish"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Chips, Ostbågar",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "200-275 g | Flera olika sorter | OLW"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Fruktmums & gröt",
+    "price": "59:-",
+    "unit": "5 för",
+    "description": "110-120 g | Flera olika sorter. Gäller ej Grötklämmis. Från 6 månader | Semper"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Toalettpapper, Hushållspapper Classic",
+    "price": "95:-",
+    "unit": "3 för",
+    "description": "8-pack, 4-pack | Lambi"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Kattmat multipack",
+    "price": "49:-",
+    "unit": "/st",
+    "description": "Jfr pris 48:04/kg | Ord.pris 64:95-65:00 kr. 30dgr.pris 49:00 kr."
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Buljong",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "12-pack | Gäller ej ekologisk"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Läsk",
+    "price": "85:-",
+    "unit": "2 för",
+    "description": "6-pack | 6x33 cl. | Coca-Cola, Fanta"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GRÖNA KÄRNFRIA DRUVOR I ASK",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PULLED PORK",
+    "price": "39.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PIZZAKIT, PIZZADEG",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FRYST BROCCOLI",
+    "price": "35:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ÄGG, FRIGÅENDE",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GLASS FLERPACK",
+    "price": "65:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "DAMMSUGARE",
+    "price": "799:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KRONLJUS",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "DOFTLJUS",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KRYDDADE FLÄSKMEDALJONGER",
+    "price": "39.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BABY BACK RIBS",
+    "price": "59.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BACON, STEKFLÄSK",
+    "price": "85:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PÅLÄGG VEGAN",
+    "price": "40:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FRYSTA VEGOPRODUKTER",
+    "price": "89:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KÖTTBULLAR",
+    "price": "67.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GRILLKORV",
+    "price": "57.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FÄRSK PANERAD SCHNITZEL",
+    "price": "44.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FLÄSKFÄRS",
+    "price": "64.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FÄRSK KYCKLINGFILÉ",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FRYST HAMBURGARE",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FALUKORV",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PÄRON MIGO",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "CRUNCHITASALLAT I PÅSE",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BLÅBÄR I ASK",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BIMI I PÅSE",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "RÖD GRAPEFRUKT",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FÄRGMIXADE SMÅTOMATER",
+    "price": "25:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FÖRKOKTA RÖDBETOR",
+    "price": "10:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BRYSSELKÅL I PÅSE",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "EKOLOGISKA JORDÄRTSKOCKOR I PÅSE",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "JUBILEUMSKAKA",
+    "price": "40:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BORDSMARGARIN",
+    "price": "55:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "JUICE, SMOOTHIE",
+    "price": "39.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "LAKTOSFRI MJÖLK",
+    "price": "42:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GRANOLA",
+    "price": "75:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KNÄCKEBRÖD",
+    "price": "26:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "Grevé®, Präst®, Herrgård®",
+    "price": "139.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "RIS-, MANNAMÅL",
+    "price": "44:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FILMJÖLK",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "SMÖRGÅSMAT",
+    "price": "40:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TULPANER 12-PACK",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "DESSERTOST",
+    "price": "58:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GRILLOUMI, HALLOUMI",
+    "price": "59:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "CHEDDAR",
+    "price": "139.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GLASS",
+    "price": "89:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KEX",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BALLERINA, SINGOALLA, BRAGO",
+    "price": "34:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PROTEINBAR, PROTEINSHAKE",
+    "price": "75:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "LÄSK",
+    "price": "32:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "CHOKLADKAKA",
+    "price": "50:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "SÅS JUST ADD",
+    "price": "59:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FRYSTA THAIBOXAR",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KYLD SÅS, DRESSING",
+    "price": "35:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "CRÈME FRAICHE",
+    "price": "28.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FOND",
+    "price": "58:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FÄRSK FYLLD PASTA",
+    "price": "65:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "POTATISGRATÄNG",
+    "price": "57.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KYLD SOPPA",
+    "price": "48:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "EKOLOGISK PASTA",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FRUKTDRYCK",
+    "price": "69:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FRYST PIZZA RISTORANTE",
+    "price": "89:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BRUNA BÖNOR, RISGRÖT, ÄRTER MED FLÄSK",
+    "price": "32:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BLÖJOR",
+    "price": "159:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FLYTANDE TVÄTTMEDEL",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TOALETTPAPPER, HUSHÅLLSPAPPER CLASSIC",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TANDKRÄM, TANDBORSTE",
+    "price": "28:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "HÅRFÄRG, ROOT CONCEALER",
+    "price": "149:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "MASKINDISKMEDEL",
+    "price": "199:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BINDOR, TROSSKYDD STORPACK",
+    "price": "115:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FLYTANDE TVÅL REFILL",
+    "price": "39:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "DUSCHCREME",
+    "price": "55:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "SCHAMPO, BALSAM",
+    "price": "55:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "DEO SPRAY",
+    "price": "59:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "Apolosophy Hair",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "Melatonin Unimedic Pharma Oral solution 1 mg/ml 30 ml",
+    "price": "149:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BRÖDKORG",
+    "price": "79:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "CITRONPRESS",
+    "price": "75:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "SLICKEPOTT 2-PACK",
+    "price": "59.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "MUFFINSFORM",
+    "price": "69:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KORKUNDERLÄGG 2-PACK",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "UGNSFORM 2-PACK",
+    "price": "129:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "MATLÅDA",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "FÖRVARINGSBURK 5-PACK",
+    "price": "49.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "VÄRMELJUS STORA",
+    "price": "49:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BLOCKLJUS",
+    "price": "39:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ONEBLADE",
+    "price": "229:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "STYLER",
+    "price": "399:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "HÅRFÖN",
+    "price": "399:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ONEBLADE RAKBLAD 3-PACK",
+    "price": "349:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TERMOSMUGG",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "POPCORNMASKIN",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PÅSKLÄMMOR",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TRÅDMOPP MED HINK",
+    "price": "199:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ROBOTDAMMSUGARE",
+    "price": "1999:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ERGORAPIDO",
+    "price": "999:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "SKAFTDAMMSUGARE",
+    "price": "1399:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TWINNERMUNSTYCKE NXT",
+    "price": "199:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TORKSTATIV",
+    "price": "199:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "STEAMER",
+    "price": "299:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "DISKBORSTE 3-PACK",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "AVFALLSPÅSE",
+    "price": "39:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "PILÉJACKA",
+    "price": "179:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "SCARF",
+    "price": "79:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "T-SHIRT",
+    "price": "79:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TOFFLOR BARN",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TOFFLOR VUXEN",
+    "price": "149:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TROSOR 3-PACK & HERRBOXER 2-PACK",
+    "price": "199:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "JACKA",
+    "price": "349:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "JEANS",
+    "price": "249:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "STRUMPOR 10-PACK",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TRÅDLÖSA HÖRLURAR IN-EAR",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "VÄGGLADDARE USB-A",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "VÄGGLADDARE USB-C",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "LADDKABEL LIGHTNING",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "TÄNDKUBER",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "VED 30 L",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "LADDKABEL USB-C-USB-C",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "WC-SET",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ENGÅNGSHANDSKE",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BATTERIER",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KNAPPCELLSBATTERI",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Laxsida",
+    "price": "149:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Färsk pasta",
+    "price": "10:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Kassler",
+    "price": "79.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Bregott",
+    "price": "39:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Kebab",
+    "price": "130:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Apelsiner i nät",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Plommontomater",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Tortillabröd, Tacochips, Tacosås",
     "price": "100:-",
-    "unit": "10 för",
-    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria"
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Glass",
+    "price": "120:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Dagens enportionsrätter",
+    "price": "100:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Krossade tomater",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Frysta grönsaker",
+    "price": "80:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Mjukost i ask",
+    "price": "120:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Barista havredryck",
+    "price": "150:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Smaksatta riskakor, majskakor",
+    "price": "60:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Chips, Cheez",
+    "price": "80:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Färsk Vego",
+    "price": "60:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Färsk kycklingfilé",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Pulled beef taco",
+    "price": "62.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Hamburgerbröd",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Porchetta",
+    "price": "95:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Benfri fläsklägg",
+    "price": "59.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Fläskfilé",
+    "price": "169:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Benfri karré",
+    "price": "89.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Ekologiska hamburgare",
+    "price": "34.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Grillkorv extra fin",
+    "price": "29:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Frysta pastarätter",
+    "price": "120:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Gulaschsoppa",
+    "price": "70:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Italiensk delichark",
+    "price": "50:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Glutenfri pasta",
+    "price": "35:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Vispgrädde",
+    "price": "29:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Mozzarella",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Färskost",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Smör",
+    "price": "55:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "La Roche-Posay Toleriane Sensitive Creme Oparf",
+    "price": "156:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Hjärtats Duschgel Part",
+    "price": "34:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Bepanthen Derma Restoring Daily Body Lotion Oparf",
+    "price": "224:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Eucerin Hyaluron-Filler + Elasticity Day Cream spf 15",
+    "price": "251:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Eucerin Hyaluron-Filler + Elasticity Night Cream Parf 50 ml",
+    "price": "258:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Apolosophy Hair",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Aveeno Skin Relief Moisturising Lotion",
+    "price": "127:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Aveeno Skin Relief Moisturising Hand Cream",
+    "price": "71:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Apolosophy Sensitive Day Cream Rich",
+    "price": "119:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Avène Cicalfate+ Reparing Protect Cream",
+    "price": "109:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Avène Cold Cream",
+    "price": "89:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Melatonin Unimedic Pharma Oral lösning 1 mg/ml",
+    "price": "149:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Stor grön kiwi",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Jordgubbar i ask",
+    "price": "30:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Plommontomater i ask",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Päron Conference",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Ekologiska rödbetor i påse",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Rotselleri, Kålrot",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Palsternackor i påse",
+    "price": "10:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Zucchini",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Gröna växter",
+    "price": "59:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Tulpaner 12-pack",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Hushållsost",
+    "price": "99:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Drickkvarg",
+    "price": "40:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Präst, Herrgård, Grevé, Morfars",
+    "price": "139:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Rosta",
+    "price": "15:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Flingor",
+    "price": "59:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Blomsterhonung",
+    "price": "55:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Vaniljyoghurt",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Juice, Smoothie",
+    "price": "69:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Laktosfri Mjölkdryck",
+    "price": "20:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Shake, smoothie",
+    "price": "60:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Kakor",
+    "price": "60:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Gräddglass",
+    "price": "70:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Snabbkaffe refill",
+    "price": "169:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Chokladkaka",
+    "price": "60:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Smörgåsmat",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Falukorv",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Fryst hamburgare",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Frysta Thaiboxar",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Kolsyrat vatten",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Kaviar",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Flytande tvättmedel",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Toalettpapper, Hushållspapper Classic",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Schampo, balsam",
+    "price": "59:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Hårfärg, Root conceale",
+    "price": "149:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Blöjor",
+    "price": "169:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Batterier",
+    "price": "69:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "PET-flaska 1L DWS",
+    "price": "198:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Doftljus Fiona",
+    "price": "100:-",
+    "unit": null,
+    "description": null
   },
   {
     "store": "Stora Coop",
@@ -745,6 +2432,608 @@
     "store": "Stora Coop",
     "name": "Smörgåspålägg",
     "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Kebab/Falafel",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Gröna druvor",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Tex-mex",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Varmkorv/Wienerkorv",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Makaroner",
+    "price": "22:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Rostbröd",
+    "price": "29.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Coop",
+    "name": "Chokladkakor",
+    "price": "35:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BREGOTT",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FÄRSK FLÄSKFILÉ",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SMÖR",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "TVÄTTMEDEL, SKÖLJMEDEL",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "PRÄST®, HERRGÅRD®, GREVÉ",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "GRÖNA VINDRUVOR 500G",
+    "price": "29.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "KYCKLINGBRÖSTFILÉ",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "HAMBURGERGURKA",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "LAXBURGARE 2-PACK",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "HAMBURGEROST",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "LÄSK",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "GRILLOST",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "POMMES",
+    "price": "45:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "MAJSKOLVAR",
+    "price": "35:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SKIVAT BACON 5-PACK",
+    "price": "58.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "ALKOHOLFRI ÖL",
+    "price": "199:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "AMERIKANSK DRESSING",
+    "price": "16.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "KYCKLINGBURGARE",
+    "price": "49.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BEEF BURGER",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BLANDFÄRS",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FÄRSKA HAMBURGARE",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FLÄSKKOTLETT MED BEN",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "HEL MAJSKYCKLING",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BRIOCHE HAMBURGERBRÖD 4-PACK",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "KYCKLINGBEN",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "LÖVBIFF",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "RIBS",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "HAMBURGERDRESSING",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "MESSMÖR",
+    "price": "24.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SKOGAHOLMSLIMPA",
+    "price": "22.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "EKOLOGISK HUMLAN",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "MARMELAD",
+    "price": "24.8:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SKIVAT SMÖRGÅSPÅLÄGG",
+    "price": "29.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "MJUKOST",
+    "price": "34.8:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "PAVÉ NAPOLI",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SMAKSATT YOGHURT",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "HAVREDRYCK",
+    "price": "28:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "JUICE",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "CHIPS, OSTSNACKS",
+    "price": "65:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FLERPACK GLASS",
+    "price": "75:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "GLASS 4-PACK",
+    "price": "49.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "GLASSPINNAR 6-PACK",
+    "price": "39.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "CHEEZ DOODLES",
+    "price": "34.8:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "NATURGODIS",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "GODISPÅSAR",
+    "price": "39:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "PROSCIUTTO CRUDO",
+    "price": "29.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "LIGHTDRYCK",
+    "price": "46:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "LÖSVIKTSGODIS",
+    "price": "99.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "OSTBRICKA",
+    "price": "64.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "LAXFILÉ 4-PACK",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "KYLDA SÅSER",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SMAKSATT CRÈME FRAICHE",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "MOZZARELLA",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "VARMRÖKT REGNBÅGSLAX",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SPAGHETTI",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "NUDLAR",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "OVO VEGETARISKA MÅLTIDSDELAR",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FINKROSSADE TOMATER 4-PACK",
+    "price": "49.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "STRIMLAD RÖKT SKINKA",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FLYTANDE HANDTVÅL, DUSCHCREME, DEO ROLL-ON",
+    "price": "45:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SCHAMPO, BALSAM, INPACKNING",
+    "price": "49.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SCHAMPO",
+    "price": "32.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FOND",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "TANDBORSTE, TANDKRÄM",
+    "price": "28:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "MUNSKÖLJ",
+    "price": "24.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "KYCKLINGKÖTTBULLAR",
+    "price": "26.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BLÖJOR",
+    "price": "Medlemspris",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "VARMKORV",
+    "price": "57.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BINDOR, TROSSKYDD",
+    "price": "40:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BULJONGTÄRNINGAR 10-PACK",
+    "price": "28:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "TAMPONGER",
+    "price": "67.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FÄRSKA KRYDDOR 15-25G",
+    "price": "9.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "HEL SPETSKÅL",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "RÖD SPETSPAPRIKA 200G",
+    "price": "14.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "BLADPERSILJA 250G",
+    "price": "19.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "SALLADSLÖK I KNIPPE",
+    "price": "9.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "TULPANER 7-PACK",
+    "price": "100:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "FÖNSTERVIVA",
+    "price": "49.9:-",
+    "unit": null,
+    "description": null
+  },
+  {
+    "store": "Willys",
+    "name": "ÄPPLE INGRID MARIE",
+    "price": "19.9:-",
     "unit": null,
     "description": null
   }

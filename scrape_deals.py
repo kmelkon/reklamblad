@@ -255,7 +255,12 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
 def main():
     stores = [
         ('ICA Supermarket', 'https://ereklamblad.se/ICA-Supermarket/'),
+        ('ICA Nära', 'https://ereklamblad.se/ICA-Nara/'),
+        ('ICA Maxi', 'https://ereklamblad.se/ICA-Maxi-Stormarknad/'),
+        ('ICA Kvantum', 'https://ereklamblad.se/ICA-Kvantum/'),
         ('Stora Coop', 'https://ereklamblad.se/Stora-Coop/'),
+        ('Coop', 'https://ereklamblad.se/Coop/'),
+        ('Willys', 'https://ereklamblad.se/Willys/'),
     ]
 
     all_products = []
