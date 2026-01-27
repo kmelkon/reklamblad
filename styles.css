@@ -368,6 +368,12 @@ body {
     position: relative;
 }
 
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
 .recipe-card::before {
     content: '';
     position: absolute;

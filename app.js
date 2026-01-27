@@ -125,11 +125,23 @@ class RecipeApp {
         return '';
     }
 
+    getImageUrl(image) {
+        if (!image) return null;
+        if (typeof image === 'string') return image;
+        if (Array.isArray(image) && image.length > 0) return image[0];
+        return null;
+    }
+
     createRecipeCard(recipe) {
         const time = this.formatTime(recipe.time);
         const percentage = recipe.match_percentage || 0;
         const circumference = 2 * Math.PI * 22; // radius 22
         const offset = circumference - (percentage / 100) * circumference;
+
+        const imageUrl = this.getImageUrl(recipe.image);
+        const imageHtml = imageUrl
+            ? `<img class="card-image" src="${imageUrl}" alt="${recipe.name}" loading="lazy">`
+            : '';
 
         const matchedHtml = (recipe.matched_ingredients || []).slice(0, 5).map(ing => {
             const storeClass = this.getStoreClass(ing.deal_store);
@@ -146,6 +158,7 @@ class RecipeApp {
 
         return `
             <article class="recipe-card">
+                ${imageHtml}
                 <div class="card-header">
                     <span class="card-category">${recipe.category || 'Recept'}</span>
                     <h2 class="card-title">${recipe.name}</h2>

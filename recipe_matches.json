@@ -1,11 +1,12 @@
 {
-  "last_updated": "2026-01-27T10:07:12.082333Z",
+  "last_updated": "2026-01-27T10:25:44.646328Z",
   "total_deals": 107,
   "total_recipes": 98,
   "recipes": [
     {
       "name": "Falukorvsgratäng med pasta",
       "url": "https://www.ica.se/recept/falukorvsgratang-med-pasta-740482/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/nhs4nw9sl2id53anejp5.jpg",
       "category": "Budget",
       "total_ingredients": 10,
       "matched_count": 6,
@@ -68,7 +69,8 @@
     {
       "name": "Tacolåda",
       "url": "https://www.ica.se/recept/tacolada-740480/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/yl3nviwvvug9afcbogxn.jpg",
+      "category": "Matlada",
       "total_ingredients": 11,
       "matched_count": 6,
       "match_percentage": 54.5,
@@ -131,6 +133,7 @@
     {
       "name": "Panerad torsk",
       "url": "https://www.ica.se/recept/panerad-torsk-722794/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/oivtppruk8xmpnfawwds.jpg",
       "category": "Fisk",
       "total_ingredients": 16,
       "matched_count": 6,
@@ -199,6 +202,7 @@
     {
       "name": "Spaghetti och köttfärssås",
       "url": "https://www.ica.se/recept/spaghetti-och-kottfarssas-712805/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/hchsnpxo3gkm8zyzxp5j.jpg",
       "category": "Pasta",
       "total_ingredients": 16,
       "matched_count": 6,
@@ -267,6 +271,7 @@
     {
       "name": "Marry me chicken",
       "url": "https://www.ica.se/recept/marry-me-chicken-730140/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251711/cf_259/marry_me_chicken.jpg",
       "category": "Kyckling",
       "total_ingredients": 18,
       "matched_count": 6,
@@ -337,6 +342,7 @@
     {
       "name": "Krämig pasta med kyckling",
       "url": "https://www.ica.se/recept/kramig-pasta-med-kyckling-718338/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_106464/cf_259/kramig_pasta_med_kyckling.jpg",
       "category": "Kyckling",
       "total_ingredients": 9,
       "matched_count": 5,
@@ -392,6 +398,7 @@
     {
       "name": "Krämig kycklinggryta med soltorkade tomater",
       "url": "https://www.ica.se/recept/kramig-kycklinggryta-med-soltorkade-tomater-723346/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_232337/cf_259/kramig_kycklinggryta_med_soltorkade_tomater.jpg",
       "category": "Kyckling",
       "total_ingredients": 10,
       "matched_count": 5,
@@ -448,6 +455,7 @@
     {
       "name": "Fisktacos med mangosalsa och fetaost",
       "url": "https://www.ica.se/recept/fisktacos-med-mangosalsa-och-fetaost-722367/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251438/cf_259/fisktacos_med_fetaost_och_mango.jpg",
       "category": "Fisk",
       "total_ingredients": 12,
       "matched_count": 5,
@@ -506,6 +514,7 @@
     {
       "name": "Makaronilåda med tomatsallad",
       "url": "https://www.ica.se/recept/makaronilada-med-tomatsallad-727335/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_224172/cf_259/makaronilada_med_tomatsallad.jpg",
       "category": "Pasta",
       "total_ingredients": 12,
       "matched_count": 5,
@@ -564,6 +573,7 @@
     {
       "name": "Kycklingpasta med tomat och spenat",
       "url": "https://www.ica.se/recept/kycklingpasta-med-tomat-och-spenat-716957/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_84232/cf_259/kycklingpasta_med_tomat_och_spenat.jpg",
       "category": "Pasta",
       "total_ingredients": 12,
       "matched_count": 5,
@@ -622,7 +632,8 @@
     {
       "name": "Turkisk pasta",
       "url": "https://www.ica.se/recept/turkisk-pasta-750457/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/gsdufavnglhzpzyjm6ev.jpg",
+      "category": "Matlada",
       "total_ingredients": 18,
       "matched_count": 5,
       "match_percentage": 27.8,
@@ -686,6 +697,7 @@
     {
       "name": "Lasagnette",
       "url": "https://www.ica.se/recept/lasagnette-750593/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/gxc0ymltpxx0ozxi0a00.jpg",
       "category": "Pasta",
       "total_ingredients": 18,
       "matched_count": 5,
@@ -750,6 +762,7 @@
     {
       "name": "Smörgåstårta med räkor och lax",
       "url": "https://www.ica.se/recept/smorgastarta-med-rakor-och-lax-720205/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248629/cf_259/smorgastarta_med_rakor_och_lax.jpg",
       "category": "Fisk",
       "total_ingredients": 26,
       "matched_count": 5,
@@ -822,7 +835,8 @@
     {
       "name": "Biryani",
       "url": "https://www.ica.se/recept/biryani-750521/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/sbhyeu7fvchyzunhbhdt.jpg",
+      "category": "Matlada",
       "total_ingredients": 33,
       "matched_count": 5,
       "match_percentage": 15.2,
@@ -901,6 +915,7 @@
     {
       "name": "Carbonaranudlar",
       "url": "https://www.ica.se/recept/carbonaranudlar-750043/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/atrqouq7yewwlagygwwh.jpg",
       "category": "Budget",
       "total_ingredients": 7,
       "matched_count": 4,
@@ -948,6 +963,7 @@
     {
       "name": "Ugnsstekt kycklingklubba (grundrecept)",
       "url": "https://www.ica.se/recept/ugnsstekt-kycklingklubba-grundrecept-695661/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_245319/cf_259/ugnsstekt_kycklingklubba_(grundrecept).jpg",
       "category": "Budget",
       "total_ingredients": 12,
       "matched_count": 4,
@@ -1000,6 +1016,7 @@
     {
       "name": "Hot tuna pasta",
       "url": "https://www.ica.se/recept/hot-tuna-pasta-721263/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/lx6lie8fvf71tggnbic4.jpg",
       "category": "Budget",
       "total_ingredients": 12,
       "matched_count": 4,
@@ -1052,6 +1069,7 @@
     {
       "name": "Chicken tikka masala",
       "url": "https://www.ica.se/recept/chicken-tikka-masala-714087/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_79181/cf_259/chicken_tikka_masala.jpg",
       "category": "Kyckling",
       "total_ingredients": 12,
       "matched_count": 4,
@@ -1104,6 +1122,7 @@
     {
       "name": "Fiskarhustruns fisksoppa",
       "url": "https://www.ica.se/recept/fiskarhustruns-fisksoppa-3760/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223443/cf_259/fiskarhustruns_fisksoppa.jpg",
       "category": "Fisk",
       "total_ingredients": 12,
       "matched_count": 4,
@@ -1156,6 +1175,7 @@
     {
       "name": "Lättlagad kräftsoppa",
       "url": "https://www.ica.se/recept/lattlagad-kraftsoppa-722443/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_164753/cf_259/lattlagad_kraftsoppa.jpg",
       "category": "Soppa",
       "total_ingredients": 12,
       "matched_count": 4,
@@ -1208,6 +1228,7 @@
     {
       "name": "Kycklingcurry med ingefära",
       "url": "https://www.ica.se/recept/kycklingcurry-med-ingefara-723311/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/lifawehun22cncibph2j.jpg",
       "category": "Budget",
       "total_ingredients": 13,
       "matched_count": 4,
@@ -1261,7 +1282,8 @@
     {
       "name": "Pasta med ädelost, valnötter och bacon",
       "url": "https://www.ica.se/recept/pasta-med-adelost-valnotter-och-bacon-750485/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/ao2l8sszsldd2qqpa43r.jpg",
+      "category": "Matlada",
       "total_ingredients": 13,
       "matched_count": 4,
       "match_percentage": 30.8,
@@ -1314,6 +1336,7 @@
     {
       "name": "Krämig sweet chilikyckling i ugn",
       "url": "https://www.ica.se/recept/kramig-sweet-chilikyckling-i-ugn-729884/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_249991/cf_259/kramig_sweet_chilikyckling_i_ugn.jpg",
       "category": "Kyckling",
       "total_ingredients": 13,
       "matched_count": 4,
@@ -1367,6 +1390,7 @@
     {
       "name": "Morotssoppa med kokos",
       "url": "https://www.ica.se/recept/morotssoppa-med-kokos-722533/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248612/cf_259/morotssoppa_med_kokos.jpg",
       "category": "Soppa",
       "total_ingredients": 13,
       "matched_count": 4,
@@ -1420,6 +1444,7 @@
     {
       "name": "Tomatsoppa med basilikacrème",
       "url": "https://www.ica.se/recept/tomatsoppa-med-basilikacreme-1777/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_246507/cf_259/tomatsoppa_med_basilikacrème.jpg",
       "category": "Soppa",
       "total_ingredients": 14,
       "matched_count": 4,
@@ -1474,6 +1499,7 @@
     {
       "name": "Grönkålspasta",
       "url": "https://www.ica.se/recept/gronkalspasta-750191/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/ejxzonrmvodsf53dl4px.jpg",
       "category": "Pasta",
       "total_ingredients": 15,
       "matched_count": 4,
@@ -1529,6 +1555,7 @@
     {
       "name": "Köttfärssås med spaghetti",
       "url": "https://www.ica.se/recept/kottfarssas-med-spaghetti-720707/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_232304/cf_259/kottfarssas_med_spaghetti.jpg",
       "category": "Pasta",
       "total_ingredients": 15,
       "matched_count": 4,
@@ -1584,6 +1611,7 @@
     {
       "name": "Kycklingkebab",
       "url": "https://www.ica.se/recept/kycklingkebab-316944/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/wvng0tgdr4of3kdz0vlo.jpg",
       "category": "Kyckling",
       "total_ingredients": 17,
       "matched_count": 4,
@@ -1641,6 +1669,7 @@
     {
       "name": "Krämig pasta med fläskfilé",
       "url": "https://www.ica.se/recept/kramig-pasta-med-flaskfile-730323/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/srdgxz2mwkeoj2rnmvz2.jpg",
       "category": "Pasta",
       "total_ingredients": 17,
       "matched_count": 4,
@@ -1698,7 +1727,8 @@
     {
       "name": "Makaroner e fagioli",
       "url": "https://www.ica.se/recept/makaroner-e-fagioli-750758/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vwffqxz6otpbdklbrjpw.jpg",
+      "category": "Matlada",
       "total_ingredients": 18,
       "matched_count": 4,
       "match_percentage": 22.2,
@@ -1756,6 +1786,7 @@
     {
       "name": "Lysande gul fiskgryta",
       "url": "https://www.ica.se/recept/lysande-gul-fiskgryta-1677/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243155/cf_259/lysande_gul_fiskgryta.jpg",
       "category": "Fisk",
       "total_ingredients": 19,
       "matched_count": 4,
@@ -1815,6 +1846,7 @@
     {
       "name": "Pasta Alfredo",
       "url": "https://www.ica.se/recept/pasta-alfredo-724258/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_186593/cf_259/pasta_alfredo.jpg",
       "category": "Pasta",
       "total_ingredients": 6,
       "matched_count": 3,
@@ -1855,6 +1887,7 @@
     {
       "name": "Krämig carbonara",
       "url": "https://www.ica.se/recept/kramig-carbonara-722780/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/s3xwefear9kaybmvulme.jpg",
       "category": "Pasta",
       "total_ingredients": 8,
       "matched_count": 3,
@@ -1897,6 +1930,7 @@
     {
       "name": "Busenkel broccolisoppa",
       "url": "https://www.ica.se/recept/busenkel-broccolisoppa-712859/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223438/cf_259/busenkel_broccolisoppa.jpg",
       "category": "Budget",
       "total_ingredients": 9,
       "matched_count": 3,
@@ -1940,6 +1974,7 @@
     {
       "name": "Pasta pomodoro",
       "url": "https://www.ica.se/recept/pasta-pomodoro-723908/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_181231/cf_259/smakrik_pasta_pomodoro.jpg",
       "category": "Pasta",
       "total_ingredients": 9,
       "matched_count": 3,
@@ -1983,6 +2018,7 @@
     {
       "name": "Pad Thai",
       "url": "https://www.ica.se/recept/pad-thai-720986/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_142868/cf_259/pad_thai_.jpg",
       "category": "Kyckling",
       "total_ingredients": 10,
       "matched_count": 3,
@@ -2027,6 +2063,7 @@
     {
       "name": "Korv stroganoff med crème fraiche",
       "url": "https://www.ica.se/recept/korv-stroganoff-med-creme-fraiche-712815/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/j8qbnrajv9vn7oiekvme.jpg",
       "category": "Budget",
       "total_ingredients": 11,
       "matched_count": 3,
@@ -2072,6 +2109,7 @@
     {
       "name": "Flygande Jacob",
       "url": "https://www.ica.se/recept/flygande-jacob-717569/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223444/cf_259/flygande_jacob.jpg",
       "category": "Kyckling",
       "total_ingredients": 11,
       "matched_count": 3,
@@ -2117,6 +2155,7 @@
     {
       "name": "Stekt kycklingfilé med rostade rotfrukter",
       "url": "https://www.ica.se/recept/stekt-kycklingfile-med-rostade-rotfrukter-724993/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_194872/cf_259/vitloksstekt_kyckling_med_rostade_rotfrukter.jpg",
       "category": "Kyckling",
       "total_ingredients": 11,
       "matched_count": 3,
@@ -2162,6 +2201,7 @@
     {
       "name": "Krämig kantarellpasta med parmesan",
       "url": "https://www.ica.se/recept/kramig-kantarellpasta-med-parmesan-750034/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/f0onnrpqkvqr81wmn6gu.jpg",
       "category": "Pasta",
       "total_ingredients": 11,
       "matched_count": 3,
@@ -2207,6 +2247,7 @@
     {
       "name": "Vodkapasta",
       "url": "https://www.ica.se/recept/vodkapasta-729011/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_238327/cf_259/vodkapasta.jpg",
       "category": "Pasta",
       "total_ingredients": 12,
       "matched_count": 3,
@@ -2253,6 +2294,7 @@
     {
       "name": "Klassiska köttbullar",
       "url": "https://www.ica.se/recept/klassiska-kottbullar-712807/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223439/cf_259/klassiska_kottbullar.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 14,
       "matched_count": 3,
@@ -2301,6 +2343,7 @@
     {
       "name": "Höstsoppa med linser och rimmat fläsk",
       "url": "https://www.ica.se/recept/hostsoppa-med-linser-och-rimmat-flask-263703/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251544/cf_259/hostsoppa_med_linser_och_rimmat_flask.jpg",
       "category": "Soppa",
       "total_ingredients": 14,
       "matched_count": 3,
@@ -2349,6 +2392,7 @@
     {
       "name": "Palak paneer med tomat och halloumi",
       "url": "https://www.ica.se/recept/palak-paneer-med-tomat-och-halloumi-722056/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_159450/cf_259/palak_paneer_med_tomat_och_halloumi.jpg",
       "category": "Budget",
       "total_ingredients": 15,
       "matched_count": 3,
@@ -2398,6 +2442,7 @@
     {
       "name": "Poké bowl",
       "url": "https://www.ica.se/recept/poke-bowl-720870/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250266/cf_259/poké_bowl.jpg",
       "category": "Fisk",
       "total_ingredients": 15,
       "matched_count": 3,
@@ -2447,6 +2492,7 @@
     {
       "name": "Potatissoppa (grundrecept)",
       "url": "https://www.ica.se/recept/potatissoppa-grundrecept-727219/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_219758/cf_259/potatissoppa_(grundrecept).jpg",
       "category": "Soppa",
       "total_ingredients": 15,
       "matched_count": 3,
@@ -2496,6 +2542,7 @@
     {
       "name": "Chili con carne",
       "url": "https://www.ica.se/recept/chili-con-carne-424/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223436/cf_259/chili_con_carne.jpg",
       "category": "Budget",
       "total_ingredients": 17,
       "matched_count": 3,
@@ -2547,6 +2594,7 @@
     {
       "name": "Oxfilépasta",
       "url": "https://www.ica.se/recept/oxfilepasta-728866/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_237741/cf_259/oxfilépasta.jpg",
       "category": "Pasta",
       "total_ingredients": 17,
       "matched_count": 3,
@@ -2598,6 +2646,7 @@
     {
       "name": "Koka pasta",
       "url": "https://www.ica.se/recept/koka-pasta-750687/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/hoyatvxxz0vyww7debof.jpg",
       "category": "Pasta",
       "total_ingredients": 4,
       "matched_count": 2,
@@ -2630,6 +2679,7 @@
     {
       "name": "Kycklinglår i airfryer",
       "url": "https://www.ica.se/recept/kycklinglar-i-airfryer-750764/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/ho3fvvcibbg5pcpet3xl.jpg",
       "category": "Budget",
       "total_ingredients": 5,
       "matched_count": 2,
@@ -2663,7 +2713,8 @@
     {
       "name": "Spaghetti med kräftstjärtar och spenat",
       "url": "https://www.ica.se/recept/spaghetti-med-kraftstjartar-och-spenat-750813/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/sqoqkerbkxrjujrjf5rm.jpg",
+      "category": "Matlada",
       "total_ingredients": 5,
       "matched_count": 2,
       "match_percentage": 40.0,
@@ -2696,6 +2747,7 @@
     {
       "name": "Hasselbackspotatis",
       "url": "https://www.ica.se/recept/hasselbackspotatis-3679/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_234154/cf_259/hasselbackspotatis.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 6,
       "matched_count": 2,
@@ -2730,7 +2782,8 @@
     {
       "name": "Salsiccia med tomatsås, tortellini och rucola",
       "url": "https://www.ica.se/recept/salsiccia-med-tomatsas-tortellini-och-rucola-750770/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/rn6mcezceqpowkj2gsrg.jpg",
+      "category": "Matlada",
       "total_ingredients": 8,
       "matched_count": 2,
       "match_percentage": 25.0,
@@ -2766,7 +2819,8 @@
     {
       "name": "Ugnslax med thailändska smaker",
       "url": "https://www.ica.se/recept/ugnslax-med-thailandska-smaker-750815/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/p7yik4apgs4wvaadx5q8.jpg",
+      "category": "Matlada",
       "total_ingredients": 8,
       "matched_count": 2,
       "match_percentage": 25.0,
@@ -2802,7 +2856,8 @@
     {
       "name": "Kycklingschnitzel i airfryer",
       "url": "https://www.ica.se/recept/kycklingschnitzel-i-airfryer-750765/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/xtjy8akfskchlfmjumx0.jpg",
+      "category": "Matlada",
       "total_ingredients": 8,
       "matched_count": 2,
       "match_percentage": 25.0,
@@ -2838,6 +2893,7 @@
     {
       "name": "Raggmunk med fläsk",
       "url": "https://www.ica.se/recept/raggmunk-med-flask-721803/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250994/cf_259/raggmunk_med_flask.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 9,
       "matched_count": 2,
@@ -2875,6 +2931,7 @@
     {
       "name": "Rotmos",
       "url": "https://www.ica.se/recept/rotmos-1261/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_214632/cf_259/rotmos.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 9,
       "matched_count": 2,
@@ -2912,6 +2969,7 @@
     {
       "name": "Torsk i ugn med dill- och citronsås",
       "url": "https://www.ica.se/recept/torsk-i-ugn-med-dill-och-citronsas-719374/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_232308/cf_259/torsk_i_ugn_med_dill-_och_citronsas.jpg",
       "category": "Fisk",
       "total_ingredients": 10,
       "matched_count": 2,
@@ -2950,6 +3008,7 @@
     {
       "name": "Kanelbullar",
       "url": "https://www.ica.se/recept/kanelbullar-5342/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250227/cf_259/kanelbullar.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 11,
       "matched_count": 2,
@@ -2989,6 +3048,7 @@
     {
       "name": "Gubbröra med matjessill",
       "url": "https://www.ica.se/recept/gubbrora-med-matjessill-723661/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_180359/cf_259/gubbrora_med_matjessill.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 11,
       "matched_count": 2,
@@ -3028,6 +3088,7 @@
     {
       "name": "Familjens bästa kycklingfilé i ugn",
       "url": "https://www.ica.se/recept/familjens-basta-kycklingfile-i-ugn-723574/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_232987/cf_259/gratinerad_kyckling_med_ris.jpg",
       "category": "Kyckling",
       "total_ingredients": 11,
       "matched_count": 2,
@@ -3067,6 +3128,7 @@
     {
       "name": "Kyckling cashew",
       "url": "https://www.ica.se/recept/kyckling-cashew-728972/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_240381/cf_259/kyckling_med_cashewnotter_och_ris.jpg",
       "category": "Kyckling",
       "total_ingredients": 11,
       "matched_count": 2,
@@ -3106,6 +3168,7 @@
     {
       "name": "Fisk i ugn med citron- och gräslökssås",
       "url": "https://www.ica.se/recept/fisk-i-ugn-med-citron-och-graslokssas-720954/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_142778/cf_259/fisk_i_ugn_med_citron-_och_graslokssas.jpg",
       "category": "Fisk",
       "total_ingredients": 11,
       "matched_count": 2,
@@ -3145,6 +3208,7 @@
     {
       "name": "Pasta med makrill i tomatsås",
       "url": "https://www.ica.se/recept/pasta-med-makrill-i-tomatsas-730241/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251735/cf_259/pasta_med_makrill_i_tomatsas.jpg",
       "category": "Budget",
       "total_ingredients": 12,
       "matched_count": 2,
@@ -3185,6 +3249,7 @@
     {
       "name": "Räksoppa med aioli",
       "url": "https://www.ica.se/recept/raksoppa-med-aioli-726295/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_212887/cf_259/raksoppa_med_aioli_.jpg",
       "category": "Soppa",
       "total_ingredients": 13,
       "matched_count": 2,
@@ -3226,6 +3291,7 @@
     {
       "name": "Fish and chips",
       "url": "https://www.ica.se/recept/fish-and-chips-750467/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/y6jm5ibm7ic64dyfunqa.jpg",
       "category": "Fisk",
       "total_ingredients": 14,
       "matched_count": 2,
@@ -3268,6 +3334,7 @@
     {
       "name": "Linssoppa med tomat",
       "url": "https://www.ica.se/recept/linssoppa-med-tomat-541439/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_76272/cf_259/linssoppa_med_tomat.jpg",
       "category": "Soppa",
       "total_ingredients": 14,
       "matched_count": 2,
@@ -3310,6 +3377,7 @@
     {
       "name": "Kålpudding (grundrecept)",
       "url": "https://www.ica.se/recept/kalpudding-grundrecept-720980/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248615/cf_259/kalpudding_(grundrecept).jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 15,
       "matched_count": 2,
@@ -3353,6 +3421,7 @@
     {
       "name": "Vietnamesisk pho med biff",
       "url": "https://www.ica.se/recept/vietnamesisk-pho-med-biff-713462/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248613/cf_259/vietnamesisk_pho_med_biff.jpg",
       "category": "Soppa",
       "total_ingredients": 20,
       "matched_count": 2,
@@ -3401,6 +3470,7 @@
     {
       "name": "Pocherad torsk (grundrecept)",
       "url": "https://www.ica.se/recept/pocherad-torsk-grundrecept-726203/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_207854/cf_259/pocherad_torsk_(grundrecept).jpg",
       "category": "Fisk",
       "total_ingredients": 3,
       "matched_count": 1,
@@ -3426,6 +3496,7 @@
     {
       "name": "Ugnspannkaka (grundrecept)",
       "url": "https://www.ica.se/recept/ugnspannkaka-grundrecept-720978/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250249/cf_259/ugnspannkaka_(grundrecept).jpg",
       "category": "Budget",
       "total_ingredients": 6,
       "matched_count": 1,
@@ -3454,6 +3525,7 @@
     {
       "name": "Pannkakor - grundsmet",
       "url": "https://www.ica.se/recept/pannkakor-grundsmet-2083/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_221148/cf_259/pannkakor_-_grundsmet.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 6,
       "matched_count": 1,
@@ -3482,7 +3554,8 @@
     {
       "name": "Stekt potatis",
       "url": "https://www.ica.se/recept/stekt-potatis-750475/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/rtuz2tydq4q8mgs8jnll.jpg",
+      "category": "Matlada",
       "total_ingredients": 6,
       "matched_count": 1,
       "match_percentage": 16.7,
@@ -3510,6 +3583,7 @@
     {
       "name": "Havregrynsgröt",
       "url": "https://www.ica.se/recept/havregrynsgrot-730321/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/pjkwddfzzigl7xgfahgn.jpg",
       "category": "Budget",
       "total_ingredients": 7,
       "matched_count": 1,
@@ -3539,6 +3613,7 @@
     {
       "name": "Muffins (grundrecept)",
       "url": "https://www.ica.se/recept/muffins-grundrecept-750369/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/rwcyxydtyxbw2oxevbpy.jpg",
       "category": "Budget",
       "total_ingredients": 7,
       "matched_count": 1,
@@ -3568,6 +3643,7 @@
     {
       "name": "Tekakor",
       "url": "https://www.ica.se/recept/tekakor-729946/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250699/cf_259/tekakor.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 7,
       "matched_count": 1,
@@ -3597,7 +3673,8 @@
     {
       "name": "Kalkonfilé i ugn",
       "url": "https://www.ica.se/recept/kalkonfile-i-ugn-750509/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/tlcqyjsbz33ijfyjn3xr.jpg",
+      "category": "Matlada",
       "total_ingredients": 7,
       "matched_count": 1,
       "match_percentage": 14.3,
@@ -3626,6 +3703,7 @@
     {
       "name": "Klassisk skagenröra",
       "url": "https://www.ica.se/recept/klassisk-skagenrora-729651/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_137069/cf_259/klassisk_skagenrora.jpg",
       "category": "Fisk",
       "total_ingredients": 7,
       "matched_count": 1,
@@ -3655,6 +3733,7 @@
     {
       "name": "Dillstuvad potatis",
       "url": "https://www.ica.se/recept/dillstuvad-potatis-729699/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248547/cf_259/dillstuvad_potatis.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 8,
       "matched_count": 1,
@@ -3685,7 +3764,8 @@
     {
       "name": "Rödspätta med grädde, dill och citron",
       "url": "https://www.ica.se/recept/rodspatta-med-gradde-dill-och-citron-750812/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/jeo4iselw17n1s2iv0fm.jpg",
+      "category": "Matlada",
       "total_ingredients": 8,
       "matched_count": 1,
       "match_percentage": 12.5,
@@ -3715,6 +3795,7 @@
     {
       "name": "Grillspett med kyckling",
       "url": "https://www.ica.se/recept/grillspett-med-kyckling-720550/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/jgsifidwaqlgfuh6tur2.jpg",
       "category": "Kyckling",
       "total_ingredients": 8,
       "matched_count": 1,
@@ -3745,6 +3826,7 @@
     {
       "name": "Helstekt kyckling i ugn",
       "url": "https://www.ica.se/recept/helstekt-kyckling-i-ugn-729067/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_239077/cf_259/helstekt_kyckling_i_ugn.jpg",
       "category": "Kyckling",
       "total_ingredients": 9,
       "matched_count": 1,
@@ -3776,6 +3858,7 @@
     {
       "name": "Krämig potatis- och purjolökssoppa",
       "url": "https://www.ica.se/recept/kramig-potatis-och-purjolokssoppa-716077/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223434/cf_259/kramig_potatis-_och_purjolokssoppa.jpg",
       "category": "Soppa",
       "total_ingredients": 9,
       "matched_count": 1,
@@ -3807,6 +3890,7 @@
     {
       "name": "Kycklingvingar i airfryer",
       "url": "https://www.ica.se/recept/kycklingvingar-i-airfryer-750763/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/cf67wyxuo4d5gewsqjoh.jpg",
       "category": "Budget",
       "total_ingredients": 10,
       "matched_count": 1,
@@ -3839,6 +3923,7 @@
     {
       "name": "Glögg",
       "url": "https://www.ica.se/recept/glogg-730087/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251187/cf_259/glogg.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 10,
       "matched_count": 1,
@@ -3871,7 +3956,8 @@
     {
       "name": "Ägg- och tonfiskröra",
       "url": "https://www.ica.se/recept/agg-och-tonfiskrora-376522/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/i2lummh81fooglkncumm.jpg",
+      "category": "Matlada",
       "total_ingredients": 10,
       "matched_count": 1,
       "match_percentage": 10.0,
@@ -3903,7 +3989,8 @@
     {
       "name": "Balkan bolognese med paprika",
       "url": "https://www.ica.se/recept/balkan-bolognese-med-paprika-726940/",
-      "category": "Matlåda",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_219637/cf_259/balkan_bolognese_med_paprika.jpg",
+      "category": "Matlada",
       "total_ingredients": 11,
       "matched_count": 1,
       "match_percentage": 9.1,
@@ -3936,6 +4023,7 @@
     {
       "name": "Grillad kycklingfilé",
       "url": "https://www.ica.se/recept/grillad-kycklingfile-712727/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/to8i1h2orhtcxoaxyip7.jpg",
       "category": "Kyckling",
       "total_ingredients": 11,
       "matched_count": 1,
@@ -3969,6 +4057,7 @@
     {
       "name": "Kroppkakor av kokt potatis",
       "url": "https://www.ica.se/recept/kroppkakor-av-kokt-potatis-3693/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_14417/cf_259/kroppkakor_av_kokt_potatis.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 12,
       "matched_count": 1,
@@ -4003,6 +4092,7 @@
     {
       "name": "Jordärtskockssoppa med parmachips",
       "url": "https://www.ica.se/recept/jordartskockssoppa-med-parmachips-504081/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_241940/cf_259/jordartskockssoppa_med_parmachips.jpg",
       "category": "Soppa",
       "total_ingredients": 12,
       "matched_count": 1,
@@ -4037,6 +4127,7 @@
     {
       "name": "Cowboysoppa",
       "url": "https://www.ica.se/recept/cowboysoppa-725483/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_238639/cf_259/cowboysoppa.jpg",
       "category": "Soppa",
       "total_ingredients": 12,
       "matched_count": 1,
@@ -4071,6 +4162,7 @@
     {
       "name": "Pressgurka",
       "url": "https://www.ica.se/recept/pressgurka-5070/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_182643/cf_259/pressgurka.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 7,
       "matched_count": 0,
@@ -4093,6 +4185,7 @@
     {
       "name": "Gravad lax på färsk lax",
       "url": "https://www.ica.se/recept/gravad-lax-pa-farsk-lax-725365/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_196342/cf_259/gravad_lax_pa_farsk_lax.jpg",
       "category": "Svenska klassiker",
       "total_ingredients": 7,
       "matched_count": 0,
@@ -4115,6 +4208,7 @@
     {
       "name": "Laxfilé i ugn med citron",
       "url": "https://www.ica.se/recept/laxfile-i-ugn-med-citron-724126/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_241361/cf_259/laxfilé_i_ugn_med_citron.jpg",
       "category": "Fisk",
       "total_ingredients": 5,
       "matched_count": 0,
@@ -4135,6 +4229,7 @@
     {
       "name": "Enkel lax i ugn",
       "url": "https://www.ica.se/recept/enkel-lax-i-ugn-725188/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_249261/cf_259/enkel_lax_i_ugn.jpg",
       "category": "Fisk",
       "total_ingredients": 3,
       "matched_count": 0,
@@ -4153,6 +4248,7 @@
     {
       "name": "Varmröka lax",
       "url": "https://www.ica.se/recept/varmroka-lax-729952/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250970/cf_259/varmroka_lax.jpg",
       "category": "Fisk",
       "total_ingredients": 5,
       "matched_count": 0,
@@ -4173,6 +4269,7 @@
     {
       "name": "Snabbgravad lax, grundrecept",
       "url": "https://www.ica.se/recept/snabbgravad-lax-grundrecept-718703/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_111228/cf_259/snabbgravad_lax__grundrecept.jpg",
       "category": "Fisk",
       "total_ingredients": 4,
       "matched_count": 0,
@@ -4192,6 +4289,7 @@
     {
       "name": "Grönsakssoppa",
       "url": "https://www.ica.se/recept/gronsakssoppa-750594/",
+      "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vvftgkq3esw2qzdnc8rk.jpg",
       "category": "Soppa",
       "total_ingredients": 14,
       "matched_count": 0,

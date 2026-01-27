@@ -82,6 +82,7 @@ def get_recipe_details(page, recipe_url: str) -> dict | None:
                         'name': data.get('name', ''),
                         'url': full_url,
                         'description': data.get('description', ''),
+                        'image': data.get('image'),
                         'time': data.get('totalTime', ''),
                         'servings': data.get('recipeYield', ''),
                         'category': data.get('recipeCategory', ''),

@@ -155,6 +155,7 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
     return {
         'name': recipe.get('name'),
         'url': recipe.get('url'),
+        'image': recipe.get('image'),
         'category': recipe.get('ica_category'),
         'total_ingredients': len(ingredients),
         'matched_count': len(matched_ingredients),
