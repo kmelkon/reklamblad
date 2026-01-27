@@ -148,7 +148,9 @@ def parse_offer_texts(texts: list[str], store_name: str) -> dict | None:
 
     price = None
     unit = None
-    description = None
+    description_parts = []
+    ord_pris = None
+    jfr_pris = None
 
     for t in texts[1:]:
         if re.match(r'^\d+:-$', t):
@@ -157,18 +159,31 @@ def parse_offer_texts(texts: list[str], store_name: str) -> dict | None:
             unit = t
         elif re.match(r'^\d+\s+för$', t):
             unit = t
-        elif '|' in t and not description:
-            description = t
-        elif 'Jfr pris' in t or 'Ord.pris' in t:
-            if not description:
-                description = t
+        elif '|' in t:
+            description_parts.append(t)
+            ord_match = re.search(r'Ord\.pris\s+([\d:,.-]+)\s*kr', t)
+            if ord_match:
+                ord_pris = ord_match.group(1)
+            jfr_match = re.search(r'Jfr pris\s+([\d:,.-]+)', t)
+            if jfr_match:
+                jfr_pris = jfr_match.group(1)
+        elif 'Ord.pris' in t or 'Jfr pris' in t:
+            description_parts.append(t)
+            ord_match = re.search(r'Ord\.pris\s+([\d:,.-]+)\s*kr', t)
+            if ord_match:
+                ord_pris = ord_match.group(1)
+            jfr_match = re.search(r'Jfr pris\s+([\d:,.-]+)', t)
+            if jfr_match:
+                jfr_pris = jfr_match.group(1)
 
     return {
         'store': store_name,
         'name': name.strip(),
         'price': price,
         'unit': unit,
-        'description': description,
+        'description': ' | '.join(description_parts) if description_parts else None,
+        'ord_pris': ord_pris,
+        'jfr_pris': jfr_pris,
     }
 
 

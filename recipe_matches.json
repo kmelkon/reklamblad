@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-27T11:35:05.792584Z",
+  "last_updated": "2026-01-27T18:58:22.537197Z",
   "total_deals": 434,
   "total_recipes": 98,
   "recipes": [
@@ -17,6 +17,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -24,6 +27,9 @@
           "deal_name": "Broccoli",
           "deal_price": "15:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "26:90",
+          "jfr_pris": "30:00",
           "match_score": 1.0
         },
         {
@@ -31,6 +37,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -38,6 +47,9 @@
           "deal_name": "Rosta",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -45,6 +57,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -52,6 +67,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -59,6 +77,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -66,6 +87,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.9
         },
         {
@@ -73,6 +97,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -104,6 +131,9 @@
           "deal_name": "Läsk",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "24:90",
+          "jfr_pris": "10:00",
           "match_score": 0.9
         },
         {
@@ -111,6 +141,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -118,6 +151,9 @@
           "deal_name": "FÄRSKA HAMBURGARE",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         },
         {
@@ -125,6 +161,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -132,6 +171,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -139,6 +181,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -146,6 +191,9 @@
           "deal_name": "FÄRSK FYLLD PASTA",
           "deal_price": "65:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -153,6 +201,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -160,6 +211,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -192,6 +246,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -199,6 +256,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -206,6 +266,9 @@
           "deal_name": "Umamifärs",
           "deal_price": null,
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "54:90",
+          "jfr_pris": "79:80",
           "match_score": 0.85
         },
         {
@@ -213,6 +276,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -220,6 +286,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -227,6 +296,9 @@
           "deal_name": "Yoghurt",
           "deal_price": "45:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "30:90-32:90",
+          "jfr_pris": "22:50",
           "match_score": 0.9
         },
         {
@@ -234,6 +306,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -241,6 +316,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -248,6 +326,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         }
       ],
@@ -281,6 +362,9 @@
           "deal_name": "LAXFILÉ 4-PACK",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -288,6 +372,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -295,6 +382,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -302,6 +392,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -309,6 +402,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -316,6 +412,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -323,6 +422,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -330,6 +432,9 @@
           "deal_name": "Räkor med skal 90/120",
           "deal_price": "79:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "62:90",
+          "jfr_pris": "98:75",
           "match_score": 0.9
         },
         {
@@ -337,6 +442,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -371,6 +479,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -378,6 +489,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -385,6 +499,9 @@
           "deal_name": "Handskalade räkor",
           "deal_price": "89:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -392,6 +509,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -399,6 +519,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -406,6 +529,9 @@
           "deal_name": "Avokado",
           "deal_price": "20:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "16:90",
+          "jfr_pris": "55:56",
           "match_score": 0.9
         },
         {
@@ -413,6 +539,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -420,6 +549,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -427,6 +559,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -468,6 +603,9 @@
           "deal_name": "Yoghurt",
           "deal_price": "45:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "30:90-32:90",
+          "jfr_pris": "22:50",
           "match_score": 0.9
         },
         {
@@ -475,6 +613,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -482,6 +623,9 @@
           "deal_name": "Kycklinglårfilé",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -489,6 +633,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -496,6 +643,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -503,6 +653,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -510,6 +663,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -517,6 +673,9 @@
           "deal_name": "Yoghurt",
           "deal_price": "45:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "30:90-32:90",
+          "jfr_pris": "22:50",
           "match_score": 0.9
         },
         {
@@ -524,6 +683,9 @@
           "deal_name": "Rosta",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -572,6 +734,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -579,6 +744,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -586,6 +754,9 @@
           "deal_name": "Pulled beef taco",
           "deal_price": "62.9:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         },
         {
@@ -593,6 +764,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -600,6 +774,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 0.9
         },
         {
@@ -607,6 +784,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -614,6 +794,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -621,6 +804,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -648,6 +834,9 @@
           "deal_name": "Kycklinglårfilé",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -655,6 +844,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -662,6 +854,9 @@
           "deal_name": "Kebab",
           "deal_price": "130:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -669,6 +864,9 @@
           "deal_name": "Kebab",
           "deal_price": "130:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -676,6 +874,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -683,6 +884,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -690,6 +894,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.9
         },
         {
@@ -697,6 +904,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -730,6 +940,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -737,6 +950,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -744,6 +960,9 @@
           "deal_name": "Broccoli",
           "deal_price": "15:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "26:90",
+          "jfr_pris": "30:00",
           "match_score": 1.0
         },
         {
@@ -751,6 +970,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -758,6 +980,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -765,6 +990,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -772,6 +1000,9 @@
           "deal_name": "Räkor med skal 90/120",
           "deal_price": "79:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "62:90",
+          "jfr_pris": "98:75",
           "match_score": 0.85
         }
       ],
@@ -798,6 +1029,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -805,6 +1039,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -812,6 +1049,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -819,6 +1059,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -826,6 +1069,9 @@
           "deal_name": "Räkor med skal 90/120",
           "deal_price": "79:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "62:90",
+          "jfr_pris": "98:75",
           "match_score": 0.85
         },
         {
@@ -833,6 +1079,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -840,6 +1089,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -869,6 +1121,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -876,6 +1131,9 @@
           "deal_name": "FÄRGMIXADE SMÅTOMATER",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -883,6 +1141,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -890,6 +1151,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -897,6 +1161,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -904,6 +1171,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -911,6 +1181,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -940,6 +1213,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -947,6 +1223,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -954,6 +1233,9 @@
           "deal_name": "Blandfärs",
           "deal_price": "85:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -961,6 +1243,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -968,6 +1253,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -975,6 +1263,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -982,6 +1273,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -1013,6 +1307,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1020,6 +1317,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -1027,6 +1327,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -1034,6 +1337,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1041,6 +1347,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1048,6 +1357,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1055,6 +1367,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         }
       ],
@@ -1086,6 +1401,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1093,6 +1411,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -1100,6 +1421,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1107,6 +1431,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1114,6 +1441,9 @@
           "deal_name": "Västerbottensost®",
           "deal_price": "89:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "135:00",
+          "jfr_pris": "197:78",
           "match_score": 0.85
         },
         {
@@ -1121,6 +1451,9 @@
           "deal_name": "FÄRSK FYLLD PASTA",
           "deal_price": "65:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1128,6 +1461,9 @@
           "deal_name": "Ädelost",
           "deal_price": "29:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "37:95",
+          "jfr_pris": "207:14",
           "match_score": 0.9
         }
       ],
@@ -1160,6 +1496,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1167,6 +1506,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1174,6 +1516,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -1181,6 +1526,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1188,6 +1536,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1195,6 +1546,9 @@
           "deal_name": "Rosta",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1202,6 +1556,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -1234,6 +1591,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1241,6 +1601,9 @@
           "deal_name": "Umamifärs",
           "deal_price": null,
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "54:90",
+          "jfr_pris": "79:80",
           "match_score": 0.85
         },
         {
@@ -1248,6 +1611,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1255,6 +1621,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1262,6 +1631,9 @@
           "deal_name": "SPAGHETTI",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1269,6 +1641,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1276,6 +1651,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -1309,6 +1687,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1316,6 +1697,9 @@
           "deal_name": "Umamifärs",
           "deal_price": null,
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "54:90",
+          "jfr_pris": "79:80",
           "match_score": 0.85
         },
         {
@@ -1323,6 +1707,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -1330,6 +1717,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.9
         },
         {
@@ -1337,6 +1727,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1344,6 +1737,9 @@
           "deal_name": "BLADPERSILJA 250G",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1351,6 +1747,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -1385,6 +1784,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1392,6 +1794,9 @@
           "deal_name": "FÄRSKA HAMBURGARE",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         },
         {
@@ -1399,6 +1804,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1406,6 +1814,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1413,6 +1824,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1420,6 +1834,9 @@
           "deal_name": "BLADPERSILJA 250G",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1427,6 +1844,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -1461,6 +1881,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1468,6 +1891,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -1475,6 +1901,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1482,6 +1911,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1489,6 +1921,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1496,6 +1931,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1503,6 +1941,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -1538,6 +1979,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1545,6 +1989,9 @@
           "deal_name": "Umamifärs",
           "deal_price": null,
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "54:90",
+          "jfr_pris": "79:80",
           "match_score": 0.85
         },
         {
@@ -1552,6 +1999,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -1559,6 +2009,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -1566,6 +2019,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1573,6 +2029,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -1580,6 +2039,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -1615,6 +2077,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1622,6 +2087,9 @@
           "deal_name": "Bacon",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1629,6 +2097,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1636,6 +2107,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1643,6 +2117,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -1650,6 +2127,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -1675,6 +2155,9 @@
           "deal_name": "Falukorv",
           "deal_price": "69:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "43:12",
           "match_score": 1.0
         },
         {
@@ -1682,6 +2165,9 @@
           "deal_name": "Mozzarella",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1689,6 +2175,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 0.9
         },
         {
@@ -1696,6 +2185,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1703,6 +2195,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1710,6 +2205,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -1738,6 +2236,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1745,6 +2246,9 @@
           "deal_name": "Palsternackor i påse",
           "deal_price": "10:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1752,6 +2256,9 @@
           "deal_name": "Rotselleri, Kålrot",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1759,6 +2266,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -1766,6 +2276,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -1773,6 +2286,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -1802,6 +2318,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1809,6 +2328,9 @@
           "deal_name": "KYCKLINGBRÖSTFILÉ",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1816,6 +2338,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1823,6 +2348,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.75
         },
         {
@@ -1830,6 +2358,9 @@
           "deal_name": "Yoghurt",
           "deal_price": "45:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "30:90-32:90",
+          "jfr_pris": "22:50",
           "match_score": 0.9
         },
         {
@@ -1837,6 +2368,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -1867,6 +2401,9 @@
           "deal_name": "Mango",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1874,6 +2411,9 @@
           "deal_name": "Avokado",
           "deal_price": "20:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "16:90",
+          "jfr_pris": "55:56",
           "match_score": 0.9
         },
         {
@@ -1881,6 +2421,9 @@
           "deal_name": "Feta",
           "deal_price": "40:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "31:95-33:95",
+          "jfr_pris": "153:85",
           "match_score": 0.9
         },
         {
@@ -1888,6 +2431,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1895,6 +2441,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1902,6 +2451,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         }
       ],
@@ -1932,6 +2484,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1939,6 +2494,9 @@
           "deal_name": "Blandfärs",
           "deal_price": "85:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1946,6 +2504,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -1953,6 +2514,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -1960,6 +2524,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -1967,6 +2534,9 @@
           "deal_name": "Plommontomater",
           "deal_price": "20:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -1997,6 +2567,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2004,6 +2577,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2011,6 +2587,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2018,6 +2597,9 @@
           "deal_name": "Kolsyrat vatten",
           "deal_price": "19:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "13:90-14:90",
+          "jfr_pris": "6:33",
           "match_score": 0.75
         },
         {
@@ -2025,6 +2607,9 @@
           "deal_name": "Yoghurt",
           "deal_price": "45:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "30:90-32:90",
+          "jfr_pris": "22:50",
           "match_score": 0.9
         },
         {
@@ -2032,6 +2617,9 @@
           "deal_name": "Mango",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2063,6 +2651,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2070,6 +2661,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.9
         },
         {
@@ -2077,6 +2671,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2084,6 +2681,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2091,6 +2691,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2098,6 +2701,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2131,6 +2737,9 @@
           "deal_name": "Rosta",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2138,6 +2747,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2145,6 +2757,9 @@
           "deal_name": "Avokado",
           "deal_price": "20:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "16:90",
+          "jfr_pris": "55:56",
           "match_score": 1.0
         },
         {
@@ -2152,6 +2767,9 @@
           "deal_name": "Mango",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2159,6 +2777,9 @@
           "deal_name": "HAMBURGERGURKA",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2166,6 +2787,9 @@
           "deal_name": "BORDSMARGARIN",
           "deal_price": "55:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2199,6 +2823,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2206,6 +2833,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2213,6 +2843,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -2220,6 +2853,9 @@
           "deal_name": "Makaroner",
           "deal_price": "22:-",
           "deal_store": "Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2227,6 +2863,9 @@
           "deal_name": "Västerbottensost®",
           "deal_price": "89:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "135:00",
+          "jfr_pris": "197:78",
           "match_score": 0.85
         },
         {
@@ -2234,6 +2873,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -2270,6 +2912,9 @@
           "deal_name": "SPAGHETTI",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2277,6 +2922,9 @@
           "deal_name": "Bacon",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2284,6 +2932,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2291,6 +2942,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2298,6 +2952,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2325,6 +2982,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2332,6 +2992,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2339,6 +3002,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -2346,6 +3012,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 0.9
         },
         {
@@ -2353,6 +3022,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         }
       ],
@@ -2381,6 +3053,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2388,6 +3063,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2395,6 +3073,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2402,6 +3083,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2409,6 +3093,9 @@
           "deal_name": "Bacon",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2437,6 +3124,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2444,6 +3134,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -2451,6 +3144,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2458,6 +3154,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -2465,6 +3164,9 @@
           "deal_name": "GRÖNA KÄRNFRIA DRUVOR I ASK",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         }
       ],
@@ -2494,6 +3196,9 @@
           "deal_name": "NUDLAR",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2501,6 +3206,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2508,6 +3216,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2515,6 +3226,9 @@
           "deal_name": "Läsk",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "24:90",
+          "jfr_pris": "10:00",
           "match_score": 0.9
         },
         {
@@ -2522,6 +3236,9 @@
           "deal_name": "Jordnötter",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2551,6 +3268,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2558,6 +3278,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 0.9
         },
         {
@@ -2565,6 +3288,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2572,6 +3298,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2579,6 +3308,9 @@
           "deal_name": "Broccoli",
           "deal_price": "15:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "26:90",
+          "jfr_pris": "30:00",
           "match_score": 1.0
         }
       ],
@@ -2608,6 +3340,9 @@
           "deal_name": "Falukorv",
           "deal_price": "69:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "43:12",
           "match_score": 0.9
         },
         {
@@ -2615,6 +3350,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2622,6 +3360,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -2629,6 +3370,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 0.9
         },
         {
@@ -2636,6 +3380,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         }
       ],
@@ -2666,6 +3413,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2673,6 +3423,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -2680,6 +3433,9 @@
           "deal_name": "Kaviar",
           "deal_price": "Medlemspris",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2687,6 +3443,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2694,6 +3453,9 @@
           "deal_name": "KNÄCKEBRÖD",
           "deal_price": "26:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2724,6 +3486,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2731,6 +3496,9 @@
           "deal_name": "Frysta Thaiboxar",
           "deal_price": "89:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "3 för",
+          "ord_pris": "45:90",
+          "jfr_pris": "84:76-98:89",
           "match_score": 0.75
         },
         {
@@ -2738,6 +3506,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -2745,6 +3516,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2752,6 +3526,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2782,6 +3559,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2789,6 +3569,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2796,6 +3579,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -2803,6 +3589,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2810,6 +3599,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -2840,6 +3632,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2847,6 +3642,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2854,6 +3652,9 @@
           "deal_name": "Kolsyrat vatten",
           "deal_price": "19:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "13:90-14:90",
+          "jfr_pris": "6:33",
           "match_score": 0.75
         },
         {
@@ -2861,6 +3662,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -2868,6 +3672,9 @@
           "deal_name": "Plommontomater",
           "deal_price": "20:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -2899,6 +3706,9 @@
           "deal_name": "EKOLOGISKA JORDÄRTSKOCKOR I PÅSE",
           "deal_price": "20:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2906,6 +3716,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2913,6 +3726,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -2920,6 +3736,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -2927,6 +3746,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -2958,6 +3780,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -2965,6 +3790,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -2972,6 +3800,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -2979,6 +3810,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -2986,6 +3820,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         }
       ],
@@ -3017,6 +3854,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -3024,6 +3864,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -3031,6 +3874,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3038,6 +3884,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -3045,6 +3894,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -3076,6 +3928,9 @@
           "deal_name": "FÄRSK FYLLD PASTA",
           "deal_price": "65:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3083,6 +3938,9 @@
           "deal_name": "Bacon",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3090,6 +3948,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -3097,6 +3958,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3104,6 +3968,9 @@
           "deal_name": "Ädelost",
           "deal_price": "29:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "37:95",
+          "jfr_pris": "207:14",
           "match_score": 0.9
         }
       ],
@@ -3136,6 +4003,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3143,6 +4013,9 @@
           "deal_name": "LAKTOSFRI MJÖLK",
           "deal_price": "42:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3150,6 +4023,9 @@
           "deal_name": "Fond",
           "deal_price": "60:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "7:50",
           "match_score": 0.9
         },
         {
@@ -3157,6 +4033,9 @@
           "deal_name": "Juice",
           "deal_price": "40:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "49:90",
+          "jfr_pris": "20:00-22:86",
           "match_score": 0.9
         },
         {
@@ -3164,6 +4043,9 @@
           "deal_name": "Pumpakärnor, Chiafrön",
           "deal_price": "35:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "47:90-68:90",
+          "jfr_pris": "116:67",
           "match_score": 0.9
         }
       ],
@@ -3196,6 +4078,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3203,6 +4088,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3210,6 +4098,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -3217,6 +4108,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -3224,6 +4118,9 @@
           "deal_name": "Räkor med skal 90/120",
           "deal_price": "79:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "62:90",
+          "jfr_pris": "98:75",
           "match_score": 0.85
         }
       ],
@@ -3256,6 +4153,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3263,6 +4163,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -3270,6 +4173,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -3277,6 +4183,9 @@
           "deal_name": "Röda kärnfria druvor i ask",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "49:90",
+          "jfr_pris": "60:00",
           "match_score": 0.75
         },
         {
@@ -3284,6 +4193,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -3317,6 +4229,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3324,6 +4239,9 @@
           "deal_name": "Blandfärs",
           "deal_price": "85:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3331,6 +4249,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3338,6 +4259,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3345,6 +4269,9 @@
           "deal_name": "Fond",
           "deal_price": "60:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "7:50",
           "match_score": 0.9
         }
       ],
@@ -3379,6 +4306,9 @@
           "deal_name": "Umamifärs",
           "deal_price": null,
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "54:90",
+          "jfr_pris": "79:80",
           "match_score": 0.85
         },
         {
@@ -3386,6 +4316,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3393,6 +4326,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -3400,6 +4336,9 @@
           "deal_name": "SPAGHETTI",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3407,6 +4346,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.9
         }
       ],
@@ -3441,6 +4383,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3448,6 +4393,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -3455,6 +4403,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -3462,6 +4413,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -3488,6 +4442,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3495,6 +4452,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -3502,6 +4462,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3509,6 +4472,9 @@
           "deal_name": "Parmesanost",
           "deal_price": "45:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -3535,6 +4501,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3542,6 +4511,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -3549,6 +4521,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3556,6 +4531,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -3584,6 +4562,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3591,6 +4572,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3598,6 +4582,9 @@
           "deal_name": "Läsk",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "24:90",
+          "jfr_pris": "10:00",
           "match_score": 0.9
         },
         {
@@ -3605,6 +4592,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         }
       ],
@@ -3634,6 +4624,9 @@
           "deal_name": "Rotselleri, Kålrot",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3641,6 +4634,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3648,6 +4644,9 @@
           "deal_name": "Fond",
           "deal_price": "60:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "7:50",
           "match_score": 0.9
         },
         {
@@ -3655,6 +4654,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         }
       ],
@@ -3684,6 +4686,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3691,6 +4696,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3698,6 +4706,9 @@
           "deal_name": "Krossade tomater",
           "deal_price": "30:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3705,6 +4716,9 @@
           "deal_name": "Västerbottensost®",
           "deal_price": "89:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "135:00",
+          "jfr_pris": "197:78",
           "match_score": 0.85
         }
       ],
@@ -3734,6 +4748,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3741,6 +4758,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3748,6 +4768,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -3755,6 +4778,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -3786,6 +4812,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3793,6 +4822,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3800,6 +4832,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3807,6 +4842,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.9
         }
       ],
@@ -3838,6 +4876,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3845,6 +4886,9 @@
           "deal_name": "Bacon",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3852,6 +4896,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -3859,6 +4906,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -3890,6 +4940,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3897,6 +4950,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -3904,6 +4960,9 @@
           "deal_name": "Rosta",
           "deal_price": "15:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -3911,6 +4970,9 @@
           "deal_name": "Yoghurt",
           "deal_price": "45:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "30:90-32:90",
+          "jfr_pris": "22:50",
           "match_score": 0.9
         }
       ],
@@ -3943,6 +5005,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3950,6 +5015,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -3957,6 +5025,9 @@
           "deal_name": "Västerbottensost®",
           "deal_price": "89:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "135:00",
+          "jfr_pris": "197:78",
           "match_score": 0.85
         },
         {
@@ -3964,6 +5035,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -3996,6 +5070,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4003,6 +5080,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 1.0
         },
         {
@@ -4010,6 +5090,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         },
         {
@@ -4017,6 +5100,9 @@
           "deal_name": "Ekologisk sallad i påse",
           "deal_price": "30:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4050,6 +5136,9 @@
           "deal_name": "Kolsyrat vatten",
           "deal_price": "19:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "13:90-14:90",
+          "jfr_pris": "6:33",
           "match_score": 1.0
         },
         {
@@ -4057,6 +5146,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4064,6 +5156,9 @@
           "deal_name": "POMMES",
           "deal_price": "45:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4071,6 +5166,9 @@
           "deal_name": "GRÖNA KÄRNFRIA DRUVOR I ASK",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         }
       ],
@@ -4105,6 +5203,9 @@
           "deal_name": "Röda kärnfria druvor i ask",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "49:90",
+          "jfr_pris": "60:00",
           "match_score": 0.75
         },
         {
@@ -4112,6 +5213,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4119,6 +5223,9 @@
           "deal_name": "Läsk",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "24:90",
+          "jfr_pris": "10:00",
           "match_score": 0.9
         },
         {
@@ -4126,6 +5233,9 @@
           "deal_name": "Fond",
           "deal_price": "60:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "7:50",
           "match_score": 0.9
         }
       ],
@@ -4160,6 +5270,9 @@
           "deal_name": "NUDLAR",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4167,6 +5280,9 @@
           "deal_name": "FÄRSKA HAMBURGARE",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         },
         {
@@ -4174,6 +5290,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -4181,6 +5300,9 @@
           "deal_name": "Fond",
           "deal_price": "60:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "41:90",
+          "jfr_pris": "7:50",
           "match_score": 0.9
         }
       ],
@@ -4221,6 +5343,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -4228,6 +5353,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4235,6 +5363,9 @@
           "deal_name": "Blomsterhonung",
           "deal_price": "55:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4263,6 +5394,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4270,6 +5404,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -4277,6 +5414,9 @@
           "deal_name": "Vispgrädde",
           "deal_price": "29:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -4306,6 +5446,9 @@
           "deal_name": "LAXFILÉ 4-PACK",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         },
         {
@@ -4313,6 +5456,9 @@
           "deal_name": "Blomkål",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -4320,6 +5466,9 @@
           "deal_name": "Broccoli",
           "deal_price": "15:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "26:90",
+          "jfr_pris": "30:00",
           "match_score": 1.0
         }
       ],
@@ -4349,6 +5498,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4356,6 +5508,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4363,6 +5518,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4392,6 +5550,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -4399,6 +5560,9 @@
           "deal_name": "Blomsterhonung",
           "deal_price": "55:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4406,6 +5570,9 @@
           "deal_name": "FÄRSKA HAMBURGARE",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         }
       ],
@@ -4436,6 +5603,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4443,6 +5613,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         },
         {
@@ -4450,6 +5623,9 @@
           "deal_name": "Röd spetspaprika i påse",
           "deal_price": "18:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "24:95",
+          "jfr_pris": "90:00",
           "match_score": 0.85
         }
       ],
@@ -4481,6 +5657,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4488,6 +5667,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4495,6 +5677,9 @@
           "deal_name": "Bröd",
           "deal_price": "25:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -4526,6 +5711,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -4533,6 +5721,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -4540,6 +5731,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -4572,6 +5766,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4579,6 +5776,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4586,6 +5786,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4618,6 +5821,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4625,6 +5831,9 @@
           "deal_name": "SALLADSLÖK I KNIPPE",
           "deal_price": "9.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4632,6 +5841,9 @@
           "deal_name": "Buljong",
           "deal_price": "30:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "2 för",
+          "ord_pris": "22:95",
+          "jfr_pris": "2:50",
           "match_score": 0.9
         }
       ],
@@ -4667,6 +5879,9 @@
           "deal_name": "Kolsyrat vatten",
           "deal_price": "19:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "13:90-14:90",
+          "jfr_pris": "6:33",
           "match_score": 0.75
         },
         {
@@ -4674,6 +5889,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         }
       ],
@@ -4700,6 +5918,9 @@
           "deal_name": "Flytande tvättmedel",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "4 för",
+          "ord_pris": "47:90-51:90",
+          "jfr_pris": "1:29-1:35",
           "match_score": 0.75
         },
         {
@@ -4707,6 +5928,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4734,6 +5958,9 @@
           "deal_name": "SPAGHETTI",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4741,6 +5968,9 @@
           "deal_name": "Crème Fraiche",
           "deal_price": "24:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "15:90-22:90",
+          "jfr_pris": "60:00",
           "match_score": 0.9
         }
       ],
@@ -4768,6 +5998,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4775,6 +6008,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         }
       ],
@@ -4803,6 +6039,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4810,6 +6049,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         }
       ],
@@ -4838,6 +6080,9 @@
           "deal_name": "Sötpotatis",
           "deal_price": "20:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/kg",
+          "ord_pris": "49:95",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4845,6 +6090,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         }
       ],
@@ -4873,6 +6121,9 @@
           "deal_name": "Svenska äpplen",
           "deal_price": "20:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "31:90-34:90",
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -4880,6 +6131,9 @@
           "deal_name": "Blomsterhonung",
           "deal_price": "55:-",
           "deal_store": "ICA Kvantum",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4909,6 +6163,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 0.9
         },
         {
@@ -4916,6 +6173,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -4945,6 +6205,9 @@
           "deal_name": "HAMBURGERGURKA",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         },
         {
@@ -4952,6 +6215,9 @@
           "deal_name": "BLADPERSILJA 250G",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -4981,6 +6247,9 @@
           "deal_name": "LAXFILÉ 4-PACK",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         },
         {
@@ -4988,6 +6257,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5017,6 +6289,9 @@
           "deal_name": "Smör",
           "deal_price": "55:-",
           "deal_store": "ICA Nära",
+          "deal_unit": "/st",
+          "ord_pris": "78:00",
+          "jfr_pris": "110:00",
           "match_score": 1.0
         },
         {
@@ -5024,6 +6299,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         }
       ],
@@ -5053,6 +6331,9 @@
           "deal_name": "Räkor med skal 90/120",
           "deal_price": "79:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "62:90",
+          "jfr_pris": "98:75",
           "match_score": 0.85
         },
         {
@@ -5060,6 +6341,9 @@
           "deal_name": "CITRONPRESS",
           "deal_price": "75:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5089,6 +6373,9 @@
           "deal_name": "Babyplommontomater i ask",
           "deal_price": "25:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/st",
+          "ord_pris": "38:90",
+          "jfr_pris": "50:00",
           "match_score": 0.85
         },
         {
@@ -5096,6 +6383,9 @@
           "deal_name": "EKOLOGISK PASTA",
           "deal_price": "30:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5126,6 +6416,9 @@
           "deal_name": "SPAGHETTI",
           "deal_price": "19.9:-",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 1.0
         },
         {
@@ -5133,6 +6426,9 @@
           "deal_name": "Riven ost",
           "deal_price": "Medlemspris",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5167,6 +6463,9 @@
           "deal_name": "ÄGG, FRIGÅENDE",
           "deal_price": "25:-",
           "deal_store": "ICA Maxi",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.85
         },
         {
@@ -5174,6 +6473,9 @@
           "deal_name": "Läsk",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "24:90",
+          "jfr_pris": "10:00",
           "match_score": 0.9
         }
       ],
@@ -5208,6 +6510,9 @@
           "deal_name": "LAXFILÉ 4-PACK",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5234,6 +6539,9 @@
           "deal_name": "Torskrygg",
           "deal_price": "99:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5260,6 +6568,9 @@
           "deal_name": "LAXFILÉ 4-PACK",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         }
       ],
@@ -5287,6 +6598,9 @@
           "deal_name": "LAXFILÉ 4-PACK",
           "deal_price": "Medlemspris",
           "deal_store": "Willys",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.75
         }
       ],
@@ -5315,6 +6629,9 @@
           "deal_name": "Strimlad kyckling",
           "deal_price": "79.9:-",
           "deal_store": "Stora Coop",
+          "deal_unit": null,
+          "ord_pris": null,
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],
@@ -5346,6 +6663,9 @@
           "deal_name": "Läsk",
           "deal_price": "30:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "2 för",
+          "ord_pris": "24:90",
+          "jfr_pris": "10:00",
           "match_score": 0.9
         }
       ],
@@ -5379,6 +6699,9 @@
           "deal_name": "Färsk kycklingfilé",
           "deal_price": "119:-",
           "deal_store": "ICA Supermarket",
+          "deal_unit": "/kg",
+          "ord_pris": "179:00",
+          "jfr_pris": null,
           "match_score": 0.9
         }
       ],

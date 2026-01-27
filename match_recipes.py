@@ -140,11 +140,15 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
 
         if matches:
             best_match = matches[0]
+            deal = best_match['deal']
             matched_ingredients.append({
                 'ingredient': ing,
-                'deal_name': best_match['deal']['name'],
-                'deal_price': best_match['deal'].get('price'),
-                'deal_store': best_match['deal'].get('store'),
+                'deal_name': deal['name'],
+                'deal_price': deal.get('price'),
+                'deal_store': deal.get('store'),
+                'deal_unit': deal.get('unit'),
+                'ord_pris': deal.get('ord_pris'),
+                'jfr_pris': deal.get('jfr_pris'),
                 'match_score': best_match['score']
             })
         else:

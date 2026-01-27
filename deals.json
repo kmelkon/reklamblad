@@ -4,616 +4,792 @@
     "name": "Cookies",
     "price": "50:-",
     "unit": "2 för",
-    "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou"
+    "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 36:90-39:90 kr.",
+    "ord_pris": "36:90-39:90",
+    "jfr_pris": "135:87-189:39"
   },
   {
     "store": "ICA Supermarket",
     "name": "Levainbröd",
     "price": "30:-",
     "unit": "/st",
-    "description": "650 g | Gäller råg- och vetelevain | Pågen"
+    "description": "650 g | Gäller råg- och vetelevain | Pågen | Jfr pris 46:15/kg | Ord.pris 44:90 kr.",
+    "ord_pris": "44:90",
+    "jfr_pris": "46:15"
   },
   {
     "store": "ICA Supermarket",
     "name": "Majs-, Riskakor",
     "price": "35:-",
     "unit": "2 för",
-    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs"
+    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs | Jfr pris 140:00-145:83/kg | Ord.pris 24:90-26:90 kr.",
+    "ord_pris": "24:90-26:90",
+    "jfr_pris": "140:00-145:83"
   },
   {
     "store": "ICA Supermarket",
     "name": "Färsk kycklingfilé",
     "price": "119:-",
     "unit": "/kg",
-    "description": "Ca 925 g | Naturell | Kronfågel"
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 179:00 kr.",
+    "ord_pris": "179:00",
+    "jfr_pris": null
   },
   {
     "store": "ICA Supermarket",
     "name": "Fryst hamburgare",
     "price": "139:-",
     "unit": "2 för",
-    "description": "720 g | 8-pack | ICA"
+    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 90:90 kr.",
+    "ord_pris": "90:90",
+    "jfr_pris": "96:53"
   },
   {
     "store": "ICA Supermarket",
     "name": "Flytande tvättmedel",
     "price": "119:-",
     "unit": "4 för",
-    "description": "880-920 ml | A+"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Frysta Thaiboxar",
-    "price": "89:-",
-    "unit": "3 för",
-    "description": "300-350 g | Kitchen Joy"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Ätklara kycklingdelar",
-    "price": "69:-",
-    "unit": "2 för",
-    "description": "350-500 g | Fryst. Gäller ej salladskyckling och kycklingspett bbq | Guldfågeln"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Dagens Enportionsrätter",
-    "price": "60:-",
-    "unit": "2 för",
-    "description": "340-400 g | Fryst. Flera olika sorter | Findus"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Gräddglass, Sorbet",
-    "price": "30:-",
-    "unit": "2 för",
-    "description": "0,5 liter | Gäller ej Finaste | SIA Glass"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Räkor med skal 90/120",
-    "price": "79:-",
-    "unit": "2 för",
-    "description": "400 g | Fryst | Royal Greenland"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Renskav",
-    "price": "75:-",
-    "unit": "/st",
-    "description": "240 g | Lapin Liha"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Vegetariska produkter",
-    "price": "55:-",
-    "unit": "2 för",
-    "description": "220-320 g | Fryst. Gäller Färs, Filè, Bitar, Lasagne | Quorn"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Panpizza",
-    "price": "95:-",
-    "unit": "/st",
-    "description": "1530 g | Storpack Fryst | Billys"
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 47:90-51:90 kr.",
+    "ord_pris": "47:90-51:90",
+    "jfr_pris": "1:29-1:35"
   },
   {
     "store": "ICA Supermarket",
     "name": "Röda kärnfria druvor i ask",
     "price": "30:-",
     "unit": "/st",
-    "description": "500 g | Klass 1 | ICA"
+    "description": "500 g | Klass 1 | ICA | Jfr pris 60:00/kg | Ord.pris 49:90 kr.",
+    "ord_pris": "49:90",
+    "jfr_pris": "60:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Tulpaner 12-pack",
     "price": "99:-",
     "unit": "/st",
-    "description": "Flera färger. 3 kr går till Glada Hudik | ICA"
+    "description": "Flera färger. 3 kr går till Glada Hudik | ICA | Jfr pris 99:00/st | Ord.pris 149:00 kr.",
+    "ord_pris": "149:00",
+    "jfr_pris": "99:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Yoghurt",
     "price": "45:-",
     "unit": "2 för",
-    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi"
+    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi | Jfr pris 22:50/kg | Ord.pris 30:90-32:90 kr.",
+    "ord_pris": "30:90-32:90",
+    "jfr_pris": "22:50"
   },
   {
     "store": "ICA Supermarket",
     "name": "Schampo, balsam",
     "price": "55:-",
     "unit": "2 för",
-    "description": "200-250 ml | Elvital"
+    "description": "200-250 ml | Elvital | Jfr pris 110:00-137:50/liter | Ord.pris 43:90 kr.",
+    "ord_pris": "43:90",
+    "jfr_pris": "110:00-137:50"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Falukorv",
+    "name": "Frysta Thaiboxar",
+    "price": "89:-",
+    "unit": "3 för",
+    "description": "300-350 g | Kitchen Joy | Jfr pris 84:76-98:89/kg | Ord.pris 45:90 kr.",
+    "ord_pris": "45:90",
+    "jfr_pris": "84:76-98:89"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Ätklara kycklingdelar",
     "price": "69:-",
     "unit": "2 för",
-    "description": "800 g | Scan"
+    "description": "350-500 g | Fryst. Gäller ej salladskyckling och kycklingspett bbq | Guldfågeln | Jfr pris 69:00-98:57/kg | Ord.pris 48:90 kr.",
+    "ord_pris": "48:90",
+    "jfr_pris": "69:00-98:57"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
+    "name": "Dagens Enportionsrätter",
+    "price": "60:-",
+    "unit": "2 för",
+    "description": "340-400 g | Fryst. Flera olika sorter | Findus | Jfr pris 75:00-88:24/kg | Ord.pris 41:90-44:90 kr.",
+    "ord_pris": "41:90-44:90",
+    "jfr_pris": "75:00-88:24"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Gräddglass, Sorbet",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "0,5 liter | Gäller ej Finaste | SIA Glass | Jfr pris 30:00/liter | Ord.pris 22:90-27:90 kr.",
+    "ord_pris": "22:90-27:90",
+    "jfr_pris": "30:00"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Räkor med skal 90/120",
     "price": "79:-",
-    "unit": "/st",
-    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier"
+    "unit": "2 för",
+    "description": "400 g | Fryst | Royal Greenland | Jfr pris 98:75/kg | Ord.pris 62:90 kr.",
+    "ord_pris": "62:90",
+    "jfr_pris": "98:75"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Skinkstek",
-    "price": null,
-    "unit": "/kg",
-    "description": "Ca 1100 g | ICA"
+    "name": "Renskav",
+    "price": "75:-",
+    "unit": "/st",
+    "description": "240 g | Lapin Liha | Max 2 köp/hushåll | Jfr pris 312:50/kg | Ord.pris 99:00 kr. 30dgr.pris 99:00 kr.",
+    "ord_pris": "99:00",
+    "jfr_pris": "312:50"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Köttbullar",
-    "price": "69:-",
+    "name": "Vegetariska produkter",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "220-320 g | Fryst. Gäller Färs, Filè, Bitar, Lasagne | Quorn | Jfr pris 85:94-125:00/kg | Ord.pris 42:90-48:90 kr.",
+    "ord_pris": "42:90-48:90",
+    "jfr_pris": "85:94-125:00"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Panpizza",
+    "price": "95:-",
     "unit": "/st",
-    "description": "1000 g | Kylda | Scan"
+    "description": "1530 g | Storpack Fryst | Billys | Max 2 köp/hushåll | Jfr pris 62:09/kg | Ord.pris 112:00 kr. 30dgr.pris 95:00 kr.",
+    "ord_pris": "112:00",
+    "jfr_pris": "62:09"
   },
   {
     "store": "ICA Supermarket",
     "name": "Broccoli",
     "price": "15:-",
     "unit": "/st",
-    "description": "500 g | Klass 1 | ICA"
+    "description": "500 g | Klass 1 | ICA | Jfr pris 30:00/kg | Ord.pris 26:90 kr.",
+    "ord_pris": "26:90",
+    "jfr_pris": "30:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Babyplommontomater i ask",
     "price": "25:-",
     "unit": "/st",
-    "description": "500 g | Klass 1 | ICA"
+    "description": "500 g | Klass 1 | ICA | Jfr pris 50:00/kg | Ord.pris 38:90 kr.",
+    "ord_pris": "38:90",
+    "jfr_pris": "50:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Blodapelsiner i nät",
     "price": "20:-",
     "unit": "/st",
-    "description": "1 kg | Klass 1 | ICA"
+    "description": "1 kg | Klass 1 | ICA | Jfr pris 20:00/kg | Ord.pris 36:90-39:90 kr.",
+    "ord_pris": "36:90-39:90",
+    "jfr_pris": "20:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Avokado",
     "price": "20:-",
     "unit": "2 för",
-    "description": "165 g | Klass 1 | Spanien/Marocko/Chile"
+    "description": "165 g | Klass 1 | Spanien/Marocko/Chile | Jfr pris 55:56/kg | Ord.pris 16:90 kr.",
+    "ord_pris": "16:90",
+    "jfr_pris": "55:56"
   },
   {
     "store": "ICA Supermarket",
     "name": "Svenska äpplen",
     "price": "20:-",
     "unit": "/kg",
-    "description": "Klass 1. Flera sorter | ICA"
+    "description": "Klass 1. Flera sorter | ICA | Ord.pris 31:90-34:90 kr.",
+    "ord_pris": "31:90-34:90",
+    "jfr_pris": null
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Falukorv",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "800 g | Scan | Max 1 köp/hushåll | Jfr pris 43:12/kg | Ord.pris 41:90 kr.",
+    "ord_pris": "41:90",
+    "jfr_pris": "43:12"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
+    "price": "79:-",
+    "unit": "/st",
+    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier | Jfr pris 117:91/kg | Ord.pris 105:00-119:00 kr.",
+    "ord_pris": "105:00-119:00",
+    "jfr_pris": "117:91"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Skinkstek",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1100 g | ICA | Max 2 köp/hushåll | Ord.pris 115:00 kr.",
+    "ord_pris": "115:00",
+    "jfr_pris": null
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Köttbullar",
+    "price": "69:-",
+    "unit": "/st",
+    "description": "1000 g | Kylda | Scan | Max 2 köp/hushåll | Jfr pris 69:00/kg | Ord.pris 89:90 kr.",
+    "ord_pris": "89:90",
+    "jfr_pris": "69:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Spareribs",
     "price": null,
     "unit": "/kg",
-    "description": "Ca 1200 g | ICA"
+    "description": "Ca 1200 g | ICA | Ord.pris 99:00 kr.",
+    "ord_pris": "99:00",
+    "jfr_pris": null
   },
   {
     "store": "ICA Supermarket",
     "name": "Umamifärs",
     "price": null,
     "unit": "/st",
-    "description": "500 g | Kryddad fläskfärs. Max 20% fetthalt. | ICA"
+    "description": "500 g | Kryddad fläskfärs. Max 20% fetthalt. | ICA | Jfr pris 79:80/kg | Ord.pris 54:90 kr.",
+    "ord_pris": "54:90",
+    "jfr_pris": "79:80"
   },
   {
     "store": "ICA Supermarket",
     "name": "Smörgåsmat",
     "price": "20:-",
     "unit": "/st",
-    "description": "90-105 g | Plånbokspackad. Gäller ej basturökt kalkon | Lönneberga"
+    "description": "90-105 g | Plånbokspackad. Gäller ej basturökt kalkon | Lönneberga | Jfr pris 190:48-222:22/kg | Ord.pris 34:90 kr.",
+    "ord_pris": "34:90",
+    "jfr_pris": "190:48-222:22"
   },
   {
     "store": "ICA Supermarket",
     "name": "Skinkschnitzel",
     "price": null,
     "unit": "/st",
-    "description": "300 g | ICA"
+    "description": "300 g | ICA | Jfr pris 156:33/kg | Ord.pris 64:90 kr.",
+    "ord_pris": "64:90",
+    "jfr_pris": "156:33"
   },
   {
     "store": "ICA Supermarket",
     "name": "Färskost",
     "price": "40:-",
     "unit": "2 för",
-    "description": "145-200 g | Flera olika sorter | Philadelphia"
+    "description": "145-200 g | Flera olika sorter | Philadelphia | Jfr pris 100:00-137:93/kg | Ord.pris 26:90-35:90 kr.",
+    "ord_pris": "26:90-35:90",
+    "jfr_pris": "100:00-137:93"
   },
   {
     "store": "ICA Supermarket",
     "name": "Västerbottensost®",
     "price": "89:-",
     "unit": "/st",
-    "description": "450 g | Norrmejerier"
+    "description": "450 g | Norrmejerier | Max 2 köp/hushåll | Jfr pris 197:78/kg | Ord.pris 135:00 kr.",
+    "ord_pris": "135:00",
+    "jfr_pris": "197:78"
   },
   {
     "store": "ICA Supermarket",
     "name": "Bacon, Stekfläsk",
     "price": "115:-",
     "unit": "/st",
-    "description": "1000 g | Skivat | Tulip"
+    "description": "1000 g | Skivat | Tulip | Jfr pris 115:00/kg | Ord.pris 159:00-175:00 kr.",
+    "ord_pris": "159:00-175:00",
+    "jfr_pris": "115:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Pannkakor",
     "price": "20:-",
     "unit": "/st",
-    "description": "200-240 g | Flera olika sorter | POP! Bakery"
+    "description": "200-240 g | Flera olika sorter | POP! Bakery | Jfr pris 83:33-100:00/kg | Ord.pris 32:90-36:90 kr.",
+    "ord_pris": "32:90-36:90",
+    "jfr_pris": "83:33-100:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Batterier",
     "price": "69:-",
     "unit": "2 för",
-    "description": "10-pack | Finns som AA och AAA | ICA"
+    "description": "10-pack | Finns som AA och AAA | ICA | Jfr pris 3:45/st | Ord.pris 46:90 kr.",
+    "ord_pris": "46:90",
+    "jfr_pris": "3:45"
   },
   {
     "store": "ICA Supermarket",
     "name": "Duschtvål",
     "price": "34:-",
     "unit": "2 för",
-    "description": "250 ml | Gäller ej Ren baby | Barnängen"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Crème Fraiche",
-    "price": "24:-",
-    "unit": "2 för",
-    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Juice",
-    "price": "40:-",
-    "unit": "/st",
-    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Risi-, Mannafrutti",
-    "price": "40:-",
-    "unit": "4 för",
-    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti"
+    "description": "250 ml | Gäller ej Ren baby | Barnängen | Jfr pris 68:00/liter | Ord.pris 26:90 kr.",
+    "ord_pris": "26:90",
+    "jfr_pris": "68:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Toalettpapper, Hushållspapper Classic",
     "price": "95:-",
     "unit": "3 för",
-    "description": "8-pack, 4-pack | Lambi"
+    "description": "8-pack, 4-pack | Lambi | Jfr pris 40:81-65:43/kg | Ord.pris 44:90-57:90 kr.",
+    "ord_pris": "44:90-57:90",
+    "jfr_pris": "40:81-65:43"
   },
   {
     "store": "ICA Supermarket",
     "name": "Fond",
     "price": "60:-",
     "unit": "2 för",
-    "description": "180 ml | Gäller ej Eko | Touch of taste"
+    "description": "180 ml | Gäller ej Eko | Touch of taste | Jfr pris 7:50/liter drickklar | Ord.pris 41:90 kr.",
+    "ord_pris": "41:90",
+    "jfr_pris": "7:50"
   },
   {
     "store": "ICA Supermarket",
     "name": "Läsk",
     "price": "30:-",
     "unit": "2 för",
-    "description": "1,5 liter | Flera olika sorter | Coca-Cola, Fanta, Sprite"
+    "description": "1,5 liter | Flera olika sorter | Coca-Cola, Fanta, Sprite | Max 1 köp/hushåll | Jfr pris 10:00/liter + pant | Ord.pris 24:90 kr.",
+    "ord_pris": "24:90",
+    "jfr_pris": "10:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Kexchoklad",
     "price": "40:-",
     "unit": "5 för",
-    "description": "60 g | Cloetta"
+    "description": "60 g | Cloetta | Jfr pris 133:33/kg | Ord.pris 12:90 kr.",
+    "ord_pris": "12:90",
+    "jfr_pris": "133:33"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Crème Fraiche",
+    "price": "24:-",
+    "unit": "2 för",
+    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket | Jfr pris 60:00/liter | Ord.pris 15:90-22:90 kr.",
+    "ord_pris": "15:90-22:90",
+    "jfr_pris": "60:00"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Juice",
+    "price": "40:-",
+    "unit": "/st",
+    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo | Jfr pris 20:00-22:86/liter | Ord.pris 49:90 kr.",
+    "ord_pris": "49:90",
+    "jfr_pris": "20:00-22:86"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Risi-, Mannafrutti",
+    "price": "40:-",
+    "unit": "4 för",
+    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti | Max 1 köp/hushåll | Jfr pris 57:14-60:61/kg | Ord.pris 14:90-16:90 kr.",
+    "ord_pris": "14:90-16:90",
+    "jfr_pris": "57:14-60:61"
   },
   {
     "store": "ICA Supermarket",
     "name": "Kryddor små glas",
     "price": "100:-",
     "unit": "8 för",
-    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria"
+    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria | Max 1 köp/hushåll | Jfr pris 277:78/kg utan spad, 150:60-4 166:67/kg | Ord.pris 19:90-41:90 kr.",
+    "ord_pris": "19:90-41:90",
+    "jfr_pris": "277:78"
   },
   {
     "store": "ICA Supermarket",
     "name": "Tortillabröd, Tacosås, Chips",
     "price": "100:-",
     "unit": "10 för",
-    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria"
+    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria | Max 1 köp/hushåll | Jfr pris 31:25-54:05/kg | Ord.pris 17:50-31:90 kr.",
+    "ord_pris": "17:50-31:90",
+    "jfr_pris": "31:25-54:05"
   },
   {
     "store": "ICA Supermarket",
     "name": "Energidryck",
     "price": "30:-",
     "unit": "2 för",
-    "description": "330-355 ml | Nocco"
+    "description": "330-355 ml | Nocco | Jfr pris 42:25-45:45/liter + pant | Ord.pris 24:90 kr.",
+    "ord_pris": "24:90",
+    "jfr_pris": "42:25-45:45"
   },
   {
     "store": "ICA Supermarket",
     "name": "Chips, Ostbågar",
     "price": "50:-",
     "unit": "2 för",
-    "description": "200-275 g | OLW"
+    "description": "200-275 g | OLW | Jfr pris 90:91-125:00/kg | Ord.pris 37:90-39:90 kr.",
+    "ord_pris": "37:90-39:90",
+    "jfr_pris": "90:91-125:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Pumpakärnor, Chiafrön",
     "price": "35:-",
     "unit": "/st",
-    "description": "300 g | Risenta"
+    "description": "300 g | Risenta | Jfr pris 116:67/kg | Ord.pris 47:90-68:90 kr. 30dgr.pris 47:90-68:90 kr.",
+    "ord_pris": "47:90-68:90",
+    "jfr_pris": "116:67"
   },
   {
     "store": "ICA Supermarket",
     "name": "Excellence",
     "price": "65:-",
     "unit": "2 för",
-    "description": "100 g | Gäller Lindt Excellence | Lindt"
+    "description": "100 g | Gäller Lindt Excellence | Lindt | Jfr pris 325:00/kg | Ord.pris 46:90 kr.",
+    "ord_pris": "46:90",
+    "jfr_pris": "325:00"
   },
   {
     "store": "ICA Supermarket",
     "name": "Tomater på burk",
     "price": "45:-",
     "unit": "3 för",
-    "description": "400 g | Finkrossade, körsbärs, hela original | Mutti"
+    "description": "400 g | Finkrossade, körsbärs, hela original | Mutti | Jfr pris 62:50/kg utan spad, 37:50/kg | Ord.pris 22:90-26:90 kr.",
+    "ord_pris": "22:90-26:90",
+    "jfr_pris": "62:50"
   },
   {
     "store": "ICA Supermarket",
     "name": "Kolsyrat vatten",
     "price": "19:-",
     "unit": "2 för",
-    "description": "1,5 liter | Loka"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Skärgårdskaka",
-    "price": "30:-",
-    "unit": "/st",
-    "description": "750 g | Pågen"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Cookies",
-    "price": "25:-",
-    "unit": "/st",
-    "description": "132-184 g | Marabou"
+    "description": "1,5 liter | Loka | Jfr pris 6:33/liter + pant | Ord.pris 13:90-14:90 kr.",
+    "ord_pris": "13:90-14:90",
+    "jfr_pris": "6:33"
   },
   {
     "store": "ICA Nära",
     "name": "Färsk kycklingfilé",
     "price": "119:-",
     "unit": "/kg",
-    "description": "Ca 925 g | Naturell | Kronfågel"
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 177:00 kr.",
+    "ord_pris": "177:00",
+    "jfr_pris": null
   },
   {
     "store": "ICA Nära",
     "name": "Fryst hamburgare",
     "price": "139:-",
     "unit": "2 för",
-    "description": "720 g | 8-pack | ICA"
+    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 92:00 kr.",
+    "ord_pris": "92:00",
+    "jfr_pris": "96:53"
   },
   {
     "store": "ICA Nära",
     "name": "Flytande tvättmedel",
     "price": "119:-",
     "unit": "4 för",
-    "description": "880-920 ml | A+"
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 51:95-53:95 kr.",
+    "ord_pris": "51:95-53:95",
+    "jfr_pris": "1:29-1:35"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Skärgårdskaka",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "750 g | Pågen | Jfr pris 40:00/kg | Ord.pris 37:95 kr.",
+    "ord_pris": "37:95",
+    "jfr_pris": "40:00"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Cookies",
+    "price": "25:-",
+    "unit": "/st",
+    "description": "132-184 g | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 35:95-41:95 kr. 30dgr.pris 35:95-41:95 kr.",
+    "ord_pris": "35:95-41:95",
+    "jfr_pris": "135:87-189:39"
   },
   {
     "store": "ICA Nära",
     "name": "Clementiner Nadorcott",
     "price": "25:-",
     "unit": "/kg",
-    "description": "Klass 1 | Marocko"
+    "description": "Klass 1 | Marocko | Ord.pris 38:95 kr.",
+    "ord_pris": "38:95",
+    "jfr_pris": null
   },
   {
     "store": "ICA Nära",
     "name": "Röd spetspaprika i påse",
     "price": "18:-",
     "unit": "/st",
-    "description": "200 g | Klass 1 | ICA"
+    "description": "200 g | Klass 1 | ICA | Jfr pris 90:00/kg | Ord.pris 24:95 kr.",
+    "ord_pris": "24:95",
+    "jfr_pris": "90:00"
   },
   {
     "store": "ICA Nära",
     "name": "Sötpotatis",
     "price": "20:-",
     "unit": "/kg",
-    "description": "Klass 1 | Egypten"
+    "description": "Klass 1 | Egypten | Ord.pris 49:95 kr.",
+    "ord_pris": "49:95",
+    "jfr_pris": null
   },
   {
     "store": "ICA Nära",
     "name": "Äpplen Pink Lady",
     "price": "30:-",
     "unit": "/kg",
-    "description": "Klass 1 | Italien/Frankrike"
+    "description": "Klass 1 | Italien/Frankrike | Ord.pris 49:95 kr.",
+    "ord_pris": "49:95",
+    "jfr_pris": null
   },
   {
     "store": "ICA Nära",
     "name": "Päron i korg",
     "price": "15:-",
     "unit": "/st",
-    "description": "1 kg | Klass 2 | ICA"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Smör",
-    "price": "55:-",
-    "unit": "/st",
-    "description": "500 g | Gäller ej laktosfritt | Valio"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "LED Lampor",
-    "price": "60:-",
-    "unit": "3 för",
-    "description": "Erbjudandet gäller: LED SMD E27 806lm/E27 470lm/E27 250lm/E14 250lm/E14 140lm/E14 250lm | ICA"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Proteinbar",
-    "price": "55:-",
-    "unit": "3 för",
-    "description": "55 g | Swebar"
+    "description": "1 kg | Klass 2 | ICA | Jfr pris 15:00/kg | Ord.pris 19:95 kr.",
+    "ord_pris": "19:95",
+    "jfr_pris": "15:00"
   },
   {
     "store": "ICA Nära",
     "name": "Frysta Thaiboxar",
     "price": "89:-",
     "unit": "3 för",
-    "description": "300-350 g | Kitchen Joy"
+    "description": "300-350 g | Kitchen Joy | Jfr pris 84:76-98:89/kg | Ord.pris 46:95 kr.",
+    "ord_pris": "46:95",
+    "jfr_pris": "84:76-98:89"
   },
   {
     "store": "ICA Nära",
     "name": "Pizza Ristorante",
     "price": "90:-",
     "unit": "3 för",
-    "description": "320-360 g | Fryst. Gäller ej glutenfri | Dr. Oetker"
+    "description": "320-360 g | Fryst. Gäller ej glutenfri | Dr. Oetker | Jfr pris 83:33-93:75/kg | Ord.pris 39:95-43:95 kr.",
+    "ord_pris": "39:95-43:95",
+    "jfr_pris": "83:33-93:75"
   },
   {
     "store": "ICA Nära",
     "name": "Gräddglass",
     "price": "49:-",
     "unit": "3 för",
-    "description": "0,5 liter | Gäller ej sorbet. | SIA"
+    "description": "0,5 liter | Gäller ej sorbet. | SIA | Jfr pris 32:67/liter | Ord.pris 21:95-23:95 kr.",
+    "ord_pris": "21:95-23:95",
+    "jfr_pris": "32:67"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Smör",
+    "price": "55:-",
+    "unit": "/st",
+    "description": "500 g | Gäller ej laktosfritt | Valio | Jfr pris 110:00/kg | Ord.pris 78:00 kr.",
+    "ord_pris": "78:00",
+    "jfr_pris": "110:00"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "LED Lampor",
+    "price": "60:-",
+    "unit": "3 för",
+    "description": "Erbjudandet gäller: LED SMD E27 806lm/E27 470lm/E27 250lm/E14 250lm/E14 140lm/E14 250lm | ICA | Jfr pris 20:00/st | Ord.pris 23:95-25:95 kr.",
+    "ord_pris": "23:95-25:95",
+    "jfr_pris": "20:00"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Proteinbar",
+    "price": "55:-",
+    "unit": "3 för",
+    "description": "55 g | Swebar | Jfr pris 333:33/kg | Ord.pris 27:95-28:95 kr.",
+    "ord_pris": "27:95-28:95",
+    "jfr_pris": "333:33"
   },
   {
     "store": "ICA Nära",
     "name": "Falukorv",
     "price": "69:-",
     "unit": "2 för",
-    "description": "800 g | Scan"
+    "description": "800 g | Scan | Max 1 köp/hushåll | Jfr pris 43:12/kg | Ord.pris 43:95 kr.",
+    "ord_pris": "43:95",
+    "jfr_pris": "43:12"
   },
   {
     "store": "ICA Nära",
     "name": "Smörgåsmat",
     "price": "40:-",
     "unit": "2 för",
-    "description": "90-160 g | Plånbokspackad | Pärsons"
+    "description": "90-160 g | Plånbokspackad | Pärsons | Jfr pris 125:00-222:22/kg | Ord.pris 29:95-35:95 kr.",
+    "ord_pris": "29:95-35:95",
+    "jfr_pris": "125:00-222:22"
   },
   {
     "store": "ICA Nära",
     "name": "Feta",
     "price": "40:-",
     "unit": "2 för",
-    "description": "130-150 g | Gäller ej ekologisk | Fontana"
+    "description": "130-150 g | Gäller ej ekologisk | Fontana | Jfr pris 153:85/kg utan spad, 133:33/kg | Ord.pris 31:95-33:95 kr.",
+    "ord_pris": "31:95-33:95",
+    "jfr_pris": "153:85"
   },
   {
     "store": "ICA Nära",
     "name": "Fläskytterfilé",
     "price": null,
     "unit": "/kg",
-    "description": "Ca 1000 g | Mörmarinerad. Av benfri kotlett | ICA"
+    "description": "Ca 1000 g | Mörmarinerad. Av benfri kotlett | ICA | Max 2 köp/hushåll | Ord.pris 115:00 kr.",
+    "ord_pris": "115:00",
+    "jfr_pris": null
   },
   {
     "store": "ICA Nära",
     "name": "Kryddkorv",
     "price": "59:-",
     "unit": "2 för",
-    "description": "180-300 g | Scan"
+    "description": "180-300 g | Scan | Jfr pris 98:33-163:89/kg | Ord.pris 41:95-42:95 kr.",
+    "ord_pris": "41:95-42:95",
+    "jfr_pris": "98:33-163:89"
   },
   {
     "store": "ICA Nära",
     "name": "Ädelost",
     "price": "29:-",
     "unit": "/st",
-    "description": "140 g | Kvibille"
+    "description": "140 g | Kvibille | Jfr pris 207:14/kg | Ord.pris 37:95 kr.",
+    "ord_pris": "37:95",
+    "jfr_pris": "207:14"
   },
   {
     "store": "ICA Nära",
     "name": "Präst®, Herrgård®, Grevé®",
     "price": "95:-",
     "unit": "/st",
-    "description": "670-675 g | Olika sorter. Fetthalt 17-35%. Gäller 12-14 månader. Gäller ej ekologisk | Allerum"
+    "description": "670-675 g | Olika sorter. Fetthalt 17-35%. Gäller 12-14 månader. Gäller ej ekologisk | Allerum | Jfr pris 140:74-141:79/kg | Ord.pris 136:00-141:00 kr.",
+    "ord_pris": "136:00-141:00",
+    "jfr_pris": "140:74-141:79"
   },
   {
     "store": "ICA Nära",
     "name": "Mjukost i tub",
     "price": "39:-",
     "unit": "/st",
-    "description": "250-275 g | Kavli"
+    "description": "250-275 g | Kavli | Jfr pris 141:82-156:00/kg | Ord.pris 49:95 kr.",
+    "ord_pris": "49:95",
+    "jfr_pris": "141:82-156:00"
   },
   {
     "store": "ICA Nära",
     "name": "Pepparbiff",
     "price": null,
     "unit": "/st",
-    "description": "300 g | Av rostbiff | ICA"
+    "description": "300 g | Av rostbiff | ICA | Jfr pris 226:33/kg | Ord.pris 85:95 kr.",
+    "ord_pris": "85:95",
+    "jfr_pris": "226:33"
   },
   {
     "store": "ICA Nära",
     "name": "Grytbitar av gris",
     "price": null,
     "unit": "/kg",
-    "description": "Ca 500 g | ICA"
+    "description": "Ca 500 g | ICA",
+    "ord_pris": null,
+    "jfr_pris": null
   },
   {
     "store": "ICA Nära",
     "name": "Juice, Smoothie",
     "price": "32:-",
     "unit": null,
-    "description": "750-900 ml | + pant. Gäller ej Juicy Refresher | Innocent"
+    "description": "750-900 ml | + pant. Gäller ej Juicy Refresher | Innocent | Jfr pris 35:56-42:67/liter + pant | Ord.pris 44:95-53:95 kr.",
+    "ord_pris": "44:95-53:95",
+    "jfr_pris": "35:56-42:67"
   },
   {
     "store": "ICA Nära",
     "name": "Mild kvarg/Grekisk Yoghurt",
     "price": "35:-",
     "unit": "/st",
-    "description": "1 kg | Flera olika sorter | Arla"
+    "description": "1 kg | Flera olika sorter | Arla | Jfr pris 35:00/kg | Ord.pris 48:95-52:00 kr.",
+    "ord_pris": "48:95-52:00",
+    "jfr_pris": "35:00"
   },
   {
     "store": "ICA Nära",
     "name": "Chokladkaka",
     "price": "45:-",
     "unit": "2 för",
-    "description": "160 g | Gäller ej caramello och vitchoklad | Marabou"
+    "description": "160 g | Gäller ej caramello och vitchoklad | Marabou | Jfr pris 140:62/kg | Ord.pris 36:95 kr.",
+    "ord_pris": "36:95",
+    "jfr_pris": "140:62"
   },
   {
     "store": "ICA Nära",
     "name": "Maskindisktabletter",
     "price": "59:-",
     "unit": "/st",
-    "description": "30-pack,42-pack | Finish"
+    "description": "30-pack,42-pack | Finish | Jfr pris 1:40-1:97/disk | Ord.pris 92:95 kr. 30dgr.pris 92:95 kr.",
+    "ord_pris": "92:95",
+    "jfr_pris": "1:40-1:97"
   },
   {
     "store": "ICA Nära",
     "name": "Chips, Ostbågar",
     "price": "55:-",
     "unit": "2 för",
-    "description": "200-275 g | Flera olika sorter | OLW"
+    "description": "200-275 g | Flera olika sorter | OLW | Jfr pris 100:00-137:50/kg | Ord.pris 36:95-39:95 kr.",
+    "ord_pris": "36:95-39:95",
+    "jfr_pris": "100:00-137:50"
   },
   {
     "store": "ICA Nära",
     "name": "Fruktmums & gröt",
     "price": "59:-",
     "unit": "5 för",
-    "description": "110-120 g | Flera olika sorter. Gäller ej Grötklämmis. Från 6 månader | Semper"
+    "description": "110-120 g | Flera olika sorter. Gäller ej Grötklämmis. Från 6 månader | Semper | Jfr pris 98:33-107:27/kg | Ord.pris 15:95-18:95 kr.",
+    "ord_pris": "15:95-18:95",
+    "jfr_pris": "98:33-107:27"
   },
   {
     "store": "ICA Nära",
     "name": "Toalettpapper, Hushållspapper Classic",
     "price": "95:-",
     "unit": "3 för",
-    "description": "8-pack, 4-pack | Lambi"
+    "description": "8-pack, 4-pack | Lambi | Jfr pris 40:81-65:43/kg | Ord.pris 42:95-60:00 kr.",
+    "ord_pris": "42:95-60:00",
+    "jfr_pris": "40:81-65:43"
   },
   {
     "store": "ICA Nära",
     "name": "Kattmat multipack",
     "price": "49:-",
     "unit": "/st",
-    "description": "Jfr pris 48:04/kg | Ord.pris 64:95-65:00 kr. 30dgr.pris 49:00 kr."
+    "description": "Jfr pris 48:04/kg | Ord.pris 64:95-65:00 kr. 30dgr.pris 49:00 kr.",
+    "ord_pris": "64:95-65:00",
+    "jfr_pris": "48:04"
   },
   {
     "store": "ICA Nära",
     "name": "Buljong",
     "price": "30:-",
     "unit": "2 för",
-    "description": "12-pack | Gäller ej ekologisk"
+    "description": "12-pack | Gäller ej ekologisk | Jfr pris 2:50/liter drickklar | Ord.pris 22:95 kr.",
+    "ord_pris": "22:95",
+    "jfr_pris": "2:50"
   },
   {
     "store": "ICA Nära",
     "name": "Läsk",
     "price": "85:-",
     "unit": "2 för",
-    "description": "6-pack | 6x33 cl. | Coca-Cola, Fanta"
+    "description": "6-pack | 6x33 cl. | Coca-Cola, Fanta | Jfr pris 21:46/liter + pant | Ord.pris 57:00 kr.",
+    "ord_pris": "57:00",
+    "jfr_pris": "21:46"
   },
   {
     "store": "ICA Maxi",

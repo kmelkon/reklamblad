@@ -319,6 +319,34 @@ class RecipeApp {
         return null;
     }
 
+    renderPriceComparison(ing) {
+        if (!ing.deal_price) return '';
+
+        const parts = [];
+        const price = this.escapeHtml(ing.deal_price);
+        const unit = ing.deal_unit;
+
+        parts.push(`<span class="price-current">${price}</span>`);
+
+        if (unit && (unit === '/kg' || unit === '/st' || unit === '/liter')) {
+            parts.push(`<span class="price-unit">${unit}</span>`);
+        }
+
+        const multiMatch = unit?.match(/^(\d+)\s+för$/);
+        if (multiMatch) {
+            const count = parseInt(multiMatch[1]);
+            const numPrice = parseFloat(ing.deal_price.replace(':-', '').replace(',', '.'));
+            const perItem = (numPrice / count).toFixed(0);
+            parts.push(`<span class="price-unit">(${perItem}:-/st)</span>`);
+        }
+
+        if (ing.ord_pris) {
+            parts.push(`<span class="price-original">${this.escapeHtml(ing.ord_pris)}</span>`);
+        }
+
+        return `<span class="tag-price">${parts.join(' ')}</span>`;
+    }
+
     createRecipeCard(recipe) {
         const time = this.formatTime(recipe.time);
         const percentage = recipe.match_percentage || 0;
@@ -332,8 +360,8 @@ class RecipeApp {
 
         const matchedHtml = (recipe.matched_ingredients || []).slice(0, 5).map(ing => {
             const storeClass = this.getStoreClass(ing.deal_store);
-            const price = ing.deal_price ? `<span class="tag-price">${this.escapeHtml(ing.deal_price)}</span>` : '';
-            return `<span class="ingredient-tag matched ${storeClass}">${this.escapeHtml(ing.ingredient)} ${price}</span>`;
+            const priceHtml = this.renderPriceComparison(ing);
+            return `<span class="ingredient-tag matched ${storeClass}">${this.escapeHtml(ing.ingredient)} ${priceHtml}</span>`;
         }).join('');
 
         const unmatchedHtml = (recipe.unmatched_ingredients || []).slice(0, 3).map(ing =>
