@@ -9,6 +9,9 @@ class RecipeApp {
         this.filteredRecipes = [];
         this.currentStore = 'all';
         this.searchQuery = '';
+        this.currentSort = 'match';
+        this.currentCategory = 'all';
+        this.categories = [];
 
         this.elements = {
             recipeGrid: document.getElementById('recipeGrid'),
@@ -17,9 +20,30 @@ class RecipeApp {
             lastUpdated: document.getElementById('lastUpdated'),
             recipeCount: document.getElementById('recipeCount'),
             dealCount: document.getElementById('dealCount'),
+            sortSelect: document.getElementById('sortSelect'),
+            categoryPills: document.getElementById('categoryPills'),
         };
 
+        // Validate required elements
+        const required = ['recipeGrid', 'searchInput', 'sortSelect', 'categoryPills'];
+        for (const id of required) {
+            if (!this.elements[id]) {
+                console.error(`Missing required element: #${id}`);
+                return;
+            }
+        }
+
         this.init();
+    }
+
+    escapeHtml(str) {
+        if (!str) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
     }
 
     async init() {
@@ -35,6 +59,10 @@ class RecipeApp {
                 fetch('deals.json')
             ]);
 
+            if (!matchesRes.ok || !dealsRes.ok) {
+                throw new Error('Failed to fetch data');
+            }
+
             const matchesData = await matchesRes.json();
             const dealsData = await dealsRes.json();
 
@@ -42,6 +70,14 @@ class RecipeApp {
             this.deals = dealsData || [];
             this.lastUpdated = matchesData.last_updated;
             this.filteredRecipes = [...this.recipes];
+
+            // Extract unique categories
+            const categorySet = new Set();
+            this.recipes.forEach(r => {
+                if (r.category) categorySet.add(r.category);
+            });
+            this.categories = Array.from(categorySet).sort();
+            this.renderCategoryPills();
 
             this.updateStats();
             this.updateLastUpdated();
@@ -67,6 +103,48 @@ class RecipeApp {
                 this.filterRecipes();
             });
         });
+
+        // Sort select
+        this.elements.sortSelect.addEventListener('change', (e) => {
+            this.currentSort = e.target.value;
+            this.filterRecipes();
+        });
+
+        // Category pills (event delegation)
+        this.elements.categoryPills.addEventListener('click', (e) => {
+            const pill = e.target.closest('.category-pill');
+            if (!pill) return;
+            this.elements.categoryPills.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            this.currentCategory = pill.dataset.category;
+            this.filterRecipes();
+        });
+    }
+
+    renderCategoryPills() {
+        const container = this.elements.categoryPills;
+        const allPill = `<button class="category-pill active" data-category="all">Alla</button>`;
+        const pills = this.categories.map(cat =>
+            `<button class="category-pill" data-category="${this.escapeHtml(cat)}">${this.escapeHtml(cat)}</button>`
+        ).join('');
+        container.innerHTML = allPill + pills;
+    }
+
+    parseTime(isoTime) {
+        if (!isoTime) return Infinity;
+        const match = isoTime.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
+        if (!match) return Infinity;
+        return parseInt(match[1] || 0) * 60 + parseInt(match[2] || 0);
+    }
+
+    sortRecipes() {
+        this.filteredRecipes.sort((a, b) => {
+            switch (this.currentSort) {
+                case 'rating': return (b.rating || 0) - (a.rating || 0);
+                case 'time': return this.parseTime(a.time) - this.parseTime(b.time);
+                default: return b.match_percentage - a.match_percentage;
+            }
+        });
     }
 
     filterRecipes() {
@@ -84,9 +162,14 @@ class RecipeApp {
                 );
             }
 
-            return matchesSearch && matchesStore;
+            // Category filter
+            const matchesCategory = this.currentCategory === 'all' ||
+                recipe.category === this.currentCategory;
+
+            return matchesSearch && matchesStore && matchesCategory;
         });
 
+        this.sortRecipes();
         this.render();
     }
 
@@ -140,17 +223,17 @@ class RecipeApp {
 
         const imageUrl = this.getImageUrl(recipe.image);
         const imageHtml = imageUrl
-            ? `<img class="card-image" src="${imageUrl}" alt="${recipe.name}" loading="lazy">`
+            ? `<img class="card-image" src="${this.escapeHtml(imageUrl)}" alt="${this.escapeHtml(recipe.name)}" loading="lazy">`
             : '';
 
         const matchedHtml = (recipe.matched_ingredients || []).slice(0, 5).map(ing => {
             const storeClass = this.getStoreClass(ing.deal_store);
-            const price = ing.deal_price ? `<span class="tag-price">${ing.deal_price}</span>` : '';
-            return `<span class="ingredient-tag matched ${storeClass}">${ing.ingredient} ${price}</span>`;
+            const price = ing.deal_price ? `<span class="tag-price">${this.escapeHtml(ing.deal_price)}</span>` : '';
+            return `<span class="ingredient-tag matched ${storeClass}">${this.escapeHtml(ing.ingredient)} ${price}</span>`;
         }).join('');
 
         const unmatchedHtml = (recipe.unmatched_ingredients || []).slice(0, 3).map(ing =>
-            `<span class="ingredient-tag">${ing}</span>`
+            `<span class="ingredient-tag">${this.escapeHtml(ing)}</span>`
         ).join('');
 
         const moreCount = (recipe.unmatched_ingredients || []).length - 3;
@@ -160,8 +243,8 @@ class RecipeApp {
             <article class="recipe-card">
                 ${imageHtml}
                 <div class="card-header">
-                    <span class="card-category">${recipe.category || 'Recept'}</span>
-                    <h2 class="card-title">${recipe.name}</h2>
+                    <span class="card-category">${this.escapeHtml(recipe.category) || 'Recept'}</span>
+                    <h2 class="card-title">${this.escapeHtml(recipe.name)}</h2>
                     <div class="card-meta">
                         ${time ? `<span class="meta-item"><span class="meta-icon">⏱</span> ${time}</span>` : ''}
                         ${recipe.servings ? `<span class="meta-item"><span class="meta-icon">👤</span> ${recipe.servings}</span>` : ''}
@@ -195,7 +278,7 @@ class RecipeApp {
                 </div>
 
                 <div class="card-footer">
-                    <a href="${recipe.url}" target="_blank" rel="noopener" class="recipe-link">
+                    <a href="${this.escapeHtml(recipe.url)}" target="_blank" rel="noopener" class="recipe-link">
                         Se recept
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
