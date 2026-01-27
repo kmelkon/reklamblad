@@ -252,10 +252,12 @@ class RecipeApp {
 
     filterRecipes() {
         this.filteredRecipes = this.recipes.filter(recipe => {
-            // Search filter
+            // Search filter (name, category, ingredients)
             const matchesSearch = !this.searchQuery ||
                 recipe.name.toLowerCase().includes(this.searchQuery) ||
-                (recipe.category && recipe.category.toLowerCase().includes(this.searchQuery));
+                (recipe.category && recipe.category.toLowerCase().includes(this.searchQuery)) ||
+                recipe.matched_ingredients?.some(ing => ing.ingredient?.toLowerCase().includes(this.searchQuery)) ||
+                recipe.unmatched_ingredients?.some(ing => ing.toLowerCase().includes(this.searchQuery));
 
             // Store filter
             let matchesStore = this.currentStore === 'all';
