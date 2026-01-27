@@ -289,6 +289,68 @@ body {
     background: var(--color-coop);
 }
 
+/* Sort Select */
+.sort-select {
+    padding: var(--space-md) var(--space-lg);
+    padding-right: calc(var(--space-lg) + 20px);
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    background: var(--color-paper);
+    border: 2px solid transparent;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.25s var(--ease-out);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%234A4640' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right var(--space-md) center;
+}
+
+.sort-select:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.sort-select:focus {
+    outline: none;
+    border-color: var(--color-amber);
+    box-shadow: 0 4px 20px rgba(212, 168, 83, 0.15);
+}
+
+/* Category Pills */
+.category-pills {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-lg);
+    animation: slideUp 0.6s var(--ease-out) 0.25s both;
+}
+
+.category-pill {
+    padding: var(--space-sm) var(--space-md);
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    background: var(--color-paper);
+    border: 1px solid rgba(26, 25, 21, 0.1);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s var(--ease-out);
+}
+
+.category-pill:hover {
+    background: var(--color-cream);
+    border-color: var(--color-amber);
+}
+
+.category-pill.active {
+    background: var(--color-ink);
+    color: var(--color-paper);
+    border-color: var(--color-ink);
+}
+
 /* Stats Bar */
 .stats-bar {
     display: flex;
