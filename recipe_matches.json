@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-27T18:58:22.537197Z",
-  "total_deals": 434,
+  "last_updated": "2026-01-27T20:59:30.581360Z",
+  "total_deals": 425,
   "total_recipes": 98,
   "recipes": [
     {
@@ -139,21 +139,21 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
           "ingredient": "färska champinjoner",
-          "deal_name": "FÄRSKA HAMBURGARE",
-          "deal_price": "Medlemspris",
+          "deal_name": "FÄRSKA KRYDDOR 15-25G",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "660",
           "match_score": 0.75
         },
         {
@@ -254,11 +254,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -370,21 +370,21 @@
         {
           "ingredient": "purjolök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -557,11 +557,11 @@
         {
           "ingredient": "picklad rödlök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         }
       ],
@@ -631,11 +631,11 @@
         {
           "ingredient": "gula lökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -902,11 +902,11 @@
         {
           "ingredient": "skivad rödlök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         }
       ],
@@ -938,11 +938,11 @@
         {
           "ingredient": "lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1027,11 +1027,11 @@
         {
           "ingredient": "ca 10 små gula lökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1251,11 +1251,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1305,11 +1305,11 @@
         {
           "ingredient": "stor gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1399,11 +1399,11 @@
         {
           "ingredient": "bananschalottenlökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1504,11 +1504,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1589,11 +1589,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1629,11 +1629,11 @@
         {
           "ingredient": "portioner spaghetti",
           "deal_name": "SPAGHETTI",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "19,90",
           "match_score": 0.9
         },
         {
@@ -1685,11 +1685,11 @@
         {
           "ingredient": "gula lökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1735,11 +1735,11 @@
         {
           "ingredient": "hackad persilja",
           "deal_name": "BLADPERSILJA 250G",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "79,60",
           "match_score": 0.9
         },
         {
@@ -1791,22 +1791,22 @@
         },
         {
           "ingredient": "färska champinjoner",
-          "deal_name": "FÄRSKA HAMBURGARE",
-          "deal_price": "Medlemspris",
+          "deal_name": "FÄRSKA KRYDDOR 15-25G",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "660",
           "match_score": 0.75
         },
         {
           "ingredient": "schalottenlökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -1832,11 +1832,11 @@
         {
           "ingredient": "färsk persilja",
           "deal_name": "BLADPERSILJA 250G",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "79,60",
           "match_score": 0.9
         },
         {
@@ -1977,11 +1977,11 @@
         {
           "ingredient": "gula lökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2075,11 +2075,11 @@
         {
           "ingredient": "finskuren salladslök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2316,11 +2316,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2429,11 +2429,11 @@
         {
           "ingredient": "strimlade salladslökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2565,11 +2565,11 @@
         {
           "ingredient": "gula lökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2649,11 +2649,11 @@
         {
           "ingredient": "gul lök eller schalottenlök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2745,11 +2745,11 @@
         {
           "ingredient": "tunt skivad salladslök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2821,11 +2821,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -2910,11 +2910,11 @@
         {
           "ingredient": "spaghetti",
           "deal_name": "SPAGHETTI",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "19,90",
           "match_score": 1.0
         },
         {
@@ -3061,11 +3061,11 @@
         {
           "ingredient": "purjolök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -3194,11 +3194,11 @@
         {
           "ingredient": "risnudlar",
           "deal_name": "NUDLAR",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "213,98",
           "match_score": 0.9
         },
         {
@@ -3348,11 +3348,11 @@
         {
           "ingredient": "purjolök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -3567,11 +3567,11 @@
         {
           "ingredient": "bananschalottenlökar",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -3640,11 +3640,11 @@
         {
           "ingredient": "rödlök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -4001,11 +4001,11 @@
         {
           "ingredient": "hackad gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -4151,11 +4151,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -4227,11 +4227,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -4334,11 +4334,11 @@
         {
           "ingredient": "spaghetti",
           "deal_name": "SPAGHETTI",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "19,90",
           "match_score": 1.0
         },
         {
@@ -4694,11 +4694,11 @@
         {
           "ingredient": "finhackad gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -4746,11 +4746,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -5158,7 +5158,7 @@
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "37,50",
           "match_score": 0.9
         },
         {
@@ -5211,11 +5211,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -5268,21 +5268,21 @@
         {
           "ingredient": "risnudlar",
           "deal_name": "NUDLAR",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "213,98",
           "match_score": 0.9
         },
         {
           "ingredient": "färska böngroddar",
-          "deal_name": "FÄRSKA HAMBURGARE",
-          "deal_price": "Medlemspris",
+          "deal_name": "FÄRSKA KRYDDOR 15-25G",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "660",
           "match_score": 0.75
         },
         {
@@ -5567,12 +5567,12 @@
         },
         {
           "ingredient": "hackade färska  örter",
-          "deal_name": "FÄRSKA HAMBURGARE",
-          "deal_price": "Medlemspris",
+          "deal_name": "FÄRSKA KRYDDOR 15-25G",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "660",
           "match_score": 0.75
         }
       ],
@@ -5665,11 +5665,11 @@
         {
           "ingredient": "rödlök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -5764,11 +5764,11 @@
         {
           "ingredient": "gul lök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -5829,11 +5829,11 @@
         {
           "ingredient": "purjolök",
           "deal_name": "SALLADSLÖK I KNIPPE",
-          "deal_price": "9.9:-",
+          "deal_price": "9.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "99:00",
           "match_score": 0.85
         },
         {
@@ -5956,11 +5956,11 @@
         {
           "ingredient": "färsk spaghetti eller fettuccine",
           "deal_name": "SPAGHETTI",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "19,90",
           "match_score": 0.9
         },
         {
@@ -6213,11 +6213,11 @@
         {
           "ingredient": "hackad persilja",
           "deal_name": "BLADPERSILJA 250G",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "79,60",
           "match_score": 0.9
         }
       ],
@@ -6414,11 +6414,11 @@
         {
           "ingredient": "spaghetti",
           "deal_name": "SPAGHETTI",
-          "deal_price": "19.9:-",
+          "deal_price": "19.90:-",
           "deal_store": "Willys",
           "deal_unit": null,
           "ord_pris": null,
-          "jfr_pris": null,
+          "jfr_pris": "19,90",
           "match_score": 1.0
         },
         {
