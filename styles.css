@@ -711,8 +711,28 @@ body {
 }
 
 .tag-price {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 3px;
     font-weight: 600;
-    opacity: 0.8;
+    opacity: 0.9;
+}
+
+.price-current {
+    color: inherit;
+}
+
+.price-unit {
+    font-weight: 400;
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+.price-original {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 0.85em;
+    font-weight: 400;
 }
 
 /* Card Footer */

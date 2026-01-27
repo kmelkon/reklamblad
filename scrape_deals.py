@@ -148,7 +148,9 @@ def parse_offer_texts(texts: list[str], store_name: str) -> dict | None:
 
     price = None
     unit = None
-    description = None
+    description_parts = []
+    ord_pris = None
+    jfr_pris = None
 
     for t in texts[1:]:
         if re.match(r'^\d+:-$', t):
@@ -157,18 +159,31 @@ def parse_offer_texts(texts: list[str], store_name: str) -> dict | None:
             unit = t
         elif re.match(r'^\d+\s+för$', t):
             unit = t
-        elif '|' in t and not description:
-            description = t
-        elif 'Jfr pris' in t or 'Ord.pris' in t:
-            if not description:
-                description = t
+        elif '|' in t:
+            description_parts.append(t)
+            ord_match = re.search(r'Ord\.pris\s+([\d:,.-]+)\s*kr', t)
+            if ord_match:
+                ord_pris = ord_match.group(1)
+            jfr_match = re.search(r'Jfr pris\s+([\d:,.-]+)', t)
+            if jfr_match:
+                jfr_pris = jfr_match.group(1)
+        elif 'Ord.pris' in t or 'Jfr pris' in t:
+            description_parts.append(t)
+            ord_match = re.search(r'Ord\.pris\s+([\d:,.-]+)\s*kr', t)
+            if ord_match:
+                ord_pris = ord_match.group(1)
+            jfr_match = re.search(r'Jfr pris\s+([\d:,.-]+)', t)
+            if jfr_match:
+                jfr_pris = jfr_match.group(1)
 
     return {
         'store': store_name,
         'name': name.strip(),
         'price': price,
         'unit': unit,
-        'description': description,
+        'description': ' | '.join(description_parts) if description_parts else None,
+        'ord_pris': ord_pris,
+        'jfr_pris': jfr_pris,
     }
 
 
@@ -198,6 +213,101 @@ def parse_paged_publication(data, store_name: str) -> list[dict]:
     return products
 
 
+def scrape_inventory_view(page, store_name: str, base_url: str) -> list[dict]:
+    """Scrape inventory view which has structured product data (Willys, ICA Maxi, ICA Kvantum)."""
+    print(f"\n=== Scraping {store_name} (inventory view) ===")
+
+    products = []
+    inventory_url = f"{base_url.rstrip('/')}?publication=inventory"
+    print(f"URL: {inventory_url}")
+
+    try:
+        page.goto(inventory_url, timeout=30000)
+        page.wait_for_load_state('networkidle', timeout=20000)
+        page.wait_for_timeout(2000)
+
+        # Scroll to load all products
+        for i in range(25):
+            page.evaluate(f'window.scrollTo(0, {i * 500})')
+            page.wait_for_timeout(150)
+        page.wait_for_timeout(1000)
+
+        links = page.query_selector_all('a[href*="offer="]')
+        print(f"  Found {len(links)} product links")
+
+        for link in links:
+            try:
+                text = link.inner_text()
+                lines = [l.strip().replace('\xa0', ' ') for l in text.split('\n') if l.strip()]
+
+                if not lines:
+                    continue
+
+                name = lines[0]
+                if len(name) < 2 or len(name) > 100:
+                    continue
+
+                # Parse price and details
+                price = None
+                description = None
+                jfr_pris = None
+                ord_pris = None
+
+                for line in lines[1:]:
+                    # Price line: "19,90 kr" or "Medlemspris 79 kr"
+                    price_match = re.search(r'(\d+[,.]?\d*)\s*kr$', line)
+                    if price_match and not price:
+                        price_val = price_match.group(1).replace(',', '.')
+                        if 'Medlemspris' in line:
+                            price = 'Medlemspris'
+                        else:
+                            price = f"{price_val}:-"
+
+                    # Details line with Jämförpris
+                    if 'Jämförpris' in line or 'jämförpris' in line:
+                        description = line
+                        jfr_match = re.search(r'[Jj]ämförpris\s*([\d:,.]+)\s*kr', line)
+                        if jfr_match:
+                            jfr_pris = jfr_match.group(1)
+
+                    # Lägsta 30-dgrspris (use as ord_pris for comparison)
+                    if '30-dgr' in line.lower() or 'lägsta' in line.lower():
+                        if not description:
+                            description = line
+                        else:
+                            description += ' | ' + line
+                        ord_match = re.search(r'[Ll]ägsta\s+30-dgrspris\s*([\d:,.-]+)\s*kr', line)
+                        if ord_match:
+                            ord_pris = ord_match.group(1)
+
+                    # Weight/unit info: "1 kg • 19,90 kr/kg"
+                    if '•' in line and 'kr/' in line:
+                        if not description:
+                            description = line
+                        # Extract jfr_pris from "19,90 kr/kg"
+                        unit_match = re.search(r'([\d,]+)\s*kr/(kg|st|liter)', line)
+                        if unit_match and not jfr_pris:
+                            jfr_pris = unit_match.group(1)
+
+                products.append({
+                    'store': store_name,
+                    'name': name.strip(),
+                    'price': price,
+                    'unit': None,
+                    'description': description,
+                    'ord_pris': ord_pris,
+                    'jfr_pris': jfr_pris,
+                })
+            except Exception:
+                continue
+
+    except Exception as e:
+        print(f"  Error scraping inventory: {e}")
+
+    print(f"  Found {len(products)} products via inventory")
+    return products
+
+
 def scrape_dom_fallback(page, store_name: str) -> list[dict]:
     """Fallback: parse product data from visible DOM content."""
     products = []
@@ -217,6 +327,8 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
                         'price': f"{price}:-",
                         'unit': None,
                         'description': None,
+                        'ord_pris': None,
+                        'jfr_pris': None,
                     })
                 continue
 
@@ -230,6 +342,8 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
                         'price': 'Medlemspris',
                         'unit': None,
                         'description': None,
+                        'ord_pris': None,
+                        'jfr_pris': None,
                     })
                 continue
 
@@ -243,6 +357,8 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
                         'price': f"{price}:-",
                         'unit': None,
                         'description': None,
+                        'ord_pris': None,
+                        'jfr_pris': None,
                     })
 
     except Exception as e:
@@ -274,9 +390,15 @@ def main():
         )
         page = context.new_page()
 
+        # Stores that use inventory view for better price data
+        inventory_stores = {'Willys', 'ICA Maxi', 'ICA Kvantum', 'Stora Coop', 'Coop'}
+
         for store_name, url in stores:
             try:
-                products = scrape_ereklamblad(page, store_name, url)
+                if store_name in inventory_stores:
+                    products = scrape_inventory_view(page, store_name, url)
+                else:
+                    products = scrape_ereklamblad(page, store_name, url)
                 all_products.extend(products)
             except Exception as e:
                 print(f"Error scraping {store_name}: {e}")
