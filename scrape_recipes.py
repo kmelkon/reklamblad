@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scrape top 100 recipes from ICA.se with ingredients."""
+"""Scrape highly-rated recipes (4.5+ stars) from ICA.se with ingredients."""
 
 import json
 import os
@@ -8,20 +8,9 @@ import time
 from playwright.sync_api import sync_playwright
 import requests
 
-CATEGORIES = [
-    ('/billig/', 'Budget'),
-    ('/svensk/', 'Svenska klassiker'),
-    ('/till-matlada/', 'Matlada'),
-    ('/snabbt/', 'Snabbt'),
-    ('/vegetariskt/', 'Vegetariskt'),
-    ('/vardagsmat/', 'Vardagsmat'),
-    ('/kyckling/', 'Kyckling'),
-    ('/fisk/', 'Fisk'),
-    ('/pasta/', 'Pasta'),
-    ('/soppa/', 'Soppa'),
-]
-
-RECIPES_PER_CATEGORY = 15
+API_BASE = 'https://apimgw-pub.ica.se/sverige/digx/mdsarecipesearch/v1/page-and-filters'
+MIN_RATING = 4.5
+BATCH_SIZE = 500
 
 
 def get_bearer_token() -> str:
@@ -45,18 +34,42 @@ def get_bearer_token() -> str:
     return token
 
 
-def get_recipe_list(token: str, category_url: str, take: int = 20) -> list[dict]:
-    """Get recipe cards from a category."""
+def get_all_recipe_cards(token: str, min_rating: float = MIN_RATING) -> list[dict]:
+    """Fetch all recipe cards with rating >= min_rating using pagination."""
     headers = {'Authorization': token, 'Accept': 'application/json'}
-    url = f'https://apimgw-pub.ica.se/sverige/digx/mdsarecipesearch/v1/page-and-filters?url={category_url}&take={take}&onlyEnabled=true'
+    all_cards = []
+    skip = 0
 
-    resp = requests.get(url, headers=headers)
-    if resp.status_code != 200:
-        print(f"  API error: {resp.status_code}")
-        return []
+    print(f"Fetching recipes with rating >= {min_rating}...")
 
-    data = resp.json()
-    return data.get('pageDto', {}).get('recipeCards', [])
+    while True:
+        url = f'{API_BASE}?url=/&take={BATCH_SIZE}&skip={skip}&onlyEnabled=true'
+        resp = requests.get(url, headers=headers)
+
+        if resp.status_code != 200:
+            print(f"  API error at skip={skip}: {resp.status_code}")
+            break
+
+        data = resp.json()
+        cards = data.get('pageDto', {}).get('recipeCards', [])
+
+        if not cards:
+            break
+
+        # Filter by rating
+        for card in cards:
+            rating_data = card.get('rating', {})
+            avg_rating = rating_data.get('averageRating', 0) if rating_data else 0
+            if avg_rating >= min_rating:
+                all_cards.append(card)
+
+        print(f"  Fetched {skip + len(cards)} recipes, {len(all_cards)} match rating filter")
+        skip += BATCH_SIZE
+
+        # Small delay between API calls
+        time.sleep(0.2)
+
+    return all_cards
 
 
 def get_recipe_details(page, recipe_url: str) -> dict | None:
@@ -89,6 +102,7 @@ def get_recipe_details(page, recipe_url: str) -> dict | None:
                         'ingredients': data.get('recipeIngredient', []),
                         'rating': data.get('aggregateRating', {}).get('ratingValue'),
                         'reviews': data.get('aggregateRating', {}).get('reviewCount'),
+                        'instructions': normalize_instructions(data.get('recipeInstructions', [])),
                     }
             except json.JSONDecodeError:
                 continue
@@ -97,6 +111,22 @@ def get_recipe_details(page, recipe_url: str) -> dict | None:
         print(f"    Error fetching {recipe_url}: {e}")
 
     return None
+
+
+def normalize_instructions(instructions: list) -> list[dict]:
+    """Normalize instructions to list of step objects."""
+    result = []
+    for step in instructions:
+        if isinstance(step, str):
+            result.append({'text': step})
+        elif isinstance(step, dict):
+            normalized = {}
+            for key in ('name', 'text', 'image', 'url'):
+                if step.get(key):
+                    normalized[key] = step[key]
+            if normalized:
+                result.append(normalized)
+    return result
 
 
 def simplify_ingredient(ingredient: str) -> str:
@@ -120,26 +150,15 @@ def main():
         return
     print(f"Got token: {token[:40]}...\n")
 
-    all_recipe_cards = []
-    seen_ids = set()
+    # Fetch all recipe cards with rating filter
+    recipe_cards = get_all_recipe_cards(token, MIN_RATING)
+    print(f"\nFound {len(recipe_cards)} recipes with rating >= {MIN_RATING}\n")
 
-    for cat_url, cat_name in CATEGORIES:
-        print(f"Fetching category: {cat_name}")
-        cards = get_recipe_list(token, cat_url, RECIPES_PER_CATEGORY)
-        print(f"  Got {len(cards)} recipes")
+    if not recipe_cards:
+        print("No recipes found")
+        return
 
-        for card in cards:
-            rid = card.get('id')
-            if rid not in seen_ids:
-                seen_ids.add(rid)
-                card['ica_category'] = cat_name
-                all_recipe_cards.append(card)
-
-    print(f"\nTotal unique recipes: {len(all_recipe_cards)}")
-
-    all_recipe_cards = all_recipe_cards[:100]
-    print(f"Processing top {len(all_recipe_cards)} recipes...\n")
-
+    # Fetch full details for each recipe
     recipes = []
 
     with sync_playwright() as p:
@@ -147,15 +166,14 @@ def main():
         context = browser.new_context()
         page = context.new_page()
 
-        for i, card in enumerate(all_recipe_cards):
+        for i, card in enumerate(recipe_cards):
             title = card.get('title', 'Unknown')
             url = card.get('url', '')
-            print(f"[{i+1}/{len(all_recipe_cards)}] {title}")
+            print(f"[{i+1}/{len(recipe_cards)}] {title}")
 
             details = get_recipe_details(page, url)
 
             if details:
-                details['ica_category'] = card.get('ica_category', '')
                 details['simplified_ingredients'] = [
                     simplify_ingredient(ing) for ing in details['ingredients']
                 ]

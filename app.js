@@ -73,10 +73,15 @@ class RecipeApp {
             this.lastUpdated = matchesData.last_updated;
             this.filteredRecipes = [...this.recipes];
 
-            // Extract unique categories
+            // Extract unique categories (split comma-separated)
             const categorySet = new Set();
             this.recipes.forEach(r => {
-                if (r.category) categorySet.add(r.category);
+                if (r.category) {
+                    r.category.split(',').forEach(c => {
+                        const trimmed = c.trim();
+                        if (trimmed) categorySet.add(trimmed);
+                    });
+                }
             });
             this.categories = Array.from(categorySet).sort();
             this.renderCategoryPills();
@@ -267,9 +272,9 @@ class RecipeApp {
                 );
             }
 
-            // Category filter
+            // Category filter (handles comma-separated categories)
             const matchesCategory = this.currentCategory === 'all' ||
-                recipe.category === this.currentCategory;
+                (recipe.category && recipe.category.split(',').some(c => c.trim() === this.currentCategory));
 
             return matchesSearch && matchesStore && matchesCategory;
         });

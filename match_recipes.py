@@ -160,7 +160,7 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
         'name': recipe.get('name'),
         'url': recipe.get('url'),
         'image': recipe.get('image'),
-        'category': recipe.get('ica_category'),
+        'category': recipe.get('category') or recipe.get('ica_category'),
         'total_ingredients': len(ingredients),
         'matched_count': len(matched_ingredients),
         'match_percentage': round(match_percentage, 1),
