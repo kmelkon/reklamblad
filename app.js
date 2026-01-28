@@ -463,7 +463,85 @@ class RecipeApp {
     }
 }
 
+// Theme toggle
+function initTheme() {
+    const toggle = document.getElementById('themeToggle');
+    if (!toggle) return;
+
+    // Check stored preference
+    let stored = null;
+    try {
+        stored = localStorage.getItem('theme');
+    } catch (e) {
+        // localStorage unavailable (private browsing, etc.)
+    }
+    if (stored) {
+        document.documentElement.setAttribute('data-theme', stored);
+    }
+
+    // Update aria-label based on current effective theme
+    function updateAriaLabel() {
+        const current = document.documentElement.getAttribute('data-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const isDark = current === 'dark' || (!current && prefersDark);
+        toggle.setAttribute('aria-label', isDark ? 'Byt till ljust tema' : 'Byt till mörkt tema');
+    }
+    updateAriaLabel();
+
+    // Listen for system preference changes
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    const handleSystemChange = () => {
+        let hasExplicit = false;
+        try {
+            hasExplicit = !!localStorage.getItem('theme');
+        } catch (e) {}
+        if (!hasExplicit) {
+            // No explicit preference, UI follows system automatically via CSS
+            updateAriaLabel();
+        }
+    };
+    // Safari <14 fallback
+    if (mq.addEventListener) {
+        mq.addEventListener('change', handleSystemChange);
+    } else {
+        mq.addListener(handleSystemChange);
+    }
+
+    toggle.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        let next;
+        if (current === 'dark') {
+            next = 'light';
+        } else if (current === 'light') {
+            next = 'dark';
+        } else {
+            // No explicit setting - flip from system preference
+            next = prefersDark ? 'light' : 'dark';
+        }
+
+        // Add transition class for smooth theme switch
+        document.documentElement.classList.add('theme-transition');
+        document.documentElement.setAttribute('data-theme', next);
+        try {
+            localStorage.setItem('theme', next);
+        } catch (e) {
+            // localStorage unavailable
+        }
+
+        // Update aria-label
+        toggle.setAttribute('aria-label', next === 'dark' ? 'Byt till ljust tema' : 'Byt till mörkt tema');
+
+        // Remove transition class after animation completes
+        setTimeout(() => {
+            document.documentElement.classList.remove('theme-transition');
+        }, 400);
+    });
+}
+
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     new RecipeApp();
 });
