@@ -570,6 +570,38 @@ function initTheme() {
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
 
+    // Track previous route for onLeave callbacks
+    let previousRoute = null;
+
+    // Set up route handlers
+    router.on('/recipes', () => {
+        // RecipeApp is always initialized, no action needed
+    });
+
+    router.on('/deals', () => {
+        dealsApp.init();
+    });
+
+    router.on('/lists', () => {
+        // ListsApp will be added in Phase 3
+    });
+
+    // Handle route leave callbacks
+    const originalOnRouteChange = router.onRouteChange;
+    router.onRouteChange = (newRoute) => {
+        // Call onLeave for previous route
+        if (previousRoute === '/deals') {
+            dealsApp.onLeave();
+        }
+
+        previousRoute = newRoute;
+
+        // Call original handler (updates nav active states)
+        if (originalOnRouteChange) {
+            originalOnRouteChange(newRoute);
+        }
+    };
+
     // Initialize router
     router.init().bindNav();
 
