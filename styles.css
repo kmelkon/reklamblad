@@ -2243,6 +2243,46 @@ body.sheet-open {
     filter: brightness(1.1);
 }
 
+/* Desktop: Modal instead of bottom sheet */
+@media (min-width: 769px) {
+    .bottom-sheet-overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+
+    .bottom-sheet {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        max-width: 420px;
+        max-height: 80vh;
+        border-radius: var(--border-radius);
+        transform: scale(0.95);
+        opacity: 0;
+        transition: transform 0.25s var(--ease-out), opacity 0.25s var(--ease-out);
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    }
+
+    .bottom-sheet-overlay.visible .bottom-sheet {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .bottom-sheet-handle {
+        display: none;
+    }
+
+    .bottom-sheet-content {
+        padding-top: var(--space-lg);
+    }
+}
+
 /* ============================================
    TOAST NOTIFICATIONS
    ============================================ */
