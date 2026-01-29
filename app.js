@@ -569,5 +569,10 @@ function initTheme() {
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
+
+    // Initialize router
+    router.init().bindNav();
+
+    // Initialize RecipeApp
     new RecipeApp();
 });
