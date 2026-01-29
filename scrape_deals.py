@@ -76,8 +76,8 @@ def extract_products_from_api(responses: list, store_name: str) -> list[dict]:
 
         if 'incito' in url or 'generate_incito' in url:
             offers = find_incito_offers(data)
-            for offer_texts in offers:
-                product = parse_offer_texts(offer_texts, store_name)
+            for offer in offers:
+                product = parse_offer_texts(offer.get('texts', []), store_name, offer.get('image'))
                 if product:
                     products.append(product)
 
@@ -88,8 +88,11 @@ def extract_products_from_api(responses: list, store_name: str) -> list[dict]:
     return products
 
 
-def find_incito_offers(obj, depth: int = 0) -> list[list[str]]:
-    """Find offer groups in Incito JSON by looking for role='offer'."""
+def find_incito_offers(obj, depth: int = 0) -> list[dict]:
+    """Find offer groups in Incito JSON by looking for role='offer'.
+
+    Returns list of dicts with 'texts' and 'image' keys.
+    """
     if depth > 30:
         return []
 
@@ -101,7 +104,8 @@ def find_incito_offers(obj, depth: int = 0) -> list[list[str]]:
         if role == 'offer':
             texts = collect_texts(obj)
             if texts:
-                offers.append(texts)
+                image = find_background_image(obj)
+                offers.append({'texts': texts, 'image': image})
         else:
             for key in ['child_views', 'children', 'root_view']:
                 if key in obj:
@@ -115,6 +119,40 @@ def find_incito_offers(obj, depth: int = 0) -> list[list[str]]:
             offers.extend(find_incito_offers(item, depth + 1))
 
     return offers
+
+
+def find_background_image(obj, depth: int = 0) -> str | None:
+    """Find first background_image URL in nested object."""
+    if depth > 15:
+        return None
+
+    if isinstance(obj, dict):
+        # Check for background_image with actual image URL (not section loader)
+        bg = obj.get('background_image')
+        if bg and isinstance(bg, str) and 'image-transformer-api' in bg:
+            return bg
+
+        # Search in child_views first (images are typically there)
+        for key in ['child_views', 'children']:
+            if key in obj:
+                result = find_background_image(obj[key], depth + 1)
+                if result:
+                    return result
+
+        # Then search other values
+        for k, v in obj.items():
+            if k not in ['child_views', 'children'] and isinstance(v, (dict, list)):
+                result = find_background_image(v, depth + 1)
+                if result:
+                    return result
+
+    elif isinstance(obj, list):
+        for item in obj:
+            result = find_background_image(item, depth + 1)
+            if result:
+                return result
+
+    return None
 
 
 def collect_texts(obj) -> list[str]:
@@ -133,7 +171,7 @@ def collect_texts(obj) -> list[str]:
     return texts
 
 
-def parse_offer_texts(texts: list[str], store_name: str) -> dict | None:
+def parse_offer_texts(texts: list[str], store_name: str, image: str | None = None) -> dict | None:
     """Parse offer text list into structured product data."""
     if not texts:
         return None
@@ -184,6 +222,7 @@ def parse_offer_texts(texts: list[str], store_name: str) -> dict | None:
         'description': ' | '.join(description_parts) if description_parts else None,
         'ord_pris': ord_pris,
         'jfr_pris': jfr_pris,
+        'image': image,
     }
 
 
@@ -201,6 +240,23 @@ def parse_paged_publication(data, store_name: str) -> list[dict]:
                 pre_price = offer.get('pricing', {}).get('pre_price')
                 unit = offer.get('quantity', {}).get('unit', {}).get('symbol', '')
 
+                # Try to find image in offer or hotspot
+                image = None
+                for img_key in ['image', 'images', 'photo']:
+                    if img_key in offer and offer[img_key]:
+                        img = offer[img_key]
+                        if isinstance(img, str):
+                            image = img
+                        elif isinstance(img, list) and img:
+                            first = img[0]
+                            if isinstance(first, str):
+                                image = first
+                            elif isinstance(first, dict):
+                                image = first.get('url') or first.get('src')
+                        elif isinstance(img, dict):
+                            image = img.get('url') or img.get('src')
+                        break
+
                 if name:
                     products.append({
                         'store': store_name,
@@ -208,6 +264,7 @@ def parse_paged_publication(data, store_name: str) -> list[dict]:
                         'price': f"{price}:-" if price else None,
                         'unit': unit if unit else None,
                         'description': f"Ord.pris {pre_price}:-" if pre_price else None,
+                        'image': image,
                     })
 
     return products
@@ -289,6 +346,15 @@ def scrape_inventory_view(page, store_name: str, base_url: str) -> list[dict]:
                         if unit_match and not jfr_pris:
                             jfr_pris = unit_match.group(1)
 
+                # Try to get image from link
+                image = None
+                try:
+                    img = link.query_selector('img')
+                    if img:
+                        image = img.get_attribute('src')
+                except Exception:
+                    pass
+
                 products.append({
                     'store': store_name,
                     'name': name.strip(),
@@ -297,6 +363,7 @@ def scrape_inventory_view(page, store_name: str, base_url: str) -> list[dict]:
                     'description': description,
                     'ord_pris': ord_pris,
                     'jfr_pris': jfr_pris,
+                    'image': image,
                 })
             except Exception:
                 continue
@@ -329,6 +396,7 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
                         'description': None,
                         'ord_pris': None,
                         'jfr_pris': None,
+                        'image': None,
                     })
                 continue
 
@@ -344,6 +412,7 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
                         'description': None,
                         'ord_pris': None,
                         'jfr_pris': None,
+                        'image': None,
                     })
                 continue
 
@@ -359,6 +428,7 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
                         'description': None,
                         'ord_pris': None,
                         'jfr_pris': None,
+                        'image': None,
                     })
 
     except Exception as e:

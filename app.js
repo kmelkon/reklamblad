@@ -38,16 +38,6 @@ class RecipeApp {
         this.init();
     }
 
-    escapeHtml(str) {
-        if (!str) return '';
-        return String(str)
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#039;');
-    }
-
     async init() {
         await this.loadData();
         this.bindEvents();
@@ -135,7 +125,7 @@ class RecipeApp {
         const container = this.elements.categoryPills;
         const allPill = `<button class="category-pill active" data-category="all">Alla</button>`;
         const pills = this.categories.map(cat =>
-            `<button class="category-pill" data-category="${this.escapeHtml(cat)}">${this.escapeHtml(cat)}</button>`
+            `<button class="category-pill" data-category="${Utils.escapeHtml(cat)}">${Utils.escapeHtml(cat)}</button>`
         ).join('');
         container.innerHTML = allPill + pills;
     }
@@ -169,12 +159,12 @@ class RecipeApp {
 
         // Primary store buttons
         primaryStores.forEach(store => {
-            const storeClass = this.getStoreClass(store);
-            const shortName = this.getShortStoreName(store);
+            const storeClass = Utils.getStoreClass(store);
+            const shortName = Utils.getShortStoreName(store);
             html += `
-                <button class="filter-btn" data-store="${this.escapeHtml(store)}">
+                <button class="filter-btn" data-store="${Utils.escapeHtml(store)}">
                     <span class="filter-dot ${storeClass}"></span>
-                    ${this.escapeHtml(shortName)}
+                    ${Utils.escapeHtml(shortName)}
                 </button>
             `;
         });
@@ -193,12 +183,12 @@ class RecipeApp {
             `;
 
             overflowStores.forEach(store => {
-                const storeClass = this.getStoreClass(store);
-                const shortName = this.getShortStoreName(store);
+                const storeClass = Utils.getStoreClass(store);
+                const shortName = Utils.getShortStoreName(store);
                 html += `
-                    <button class="filter-btn" data-store="${this.escapeHtml(store)}">
+                    <button class="filter-btn" data-store="${Utils.escapeHtml(store)}">
                         <span class="filter-dot ${storeClass}"></span>
-                        ${this.escapeHtml(shortName)}
+                        ${Utils.escapeHtml(shortName)}
                     </button>
                 `;
             });
@@ -208,18 +198,6 @@ class RecipeApp {
 
         container.innerHTML = html;
         this.bindFilterEvents();
-    }
-
-    getShortStoreName(store) {
-        // Return shorter display names for buttons
-        if (store === 'ICA Supermarket') return 'ICA';
-        if (store === 'ICA Nära') return 'ICA Nära';
-        if (store === 'ICA Maxi') return 'ICA Maxi';
-        if (store === 'ICA Kvantum') return 'ICA Kvantum';
-        if (store === 'Stora Coop') return 'Stora Coop';
-        if (store === 'Coop') return 'Coop';
-        if (store === 'Willys') return 'Willys';
-        return store;
     }
 
     bindFilterEvents() {
@@ -333,13 +311,6 @@ class RecipeApp {
         return `${mins} min`;
     }
 
-    getStoreClass(store) {
-        if (store.startsWith('ICA')) return 'ica';
-        if (store.includes('Coop')) return 'coop';
-        if (store === 'Willys') return 'willys';
-        return '';
-    }
-
     getImageUrl(image) {
         if (!image) return null;
         if (typeof image === 'string') return image;
@@ -351,7 +322,7 @@ class RecipeApp {
         if (!ing.deal_price) return '';
 
         const parts = [];
-        const price = this.escapeHtml(ing.deal_price);
+        const price = Utils.escapeHtml(ing.deal_price);
         const unit = ing.deal_unit;
 
         parts.push(`<span class="price-current">${price}</span>`);
@@ -369,7 +340,7 @@ class RecipeApp {
         }
 
         if (ing.ord_pris) {
-            parts.push(`<span class="price-original">${this.escapeHtml(ing.ord_pris)}</span>`);
+            parts.push(`<span class="price-original">${Utils.escapeHtml(ing.ord_pris)}</span>`);
         }
 
         return `<span class="tag-price">${parts.join(' ')}</span>`;
@@ -383,17 +354,17 @@ class RecipeApp {
 
         const imageUrl = this.getImageUrl(recipe.image);
         const imageHtml = imageUrl
-            ? `<img class="card-image" src="${this.escapeHtml(imageUrl)}" alt="${this.escapeHtml(recipe.name)}" loading="lazy">`
+            ? `<img class="card-image" src="${Utils.escapeHtml(imageUrl)}" alt="${Utils.escapeHtml(recipe.name)}" loading="lazy">`
             : '';
 
         const matchedHtml = (recipe.matched_ingredients || []).slice(0, 5).map(ing => {
-            const storeClass = this.getStoreClass(ing.deal_store);
+            const storeClass = Utils.getStoreClass(ing.deal_store);
             const priceHtml = this.renderPriceComparison(ing);
-            return `<span class="ingredient-tag matched ${storeClass}">${this.escapeHtml(ing.ingredient)} ${priceHtml}</span>`;
+            return `<span class="ingredient-tag matched ${storeClass}">${Utils.escapeHtml(ing.ingredient)} ${priceHtml}</span>`;
         }).join('');
 
         const unmatchedHtml = (recipe.unmatched_ingredients || []).slice(0, 3).map(ing =>
-            `<span class="ingredient-tag">${this.escapeHtml(ing)}</span>`
+            `<span class="ingredient-tag">${Utils.escapeHtml(ing)}</span>`
         ).join('');
 
         const moreCount = (recipe.unmatched_ingredients || []).length - 3;
@@ -403,8 +374,8 @@ class RecipeApp {
             <article class="recipe-card">
                 ${imageHtml}
                 <div class="card-header">
-                    <span class="card-category">${this.escapeHtml(recipe.category) || 'Recept'}</span>
-                    <h2 class="card-title">${this.escapeHtml(recipe.name)}</h2>
+                    <span class="card-category">${Utils.escapeHtml(recipe.category) || 'Recept'}</span>
+                    <h2 class="card-title">${Utils.escapeHtml(recipe.name)}</h2>
                     <div class="card-meta">
                         ${time ? `<span class="meta-item"><span class="meta-icon">⏱</span> ${time}</span>` : ''}
                         ${recipe.servings ? `<span class="meta-item"><span class="meta-icon">👤</span> ${recipe.servings}</span>` : ''}
@@ -438,7 +409,7 @@ class RecipeApp {
                 </div>
 
                 <div class="card-footer">
-                    <a href="${this.escapeHtml(recipe.url)}" target="_blank" rel="noopener" class="recipe-link">
+                    <a href="${Utils.escapeHtml(recipe.url)}" target="_blank" rel="noopener" class="recipe-link">
                         Se recept
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -569,5 +540,42 @@ function initTheme() {
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
+
+    // Track previous route for onLeave callbacks
+    let previousRoute = null;
+
+    // Set up route handlers
+    router.on('/recipes', () => {
+        // RecipeApp is always initialized, no action needed
+    });
+
+    router.on('/deals', () => {
+        dealsApp.init();
+    });
+
+    router.on('/lists', () => {
+        // ListsApp will be added in Phase 3
+    });
+
+    // Handle route leave callbacks
+    const originalOnRouteChange = router.onRouteChange;
+    router.onRouteChange = (newRoute) => {
+        // Call onLeave for previous route
+        if (previousRoute === '/deals') {
+            dealsApp.onLeave();
+        }
+
+        previousRoute = newRoute;
+
+        // Call original handler (updates nav active states)
+        if (originalOnRouteChange) {
+            originalOnRouteChange(newRoute);
+        }
+    };
+
+    // Initialize router
+    router.init().bindNav();
+
+    // Initialize RecipeApp
     new RecipeApp();
 });
