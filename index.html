@@ -108,7 +108,7 @@
             <section class="deals-header">
                 <div class="deals-title-row">
                     <h2 class="deals-title">Veckans Erbjudanden</h2>
-                    <span class="deals-count"><span id="dealsCount">—</span> erbjudanden</span>
+                    <span class="deals-count" aria-live="polite"><span id="dealsCount">—</span> erbjudanden</span>
                 </div>
                 <div class="deals-controls">
                     <div class="search-wrapper">
@@ -154,7 +154,7 @@
     </footer>
 
     <!-- Deals Selection Bar (fixed position, outside page containers) -->
-    <div class="selection-bar" id="selectionBar">
+    <div class="selection-bar" id="selectionBar" aria-live="polite" aria-atomic="true">
         <span class="selection-info"><span id="selectionCount">0</span> valda</span>
         <button class="selection-btn primary" id="addToListBtn" disabled>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -191,6 +191,7 @@
         </a>
     </nav>
 
+    <script src="utils.js"></script>
     <script src="router.js"></script>
     <script src="deals.js"></script>
     <script src="app.js"></script>

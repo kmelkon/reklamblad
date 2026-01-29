@@ -108,26 +108,17 @@ class DealsApp {
         let html = `<button class="filter-chip active" data-store="all">Alla</button>`;
 
         stores.forEach(store => {
-            const storeClass = this.getStoreClass(store);
-            const shortName = this.getShortStoreName(store);
+            const storeClass = Utils.getStoreClass(store);
+            const shortName = Utils.getShortStoreName(store);
             html += `
-                <button class="filter-chip" data-store="${this.escapeHtml(store)}">
+                <button class="filter-chip" data-store="${Utils.escapeHtml(store)}">
                     <span class="chip-dot ${storeClass}"></span>
-                    ${this.escapeHtml(shortName)}
+                    ${Utils.escapeHtml(shortName)}
                 </button>
             `;
         });
 
         this.elements.filterGroup.innerHTML = html;
-    }
-
-    /**
-     * Get short display name for store
-     */
-    getShortStoreName(store) {
-        if (store === 'ICA Supermarket') return 'ICA';
-        if (store === 'Stora Coop') return 'Stora Coop';
-        return store;
     }
 
     /**
@@ -188,6 +179,17 @@ class DealsApp {
 
         // Deal selection via event delegation
         if (this.elements.container) {
+            // Select-all checkbox (use change event for checkbox)
+            this.elements.container.addEventListener('change', (e) => {
+                if (e.target.classList.contains('deal-select-all')) {
+                    if (e.target.checked) {
+                        this.selectAll();
+                    } else {
+                        this.clearSelection();
+                    }
+                }
+            });
+
             this.elements.container.addEventListener('click', (e) => {
                 const checkbox = e.target.closest('.deal-checkbox');
                 if (checkbox) {
@@ -450,29 +452,6 @@ class DealsApp {
     }
 
     /**
-     * Get store CSS class for styling
-     */
-    getStoreClass(store) {
-        if (store.startsWith('ICA')) return 'ica';
-        if (store.includes('Coop')) return 'coop';
-        if (store === 'Willys') return 'willys';
-        return '';
-    }
-
-    /**
-     * Escape HTML to prevent XSS
-     */
-    escapeHtml(str) {
-        if (!str) return '';
-        return String(str)
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#039;');
-    }
-
-    /**
      * Render the deals list with virtual scroll
      */
     render() {
@@ -527,18 +506,6 @@ class DealsApp {
                     </div>
                 </div>
             `;
-
-            // Bind select all
-            const selectAllCheckbox = document.getElementById('selectAllDeals');
-            if (selectAllCheckbox) {
-                selectAllCheckbox.addEventListener('change', (e) => {
-                    if (e.target.checked) {
-                        this.selectAll();
-                    } else {
-                        this.clearSelection();
-                    }
-                });
-            }
         }
 
         // Initial visible range
@@ -577,7 +544,7 @@ class DealsApp {
      * Render a table row (desktop)
      */
     renderRow(deal, idx, top) {
-        const storeClass = this.getStoreClass(deal.store);
+        const storeClass = Utils.getStoreClass(deal.store);
         const isSelected = this.selectedIds.has(idx);
         const shortDesc = this.truncate(deal.description, 60);
 
@@ -595,20 +562,20 @@ class DealsApp {
                     </div>
                 </div>
                 <div class="deals-td deals-td-name">
-                    <span class="deal-name">${this.escapeHtml(deal.name)}</span>
-                    ${deal.unit ? `<span class="deal-unit">${this.escapeHtml(deal.unit)}</span>` : ''}
+                    <span class="deal-name">${Utils.escapeHtml(deal.name)}</span>
+                    ${deal.unit ? `<span class="deal-unit">${Utils.escapeHtml(deal.unit)}</span>` : ''}
                 </div>
                 <div class="deals-td deals-td-price">
-                    <span class="deal-price">${this.escapeHtml(deal.price)}</span>
+                    <span class="deal-price">${Utils.escapeHtml(deal.price)}</span>
                 </div>
                 <div class="deals-td deals-td-original">
-                    ${deal.ord_pris ? `<span class="deal-original-price">${this.escapeHtml(deal.ord_pris)}</span>` : '—'}
+                    ${deal.ord_pris ? `<span class="deal-original-price">${Utils.escapeHtml(deal.ord_pris)}</span>` : '—'}
                 </div>
                 <div class="deals-td deals-td-store">
-                    <span class="deal-store-badge ${storeClass}">${this.escapeHtml(this.getShortStoreName(deal.store))}</span>
+                    <span class="deal-store-badge ${storeClass}">${Utils.escapeHtml(Utils.getShortStoreName(deal.store))}</span>
                 </div>
                 <div class="deals-td deals-td-desc">
-                    <span class="deal-desc">${this.escapeHtml(shortDesc)}</span>
+                    <span class="deal-desc">${Utils.escapeHtml(shortDesc)}</span>
                 </div>
             </div>
         `;
@@ -618,7 +585,7 @@ class DealsApp {
      * Render a card (mobile)
      */
     renderCard(deal, idx, top) {
-        const storeClass = this.getStoreClass(deal.store);
+        const storeClass = Utils.getStoreClass(deal.store);
         const isSelected = this.selectedIds.has(idx);
 
         return `
@@ -626,16 +593,16 @@ class DealsApp {
                 <div class="deal-card-image ${storeClass}">
                     ${this.getStoreIcon(deal.store)}
                     <div class="deal-card-price-badge">
-                        <span class="deal-card-price">${this.escapeHtml(deal.price)}</span>
-                        ${deal.unit && deal.unit !== '/st' ? `<span class="deal-card-unit">${this.escapeHtml(deal.unit)}</span>` : ''}
+                        <span class="deal-card-price">${Utils.escapeHtml(deal.price)}</span>
+                        ${deal.unit && deal.unit !== '/st' ? `<span class="deal-card-unit">${Utils.escapeHtml(deal.unit)}</span>` : ''}
                     </div>
                 </div>
                 <div class="deal-card-body">
                     <div class="deal-card-header">
-                        <h3 class="deal-card-name">${this.escapeHtml(deal.name)}</h3>
-                        <span class="deal-card-store ${storeClass}">${this.escapeHtml(this.getShortStoreName(deal.store))}</span>
+                        <h3 class="deal-card-name">${Utils.escapeHtml(deal.name)}</h3>
+                        <span class="deal-card-store ${storeClass}">${Utils.escapeHtml(Utils.getShortStoreName(deal.store))}</span>
                     </div>
-                    <p class="deal-card-desc">${this.escapeHtml(deal.description || '')}</p>
+                    <p class="deal-card-desc">${Utils.escapeHtml(deal.description || '')}</p>
                     <div class="deal-card-footer">
                         <button class="deal-add-btn ${isSelected ? 'added' : ''}" data-idx="${idx}">
                             ${isSelected ? `
@@ -684,7 +651,7 @@ class DealsApp {
     showError() {
         if (this.elements.container) {
             this.elements.container.innerHTML = `
-                <div class="empty-state">
+                <div class="empty-state" role="alert">
                     <h3>Kunde inte ladda erbjudanden</h3>
                     <p>Försök ladda om sidan</p>
                 </div>
