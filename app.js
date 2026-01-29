@@ -73,6 +73,16 @@ class RecipeApp {
             this.lastUpdated = matchesData.last_updated;
             this.filteredRecipes = [...this.recipes];
 
+            // Calculate global average rating for IMDB-style weighted sorting
+            const recipesWithRating = this.recipes.filter(r => r.rating && r.reviews);
+            if (recipesWithRating.length > 0) {
+                const totalRating = recipesWithRating.reduce((sum, r) => sum + r.rating, 0);
+                this.globalAvgRating = totalRating / recipesWithRating.length;
+            } else {
+                this.globalAvgRating = 4.5; // fallback
+            }
+            this.minReviewsForTrust = 25; // m parameter - tunable
+
             // Extract unique categories (split comma-separated)
             const categorySet = new Set();
             this.recipes.forEach(r => {
@@ -245,10 +255,21 @@ class RecipeApp {
         return parseInt(match[1] || 0) * 60 + parseInt(match[2] || 0);
     }
 
+    // IMDB-style weighted rating: WR = (v/(v+m)) * R + (m/(v+m)) * C
+    getWeightedRating(recipe) {
+        const R = recipe.rating || 0;
+        const v = recipe.reviews || 0;
+        const m = this.minReviewsForTrust;
+        const C = this.globalAvgRating;
+
+        if (!R) return 0;
+        return (v / (v + m)) * R + (m / (v + m)) * C;
+    }
+
     sortRecipes() {
         this.filteredRecipes.sort((a, b) => {
             switch (this.currentSort) {
-                case 'rating': return (b.rating || 0) - (a.rating || 0);
+                case 'rating': return this.getWeightedRating(b) - this.getWeightedRating(a);
                 case 'time': return this.parseTime(a.time) - this.parseTime(b.time);
                 default: return b.match_percentage - a.match_percentage;
             }
