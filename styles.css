@@ -1366,6 +1366,13 @@ body {
 .deal-thumb.coop { background: var(--color-coop-soft); color: var(--color-coop); }
 .deal-thumb.willys { background: var(--color-willys-soft); color: var(--color-willys); }
 
+.deal-thumb-img {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--border-radius-sm);
+    object-fit: cover;
+}
+
 .deal-store-icon {
     width: 24px;
     height: 24px;
@@ -1453,6 +1460,12 @@ body {
 .deal-card-image.ica { background: var(--color-ica-soft); color: var(--color-ica); }
 .deal-card-image.coop { background: var(--color-coop-soft); color: var(--color-coop); }
 .deal-card-image.willys { background: var(--color-willys-soft); color: var(--color-willys); }
+
+.deal-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .deal-card-image .deal-store-icon {
     width: 48px;

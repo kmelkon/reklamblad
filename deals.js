@@ -557,9 +557,10 @@ class DealsApp {
                     </label>
                 </div>
                 <div class="deals-td deals-td-image">
-                    <div class="deal-thumb ${storeClass}">
-                        ${this.getStoreIcon(deal.store)}
-                    </div>
+                    ${deal.image
+                        ? `<img class="deal-thumb-img" src="${Utils.escapeHtml(deal.image)}" alt="" loading="lazy">`
+                        : `<div class="deal-thumb ${storeClass}">${this.getStoreIcon(deal.store)}</div>`
+                    }
                 </div>
                 <div class="deals-td deals-td-name">
                     <span class="deal-name">${Utils.escapeHtml(deal.name)}</span>
@@ -591,7 +592,10 @@ class DealsApp {
         return `
             <article class="deal-card ${isSelected ? 'selected' : ''}" style="position: absolute; top: ${top}px; left: 0; right: 0; height: ${this.CARD_HEIGHT - 16}px;">
                 <div class="deal-card-image ${storeClass}">
-                    ${this.getStoreIcon(deal.store)}
+                    ${deal.image
+                        ? `<img class="deal-card-img" src="${Utils.escapeHtml(deal.image)}" alt="" loading="lazy">`
+                        : this.getStoreIcon(deal.store)
+                    }
                     <div class="deal-card-price-badge">
                         <span class="deal-card-price">${Utils.escapeHtml(deal.price)}</span>
                         ${deal.unit && deal.unit !== '/st' ? `<span class="deal-card-unit">${Utils.escapeHtml(deal.unit)}</span>` : ''}
