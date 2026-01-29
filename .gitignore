@@ -1,3 +1,4 @@
 ENHANCEMENTS.md
 venv/
+.venv/
 tmp/
