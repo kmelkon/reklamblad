@@ -1114,6 +1114,11 @@ body {
     border-color: var(--color-ink);
 }
 
+.filter-chip:focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+}
+
 .filter-chip .chip-dot {
     width: 8px;
     height: 8px;
@@ -1205,6 +1210,11 @@ body {
     height: 16px;
 }
 
+.selection-btn:focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+}
+
 /* Deals Table (Desktop) */
 .deals-table-wrapper {
     overflow-x: auto;
@@ -1266,6 +1276,12 @@ body {
     color: var(--color-ink);
 }
 
+.deals-th[data-sort]:focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+    border-radius: var(--border-radius-sm);
+}
+
 .deals-td {
     font-size: 0.875rem;
     padding: var(--space-sm) 0;
@@ -1316,6 +1332,11 @@ body {
 
 .deal-checkbox-label:hover .deal-checkbox-custom {
     border-color: var(--color-terracotta);
+}
+
+.deal-checkbox-label input:focus-visible + .deal-checkbox-custom {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
 }
 
 .deal-checkbox-label input:indeterminate + .deal-checkbox-custom {
@@ -1570,6 +1591,11 @@ body {
     width: 16px;
     height: 16px;
     flex-shrink: 0;
+}
+
+.deal-add-btn:focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
 }
 
 

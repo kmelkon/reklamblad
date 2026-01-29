@@ -22,6 +22,15 @@ class DealsApp {
         this.isMobile = false;
         this.scrollRAF = null;
 
+        // Bound handlers for cleanup
+        this.boundHandlers = {
+            resize: null,
+            scroll: null,
+        };
+
+        // Debounce timer
+        this.searchDebounceTimer = null;
+
         this.elements = {};
     }
 
@@ -125,11 +134,15 @@ class DealsApp {
      * Bind event listeners
      */
     bindEvents() {
-        // Search input
+        // Search input (debounced)
         if (this.elements.searchInput) {
             this.elements.searchInput.addEventListener('input', (e) => {
-                this.searchQuery = e.target.value.toLowerCase().trim();
-                this.filterDeals();
+                const value = e.target.value.toLowerCase().trim();
+                clearTimeout(this.searchDebounceTimer);
+                this.searchDebounceTimer = setTimeout(() => {
+                    this.searchQuery = value;
+                    this.filterDeals();
+                }, 150);
             });
         }
 
@@ -163,14 +176,15 @@ class DealsApp {
             });
         }
 
-        // Resize handler
-        window.addEventListener('resize', () => {
+        // Resize handler (bound for cleanup)
+        this.boundHandlers.resize = () => {
             const wasMobile = this.isMobile;
             this.checkMobile();
             if (wasMobile !== this.isMobile) {
                 this.render();
             }
-        });
+        };
+        window.addEventListener('resize', this.boundHandlers.resize);
 
         // Deal selection via event delegation
         if (this.elements.container) {
@@ -196,25 +210,43 @@ class DealsApp {
             this.elements.container.addEventListener('click', (e) => {
                 const header = e.target.closest('.deals-th[data-sort]');
                 if (header) {
-                    const sortKey = header.dataset.sort;
-                    if (this.sortBy === sortKey) {
-                        this.sortAsc = !this.sortAsc;
-                    } else {
-                        this.sortBy = sortKey;
-                        this.sortAsc = true;
+                    this.handleSort(header);
+                }
+            });
+
+            // Sort header keyboard support (Enter/Space)
+            this.elements.container.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    const header = e.target.closest('.deals-th[data-sort]');
+                    if (header) {
+                        e.preventDefault();
+                        this.handleSort(header);
                     }
-                    this.sortDeals();
-                    this.render();
                 }
             });
         }
     }
 
     /**
+     * Handle sort header activation
+     */
+    handleSort(header) {
+        const sortKey = header.dataset.sort;
+        if (this.sortBy === sortKey) {
+            this.sortAsc = !this.sortAsc;
+        } else {
+            this.sortBy = sortKey;
+            this.sortAsc = true;
+        }
+        this.sortDeals();
+        this.render();
+    }
+
+    /**
      * Setup virtual scroll
      */
     setupVirtualScroll() {
-        window.addEventListener('scroll', () => {
+        this.boundHandlers.scroll = () => {
             if (this.scrollRAF) return;
             this.scrollRAF = requestAnimationFrame(() => {
                 this.scrollRAF = null;
@@ -222,7 +254,8 @@ class DealsApp {
                     this.updateVisibleRange();
                 }
             });
-        }, { passive: true });
+        };
+        window.addEventListener('scroll', this.boundHandlers.scroll, { passive: true });
     }
 
     /**
@@ -367,6 +400,13 @@ class DealsApp {
     onEnter() {
         // Re-render in case data changed
         if (this.initialized) {
+            // Re-attach window listeners
+            if (this.boundHandlers.resize) {
+                window.addEventListener('resize', this.boundHandlers.resize);
+            }
+            if (this.boundHandlers.scroll) {
+                window.addEventListener('scroll', this.boundHandlers.scroll, { passive: true });
+            }
             this.render();
         }
     }
@@ -377,6 +417,23 @@ class DealsApp {
     onLeave() {
         // Clear selections when navigating away
         this.clearSelection();
+
+        // Cancel pending RAF
+        if (this.scrollRAF) {
+            cancelAnimationFrame(this.scrollRAF);
+            this.scrollRAF = null;
+        }
+
+        // Clear debounce timer
+        clearTimeout(this.searchDebounceTimer);
+
+        // Remove event listeners
+        if (this.boundHandlers.resize) {
+            window.removeEventListener('resize', this.boundHandlers.resize);
+        }
+        if (this.boundHandlers.scroll) {
+            window.removeEventListener('scroll', this.boundHandlers.scroll);
+        }
     }
 
     /**
@@ -452,14 +509,14 @@ class DealsApp {
                                     </label>
                                 </div>
                                 <div class="deals-th deals-th-image"></div>
-                                <div class="deals-th deals-th-name" data-sort="name">
+                                <div class="deals-th deals-th-name" data-sort="name" tabindex="0" role="button" aria-label="Sortera efter produkt">
                                     Produkt ${this.sortBy === 'name' ? (this.sortAsc ? '↑' : '↓') : ''}
                                 </div>
-                                <div class="deals-th deals-th-price" data-sort="price">
+                                <div class="deals-th deals-th-price" data-sort="price" tabindex="0" role="button" aria-label="Sortera efter pris">
                                     Pris ${this.sortBy === 'price' ? (this.sortAsc ? '↑' : '↓') : ''}
                                 </div>
                                 <div class="deals-th deals-th-original">Ord. pris</div>
-                                <div class="deals-th deals-th-store" data-sort="store">
+                                <div class="deals-th deals-th-store" data-sort="store" tabindex="0" role="button" aria-label="Sortera efter butik">
                                     Butik ${this.sortBy === 'store' ? (this.sortAsc ? '↑' : '↓') : ''}
                                 </div>
                                 <div class="deals-th deals-th-desc">Beskrivning</div>
