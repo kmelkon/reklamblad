@@ -15,7 +15,7 @@ class DealsApp {
 
         // Virtual scroll state
         this.ROW_HEIGHT = 64;
-        this.CARD_HEIGHT = 220;
+        this.CARD_HEIGHT = 180;
         this.BUFFER_SIZE = 15;
         this.visibleStart = 0;
         this.visibleEnd = 0;
@@ -199,7 +199,7 @@ class DealsApp {
                     return;
                 }
 
-                const addBtn = e.target.closest('.deal-add-btn');
+                const addBtn = e.target.closest('.deal-add-btn, .deal-card-cta');
                 if (addBtn) {
                     const idx = parseInt(addBtn.dataset.idx, 10);
                     this.toggleSelection(idx);
@@ -339,13 +339,24 @@ class DealsApp {
     }
 
     /**
-     * Toggle deal selection
+     * Generate stable ID for a deal (survives filter/sort)
      */
-    toggleSelection(dealId) {
-        if (this.selectedIds.has(dealId)) {
-            this.selectedIds.delete(dealId);
+    getDealId(deal) {
+        return `${deal.store}|${deal.name}|${deal.price}`;
+    }
+
+    /**
+     * Toggle deal selection by index
+     */
+    toggleSelection(idx) {
+        const deal = this.filteredDeals[idx];
+        if (!deal) return;
+
+        const id = this.getDealId(deal);
+        if (this.selectedIds.has(id)) {
+            this.selectedIds.delete(id);
         } else {
-            this.selectedIds.add(dealId);
+            this.selectedIds.add(id);
         }
         this.updateSelectionUI();
     }
@@ -354,7 +365,7 @@ class DealsApp {
      * Select all visible deals
      */
     selectAll() {
-        this.filteredDeals.forEach((_, idx) => this.selectedIds.add(idx));
+        this.filteredDeals.forEach(deal => this.selectedIds.add(this.getDealId(deal)));
         this.renderVisibleItems();
         this.updateSelectionUI();
     }
@@ -388,7 +399,7 @@ class DealsApp {
         const selectAllCheckbox = document.getElementById('selectAllDeals');
         if (selectAllCheckbox) {
             const allSelected = this.filteredDeals.length > 0 &&
-                this.filteredDeals.every((_, idx) => this.selectedIds.has(idx));
+                this.filteredDeals.every(deal => this.selectedIds.has(this.getDealId(deal)));
             const someSelected = this.selectedIds.size > 0;
 
             selectAllCheckbox.checked = allSelected;
@@ -545,7 +556,7 @@ class DealsApp {
      */
     renderRow(deal, idx, top) {
         const storeClass = Utils.getStoreClass(deal.store);
-        const isSelected = this.selectedIds.has(idx);
+        const isSelected = this.selectedIds.has(this.getDealId(deal));
         const shortDesc = this.truncate(deal.description, 60);
 
         return `
@@ -583,45 +594,44 @@ class DealsApp {
     }
 
     /**
-     * Render a card (mobile)
+     * Render a card (mobile) - ICA-inspired horizontal layout
      */
     renderCard(deal, idx, top) {
         const storeClass = Utils.getStoreClass(deal.store);
-        const isSelected = this.selectedIds.has(idx);
+        const isSelected = this.selectedIds.has(this.getDealId(deal));
+
+        // Build description with price comparison info
+        const descParts = [];
+        if (deal.description) descParts.push(deal.description);
+        if (deal.jfr_pris) descParts.push(`Jmfpris ${deal.jfr_pris}`);
+        const fullDesc = descParts.join('. ');
 
         return `
-            <article class="deal-card ${isSelected ? 'selected' : ''}" style="position: absolute; top: ${top}px; left: 0; right: 0; height: ${this.CARD_HEIGHT - 16}px;">
-                <div class="deal-card-image ${storeClass}">
+            <article class="deal-card ${storeClass} ${isSelected ? 'selected' : ''}" style="position: absolute; top: ${top}px; left: 0; right: 0; height: ${this.CARD_HEIGHT - 12}px;">
+                <div class="deal-card-media">
                     ${deal.image
-                        ? `<img class="deal-card-img" src="${Utils.escapeHtml(deal.image)}" alt="" loading="lazy">`
-                        : this.getStoreIcon(deal.store)
+                        ? `<img class="deal-card-img" src="${Utils.escapeHtml(deal.image)}" alt="${Utils.escapeHtml(deal.name)}" loading="lazy">`
+                        : `<div class="deal-card-placeholder ${storeClass}">${this.getStoreIcon(deal.store)}</div>`
                     }
-                    <div class="deal-card-price-badge">
-                        <span class="deal-card-price">${Utils.escapeHtml(deal.price)}</span>
-                        ${deal.unit && deal.unit !== '/st' ? `<span class="deal-card-unit">${Utils.escapeHtml(deal.unit)}</span>` : ''}
+                    <div class="deal-card-price-tag ${storeClass}">
+                        <span class="price-value">${Utils.escapeHtml(deal.price)}</span>
+                        ${deal.unit && deal.unit !== '/st' ? `<span class="price-unit">${Utils.escapeHtml(deal.unit)}</span>` : ''}
                     </div>
                 </div>
-                <div class="deal-card-body">
-                    <div class="deal-card-header">
-                        <h3 class="deal-card-name">${Utils.escapeHtml(deal.name)}</h3>
-                        <span class="deal-card-store ${storeClass}">${Utils.escapeHtml(Utils.getShortStoreName(deal.store))}</span>
+                <div class="deal-card-content">
+                    <div class="deal-card-info">
+                        <h3 class="deal-card-title">${Utils.escapeHtml(deal.name)}</h3>
+                        <p class="deal-card-meta">${Utils.escapeHtml(fullDesc)}</p>
                     </div>
-                    <p class="deal-card-desc">${Utils.escapeHtml(deal.description || '')}</p>
-                    <div class="deal-card-footer">
-                        <button class="deal-add-btn ${isSelected ? 'added' : ''}" data-idx="${idx}">
-                            ${isSelected ? `
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                                    <path d="M20 6L9 17l-5-5"/>
-                                </svg>
-                                Tillagd
-                            ` : `
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M12 5v14M5 12h14"/>
-                                </svg>
-                                Lägg till
-                            `}
-                        </button>
-                    </div>
+                    <button class="deal-card-cta ${isSelected ? 'added' : ''}" data-idx="${idx}" aria-label="${isSelected ? 'Ta bort från lista' : 'Lägg i inköpslista'}">
+                        <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            ${isSelected
+                                ? `<path d="M20 6L9 17l-5-5"/>`
+                                : `<path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>`
+                            }
+                        </svg>
+                        <span class="cta-text">${isSelected ? 'Tillagd' : 'Lägg i inköpslista'}</span>
+                    </button>
                 </div>
             </article>
         `;
