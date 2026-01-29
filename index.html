@@ -135,16 +135,11 @@
 
         <!-- Lists Page -->
         <div class="page" id="pageLists" data-page="/lists" style="display: none;">
-            <div class="page-placeholder">
-                <div class="placeholder-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/>
-                        <rect x="9" y="2" width="6" height="4" rx="1"/>
-                        <path d="M9 12l2 2 4-4"/>
-                    </svg>
+            <div class="lists-container" id="listsContainer">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Laddar listor...</p>
                 </div>
-                <h2 class="placeholder-title">Inköpslistor</h2>
-                <p class="placeholder-text">Kommer snart</p>
             </div>
         </div>
     </main>
@@ -200,9 +195,21 @@
         </a>
     </nav>
 
+    <!-- Bottom Sheet -->
+    <div class="bottom-sheet-overlay" id="bottomSheetOverlay">
+        <div class="bottom-sheet">
+            <div class="bottom-sheet-handle"></div>
+            <div class="bottom-sheet-content" id="bottomSheetContent"></div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
     <script src="utils.js"></script>
     <script src="router.js"></script>
     <script src="deals.js"></script>
+    <script src="lists.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

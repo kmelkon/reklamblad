@@ -554,7 +554,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     router.on('/lists', () => {
-        // ListsApp will be added in Phase 3
+        listsApp.init();
     });
 
     // Handle route leave callbacks
@@ -563,6 +563,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Call onLeave for previous route
         if (previousRoute === '/deals') {
             dealsApp.onLeave();
+        }
+        if (previousRoute === '/lists') {
+            listsApp.onLeave();
         }
 
         previousRoute = newRoute;
