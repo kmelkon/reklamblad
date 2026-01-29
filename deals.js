@@ -158,12 +158,14 @@ class DealsApp {
             clearBtn.addEventListener('click', () => this.clearSelection());
         }
 
-        // Add to list button (disabled for now, Phase 3)
+        // Add to list button
         const addToListBtn = document.getElementById('addToListBtn');
         if (addToListBtn) {
             addToListBtn.addEventListener('click', () => {
-                // Will be implemented in Phase 3
-                console.log('Add to list:', Array.from(this.selectedIds));
+                const deals = this.getSelectedDeals();
+                if (deals.length > 0) {
+                    listsApp.showAddToListSheet(deals);
+                }
             });
         }
 
@@ -380,19 +382,30 @@ class DealsApp {
     }
 
     /**
+     * Get array of selected deal objects
+     */
+    getSelectedDeals() {
+        return this.deals.filter(deal => this.selectedIds.has(this.getDealId(deal)));
+    }
+
+    /**
      * Update selection bar visibility and count
      */
     updateSelectionUI() {
         if (!this.elements.selectionBar) return;
 
         const count = this.selectedIds.size;
+        const addBtn = document.getElementById('addToListBtn');
+
         if (count > 0) {
             this.elements.selectionBar.classList.add('visible');
             if (this.elements.selectionCount) {
                 this.elements.selectionCount.textContent = count;
             }
+            if (addBtn) addBtn.disabled = false;
         } else {
             this.elements.selectionBar.classList.remove('visible');
+            if (addBtn) addBtn.disabled = true;
         }
 
         // Sync select-all checkbox state
