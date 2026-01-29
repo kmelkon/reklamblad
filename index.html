@@ -153,16 +153,25 @@
         <p>Data hämtas från <strong>ICA</strong>, <strong>Coop</strong> och <strong>Willys</strong> reklamblad</p>
     </footer>
 
-    <!-- Deals Selection Bar (fixed position, outside page containers) -->
+    <!-- Deals Selection Bar -->
     <div class="selection-bar" id="selectionBar" aria-live="polite" aria-atomic="true">
-        <span class="selection-info"><span id="selectionCount">0</span> valda</span>
+        <div class="selection-badge">
+            <span id="selectionCount">0</span>
+        </div>
+        <span class="selection-label">valda</span>
+        <div class="selection-divider"></div>
         <button class="selection-btn primary" id="addToListBtn" disabled>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M12 5v14M5 12h14"/>
             </svg>
-            Lägg till i lista
+            <span>Lägg till i lista</span>
         </button>
-        <button class="selection-btn" id="clearSelectionBtn">Avmarkera</button>
+        <button class="selection-btn secondary" id="clearSelectionBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+            <span>Rensa</span>
+        </button>
     </div>
 
     <!-- Mobile Bottom Navigation -->
