@@ -217,7 +217,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251700/cf_259/protein_overnight_oats.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "1 förp ProPud proteinpudding med vaniljsmak (à 500 g)",
       "1 dl mandeldryck",
@@ -252,7 +252,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251593/cf_259/tiramisu_overnight_oats.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "2 dl havregryn",
       "3 msk chiafrön",
@@ -804,7 +804,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/svexkmfcxukxpxkppwat.jpg",
     "time": "PT10M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl blåbär (frysta eller färska)",
       "2 msk acaipulver",
@@ -985,7 +985,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/pjkwddfzzigl7xgfahgn.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "1 dl havregryn",
       "2 1/2 dl vatten",
@@ -1147,7 +1147,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/gofeooqlvsv2woteoynv.jpg",
     "time": "PT60M",
     "servings": "4 st",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 förp hela konserverade tomater (à 390 g)",
       "1/2 tsk torkad basilika",
@@ -1385,7 +1385,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250955/cf_259/fyllda_paprikor_med_ris.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 gul lök",
       "2 vitlöksklyftor",
@@ -1460,7 +1460,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251720/cf_259/pinsa_med_lax__sparris_och_citron.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "200 g laxfilé utan skinn",
       "skal och saft av 1/2 citron (1/2 citron motsvarar 1 msk saft)",
@@ -1521,7 +1521,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/tiexrkue7xde912wkztw.jpg",
     "time": "PT45M",
     "servings": "8 våfflor",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "100 g smör",
       "1 förp halloumi eller grillost (à 200 g)",
@@ -1746,7 +1746,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/dqvxezodeobn9ni2otqd.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "4 g färsk jäst (4 g motsvarar ca 1 tsk)",
       "11 3/4 dl vetemjöl (11 3/4 dl motsvarar ca 700 g)",
@@ -2078,7 +2078,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_164889/cf_259/smoothie_med_jordgubbar_och_banan.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1/2 banan",
       "2 dl frysta jordgubbar",
@@ -2175,7 +2175,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250743/cf_259/ragbrod_med_avokado_och_picklad_lok.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 rödlök",
       "1 msk ättiksprit (12 %)",
@@ -2541,7 +2541,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250699/cf_259/tekakor.jpg",
     "time": "PT90M",
     "servings": "20 st",
-    "category": "Frukost,Brunch,Mellanmål,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "50 g jäst",
       "100 g smör",
@@ -2929,7 +2929,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/ibtvbam609nyiefyfjka.jpg",
     "time": "PT45M",
     "servings": "6-8",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "500 g körsbärstomater",
       "1 msk olivolja",
@@ -2972,7 +2972,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/thjd3awrtfxozrxc8kc1.jpg",
     "time": "PT15M",
     "servings": "6-8",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1 dl mandelspån",
       "1 förp urkärnade gröna oliver (à ca 370 g)",
@@ -3013,7 +3013,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/uedd9jltoaukudtkjnvb.jpg",
     "time": "PT30M",
     "servings": "12 st",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1/2 msk finrivet citronskal",
       "3 msk olivolja",
@@ -3119,7 +3119,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vz7sfugqlsxnaaqjznaw.jpg",
     "time": "PT30M",
     "servings": "6",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "12 skivor surdegsbaguette",
       "olivolja (till bröd och sparris)",
@@ -3366,7 +3366,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251491/cf_259/pinsa_med_lufttorkad_skinka_och_pesto.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Middag,Vickning,Plockmat",
+    "category": "Middag",
     "ingredients": [
       "2 förp pinsa bröd (à 230 g)",
       "2 dl tomatsås (gärna med örter)",
@@ -3463,7 +3463,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/cap2jftscitobtedrq3d.jpg",
     "time": "PT30M",
     "servings": "10-12 st",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "4 dl frysta hallon eller blåbär",
       "1 tsk malen kardemumma",
@@ -3646,7 +3646,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_251380/cf_259/grillad_croissant_med_prosciutto__cheddar_och_fikon.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "4 croissanter",
       "2 färska fikon (eller se tips)",
@@ -3677,7 +3677,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vvfcpbu7wihir76hajx8.jpg",
     "time": "PT30M",
     "servings": "2 st",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1 dl valnötter",
       "1/2 rödlök",
@@ -3899,7 +3899,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vvfcpbu7wihir76hajx8.jpg",
     "time": "PT30M",
     "servings": "2 st",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1 dl valnötter",
       "1/2 rödlök",
@@ -4250,7 +4250,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_240695/cf_259/honokaka.jpg",
     "time": "PT90M",
     "servings": "4 stora kakor",
-    "category": "Frukost,Brunch,Mellanmål,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "5 dl mjölk",
       "50 g färsk jäst",
@@ -4430,7 +4430,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/yatoolrdi4qvxw4sh640.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "2 skivor surdegsbröd",
       "1/2 krm salt",
@@ -4625,7 +4625,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_249832/cf_259/yoghurt_med_stekt_nektarin_och_kokoshavre.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl havregryn",
       "1 dl riven kokos",
@@ -4671,7 +4671,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/sikfo9xvjkig4hbpigcg.jpg",
     "time": "PT60M",
     "servings": "4 glas",
-    "category": "Brunch,Fika",
+    "category": "Brunch",
     "ingredients": [
       "8 dl vatten",
       "4 tepåsar eller 1 1/2 msk löste (gärna med hallonsmak, för 4 port)",
@@ -4706,7 +4706,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_249847/cf_259/vinbarssylt.jpg",
     "time": "PT90M",
     "servings": "ca 3 dl",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "200 g röda vinbär",
       "2 msk vatten",
@@ -4735,7 +4735,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250752/cf_259/hallonmilkshake.jpg",
     "time": "PT15M",
     "servings": "ca 7 dl",
-    "category": "Efterrätt,Frukost,Brunch,Fika",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "225 g färska hallon",
       "2 dl mjölk",
@@ -4773,7 +4773,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250744/cf_259/rostade_tomater_med_burrata__basilika_och_citron.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "400 g romanticatomater",
       "3 msk olivolja",
@@ -4831,7 +4831,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/ews0fylkl4j6dmf8vk4h.jpg",
     "time": "PT90M",
     "servings": "8 bufféportioner",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "3 dl vetemjöl (+ extra till utbakning)",
       "1 krm salt",
@@ -4986,7 +4986,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_249554/cf_259/italiensk_picknickmacka.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Brunch,Mellanmål,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "4 ciabattabröd",
       "1 förp paprikapesto (à 130 g)",
@@ -5163,7 +5163,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248995/cf_259/chokladpannkakor.jpg",
     "time": "PT45M",
     "servings": "ca 10 pannkakor",
-    "category": "Efterrätt,Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 1/2 dl vetemjöl",
       "1 msk bakpulver",
@@ -5325,7 +5325,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_249093/cf_259/melonsallad_med_grillad_kyckling_och_jalapeñodressing.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "600 g kycklingbröstfiléer",
       "1 1/2 dl BBQ honey grillolja",
@@ -5473,7 +5473,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_227433/cf_259/pitabrod_med_labneh_och_ugnsrostad_sotpotatis.jpg",
     "time": "PT30M",
     "servings": "4 st",
-    "category": "Middag,Brunch,Buffé",
+    "category": "Middag,Brunch",
     "ingredients": [
       "ca 400 g sötpotatis",
       "2 tsk olivolja",
@@ -6195,7 +6195,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223573/cf_259/challah.jpg",
     "time": "PT90M",
     "servings": "2 bröd",
-    "category": "Brunch,Mellanmål,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "25 g färsk jäst",
       "1 msk salt",
@@ -6354,7 +6354,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248845/cf_259/potatissallad_med_sparris_och_merguez.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "600 g små potatisar",
       "1 knippe grön sparris (à 250 g)",
@@ -6548,7 +6548,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213343/cf_259/kycklingklubbor_i_ugn.jpg",
     "time": "PT90M",
     "servings": "8",
-    "category": "Middag,Buffé",
+    "category": "Middag",
     "ingredients": [
       "ca 1700 g kycklingklubbor",
       "75 g smör",
@@ -6707,7 +6707,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_223649/cf_259/toast_med_kantarellost_och_bresaola_.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "100 g färskost med kantareller",
       "1/2 dl crème fraiche",
@@ -7251,7 +7251,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/lfn64aqjo1w50hwdbojd.jpg",
     "time": "PT45M",
     "servings": "ca 2 dl",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "200 g torkade fikon",
       "1/2 citron eller apelsin (1 tsk citronjuice eller 2 msk apelsinjuice, för ca 2 dl marmelad)",
@@ -7332,7 +7332,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243966/cf_259/morotsfrallor_med_apple.jpg",
     "time": "PT90M",
     "servings": "12 frallor",
-    "category": "Frukost,Brunch,Mellanmål,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 tsk färsk jäst (2 tsk motsvarar ca 6 g)",
       "4 dl kallt vatten",
@@ -7436,7 +7436,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/kirnhbhj3qh4vwy9bxdv.jpg",
     "time": "PT30M",
     "servings": "ca 40 st",
-    "category": "Förrätt,Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "2 -  3 msk färsk riven pepparrot",
       "300 g cream cheese (färskost)",
@@ -7709,7 +7709,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_246714/cf_259/pannoumi_grilled_cheese.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 förp pannoumi (à 275 g)",
       "1/2 msk olja",
@@ -7892,7 +7892,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250313/cf_259/appellemonad.jpg",
     "time": "PT90M",
     "servings": "ca 15 dl",
-    "category": "Brunch,Buffé,Fika",
+    "category": "Brunch",
     "ingredients": [
       "5 äpplen gärna röda (5 äpplen motsvarar ca 700 g)",
       "1 dl färskpressad citronjuice",
@@ -8049,7 +8049,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/Nachotallrik-till-halloween-750072.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 rödlök",
       "1 msk rödvinsvinäger",
@@ -8126,7 +8126,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248697/cf_259/loskokt_agg.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "1 ägg (medium à ca 60 g)"
     ],
@@ -8454,7 +8454,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_246272/cf_259/broccoli_doppad_i_jalapeñomajonnas_och_jordnotter.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "250 g broccoli",
       "1 msk inlagd jalapeño",
@@ -9073,7 +9073,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_241966/cf_259/hot_tuna_melt.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "2 -  3 msk hackad inlagd jalapeño",
       "1 selleristjälk",
@@ -9120,7 +9120,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250336/cf_259/toast_med_melon__burrata__chilihonung_och_prosciutto.jpg",
     "time": "PT30M",
     "servings": "8 bitar",
-    "category": "Förrätt,Brunch,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1 1/2 dl tärnad galiamelon",
       "1/2 röd peppar (chili)",
@@ -9621,7 +9621,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213409/cf_259/krossrostad_potatis_med_fetaost_och_paprikakram.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 gul lök",
       "250 g morötter",
@@ -9767,7 +9767,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/r6lxejzp8ar9cetdzjmv.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Mellanmål,Lunch",
+    "category": "Brunch,Lunch",
     "ingredients": [
       "2 gula lökar",
       "2 vitlöksklyftor",
@@ -11006,7 +11006,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_221076/cf_259/jordartskockssoppa_med_potatis_och_ortdressing.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Huvudrätt,Middag",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 vitlöksklyfta",
       "1/2 kruka bladpersilja",
@@ -11072,7 +11072,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244682/cf_259/julig_overnight_oats_med_apelsin.jpg",
     "time": "PT750M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl apelsinjuice",
       "2 dl kokosmjölk",
@@ -11119,7 +11119,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244322/cf_259/tekaka_i_langpanna_.jpg",
     "time": "PT90M",
     "servings": "16 bitar",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "50 g färsk jäst",
       "6 dl mjölk",
@@ -11349,7 +11349,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_241894/cf_259/kantarelltoast_.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Förrätt,Brunch,Mellanmål,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "250 g kantareller (ca 8 dl)",
       "1 msk färsk persilja",
@@ -11789,7 +11789,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/r5whedvjfkkhhv30biex.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "3 dl vatten",
       "8 dl mjölk (3 %)",
@@ -11899,7 +11899,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244322/cf_259/tekaka_i_langpanna_.jpg",
     "time": "PT90M",
     "servings": "16 bitar",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "50 g färsk jäst",
       "6 dl mjölk",
@@ -11955,7 +11955,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vwrwbrx9lxoddjtrqvyc.jpg",
     "time": "PT30M",
     "servings": "14 st",
-    "category": "Brunch,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "3 gula lökar",
       "2 msk smör",
@@ -12113,7 +12113,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/swk4ktmrskvnp4hvm5aa.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Mellanmål,Vickning",
+    "category": "Brunch",
     "ingredients": [
       "3 msk smör",
       "8 skivor vitt bröd",
@@ -12158,7 +12158,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/r5whedvjfkkhhv30biex.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "3 dl vatten",
       "8 dl mjölk (3 %)",
@@ -12211,7 +12211,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244062/cf_259/rawboll_pa_dadlar_med_apelsin__kardemumma_och_pistage.jpg",
     "time": "PT30M",
     "servings": "ca 10 bollar",
-    "category": "Brunch,Mellanmål,Buffé,Fika",
+    "category": "Brunch",
     "ingredients": [
       "1 apelsin (skal och saft)",
       "1 tsk hela kardemummakärnor",
@@ -12598,7 +12598,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_195556/cf_259/lammstek_five_spice.jpg",
     "time": "PT90M",
     "servings": "4-6",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 kg lammstek utan ben",
       "1 msk hackad ingefära",
@@ -12829,7 +12829,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_225676/cf_259/persiljefriterad_brie_med_granatapple_och_pistagehonung.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1/2 dl granatäppelkärnor",
       "1/2 dl pistagenötter",
@@ -12885,7 +12885,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243932/cf_259/zucchinibrod_med_fron.jpg",
     "time": "PT90M",
     "servings": "ca 12 bitar",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "25 g färsk jäst",
       "5 dl kallt vatten",
@@ -13231,7 +13231,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/r1qnxusbt9mp7foqog5s.jpg",
     "time": "PT30M",
     "servings": "4 st",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "140 g skivat bacon",
       "250 g färska champinjoner",
@@ -13671,7 +13671,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243688/cf_259/persiljerotsplattar_med_basilika__parmesan_och_valnotter_.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 3/4 dl vetemjöl",
       "1/2 tsk salt",
@@ -13720,7 +13720,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243649/cf_259/appelgrot_med_fron_och_aprikoser.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 dl havregryn",
       "1 msk hela  linfrö",
@@ -14363,7 +14363,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/fzhkigg6omdgfjd6zcci.jpg",
     "time": "PT90M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 dl havregryn",
       "1 dl mjölk",
@@ -15201,7 +15201,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_183166/cf_259/sotad_lax_med_picklat_apple_och_brynt_smor.jpg",
     "time": "PT90M",
     "servings": "6-8",
-    "category": "Huvudrätt,Middag,Buffé,Plockmat",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "4 msk salt",
       "4 msk strösocker",
@@ -15261,7 +15261,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_234160/cf_259/risgrynsgrot_i_ugn.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Frukost,Mellanmål,Buffé",
+    "category": "Frukost",
     "ingredients": [
       "2 dl grötris",
       "4 dl vatten",
@@ -15466,7 +15466,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243046/cf_259/rostad_paprika_med_tomat_och_mozzarella.jpg",
     "time": "PT90M",
     "servings": "6",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "3 paprikor",
       "400 g körsbärstomater",
@@ -15573,7 +15573,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_183176/cf_259/midsommarplattar_med_sikrom_och_syrad_lok.jpg",
     "time": "PT90M",
     "servings": "6-8",
-    "category": "Förrätt,Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1/2 dl ättiksprit (12%)",
       "1 dl strösocker",
@@ -15986,7 +15986,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243051/cf_259/citronyoghurt_med_granola_och_hallonsylt.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl frysta hallon",
       "1 msk honung",
@@ -16024,7 +16024,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243057/cf_259/mozzarella-_och_tomatsallad_med_quinoa_.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 1/2 dl quinoa eller  matvete",
       "3 msk olivolja",
@@ -16290,7 +16290,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248346/cf_259/langos_med_apple_och_citronmascarpone.jpg",
     "time": "PT90M",
     "servings": "6 langos",
-    "category": "Efterrätt,Brunch",
+    "category": "Brunch",
     "ingredients": [
       "4 äpplen (gärna rubinola, à ca 160 g)",
       "2 msk vatten",
@@ -16480,7 +16480,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_137870/cf_259/rimmad_lax.jpg",
     "time": "PT90M",
     "servings": "10",
-    "category": "Förrätt,Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 kg lax (mellanbit) med skinn och ben",
       "4 msk salt",
@@ -16620,7 +16620,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248346/cf_259/langos_med_apple_och_citronmascarpone.jpg",
     "time": "PT90M",
     "servings": "6 langos",
-    "category": "Efterrätt,Brunch",
+    "category": "Brunch",
     "ingredients": [
       "4 äpplen (gärna rubinola, à ca 160 g)",
       "2 msk vatten",
@@ -16678,7 +16678,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248228/cf_259/ungersk_langos_med_vitloksolja__graddfil_och_ost.jpg",
     "time": "PT90M",
     "servings": "8 langos",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "25 g färsk jäst",
       "3 dl ljummet vatten",
@@ -16734,7 +16734,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/rhy4rke57hu7hyfbaer1.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "300 g conchiglie pasta",
       "300 g små kvisttomater",
@@ -16944,7 +16944,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_211562/cf_259/overnight_oats_med_chiafron.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "4 dl kokosdryck",
       "3 dl havregryn eller dinkelflingor",
@@ -17196,7 +17196,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/bf7a43ibu3ry3miuup9t.jpg",
     "time": "PT90M",
     "servings": "8-10",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "75 g smör",
       "3 msk japansk soja",
@@ -17590,7 +17590,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_158274/cf_259/petit_choux_med_ostfyllning.jpg",
     "time": "PT60M",
     "servings": "ca 15 st",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "3/4 dl vatten",
       "25 g smör",
@@ -17764,7 +17764,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_241501/cf_259/sallad_med_gulbetor_och_fetaost.jpg",
     "time": "PT90M",
     "servings": "6",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 kg gula betor",
       "1 msk finrivet citronskal",
@@ -18349,7 +18349,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/ef5fjkd8bqlnivgm3ptt.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Efterrätt,Brunch",
+    "category": "Brunch",
     "ingredients": [
       "1 ägg",
       "1 msk strösocker",
@@ -18410,7 +18410,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/jl30gveqgz98wlownhea.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "10 torkade dadlar",
       "1 dl rostade salta mandlar",
@@ -18517,7 +18517,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_247980/cf_259/overnight_oats_med_fyra_sorters_topping.jpg",
     "time": "PT90M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 dl havregryn",
       "1 dl havre-, nöt- eller kokosdryck  (alternativt mjölk)",
@@ -18720,7 +18720,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243967/cf_259/glutenfritt_brod_med_rotselleri.jpg",
     "time": "PT90M",
     "servings": "1 sats",
-    "category": "Frukost,Brunch,Mellanmål,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 1/2 tsk hel anis",
       "1 1/2 tsk hel kummin",
@@ -18855,7 +18855,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/wi1eqpki511wd0auxjj3.jpg",
     "time": "PT45M",
     "servings": "3-4",
-    "category": "Vickning,Lunch",
+    "category": "Lunch",
     "ingredients": [
       "2 förp potatisgratäng (à 800 g)",
       "1 förp skivad gravad lax (à 300 g)",
@@ -18938,7 +18938,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_240892/cf_259/fransk_omelett.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "3 ägg",
       "3 msk vatten",
@@ -19219,7 +19219,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/u7zlikvzjbolggscrwzo.jpg",
     "time": "PT90M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "4 msk chiafrön",
       "2 tsk vaniljsocker",
@@ -19891,7 +19891,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/u7zlikvzjbolggscrwzo.jpg",
     "time": "PT90M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "4 msk chiafrön",
       "2 tsk vaniljsocker",
@@ -20255,7 +20255,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_240428/cf_259/kyckling_med_potatis-_och_majssallad_och_appelsas.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 citron (skal och saft)",
       "800 g potatis",
@@ -21459,7 +21459,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_239510/cf_259/couscoussallad.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "4 dl couscous",
       "3 msk konc kycklingfond eller grönsaksfond",
@@ -22080,7 +22080,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_163617/cf_259/tropisk_smoothie-bowl.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 1/4 dl apelsinjuice",
       "1 1/4 dl naturell yoghurt",
@@ -22178,7 +22178,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_239244/cf_259/scones_med_cheddar.jpg",
     "time": "PT30M",
     "servings": "10 st",
-    "category": "Frukost,Brunch,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "4 dl vetemjöl",
       "2 tsk bakpulver",
@@ -22292,7 +22292,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_239107/cf_259/tortilla_med_grillost_och_gronsaksstavar.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "2 förp svensk grillost (à 200 g)",
       "300 g stjälkselleri",
@@ -22472,7 +22472,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_246271/cf_259/clementincurd.jpg",
     "time": "PT90M",
     "servings": "ca 3 dl",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "3 clementiner (3 clementiner motsvarar 1 tsk finrivet skal, 1 dl juice)",
       "1/2 citron (1/2 citron motsvarar 2 msk juice)",
@@ -22651,7 +22651,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_169498/cf_259/levain_med_jast_(ljust_surdegsbrod).jpg",
     "time": "PT90M",
     "servings": "2 st",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "100 g (1 dl) vetesurdegsgrund (100 g = 1 dl)",
       "150 g ljummet vatten (150 g = 1 1/2 dl)",
@@ -22770,7 +22770,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_239256/cf_259/scones_med_filmjolk.jpg",
     "time": "PT30M",
     "servings": "ca 10 st",
-    "category": "Frukost,Brunch,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "4 dl vetemjöl",
       "2 tsk bakpulver",
@@ -22813,7 +22813,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_246273/cf_259/picklad_kalrot_med_tomatfarskost_och_hasselnotter.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1/2 dl ättiksprit (12 %)",
       "1 dl strösocker",
@@ -23456,7 +23456,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/nomolcjnffoujswnmy4a.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 förp frysta körsbär (à 250 g)",
       "4 dl vaniljyoghurt (2 %)",
@@ -23871,7 +23871,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_238432/cf_259/smorrebrod_med_flask__syrade_rodbetor_och_senapsmajonnas.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 äggula",
       "2 msk grov senap",
@@ -24212,7 +24212,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250505/cf_259/bulgursallad_med_halloumi.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "2 dl bulgur",
       "3/4 dl olja",
@@ -24278,7 +24278,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_248507/cf_259/potatis-_och_sparrisomelett_med_ansjovis.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "600 g delikatesspotatis",
       "1 förp grön sparris (à 250 g)",
@@ -24414,7 +24414,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/m516kulv37z7pksl9sro.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "600 g oskalade räkor eller 200 g handskalade avrunna räkor i lake (för 4 port)",
       "1 liten röd peppar (chili) (à ca 10 g)",
@@ -24466,7 +24466,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/vie4solzcnajmbndr1vm.jpg",
     "time": "PT750M",
     "servings": "ca 22 st",
-    "category": "Frukost,Buffé",
+    "category": "Frukost",
     "ingredients": [
       "1/2 förp färsk jäst matbröd (25 g)",
       "7 dl kallt vatten",
@@ -24825,7 +24825,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_238361/cf_259/smorrebrod_med_agg_och_fankal.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 äggula",
       "1 msk senap",
@@ -24967,7 +24967,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_168306/cf_259/tacogratang.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 dl ättiksprit (12%)",
       "1 dl strösocker",
@@ -25084,7 +25084,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213877/cf_259/toast_med_kronartskocka_och_fetaost.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "4 msk färskost",
       "1 dl smulad fetaost",
@@ -25120,7 +25120,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/m516kulv37z7pksl9sro.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "600 g oskalade räkor eller 200 g handskalade avrunna räkor i lake (för 4 port)",
       "1 liten röd peppar (chili) (à ca 10 g)",
@@ -25172,7 +25172,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_236956/cf_259/chokladgrot_med_apple_och_blabar.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "2 dl havregryn",
       "2 dl vatten",
@@ -25535,7 +25535,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/rhtdpem5vsllaggd00vc.jpg",
     "time": "PT90M",
     "servings": "4-6 bufféportioner",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 kg rödbetor",
       "1 msk rapsolja",
@@ -25602,7 +25602,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/lr4yypscwjczajvjbv6d.jpg",
     "time": "PT45M",
     "servings": "4-6 bufféportioner",
-    "category": "Brunch,Buffé,Lunch",
+    "category": "Brunch,Lunch",
     "ingredients": [
       "200 g spetskål",
       "1/2 förp salladslök (ca 125 g)",
@@ -26036,7 +26036,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_168306/cf_259/tacogratang.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 dl ättiksprit (12%)",
       "1 dl strösocker",
@@ -26214,7 +26214,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_236957/cf_259/chokladchiapudding_med_hallonsmak.jpg",
     "time": "PT90M",
     "servings": "2 bufféportioner",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "3 msk chiafrön",
       "1 förp protein  milkshake med hallon och chokladsmak (à 250 ml)",
@@ -26250,7 +26250,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_235268/cf_259/frukostbowl_med_yoghurt_och_grapefrukt.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 röd  grapefrukt (gärna star ruby)",
       "2 bananer",
@@ -26294,7 +26294,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_235183/cf_259/enkel_japansk_kalpannkaka_.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "150 g vitkål",
       "3 ägg",
@@ -26409,7 +26409,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/fqo7dxcfu0alqietcbei.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Buffé,Lunch",
+    "category": "Lunch",
     "ingredients": [
       "400 g blå vindruvor",
       "2 msk olivolja",
@@ -26725,7 +26725,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_234836/cf_259/rostad_jordartskockssoppa_med_miso.jpg",
     "time": "PT45M",
     "servings": "6",
-    "category": "Förrätt,Huvudrätt,Middag",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "600 g jordärtskockor",
       "50 g smör",
@@ -26784,7 +26784,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/sn6dfa6xhn30rmo3k8dh.jpg",
     "time": "PT90M",
     "servings": "6",
-    "category": "Huvudrätt,Middag,Vickning,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "150 g smör",
       "3 1/2 dl vetemjöl",
@@ -27127,7 +27127,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_237033/cf_259/varm_choklad_med_kardemumma.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål,Fika",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1/2 tsk kardemummakärnor",
       "3 msk strösocker",
@@ -27432,7 +27432,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/gwyq2v4b6tszfidrsa74.jpg",
     "time": "PT90M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 banan (skivad och fryst)",
       "1 citron (2 msk citronjuice, för 2 port)",
@@ -27557,7 +27557,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_236981/cf_259/chiagrot_med_banan_och_müsli.jpg",
     "time": "PT90M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 dl proteinpudding med smak av gräddkola",
       "1 1/4 dl havredryck",
@@ -27637,7 +27637,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_141967/cf_259/sillfiléer_pa_spett_med_topping_.jpg",
     "time": "PT60M",
     "servings": "30 st",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "10 hela filéer 5-minuterssill",
       "30 trägrillspett",
@@ -27958,7 +27958,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_245719/cf_259/dirty_fries.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "600 g frysta pommes strips eller pommes frites",
       "4 msk majonnäs",
@@ -28470,7 +28470,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_245425/cf_259/oxfilé_med_café_de_paris-smor_och_rostad_potatis.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "150 g rumstempererat smör",
       "1 riven vitlöksklyfta",
@@ -28866,7 +28866,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/hk9uxfmztvvrna1igz2o.jpg",
     "time": "PT60M",
     "servings": "8",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1800 g små fasta potatisar",
       "1 ägg (rumstempererat)",
@@ -29347,7 +29347,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_233032/cf_259/sallad_med_rostad_pumpa__getost_och_tahinidressing.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "2 dl torkade svarta linser",
       "ca 800 g pumpa (gärna butternut)",
@@ -29486,7 +29486,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244565/cf_259/snittar_med_avokado.jpg",
     "time": "PT45M",
     "servings": "20 snittar",
-    "category": "Förrätt,Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1/2 surdegsbaguette",
       "2 msk olja",
@@ -29678,7 +29678,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/tarfak7iffel6wxsj8ot.jpg",
     "time": "PT45M",
     "servings": "ca 1 liter",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "5 dl havregryn",
       "1 dl solroskärnor",
@@ -29731,7 +29731,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244718/cf_259/jullandgang.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 dl smetana",
       "2 msk skånsk senap",
@@ -29805,7 +29805,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_250218/cf_259/pannkakstarta.jpg",
     "time": "PT45M",
     "servings": "8",
-    "category": "Efterrätt,Brunch,Buffé,Fika",
+    "category": "Brunch",
     "ingredients": [
       "2 1/2 dl vetemjöl",
       "1/2 tsk salt",
@@ -29929,7 +29929,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/bltelkvlzdddll2sowhq.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Middag,Buffé,Lunch",
+    "category": "Middag,Lunch",
     "ingredients": [
       "4 port matvete",
       "2 grönsaksbuljongtärningar",
@@ -30116,7 +30116,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_232066/cf_259/kanelstekta_appelklyftor_med_jordnotssmor_.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 äpplen (gärna aroma eller discovery)",
       "2 msk matolja",
@@ -30288,7 +30288,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_232447/cf_259/mangobrod.jpg",
     "time": "PT90M",
     "servings": "1 st",
-    "category": "Frukost,Brunch,Mellanmål,Buffé",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 msk färsk, riven ingefära",
       "1 1/2 dl pekannötter",
@@ -30782,7 +30782,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228683/cf_259/sparris_med_fetaostkram__syltad_citron_och_dukkah.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 citron",
       "2 msk strösocker",
@@ -30905,7 +30905,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_231364/cf_259/yoghurt_med_vattenmelon_och_citronhonung.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1/2 dl honung",
       "1 tsk finrivet citronskal",
@@ -31328,7 +31328,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_227639/cf_259/fardiga_kycklingspett_i_kebab_med_tva_saser.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 1/2 dl ättiksprit (12%)",
       "2 dl strösocker",
@@ -31603,7 +31603,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_244191/cf_259/alkoholfri_sangria.jpg",
     "time": "PT90M",
     "servings": "6",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "8 dl tranbärsjuice",
       "2 kanelstänger",
@@ -31646,7 +31646,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_230239/cf_259/chiabowl_med_kokosmjolk_och_ananas_.jpg",
     "time": "PT90M",
     "servings": "2",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "1 1/2 dl kokosmjölk",
       "1 1/2 dl fruktdryck ananas/äpple/ingefära",
@@ -32160,7 +32160,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228683/cf_259/sparris_med_fetaostkram__syltad_citron_och_dukkah.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "1 citron",
       "2 msk strösocker",
@@ -32416,7 +32416,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_224005/cf_259/havregrynsgrot_med_apple_och_bjornbar.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 äpplen",
       "1 l osötad havredryck",
@@ -32454,7 +32454,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_227639/cf_259/fardiga_kycklingspett_i_kebab_med_tva_saser.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 1/2 dl ättiksprit (12%)",
       "2 dl strösocker",
@@ -32635,7 +32635,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/zy42sr7qh69lxo8ihkhc.jpg",
     "time": "PT45M",
     "servings": "8 bufféportioner",
-    "category": "Huvudrätt,Middag,Buffé,Plockmat",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "500 g brysselkål",
       "1 msk olja",
@@ -32925,7 +32925,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_221967/cf_259/potatisplattar_med_cottage_cheese_och_lingon__.jpg",
     "time": "PT30M",
     "servings": "ca 15 st",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "2 potatisar (à ca 125 g)",
       "1 dl mjölk",
@@ -32972,7 +32972,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243971/cf_259/sticky_buns.jpg",
     "time": "PT90M",
     "servings": "12 bullar",
-    "category": "Brunch,Buffé,Fika",
+    "category": "Brunch",
     "ingredients": [
       "100 g rumstempererat smör",
       "25 g färsk jäst",
@@ -33443,7 +33443,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228999/cf_259/varm_kryddig_mjolk_med_chiafro_och_honung_.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "5 dl mjölk",
       "1 tsk honung",
@@ -34023,7 +34023,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_218620/cf_259/rodbetor_med_rostade_vindruvor_och_minutbiff.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "700 g rödbetor (gärna små)",
       "1 dl valnötter",
@@ -34463,7 +34463,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_224809/cf_259/ugnsbakad_grot_med_apple.jpg",
     "time": "PT45M",
     "servings": "6",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 ägg",
       "5 dl havredryck",
@@ -34753,7 +34753,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/uuabtfyyjy9ztkudpvxy.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål,Lunch",
+    "category": "Brunch,Lunch",
     "ingredients": [
       "1/2 fänkål (ca 150 g för 2 mackor)",
       "1 msk kapris",
@@ -34877,7 +34877,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_215355/cf_259/libapizza_med_zucchini_och_tomater.jpg",
     "time": "PT30M",
     "servings": "1 pizza",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "10 körsbärstomater",
       "3 champinjoner",
@@ -35034,7 +35034,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_219041/cf_259/potatiscrepes.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Mellanmål,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "400 g potatis (gärna marilyn)",
       "3 ägg",
@@ -35135,7 +35135,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_227677/cf_259/focaccia_med_vindruvor_och_rosmarin.jpg",
     "time": "PT90M",
     "servings": "ca 20 bitar",
-    "category": "Brunch,Mellanmål,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "25 g färsk jäst",
       "5 dl fingervarmt vatten (37°C)",
@@ -35183,7 +35183,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228048/cf_259/toast_med_vitloksstekta_bonor_och_riven_pecorino.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 förp cannellinibönor eller små kokta vita bönor (à 380 g)",
       "2 vitlöksklyftor",
@@ -35234,7 +35234,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228031/cf_259/fluffiga_pannkakor_med_ricotta_och_citron.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Mellanmål,Fika",
+    "category": "Brunch",
     "ingredients": [
       "3 dl vetemjöl",
       "2 tsk bakpulver",
@@ -35463,7 +35463,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213880/cf_259/kimchi_grilled_cheese.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 dl kimchi",
       "8 skivor cheddarost",
@@ -35499,7 +35499,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_214211/cf_259/laxbowl_med_svart_ris.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "4 salladslökar",
       "1 dl japansk soja",
@@ -35815,7 +35815,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213604/cf_259/cheddarpaj_med_kryddstekt_kyckling.jpg",
     "time": "PT45M",
     "servings": "8 bufféportioner",
-    "category": "Förrätt,Huvudrätt,Middag,Brunch,Buffé",
+    "category": "Huvudrätt,Middag,Brunch",
     "ingredients": [
       "250 g färsk pajdeg",
       "5 dl riven cheddarost (5 dl motsvarar ca 200 g)",
@@ -36489,7 +36489,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_218620/cf_259/rodbetor_med_rostade_vindruvor_och_minutbiff.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "700 g rödbetor (gärna små)",
       "1 dl valnötter",
@@ -37819,7 +37819,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_202918/cf_259/vegopastej.jpg",
     "time": "PT15M",
     "servings": "3 dl",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "1 burk kokta kikärtor (à 380 g)",
       "1 skivad salladslök",
@@ -38083,7 +38083,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/uuabtfyyjy9ztkudpvxy.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål,Lunch",
+    "category": "Brunch,Lunch",
     "ingredients": [
       "1/2 fänkål (ca 150 g för 2 mackor)",
       "1 msk kapris",
@@ -38635,7 +38635,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_198846/cf_259/jordgubbssallad_med_kyckling_och_balsamicodressing.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "500 g kycklingfiléer",
       "1 msk olivolja",
@@ -38878,7 +38878,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_215355/cf_259/libapizza_med_zucchini_och_tomater.jpg",
     "time": "PT30M",
     "servings": "1 pizza",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "10 körsbärstomater",
       "3 champinjoner",
@@ -39074,7 +39074,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_219041/cf_259/potatiscrepes.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Mellanmål,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "400 g potatis (gärna marilyn)",
       "3 ägg",
@@ -39760,7 +39760,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_227677/cf_259/focaccia_med_vindruvor_och_rosmarin.jpg",
     "time": "PT90M",
     "servings": "ca 20 bitar",
-    "category": "Brunch,Mellanmål,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "25 g färsk jäst",
       "5 dl fingervarmt vatten (37°C)",
@@ -39808,7 +39808,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228048/cf_259/toast_med_vitloksstekta_bonor_och_riven_pecorino.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 förp cannellinibönor eller små kokta vita bönor (à 380 g)",
       "2 vitlöksklyftor",
@@ -39859,7 +39859,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_228031/cf_259/fluffiga_pannkakor_med_ricotta_och_citron.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Brunch,Mellanmål,Fika",
+    "category": "Brunch",
     "ingredients": [
       "3 dl vetemjöl",
       "2 tsk bakpulver",
@@ -40193,7 +40193,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_189647/cf_259/snabb_pizza_med_ajvar__getost_och_gronkal.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 förp pizzadeg (à 550 g)",
       "1 påse hackad grönkål (à 125 g)",
@@ -40426,7 +40426,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_215982/cf_259/sliders_med_lax__wasabimajo_och_picklad_gurka.jpg",
     "time": "PT45M",
     "servings": "4-6",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "500 g laxfilé utan skinn",
       "1 liten äggvita (à ca 35 g)",
@@ -41066,7 +41066,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_197288/cf_259/couscoussallad_med_halloumi_och_rostad_sotpotatis.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé,Lunch",
+    "category": "Huvudrätt,Middag,Lunch",
     "ingredients": [
       "500 g sötpotatis",
       "1 dl hasselnötter",
@@ -43125,7 +43125,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_189685/cf_259/matig_bagel_med_avokado_och_agg.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "4 små avokador",
       "färskpressad citronsaft",
@@ -43640,7 +43640,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_186018/cf_259/tomatspread.jpg",
     "time": "PT15M",
     "servings": "ca 3 dl",
-    "category": "Brunch,Buffé,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "200 g soltorkade tomater i olja",
       "100 g nötter eller frön",
@@ -44751,7 +44751,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_178366/cf_259/froknacke_med_kummin.jpg",
     "time": "PT90M",
     "servings": "1 sats",
-    "category": "Frukost,Mellanmål,Buffé",
+    "category": "Frukost",
     "ingredients": [
       "1 dl rismjöl",
       "1 1/2 dl sesamfrön",
@@ -45266,7 +45266,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_175823/cf_259/gron_kokossmoothie.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 apelsin",
       "1 mango",
@@ -46056,7 +46056,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_153326/cf_259/smoothie_med_mango_-_mango_fusion.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 avokado",
       "1 dl laktosfri yoghurt (gärna tropisk trio)",
@@ -46219,7 +46219,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_150991/cf_259/vegansk_risgrynsgrot.jpg",
     "time": "PT60M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Frukost,Buffé",
+    "category": "Huvudrätt,Middag,Frukost",
     "ingredients": [
       "2 dl grötris (rundkornigt ris)",
       "4 dl vatten",
@@ -46442,7 +46442,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213604/cf_259/cheddarpaj_med_kryddstekt_kyckling.jpg",
     "time": "PT45M",
     "servings": "8 bufféportioner",
-    "category": "Förrätt,Huvudrätt,Middag,Brunch,Buffé",
+    "category": "Huvudrätt,Middag,Brunch",
     "ingredients": [
       "250 g färsk pajdeg",
       "5 dl riven cheddarost (5 dl motsvarar ca 200 g)",
@@ -46875,7 +46875,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_142550/cf_259/grot_med_jordnotssmor__banan_och_kokos.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 dl havregryn, rårisflingor eller andra gryn",
       "salt",
@@ -47194,7 +47194,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_140203/cf_259/grekisk_pizza_med_kronartskocka__fetaost_och_oregano.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "150 g fetaost",
       "1 burk marinerade kronärtskockor (à 300 g)",
@@ -48391,7 +48391,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_97322/cf_259/sommarpasta_med_salsa_verde_och_lufttorkad_skinka_.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 dl pinjenötskärnor",
       "2 vitlöksklyftor",
@@ -49421,7 +49421,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_77720/cf_259/sanfran-quinoasallad_med_mango.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Brunch,Buffé",
+    "category": "Huvudrätt,Middag,Brunch",
     "ingredients": [
       "4 dl quinoa",
       "1 dl gul eller röd chilifrukt (t ex spansk peppar)",
@@ -49658,7 +49658,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_24161/cf_259/pettsons_fattiga_honungsriddare.jpg",
     "time": "PT15M",
     "servings": "2 st",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 ägg",
       "3 msk mjölk",
@@ -49700,7 +49700,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_64043/cf_259/spenat-_och_kiwidrink.jpg",
     "time": "PT15M",
     "servings": "2 glas",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 påse babyspenat (à 65 g)",
       "2 dl fryst mango",
@@ -49787,7 +49787,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_63071/cf_259/sommardessert.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Efterrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "2 msk honung",
       "pressad juice och skal av 1 lime",
@@ -50036,7 +50036,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_19301/cf_259/ciabatta_med_lok__skinka___mozzarella.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Huvudrätt,Middag,Mellanmål,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "strimlad purjolök",
       "rödlök",
@@ -50697,7 +50697,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_46309/cf_259/pestopizza_med_taleggio.jpg",
     "time": "PT30M",
     "servings": "6",
-    "category": "Huvudrätt,Middag,Vickning,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 pizzakit (à 600 g)",
       "1 knippe grön sparris (à 250 g)",
@@ -50908,7 +50908,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_13350/cf_259/pastasallad_med_citrus_och_koriander.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "300 g pasta",
       "1 lime",
@@ -51345,7 +51345,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_215355/cf_259/libapizza_med_zucchini_och_tomater.jpg",
     "time": "PT30M",
     "servings": "1 pizza",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "10 körsbärstomater",
       "3 champinjoner",
@@ -51502,7 +51502,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_219041/cf_259/potatiscrepes.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Mellanmål,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "400 g potatis (gärna marilyn)",
       "3 ägg",
@@ -51604,7 +51604,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_215754/cf_259/grekisk_sallad.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Frukost,Buffé",
+    "category": "Frukost",
     "ingredients": [
       "1 rödlök",
       "4 kvisttomater",
@@ -51883,7 +51883,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_215982/cf_259/sliders_med_lax__wasabimajo_och_picklad_gurka.jpg",
     "time": "PT45M",
     "servings": "4-6",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "500 g laxfilé utan skinn",
       "1 liten äggvita (à ca 35 g)",
@@ -52009,7 +52009,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213880/cf_259/kimchi_grilled_cheese.jpg",
     "time": "PT15M",
     "servings": "2",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 dl kimchi",
       "8 skivor cheddarost",
@@ -52045,7 +52045,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_214211/cf_259/laxbowl_med_svart_ris.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "4 salladslökar",
       "1 dl japansk soja",
@@ -52291,7 +52291,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213604/cf_259/cheddarpaj_med_kryddstekt_kyckling.jpg",
     "time": "PT45M",
     "servings": "8 bufféportioner",
-    "category": "Förrätt,Huvudrätt,Middag,Brunch,Buffé",
+    "category": "Huvudrätt,Middag,Brunch",
     "ingredients": [
       "250 g färsk pajdeg",
       "5 dl riven cheddarost (5 dl motsvarar ca 200 g)",
@@ -53390,7 +53390,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_213481/cf_259/grynotto_med_sotpotatis_och_artskott.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 stor sötpotatis (à ca 500 g)",
       "1 purjolök (à ca 300 g)",
@@ -54111,7 +54111,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_208227/cf_259/stekt_banan_med_honung_och_cottage_cheese.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Efterrätt,Frukost,Mellanmål",
+    "category": "Frukost",
     "ingredients": [
       "1 banan",
       "1 msk smör",
@@ -55254,7 +55254,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_203662/cf_259/notig_morotssoppa_med_belugalinser.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Huvudrätt,Middag",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "500 g morot",
       "1 stor gul lök",
@@ -55311,7 +55311,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_202293/cf_259/getosttoast_med_blabarssallad_och_rosmarindressing.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Förrätt,Brunch,Mellanmål,Plockmat",
+    "category": "Brunch",
     "ingredients": [
       "1 kvist rosmarin",
       "saft av 1 lime (1 lime motsvarar 2 msk saft)",
@@ -55551,7 +55551,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_209204/cf_259/yoghurt-_och_hallonglass.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "2 dl frysta hallon",
       "1 dl turkisk yoghurt",
@@ -55713,7 +55713,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_206630/cf_259/paronmacka_med_nutella.jpg",
     "time": "PT15M",
     "servings": "2 st",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "4 bröd för rostning",
       "1 päron",
@@ -55796,7 +55796,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_208292/cf_259/kall_risgrynsgrot_med_apelsin_och_kanel.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1/2 apelsin",
       "2 dl risgrynsgröt",
@@ -57012,7 +57012,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_165007/cf_259/chiakram.jpg",
     "time": "PT90M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl kokosdryck",
       "1 dl fryst, tärnad mango",
@@ -57049,7 +57049,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_164978/cf_259/müsliscones_med_hallon.jpg",
     "time": "PT45M",
     "servings": "8 st",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "3 dl vetemjöl (3 dl motsvarar 180 g)",
       "2 dl müsli",
@@ -58055,7 +58055,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_155232/cf_259/frotoppat_proteinbrod.jpg",
     "time": "PT30M",
     "servings": "4 små bröd",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl cottage cheese",
       "2 ägg",
@@ -58471,7 +58471,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_154051/cf_259/chiasmoothie_med_sharon.jpg",
     "time": "PT90M",
     "servings": "2",
-    "category": "Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "1 dl mandeldryck",
       "1/2 dl vaniljkvarg",
@@ -58847,7 +58847,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_150069/cf_259/rostad_macka_med_potatis__skogssvamp_och_kallrokt_lax.jpg",
     "time": "PT60M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "4 fasta potatisar",
       "1/2 rödlök",
@@ -59224,7 +59224,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_142551/cf_259/salt_yoghurtskal_med_vitloksstekt_zucchini.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 liten vitlöksklyfta",
       "100 g zucchini",
@@ -59446,7 +59446,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_141576/cf_259/pizza_bianco_med_ramarinerad_zucchini_och_chorizo.jpg",
     "time": "PT30M",
     "servings": "2",
-    "category": "Huvudrätt,Middag,Vickning",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 msk vitvinsvinäger",
       "2 msk olivolja",
@@ -60947,7 +60947,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_63940/cf_259/majspuffar_med_lax.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Förrätt,Huvudrätt,Middag,Mellanmål",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 kg potatis",
       "1/2 dl mjölk",
@@ -61108,7 +61108,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_20191/cf_259/ljummen_potatissallad_med_rakor_och_sparris.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "700 g färskpotatis",
       "ca 400 g räkor i lake",
@@ -61576,7 +61576,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_72680/cf_259/blodgrape_med_yoghurt__solrosfro__honung_och_mynta.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Efterrätt,Frukost,Brunch,Mellanmål",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 blodgrapefrukt",
       "2 dl turkisk yoghurt",
@@ -61652,7 +61652,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_62978/cf_259/pastasallad_med_rostade_gronsaker__kalkon_och_fetaost.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "2 röda paprikor",
       "1 zucchini",
@@ -62146,7 +62146,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_14893/cf_259/jessicas_kvallsmacka.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "senap",
       "ajvar relish",
@@ -62188,7 +62188,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_35337/cf_259/sallad_med_farskpotatis__kronartsskocka_och_tomatvinagrette.jpg",
     "time": "PT45M",
     "servings": "6 bufféportioner",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "800 g färskpotatis",
       "6 knippmorötter",
@@ -62243,7 +62243,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_13887/cf_259/spenatvafflor_med_ostkram_och_parmasegel.jpg",
     "time": "PT45M",
     "servings": "8 st våfflor",
-    "category": "Huvudrätt,Middag,Brunch,Mellanmål",
+    "category": "Huvudrätt,Middag,Brunch",
     "ingredients": [
       "1 paket djupfryst hackad spenat (à 375 g)",
       "100 g margarin eller smör",
@@ -62416,7 +62416,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_79836/cf_259/kottbullar_med_smak_av_lakritsrot_och_orter.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "250 g vilt- eller nötfärs",
       "250 g fläskfärs",
@@ -62449,7 +62449,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_80137/cf_259/rodbetsbrod_med_tapenade.jpg",
     "time": "PT90M",
     "servings": "2 bröd",
-    "category": "Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "25 g jäst",
       "3 dl ljummet vatten (37°C)",
@@ -62645,7 +62645,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_15828/cf_259/ciabatta_med_farskost_och_kallrokt_lax.jpg",
     "time": "PT15M",
     "servings": "4",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "4 ciabattabröd eller bagels",
       "100 g naturell färskost",
@@ -62721,7 +62721,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_14005/cf_259/kardemummate.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Brunch,Fika",
+    "category": "Brunch",
     "ingredients": [
       "2 1/2 dl vatten",
       "1 msk te",
@@ -62838,7 +62838,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_13888/cf_259/kanelvafflor_med_appelgradde.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Efterrätt,Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "75 g smör eller margarin",
       "3 dl vetemjöl",
@@ -62944,7 +62944,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_16549/cf_259/kycklingspett_med_mango__avokado_och_groddar.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Vickning,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1 pkt djupfryst mango i bitar (à 250 g)",
       "1 rödlök",
@@ -63059,7 +63059,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_71624/cf_259/smoothie_med_agg_och_banan.jpg",
     "time": "PT15M",
     "servings": "1",
-    "category": "Frukost,Brunch,Mellanmål,Fika",
+    "category": "Frukost,Brunch",
     "ingredients": [
       "2 dl frysta bär (som gör att den blir kall och god) t.ex. blåbär",
       "2 ägg",
@@ -63567,7 +63567,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_97322/cf_259/sommarpasta_med_salsa_verde_och_lufttorkad_skinka_.jpg",
     "time": "PT45M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Buffé",
+    "category": "Huvudrätt,Middag",
     "ingredients": [
       "1/2 dl pinjenötskärnor",
       "2 vitlöksklyftor",
@@ -64597,7 +64597,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_77720/cf_259/sanfran-quinoasallad_med_mango.jpg",
     "time": "PT30M",
     "servings": "4",
-    "category": "Huvudrätt,Middag,Brunch,Buffé",
+    "category": "Huvudrätt,Middag,Brunch",
     "ingredients": [
       "4 dl quinoa",
       "1 dl gul eller röd chilifrukt (t ex spansk peppar)",
@@ -64834,7 +64834,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_24161/cf_259/pettsons_fattiga_honungsriddare.jpg",
     "time": "PT15M",
     "servings": "2 st",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 ägg",
       "3 msk mjölk",
@@ -64876,7 +64876,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_64043/cf_259/spenat-_och_kiwidrink.jpg",
     "time": "PT15M",
     "servings": "2 glas",
-    "category": "Brunch,Mellanmål",
+    "category": "Brunch",
     "ingredients": [
       "1 påse babyspenat (à 65 g)",
       "2 dl fryst mango",
@@ -64963,7 +64963,7 @@
     "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_63071/cf_259/sommardessert.jpg",
     "time": "PT90M",
     "servings": "4",
-    "category": "Efterrätt,Brunch,Buffé",
+    "category": "Brunch",
     "ingredients": [
       "2 msk honung",
       "pressad juice och skal av 1 lime",
