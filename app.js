@@ -346,6 +346,41 @@ class RecipeApp {
         return `<span class="tag-price">${parts.join(' ')}</span>`;
     }
 
+    renderNutrition(recipe) {
+        if (!recipe.nutrition) return '';
+
+        const items = [];
+        if (recipe.nutrition.calories) {
+            const cal = recipe.nutrition.calories.replace(' calories', '');
+            items.push({ label: 'Kalorier', value: cal, unit: 'kcal' });
+        }
+        if (recipe.nutrition.protein) {
+            items.push({ label: 'Protein', value: recipe.nutrition.protein.replace(' g', ''), unit: 'g' });
+        }
+        if (recipe.nutrition.fat) {
+            items.push({ label: 'Fett', value: recipe.nutrition.fat.replace(' g', ''), unit: 'g' });
+        }
+        if (recipe.nutrition.carbs) {
+            items.push({ label: 'Kolhydrater', value: recipe.nutrition.carbs.replace(' g', ''), unit: 'g' });
+        }
+
+        if (items.length === 0) return '';
+
+        const itemsHtml = items.map(item => `
+            <div class="nutrition-item">
+                <span class="nutrition-label">${item.label}</span>
+                <span class="nutrition-value">${item.value} ${item.unit}</span>
+            </div>
+        `).join('');
+
+        return `
+            <div class="nutrition-section">
+                <div class="nutrition-title">Näringsvärde per portion</div>
+                <div class="nutrition-grid">${itemsHtml}</div>
+            </div>
+        `;
+    }
+
     createRecipeCard(recipe) {
         const time = this.formatTime(recipe.time);
         const percentage = recipe.match_percentage || 0;
@@ -402,11 +437,9 @@ class RecipeApp {
                     <div class="ingredient-tags">
                         ${matchedHtml || '<span class="ingredient-tag">Inga träffar</span>'}
                     </div>
-                    ${unmatchedHtml ? `
-                        <div class="ingredients-title" style="margin-top: var(--space-md);">Övriga ingredienser</div>
-                        <div class="ingredient-tags">${unmatchedHtml}${moreHtml}</div>
-                    ` : ''}
                 </div>
+
+                ${this.renderNutrition(recipe)}
 
                 <div class="card-footer">
                     <a href="${Utils.escapeHtml(recipe.url)}" target="_blank" rel="noopener" class="recipe-link">

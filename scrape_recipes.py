@@ -91,6 +91,7 @@ def get_recipe_details(page, recipe_url: str) -> dict | None:
             try:
                 data = json.loads(m)
                 if isinstance(data, dict) and data.get('@type') == 'Recipe':
+                    nutrition = data.get('nutrition', {})
                     return {
                         'name': data.get('name', ''),
                         'url': full_url,
@@ -103,6 +104,12 @@ def get_recipe_details(page, recipe_url: str) -> dict | None:
                         'rating': data.get('aggregateRating', {}).get('ratingValue'),
                         'reviews': data.get('aggregateRating', {}).get('reviewCount'),
                         'instructions': normalize_instructions(data.get('recipeInstructions', [])),
+                        'nutrition': {
+                            'calories': nutrition.get('calories', ''),
+                            'protein': nutrition.get('proteinContent', ''),
+                            'fat': nutrition.get('fatContent', ''),
+                            'carbs': nutrition.get('carbohydrateContent', ''),
+                        } if nutrition else None,
                     }
             except json.JSONDecodeError:
                 continue

@@ -170,6 +170,7 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
         'servings': recipe.get('servings'),
         'rating': recipe.get('rating'),
         'reviews': recipe.get('reviews'),
+        'nutrition': recipe.get('nutrition'),
     }
 
 

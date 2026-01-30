@@ -985,6 +985,56 @@ body {
     font-weight: 400;
 }
 
+/* Nutrition Section */
+.nutrition-section {
+    padding: var(--space-md) var(--space-lg);
+    border-top: 1px solid var(--border-softer);
+    background: rgba(0, 0, 0, 0.02);
+}
+
+@media (prefers-color-scheme: dark) {
+    .nutrition-section {
+        background: rgba(255, 255, 255, 0.02);
+    }
+}
+
+[data-theme="dark"] .nutrition-section {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+[data-theme="light"] .nutrition-section {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.nutrition-title {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-ink-muted);
+    margin-bottom: var(--space-sm);
+}
+
+.nutrition-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 16px;
+}
+
+.nutrition-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8125rem;
+}
+
+.nutrition-label {
+    color: var(--color-ink-muted);
+}
+
+.nutrition-value {
+    font-weight: 500;
+}
+
 /* Card Footer */
 .card-footer {
     padding: var(--space-md) var(--space-lg);
