@@ -1,10 +1,86 @@
 #!/usr/bin/env python3
-"""Scrape current deals from ereklamblad.se (ICA Supermarket & Stora Coop)."""
+"""Scrape current deals from ereklamblad.se and coop.se."""
 
 import json
 import os
 import re
 from playwright.sync_api import sync_playwright
+
+
+def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
+    """Scrape deals from coop.se store page using their API."""
+    print(f"\n=== Scraping {store_name} (coop.se) ===")
+    print(f"URL: {coop_url}")
+
+    offers_data = []
+
+    def handle_response(response):
+        if 'dke/offers' in response.url and 'json' in response.headers.get('content-type', ''):
+            try:
+                offers_data.extend(response.json())
+            except Exception:
+                pass
+
+    page.on('response', handle_response)
+
+    try:
+        page.goto(coop_url, timeout=30000)
+        page.wait_for_load_state('networkidle', timeout=20000)
+    except Exception as e:
+        print(f"  Navigation error: {e}")
+
+    page.remove_listener('response', handle_response)
+
+    products = []
+    for offer in offers_data:
+        content = offer.get('content', {})
+        price_info = offer.get('priceInformation', {})
+
+        name = content.get('title', '')
+        brand = content.get('brand', '')
+        if brand and brand.lower() not in name.lower():
+            name = f"{name} ({brand})"
+
+        # Build price string
+        price_val = price_info.get('discountValue')
+        min_amount = price_info.get('minimumAmount', 1)
+        unit = price_info.get('unit', 'st')
+
+        if price_val:
+            if min_amount > 1:
+                price = f"{min_amount} för {price_val}:-"
+            else:
+                price = f"{price_val}:-"
+        else:
+            price = None
+
+        # Image URL
+        image = content.get('imageUrl', '')
+        if image and image.startswith('//'):
+            image = 'https:' + image
+
+        # Description and comparison price
+        description = content.get('description', '')
+        amount_info = content.get('amountInformation', '')
+        if amount_info:
+            description = f"{amount_info} {description}".strip()
+
+        jfr_pris = content.get('comparativePriceText', '')
+
+        if name:
+            products.append({
+                'store': store_name,
+                'name': name.strip(),
+                'price': price,
+                'unit': unit if unit else None,
+                'description': description if description else None,
+                'ord_pris': None,
+                'jfr_pris': jfr_pris if jfr_pris else None,
+                'image': image if image else None,
+            })
+
+    print(f"  Found {len(products)} products via coop.se API")
+    return products
 
 
 def scrape_ereklamblad(page, store_name: str, url: str) -> list[dict]:
@@ -270,6 +346,142 @@ def parse_paged_publication(data, store_name: str) -> list[dict]:
     return products
 
 
+def build_offer_image_map(page, chain_url: str) -> dict:
+    """Build offer_id -> image URL mapping from chain inventory view."""
+    offer_images = {}
+    inventory_url = f"{chain_url.rstrip('/')}?publication=inventory"
+
+    try:
+        page.goto(inventory_url, timeout=30000)
+        page.wait_for_load_state('networkidle', timeout=20000)
+        page.wait_for_timeout(1000)
+
+        # Scroll to load all products
+        for i in range(25):
+            page.evaluate(f'window.scrollTo(0, {i * 500})')
+            page.wait_for_timeout(100)
+
+        links = page.query_selector_all('a[href*="offer="]')
+        for link in links:
+            href = link.get_attribute('href')
+            img = link.query_selector('img')
+
+            if href and img:
+                offer_match = re.search(r'offer=([a-zA-Z0-9_-]+)', href)
+                if offer_match:
+                    offer_id = offer_match.group(1)
+                    img_src = img.get_attribute('src')
+                    if img_src:
+                        offer_images[offer_id] = img_src
+    except Exception as e:
+        print(f"  Error building image map: {e}")
+
+    return offer_images
+
+
+def scrape_store_specific(page, store_name: str, store_url: str, offer_images: dict = None) -> list[dict]:
+    """Scrape a specific store by finding its active publication."""
+    print(f"\n=== Scraping {store_name} (store-specific) ===")
+    print(f"Store URL: {store_url}")
+
+    try:
+        page.goto(store_url, timeout=30000)
+        page.wait_for_load_state('networkidle', timeout=15000)
+
+        # Find active publication link (contains ?publication= and current store's location)
+        links = page.query_selector_all('a[href*="publication="]')
+        pub_url = None
+        for link in links:
+            href = link.get_attribute('href')
+            if href and 'publication=' in href and 'inventory' not in href:
+                pub_url = href
+                break
+
+        if not pub_url:
+            print("  No active publication found")
+            return []
+
+        full_url = f"https://ereklamblad.se{pub_url}" if pub_url.startswith('/') else pub_url
+        print(f"  Found publication: {full_url}")
+
+        # If we have offer images, use paged-publications API for better matching
+        if offer_images:
+            products = scrape_publication_with_images(page, store_name, full_url, offer_images)
+            if products:
+                return products
+
+        return scrape_ereklamblad(page, store_name, full_url)
+
+    except Exception as e:
+        print(f"  Error: {e}")
+        return []
+
+
+def scrape_publication_with_images(page, store_name: str, pub_url: str, offer_images: dict) -> list[dict]:
+    """Scrape publication using paged-publications API and match with inventory images."""
+    import urllib.request
+
+    # Extract publication ID from URL
+    pub_match = re.search(r'publication=([a-zA-Z0-9_-]+)', pub_url)
+    if not pub_match:
+        return []
+
+    pub_id = pub_match.group(1)
+    print(f"  Using paged-publications API with image matching...")
+
+    products = []
+    seen_offers = set()
+
+    # Fetch all pages
+    for page_num in range(1, 20):
+        try:
+            api_url = f'https://publication-viewer.tjek.com/api/paged-publications/{pub_id}/{page_num}'
+            req = urllib.request.Request(api_url, headers={'Accept': 'application/json'})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                data = json.loads(response.read())
+
+                for hs in data.get('hotspots', []):
+                    offer = hs.get('offer', {})
+                    offer_id = offer.get('id')
+                    name = offer.get('name', '')
+
+                    if not name or offer_id in seen_offers:
+                        continue
+                    seen_offers.add(offer_id)
+
+                    # Parse name and price from "Product Name, SEK 99" format
+                    price = None
+                    clean_name = name
+                    price_match = re.search(r',\s*(?:SEK\s*)?(\d+(?:[,.]\d+)?)\s*$', name)
+                    if price_match:
+                        price = f"{price_match.group(1).replace(',', '.')}:-"
+                        clean_name = name[:price_match.start()].strip()
+                    elif name.endswith(', Medlemspris'):
+                        clean_name = name.replace(', Medlemspris', '').strip()
+
+                    # Get image from offer_images map
+                    image = offer_images.get(offer_id)
+
+                    products.append({
+                        'store': store_name,
+                        'name': clean_name,
+                        'price': price,
+                        'unit': None,
+                        'description': None,
+                        'ord_pris': None,
+                        'jfr_pris': None,
+                        'image': image,
+                    })
+        except urllib.error.HTTPError:
+            break  # No more pages
+        except Exception:
+            continue
+
+    matched = sum(1 for p in products if p.get('image'))
+    print(f"  Found {len(products)} products, {matched} with images ({100*matched//len(products) if products else 0}%)")
+    return products
+
+
 def scrape_inventory_view(page, store_name: str, base_url: str) -> list[dict]:
     """Scrape inventory view which has structured product data (Willys, ICA Maxi, ICA Kvantum)."""
     print(f"\n=== Scraping {store_name} (inventory view) ===")
@@ -315,10 +527,7 @@ def scrape_inventory_view(page, store_name: str, base_url: str) -> list[dict]:
                     price_match = re.search(r'(\d+[,.]?\d*)\s*kr$', line)
                     if price_match and not price:
                         price_val = price_match.group(1).replace(',', '.')
-                        if 'Medlemspris' in line:
-                            price = 'Medlemspris'
-                        else:
-                            price = f"{price_val}:-"
+                        price = f"{price_val}:-"
 
                     # Details line with Jämförpris
                     if 'Jämförpris' in line or 'jämförpris' in line:
@@ -439,6 +648,7 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
 
 
 def main():
+    # National chain pages
     stores = [
         ('ICA Supermarket', 'https://ereklamblad.se/ICA-Supermarket/'),
         ('ICA Nära', 'https://ereklamblad.se/ICA-Nara/'),
@@ -447,6 +657,10 @@ def main():
         ('Stora Coop', 'https://ereklamblad.se/Stora-Coop/'),
         ('Coop', 'https://ereklamblad.se/Coop/'),
         ('Willys', 'https://ereklamblad.se/Willys/'),
+        # Specific stores (ICA via ereklamblad, Coop via coop.se for better data)
+        ('ICA Globen', 'https://ereklamblad.se/ICA-Supermarket/butiker/d4d20iz'),
+        ('Stora Coop Västberga', 'https://www.coop.se/butiker-erbjudanden/stora-coop/stora-coop-vastberga/'),
+        ('Coop Fruängen', 'https://www.coop.se/butiker-erbjudanden/coop/coop-fruangen/'),
     ]
 
     all_products = []
@@ -465,7 +679,13 @@ def main():
 
         for store_name, url in stores:
             try:
-                if store_name in inventory_stores:
+                if 'coop.se/butiker-erbjudanden' in url:
+                    # Use coop.se API for store-specific Coop stores
+                    products = scrape_coop_se(page, store_name, url)
+                elif '/butiker/' in url:
+                    # ereklamblad store-specific pages
+                    products = scrape_store_specific(page, store_name, url)
+                elif store_name in inventory_stores:
                     products = scrape_inventory_view(page, store_name, url)
                 else:
                     products = scrape_ereklamblad(page, store_name, url)
