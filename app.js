@@ -460,13 +460,6 @@ class RecipeApp {
             return `<span class="ingredient-tag matched ${storeClass}">${Utils.escapeHtml(ing.ingredient)} ${priceHtml}</span>`;
         }).join('');
 
-        const unmatchedHtml = (recipe.unmatched_ingredients || []).slice(0, 3).map(ing =>
-            `<span class="ingredient-tag">${Utils.escapeHtml(ing)}</span>`
-        ).join('');
-
-        const moreCount = (recipe.unmatched_ingredients || []).length - 3;
-        const moreHtml = moreCount > 0 ? `<span class="ingredient-tag">+${moreCount}</span>` : '';
-
         return `
             <article class="recipe-card">
                 ${imageHtml}
@@ -564,7 +557,7 @@ function initTheme() {
     let stored = null;
     try {
         stored = localStorage.getItem('theme');
-    } catch (e) {
+    } catch {
         // localStorage unavailable (private browsing, etc.)
     }
     if (stored) {
@@ -586,7 +579,7 @@ function initTheme() {
         let hasExplicit = false;
         try {
             hasExplicit = !!localStorage.getItem('theme');
-        } catch (e) {}
+        } catch { /* ignore */ }
         if (!hasExplicit) {
             // No explicit preference, UI follows system automatically via CSS
             updateAriaLabel();
@@ -618,7 +611,7 @@ function initTheme() {
         document.documentElement.setAttribute('data-theme', next);
         try {
             localStorage.setItem('theme', next);
-        } catch (e) {
+        } catch {
             // localStorage unavailable
         }
 
