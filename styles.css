@@ -467,82 +467,15 @@ body {
     align-items: center;
 }
 
-.filter-group.expanded .filter-overflow {
-    display: flex;
-}
-
-.filter-overflow {
-    display: none;
-    flex-wrap: wrap;
-    gap: var(--space-sm);
-    animation: filterReveal 0.4s var(--ease-out) both;
-}
-
-@keyframes filterReveal {
-    from {
-        opacity: 0;
-        transform: translateX(-8px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.filter-overflow .filter-btn {
-    animation: filterReveal 0.4s var(--ease-out) both;
-}
-
-.filter-overflow .filter-btn:nth-child(1) { animation-delay: 0.05s; }
-.filter-overflow .filter-btn:nth-child(2) { animation-delay: 0.1s; }
-.filter-overflow .filter-btn:nth-child(3) { animation-delay: 0.15s; }
-.filter-overflow .filter-btn:nth-child(4) { animation-delay: 0.2s; }
-.filter-overflow .filter-btn:nth-child(5) { animation-delay: 0.25s; }
-
-.filter-toggle {
-    display: flex;
+/* Store Select Dropdown */
+.store-select-wrapper {
+    position: relative;
+    display: inline-flex;
     align-items: center;
-    gap: var(--space-xs);
-    padding: var(--space-md) var(--space-lg);
-    font-family: var(--font-body);
-    font-size: 0.9375rem;
-    font-weight: 500;
-    background: transparent;
-    border: 2px dashed var(--color-ink-muted);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    transition: all 0.25s var(--ease-out);
 }
 
-.filter-toggle:hover {
-    border-color: var(--color-amber);
-    color: var(--color-ink);
-    background: var(--color-paper);
-}
-
-.filter-toggle svg {
-    width: 16px;
-    height: 16px;
-    transition: transform 0.3s var(--ease-out);
-}
-
-.filter-toggle.expanded svg {
-    transform: rotate(180deg);
-}
-
-.filter-count {
-    font-size: 0.75rem;
-    padding: 2px 6px;
-    background: var(--color-cream);
-    border-radius: 100px;
-    color: var(--color-ink-muted);
-}
-
-.filter-btn {
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    padding: var(--space-md) var(--space-lg);
+.store-select {
+    padding: var(--space-md) var(--space-xl) var(--space-md) var(--space-lg);
     font-family: var(--font-body);
     font-size: 0.9375rem;
     font-weight: 500;
@@ -552,36 +485,63 @@ body {
     cursor: pointer;
     transition: all 0.25s var(--ease-out);
     box-shadow: 0 2px 8px var(--shadow-color);
+    appearance: none;
+    color: var(--color-ink);
+    min-width: 180px;
 }
 
-.filter-btn:hover {
+.store-select:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 16px var(--shadow-color-hover);
 }
 
-.filter-btn.active {
-    background: var(--color-ink);
-    color: var(--color-paper);
-    border-color: var(--color-ink);
+.store-select:focus {
+    outline: none;
+    border-color: var(--color-amber);
+    box-shadow: 0 4px 20px var(--focus-glow);
 }
 
-/* Dark mode: add subtle border to inactive buttons for visibility */
+.store-select optgroup {
+    font-weight: 600;
+    font-size: 0.8125rem;
+    color: var(--color-ink-muted);
+    background: var(--color-cream);
+    padding: var(--space-sm) 0;
+}
+
+.store-select option {
+    font-weight: 400;
+    padding: var(--space-sm);
+    background: var(--color-paper);
+    color: var(--color-ink);
+}
+
+.store-select-icon {
+    position: absolute;
+    right: var(--space-md);
+    width: 16px;
+    height: 16px;
+    color: var(--color-ink-muted);
+    pointer-events: none;
+    transition: transform 0.2s var(--ease-out);
+}
+
+.store-select:focus + .store-select-icon {
+    color: var(--color-amber);
+}
+
 @media (prefers-color-scheme: dark) {
-    .filter-btn:not(.active) {
+    .store-select {
         border-color: var(--border-medium);
     }
 }
 
-[data-theme="dark"] .filter-btn:not(.active) {
+[data-theme="dark"] .store-select {
     border-color: var(--border-medium);
 }
 
-[data-theme="light"] .filter-btn:not(.active) {
+[data-theme="light"] .store-select {
     border-color: transparent;
-}
-
-.filter-icon {
-    font-size: 0.75rem;
 }
 
 .filter-dot {
@@ -1134,43 +1094,6 @@ body {
    DEALS PAGE
    ============================================ */
 
-.deals-header {
-    margin-bottom: var(--space-xl);
-}
-
-.deals-title-row {
-    display: flex;
-    align-items: baseline;
-    gap: var(--space-md);
-    margin-bottom: var(--space-lg);
-    flex-wrap: wrap;
-}
-
-.deals-title {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 500;
-}
-
-.deals-count {
-    font-size: 0.875rem;
-    color: var(--color-ink-muted);
-}
-
-.deals-controls {
-    margin-bottom: var(--space-lg);
-}
-
-.deals-controls .search-wrapper {
-    max-width: 400px;
-}
-
-/* Filter Chips */
-.filter-chips {
-    display: flex;
-    gap: var(--space-sm);
-    flex-wrap: wrap;
-}
 
 .filter-chip {
     display: inline-flex;

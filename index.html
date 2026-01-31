@@ -107,22 +107,24 @@
 
         <!-- Deals Page -->
         <div class="page" id="pageDeals" data-page="/deals" style="display: none;">
-            <section class="deals-header">
-                <div class="deals-title-row">
-                    <h2 class="deals-title">Veckans Erbjudanden</h2>
-                    <span class="deals-count" aria-live="polite"><span id="dealsCount">—</span> erbjudanden</span>
+            <section class="controls">
+                <div class="search-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="M21 21l-4.35-4.35"/>
+                    </svg>
+                    <input type="text" id="dealsSearchInput" class="search-input" placeholder="Sök erbjudanden...">
                 </div>
-                <div class="deals-controls">
-                    <div class="search-wrapper">
-                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="11" cy="11" r="8"/>
-                            <path d="M21 21l-4.35-4.35"/>
-                        </svg>
-                        <input type="text" id="dealsSearchInput" class="search-input" placeholder="Sök erbjudanden...">
-                    </div>
-                </div>
-                <div class="filter-chips" id="dealsFilterGroup">
+
+                <div class="filter-group" id="dealsFilterGroup">
                     <!-- Dynamically generated -->
+                </div>
+            </section>
+
+            <section class="stats-bar">
+                <div class="stat">
+                    <span class="stat-number" id="dealsCount">—</span>
+                    <span class="stat-label">erbjudanden</span>
                 </div>
             </section>
 
