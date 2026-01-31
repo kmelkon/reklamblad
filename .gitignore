@@ -2,3 +2,4 @@ ENHANCEMENTS.md
 venv/
 .venv/
 tmp/
+node_modules/
