@@ -54,10 +54,13 @@ def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
         else:
             price = None
 
-        # Image URL
+        # Image URL - add Cloudinary transforms for smaller file size
         image = content.get('imageUrl', '')
         if image and image.startswith('//'):
             image = 'https:' + image
+        if image and 'cloudinary.com' in image and '/upload/' in image:
+            # Add resize/format transforms: w_400 (width), f_auto (webp/avif), q_auto (quality)
+            image = image.replace('/upload/', '/upload/w_400,f_auto,q_auto/')
 
         # Description and comparison price
         description = content.get('description', '')
