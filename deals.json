@@ -7,47 +7,27 @@
     "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 36:90-39:90 kr.",
     "ord_pris": "36:90-39:90",
     "jfr_pris": "135:87-189:39",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F32501a3f6b3c222b6c2766b1af192064&w=288&s=dc88d9b75a5b2378dc2576724b685d17"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F32501a3f6b3c222b6c2766b1af192064&w=572&s=23e1a5ffb47c8e887318035eb6e2f79f"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Röda kärnfria druvor i ask",
+    "name": "Levainbröd",
     "price": "30:-",
     "unit": "/st",
-    "description": "500 g | Klass 1 | ICA | Jfr pris 60:00/kg | Ord.pris 49:90 kr.",
-    "ord_pris": "49:90",
-    "jfr_pris": "60:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F13e970b11f58bed03a7aff22ca8e2655&w=276&s=1b2a2c4b201a8aec2084577895c76ebd"
+    "description": "650 g | Gäller råg- och vetelevain | Pågen | Jfr pris 46:15/kg | Ord.pris 44:90 kr.",
+    "ord_pris": "44:90",
+    "jfr_pris": "46:15",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdf64e3e6b34ee3524573b8150f4ca20b&w=276&s=e1ea902cea9a6ca840eddbf4cddb80f5"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Tulpaner 12-pack",
-    "price": "99:-",
-    "unit": "/st",
-    "description": "Flera färger. 3 kr går till Glada Hudik | ICA | Jfr pris 99:00/st | Ord.pris 149:00 kr.",
-    "ord_pris": "149:00",
-    "jfr_pris": "99:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4a2bdd3edaa948f6b62cb5d8344b0b99&w=276&s=036ed0ae702e2129cbd88e16bc979abe"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Yoghurt",
-    "price": "45:-",
+    "name": "Majs-, Riskakor",
+    "price": "35:-",
     "unit": "2 för",
-    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi | Jfr pris 22:50/kg | Ord.pris 30:90-32:90 kr.",
-    "ord_pris": "30:90-32:90",
-    "jfr_pris": "22:50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdb48f5526a71957ba588cca3f850b9f9&w=276&s=b357c1efae6b506cef081951844f2d0d"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Schampo, balsam",
-    "price": "55:-",
-    "unit": "2 för",
-    "description": "200-250 ml | Elvital | Jfr pris 110:00-137:50/liter | Ord.pris 43:90 kr.",
-    "ord_pris": "43:90",
-    "jfr_pris": "110:00-137:50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Ff4089f049893a20805cd31fd0b297ac8&w=276&s=2a70ab02e2b869c0203d38446b00ad5a"
+    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs | Jfr pris 140:00-145:83/kg | Ord.pris 24:90-26:90 kr.",
+    "ord_pris": "24:90-26:90",
+    "jfr_pris": "140:00-145:83",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4e143ad28ec3305230865d562798341a&w=276&s=24dfa05210b86509351881448ad911b4"
   },
   {
     "store": "ICA Supermarket",
@@ -91,13 +71,33 @@
   },
   {
     "store": "ICA Supermarket",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 179:00 kr.",
+    "ord_pris": "179:00",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fbc6cdf46c7d9947e3582c7d8ac0c6b4b&w=568&s=55798203b8c36ccc5e38979c53827913"
+  },
+  {
+    "store": "ICA Supermarket",
     "name": "Fryst hamburgare",
     "price": "139:-",
     "unit": "2 för",
     "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 90:90 kr.",
     "ord_pris": "90:90",
     "jfr_pris": "96:53",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F1e4abb26ebc3fd0d2becce1017e9dd68&w=576&s=8323020365015eecc5084f3ff1eb0dc3"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F1e4abb26ebc3fd0d2becce1017e9dd68&w=272&s=1bdab00deeca642eb26c8f33b6aa603b"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 47:90-51:90 kr.",
+    "ord_pris": "47:90-51:90",
+    "jfr_pris": "1:29-1:35",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F705165b1e3dcd159a8b23b9a7b4fbc8a&w=272&s=c41f86d3b31a63b1d7661baf53c8fb43"
   },
   {
     "store": "ICA Supermarket",
@@ -141,83 +141,43 @@
   },
   {
     "store": "ICA Supermarket",
-    "name": "Färsk kycklingfilé",
-    "price": "119:-",
-    "unit": "/kg",
-    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 179:00 kr.",
-    "ord_pris": "179:00",
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fbc6cdf46c7d9947e3582c7d8ac0c6b4b&w=568&s=55798203b8c36ccc5e38979c53827913"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Flytande tvättmedel",
-    "price": "119:-",
-    "unit": "4 för",
-    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 47:90-51:90 kr.",
-    "ord_pris": "47:90-51:90",
-    "jfr_pris": "1:29-1:35",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F705165b1e3dcd159a8b23b9a7b4fbc8a&w=272&s=c41f86d3b31a63b1d7661baf53c8fb43"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Levainbröd",
+    "name": "Röda kärnfria druvor i ask",
     "price": "30:-",
     "unit": "/st",
-    "description": "650 g | Gäller råg- och vetelevain | Pågen | Jfr pris 46:15/kg | Ord.pris 44:90 kr.",
-    "ord_pris": "44:90",
-    "jfr_pris": "46:15",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdf64e3e6b34ee3524573b8150f4ca20b&w=276&s=e1ea902cea9a6ca840eddbf4cddb80f5"
+    "description": "500 g | Klass 1 | ICA | Jfr pris 60:00/kg | Ord.pris 49:90 kr.",
+    "ord_pris": "49:90",
+    "jfr_pris": "60:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F13e970b11f58bed03a7aff22ca8e2655&w=276&s=1b2a2c4b201a8aec2084577895c76ebd"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Majs-, Riskakor",
-    "price": "35:-",
-    "unit": "2 för",
-    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs | Jfr pris 140:00-145:83/kg | Ord.pris 24:90-26:90 kr.",
-    "ord_pris": "24:90-26:90",
-    "jfr_pris": "140:00-145:83",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4e143ad28ec3305230865d562798341a&w=276&s=24dfa05210b86509351881448ad911b4"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Falukorv",
-    "price": "69:-",
-    "unit": "2 för",
-    "description": "800 g | Scan | Max 1 köp/hushåll | Jfr pris 43:12/kg | Ord.pris 41:90 kr.",
-    "ord_pris": "41:90",
-    "jfr_pris": "43:12",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fc565c59956f8ab34e5e906b665f13e12&w=276&s=6dd974f4b33702d58286fa796e18a3a8"
-  },
-  {
-    "store": "ICA Supermarket",
-    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
-    "price": "79:-",
+    "name": "Tulpaner 12-pack",
+    "price": "99:-",
     "unit": "/st",
-    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier | Jfr pris 117:91/kg | Ord.pris 105:00-119:00 kr.",
-    "ord_pris": "105:00-119:00",
-    "jfr_pris": "117:91",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4c8a9a7088268c83673ee4d38ba15475&w=276&s=6651e73eb98b88d20c0ac2d10432a76a"
+    "description": "Flera färger. 3 kr går till Glada Hudik | ICA | Jfr pris 99:00/st | Ord.pris 149:00 kr.",
+    "ord_pris": "149:00",
+    "jfr_pris": "99:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4a2bdd3edaa948f6b62cb5d8344b0b99&w=276&s=036ed0ae702e2129cbd88e16bc979abe"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Skinkstek",
-    "price": null,
-    "unit": "/kg",
-    "description": "Ca 1100 g | ICA | Max 2 köp/hushåll | Ord.pris 115:00 kr.",
-    "ord_pris": "115:00",
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F5e81e74988d197818f51f94cd35e8f3d&w=276&s=ee9200358420b929f56bb5e9d78344da"
+    "name": "Yoghurt",
+    "price": "45:-",
+    "unit": "2 för",
+    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi | Jfr pris 22:50/kg | Ord.pris 30:90-32:90 kr.",
+    "ord_pris": "30:90-32:90",
+    "jfr_pris": "22:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdb48f5526a71957ba588cca3f850b9f9&w=276&s=b357c1efae6b506cef081951844f2d0d"
   },
   {
     "store": "ICA Supermarket",
-    "name": "Köttbullar",
-    "price": "69:-",
-    "unit": "/st",
-    "description": "1000 g | Kylda | Scan | Max 2 köp/hushåll | Jfr pris 69:00/kg | Ord.pris 89:90 kr.",
-    "ord_pris": "89:90",
-    "jfr_pris": "69:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F580b05d3c0e669fd8e209463159c42a8&w=276&s=2f2c9609846165a75058ea6b5cf20255"
+    "name": "Schampo, balsam",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "200-250 ml | Elvital | Jfr pris 110:00-137:50/liter | Ord.pris 43:90 kr.",
+    "ord_pris": "43:90",
+    "jfr_pris": "110:00-137:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Ff4089f049893a20805cd31fd0b297ac8&w=276&s=2a70ab02e2b869c0203d38446b00ad5a"
   },
   {
     "store": "ICA Supermarket",
@@ -268,6 +228,46 @@
     "ord_pris": "31:90-36:90",
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fbf2e7746f1f22dc84c49733914afa703&w=276&s=1758f994da6eadd070709fa512057721"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Falukorv",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "800 g | Scan | Max 1 köp/hushåll | Jfr pris 43:12/kg | Ord.pris 41:90 kr.",
+    "ord_pris": "41:90",
+    "jfr_pris": "43:12",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fc565c59956f8ab34e5e906b665f13e12&w=276&s=6dd974f4b33702d58286fa796e18a3a8"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
+    "price": "79:-",
+    "unit": "/st",
+    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier | Jfr pris 117:91/kg | Ord.pris 105:00-119:00 kr.",
+    "ord_pris": "105:00-119:00",
+    "jfr_pris": "117:91",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4c8a9a7088268c83673ee4d38ba15475&w=276&s=6651e73eb98b88d20c0ac2d10432a76a"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Skinkstek",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1100 g | ICA | Max 2 köp/hushåll | Ord.pris 115:00 kr.",
+    "ord_pris": "115:00",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F5e81e74988d197818f51f94cd35e8f3d&w=276&s=ee9200358420b929f56bb5e9d78344da"
+  },
+  {
+    "store": "ICA Supermarket",
+    "name": "Köttbullar",
+    "price": "69:-",
+    "unit": "/st",
+    "description": "1000 g | Kylda | Scan | Max 2 köp/hushåll | Jfr pris 69:00/kg | Ord.pris 89:90 kr.",
+    "ord_pris": "89:90",
+    "jfr_pris": "69:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F580b05d3c0e669fd8e209463159c42a8&w=276&s=2f2c9609846165a75058ea6b5cf20255"
   },
   {
     "store": "ICA Supermarket",
@@ -521,13 +521,53 @@
   },
   {
     "store": "ICA Nära",
+    "name": "Skärgårdskaka",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "750 g | Pågen | Jfr pris 40:00/kg | Ord.pris 37:95 kr.",
+    "ord_pris": "37:95",
+    "jfr_pris": "40:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fa5d5a980715cfd17b918c5d0d8bf4c44&w=572&s=223ef2083b6ea6a9066ebbad684e4444"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Cookies",
+    "price": "25:-",
+    "unit": "/st",
+    "description": "132-184 g | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 35:95-41:95 kr. 30dgr.pris 35:95-41:95 kr.",
+    "ord_pris": "35:95-41:95",
+    "jfr_pris": "135:87-189:39",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F2df9bfed47224b15f8d661fe653be351&w=572&s=bbbda2e91172264e6ec37e7f165b1a2a"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 177:00 kr.",
+    "ord_pris": "177:00",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fbc6cdf46c7d9947e3582c7d8ac0c6b4b&w=568&s=2d0f5575561d7948d7ff271692340c34"
+  },
+  {
+    "store": "ICA Nära",
     "name": "Fryst hamburgare",
     "price": "139:-",
     "unit": "2 för",
     "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 92:00 kr.",
     "ord_pris": "92:00",
     "jfr_pris": "96:53",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F1e4abb26ebc3fd0d2becce1017e9dd68&w=576&s=c5c44801e7b24cd9a6975e2cd176c6bc"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F1e4abb26ebc3fd0d2becce1017e9dd68&w=272&s=bb66f7932b3cb957260581bee1d23f35"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 51:95-53:95 kr.",
+    "ord_pris": "51:95-53:95",
+    "jfr_pris": "1:29-1:35",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F705165b1e3dcd159a8b23b9a7b4fbc8a&w=272&s=5ab90ddd164329428f4bc98ff0b267d5"
   },
   {
     "store": "ICA Nära",
@@ -538,16 +578,6 @@
     "ord_pris": "46:95",
     "jfr_pris": "84:76-98:89",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fc412ff45e9f72f3c87b0e20bff3838ff&w=276&s=020c7f2d295bd74b71a5042297c1d0eb"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Pommes Frites, Strips",
-    "price": "30:-",
-    "unit": "2 för",
-    "description": "1 kg | Fryst | ICA | Max 1 köp/hushåll | Jfr pris 15:00/kg | Ord.pris 28:95 kr.",
-    "ord_pris": "28:95",
-    "jfr_pris": "15:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F0459fc8294dee52006c0aa4c488de8bd&w=276&s=ed1161dc11b9a95215b7c71eb98b8cba"
   },
   {
     "store": "ICA Nära",
@@ -571,53 +601,13 @@
   },
   {
     "store": "ICA Nära",
-    "name": "Färsk kycklingfilé",
-    "price": "119:-",
-    "unit": "/kg",
-    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 177:00 kr.",
-    "ord_pris": "177:00",
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fbc6cdf46c7d9947e3582c7d8ac0c6b4b&w=568&s=2d0f5575561d7948d7ff271692340c34"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Flytande tvättmedel",
-    "price": "119:-",
-    "unit": "4 för",
-    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 51:95-53:95 kr.",
-    "ord_pris": "51:95-53:95",
-    "jfr_pris": "1:29-1:35",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F705165b1e3dcd159a8b23b9a7b4fbc8a&w=272&s=5ab90ddd164329428f4bc98ff0b267d5"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Skärgårdskaka",
-    "price": "30:-",
+    "name": "Smör",
+    "price": "55:-",
     "unit": "/st",
-    "description": "750 g | Pågen | Jfr pris 40:00/kg | Ord.pris 37:95 kr.",
-    "ord_pris": "37:95",
-    "jfr_pris": "40:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fa5d5a980715cfd17b918c5d0d8bf4c44&w=572&s=223ef2083b6ea6a9066ebbad684e4444"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Cookies",
-    "price": "25:-",
-    "unit": "/st",
-    "description": "132-184 g | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 35:95-41:95 kr. 30dgr.pris 35:95-41:95 kr.",
-    "ord_pris": "35:95-41:95",
-    "jfr_pris": "135:87-189:39",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F2df9bfed47224b15f8d661fe653be351&w=572&s=bbbda2e91172264e6ec37e7f165b1a2a"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Mogen avokado 3-pack",
-    "price": "25:-",
-    "unit": "/st",
-    "description": "330 g | Klass 1 | ICA | Max 2 köp/hushåll | Jfr pris 75:76/kg | Ord.pris 44:95 kr.",
-    "ord_pris": "44:95",
-    "jfr_pris": "75:76",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F73a77ff93e399993cbd895c884656b09&w=576&s=e2b88bfd00674eaa0cb8ac5d0cb792d8"
+    "description": "500 g | Gäller ej laktosfritt | Valio | Jfr pris 110:00/kg | Ord.pris 78:00 kr.",
+    "ord_pris": "78:00",
+    "jfr_pris": "110:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F47965113bfe5e5a833988c7c05a6db91&w=576&s=40d08a8d7c375edcd3631babd783fed9"
   },
   {
     "store": "ICA Nära",
@@ -628,6 +618,26 @@
     "ord_pris": "38:95",
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F61b7036d34d450798eb8eeb2b84f7e23&w=276&s=401591d59b038b214b28ccd74b902ca3"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "LED Lampor",
+    "price": "60:-",
+    "unit": "3 för",
+    "description": "Erbjudandet gäller: LED SMD E27 806lm/E27 470lm/E27 250lm/E14 250lm/E14 140lm/E14 250lm | ICA | Jfr pris 20:00/st | Ord.pris 23:95-25:95 kr.",
+    "ord_pris": "23:95-25:95",
+    "jfr_pris": "20:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fecaf7c700af532daf20d29e61e08385d&w=276&s=40a2e59af77ddf276dfbc81b61d16463"
+  },
+  {
+    "store": "ICA Nära",
+    "name": "Proteinbar",
+    "price": "55:-",
+    "unit": "3 för",
+    "description": "55 g | Swebar | Jfr pris 333:33/kg | Ord.pris 27:95-28:95 kr.",
+    "ord_pris": "27:95-28:95",
+    "jfr_pris": "333:33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F2be2ef156e6a7da71ef3394549aa67e5&w=276&s=f9dedc1501a011db3e222d36ba47f005"
   },
   {
     "store": "ICA Nära",
@@ -661,33 +671,33 @@
   },
   {
     "store": "ICA Nära",
-    "name": "Smör",
-    "price": "55:-",
+    "name": "Päron i korg",
+    "price": "15:-",
     "unit": "/st",
-    "description": "500 g | Gäller ej laktosfritt | Valio | Jfr pris 110:00/kg | Ord.pris 78:00 kr.",
-    "ord_pris": "78:00",
-    "jfr_pris": "110:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F47965113bfe5e5a833988c7c05a6db91&w=576&s=40d08a8d7c375edcd3631babd783fed9"
+    "description": "1 kg | Klass 2 | ICA | Jfr pris 15:00/kg | Ord.pris 19:95 kr.",
+    "ord_pris": "19:95",
+    "jfr_pris": "15:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F33f6345dfc1cee3056d7e77038420d11&w=276&s=7f23e088d92ae8c90c8d46d7d8773d7c"
   },
   {
     "store": "ICA Nära",
-    "name": "LED Lampor",
-    "price": "60:-",
-    "unit": "3 för",
-    "description": "Erbjudandet gäller: LED SMD E27 806lm/E27 470lm/E27 250lm/E14 250lm/E14 140lm/E14 250lm | ICA | Jfr pris 20:00/st | Ord.pris 23:95-25:95 kr.",
-    "ord_pris": "23:95-25:95",
-    "jfr_pris": "20:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fecaf7c700af532daf20d29e61e08385d&w=276&s=40a2e59af77ddf276dfbc81b61d16463"
+    "name": "Blåbär i ask",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "125 g | Klass 1 | ICA | Jfr pris 160:00/kg | Ord.pris 33:95 kr.",
+    "ord_pris": "33:95",
+    "jfr_pris": "160:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fc912bb556460239d6e9a37f7e250f56e&w=276&s=f7044ad6c5eebf0c35d0c31f46ff4970"
   },
   {
     "store": "ICA Nära",
-    "name": "Proteinbar",
-    "price": "55:-",
-    "unit": "3 för",
-    "description": "55 g | Swebar | Jfr pris 333:33/kg | Ord.pris 27:95-28:95 kr.",
-    "ord_pris": "27:95-28:95",
-    "jfr_pris": "333:33",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F2be2ef156e6a7da71ef3394549aa67e5&w=276&s=f9dedc1501a011db3e222d36ba47f005"
+    "name": "Socker- och salladsärtor i påse",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "150 g | Klass 1 | ICA | Jfr pris 133:33/kg | Ord.pris 29:95-34:95 kr.",
+    "ord_pris": "29:95-34:95",
+    "jfr_pris": "133:33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Ff7099ec1b281da8081851125145ed695&w=276&s=51f1ce32074963aed6e78419103a3bae"
   },
   {
     "store": "ICA Nära",
@@ -708,66 +718,6 @@
     "ord_pris": "29:95-35:95",
     "jfr_pris": "125:00-222:22",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F30ec19492c99259609a9fbcc43826838&w=276&s=5f73400d03ad7f1f98e667e018481637"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Pizzakit",
-    "price": "30:-",
-    "unit": "2 för",
-    "description": "600 g | ICA | Max 1 köp/hushåll | Jfr pris 25:00/kg | Ord.pris 29:95 kr.",
-    "ord_pris": "29:95",
-    "jfr_pris": "25:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F3ec2166be2b389574b47f7394003163f&w=276&s=99fd4ce89412721d2b775e1568bb72ad"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Kebab",
-    "price": "30:-",
-    "unit": "/st",
-    "description": "275 g | Gäller ej Dönerkebab | Schysst käk | Max 2 köp/hushåll | Jfr pris 109:09/kg | Ord.pris 55:00-58:95 kr.",
-    "ord_pris": "55:00-58:95",
-    "jfr_pris": "109:09",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fdf093ead3418701315d9f412ab1fbcd5&w=276&s=af2ef2c760b394c195ac248f40cc9f7b"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Päron i korg",
-    "price": "15:-",
-    "unit": "/st",
-    "description": "1 kg | Klass 2 | ICA | Jfr pris 15:00/kg | Ord.pris 19:95 kr.",
-    "ord_pris": "19:95",
-    "jfr_pris": "15:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F33f6345dfc1cee3056d7e77038420d11&w=572&s=0e3c29edc6d23834b96a716739440ae6"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Blåbär i ask",
-    "price": "20:-",
-    "unit": "/st",
-    "description": "125 g | Klass 1 | ICA | Jfr pris 160:00/kg | Ord.pris 33:95 kr.",
-    "ord_pris": "33:95",
-    "jfr_pris": "160:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Fc912bb556460239d6e9a37f7e250f56e&w=276&s=f7044ad6c5eebf0c35d0c31f46ff4970"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Socker- och salladsärtor i påse",
-    "price": "20:-",
-    "unit": "/st",
-    "description": "150 g | Klass 1 | ICA | Jfr pris 133:33/kg | Ord.pris 34:95-36:95 kr.",
-    "ord_pris": "34:95-36:95",
-    "jfr_pris": "133:33",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2Ff7099ec1b281da8081851125145ed695&w=276&s=51f1ce32074963aed6e78419103a3bae"
-  },
-  {
-    "store": "ICA Nära",
-    "name": "Riven ost",
-    "price": "30:-",
-    "unit": "2 för",
-    "description": "150 g | Gratäng, pizza, taco, matlagning, cheddar/mozzarella | ICA | Max 1 köp/hushåll | Jfr pris 100:00/kg | Ord.pris 26:95 kr.",
-    "ord_pris": "26:95",
-    "jfr_pris": "100:00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F079775cff61879e4ac82477fd244328e&w=276&s=4a1061e845b9b8d51b47792aa0923a9f"
   },
   {
     "store": "ICA Nära",
@@ -881,16 +831,6 @@
   },
   {
     "store": "ICA Nära",
-    "name": "Kexchoklad",
-    "price": "65:-",
-    "unit": "10 för",
-    "description": "60 g | Cloetta | Max 1 köp/hushåll | Jfr pris 108:33/kg | Ord.pris 14:95 kr.",
-    "ord_pris": "14:95",
-    "jfr_pris": "108:33",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F240ce2fe60be946369e66efed5aafbde&w=276&s=27d0ce68ffc5bbf7a4e8f9c502ef99b0"
-  },
-  {
-    "store": "ICA Nära",
     "name": "Kattmat multipack",
     "price": "49:-",
     "unit": "/st",
@@ -917,7 +857,7 @@
     "description": "6-pack | 6x33 cl. | Coca-Cola, Fanta | Jfr pris 21:46/liter + pant | Ord.pris 57:00 kr.",
     "ord_pris": "57:00",
     "jfr_pris": "21:46",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F15f4c72da8cfcf3b609d3da729d14513&w=288&s=6eee108e2f57e9b4cbe0d8a6719c06ba"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F20d4lA%2F15f4c72da8cfcf3b609d3da729d14513&w=276&s=dbc6d614a45f61eb473d6156677eaaaa"
   },
   {
     "store": "ICA Nära",
@@ -961,13 +901,13 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "CRUNCHITASALLAT I PÅSE",
-    "price": "15:-",
+    "name": "BLÅBÄR I ASK",
+    "price": "20:-",
     "unit": null,
-    "description": "200 g • 75 kr/kg",
+    "description": "125 g • 160 kr/kg",
     "ord_pris": null,
-    "jfr_pris": "75",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-3.webp&w=300&x1r=0.6809&x2r=0.9618&y1r=0.0295&y2r=0.346&s=c621d7697d5c7883dbff81738a512852"
+    "jfr_pris": "160",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-3.webp&w=300&x1r=0.4402&x2r=0.7092&y1r=0.0314&y2r=0.287&s=8b6a26b1c5d5d2ed018e1b427f7a3600"
   },
   {
     "store": "ICA Maxi",
@@ -981,13 +921,13 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "BLÅBÄR I ASK",
-    "price": "20:-",
+    "name": "CRUNCHITASALLAT I PÅSE",
+    "price": "15:-",
     "unit": null,
-    "description": "125 g • 160 kr/kg",
+    "description": "200 g • 75 kr/kg",
     "ord_pris": null,
-    "jfr_pris": "160",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-3.webp&w=300&x1r=0.4402&x2r=0.7092&y1r=0.0314&y2r=0.287&s=8b6a26b1c5d5d2ed018e1b427f7a3600"
+    "jfr_pris": "75",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-3.webp&w=300&x1r=0.6809&x2r=0.9618&y1r=0.0295&y2r=0.346&s=c621d7697d5c7883dbff81738a512852"
   },
   {
     "store": "ICA Maxi",
@@ -1047,7 +987,7 @@
     "description": "500 g • 50 kr/kg",
     "ord_pris": null,
     "jfr_pris": "50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-1.webp&w=300&x1r=0.6316&x2r=0.9614&y1r=0.0519&y2r=0.2382&s=f4c0c5b510a0f04cf4e36f15d377ed4b"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-3.webp&w=300&x1r=0.0417&x2r=0.3057&y1r=0.0372&y2r=0.4361&s=29047fc3c96969900d1fc5d91ed108af"
   },
   {
     "store": "ICA Maxi",
@@ -1062,7 +1002,7 @@
   {
     "store": "ICA Maxi",
     "name": "FÄRSK KYCKLINGFILÉ",
-    "price": "Medlemspris",
+    "price": "119:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1081,16 +1021,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "KRYDDADE FLÄSKMEDALJONGER",
-    "price": "39.90:-",
-    "unit": null,
-    "description": "300 g • 133 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "133",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.3749&x2r=0.9549&y1r=0.0206&y2r=0.2544&s=8657e75aaf72871d8db9eede144485ef"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "PULLED PORK",
     "price": "39.90:-",
     "unit": null,
@@ -1101,8 +1031,18 @@
   },
   {
     "store": "ICA Maxi",
+    "name": "KRYDDADE FLÄSKMEDALJONGER",
+    "price": "39.90:-",
+    "unit": null,
+    "description": "300 g • 133 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "133",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.3749&x2r=0.9549&y1r=0.0206&y2r=0.2544&s=8657e75aaf72871d8db9eede144485ef"
+  },
+  {
+    "store": "ICA Maxi",
     "name": "FALUKORV",
-    "price": "Medlemspris",
+    "price": "69:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1118,6 +1058,26 @@
     "ord_pris": null,
     "jfr_pris": "113,33",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.0561&x2r=0.3809&y1r=0.2311&y2r=0.4646&s=aad24c6a68779a8e285fa01f785c6b51"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "BABY BACK RIBS",
+    "price": "59.90:-",
+    "unit": null,
+    "description": "475 g • 126,11 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "126,11",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.0511&x2r=0.3892&y1r=0.0286&y2r=0.2361&s=cb6cadd543a0a33b307fd4537fdd073a"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GRILLKORV",
+    "price": "57.90:-",
+    "unit": null,
+    "description": "900-960 g • 64,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "64,33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.2761&x2r=0.5002&y1r=0.4588&y2r=0.6937&s=9b4a71009b412d1c97eab11235b89537"
   },
   {
     "store": "ICA Maxi",
@@ -1141,26 +1101,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "FÄRSK PANERAD SCHNITZEL",
-    "price": "44.90:-",
-    "unit": null,
-    "description": "300 g • 149,67 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "149,67",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.5051&x2r=0.7439&y1r=0.4657&y2r=0.697&s=72377408b9de95137c7f2286fb83b7f8"
-  },
-  {
-    "store": "ICA Maxi",
-    "name": "GRILLKORV",
-    "price": "57.90:-",
-    "unit": null,
-    "description": "900-960 g • 64,33 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "64,33",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-2.webp&w=300&x1r=0.2761&x2r=0.5002&y1r=0.4588&y2r=0.6937&s=9b4a71009b412d1c97eab11235b89537"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "ÄGG, FRIGÅENDE",
     "price": "25:-",
     "unit": null,
@@ -1171,16 +1111,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "CHEDDAR",
-    "price": "139.90:-",
-    "unit": null,
-    "description": "1 kg • 139,90 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "139,90",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-5.webp&w=300&x1r=0.372&x2r=0.6747&y1r=0.2677&y2r=0.4953&s=deb1b95541ae89bebddb3e11e42185e6"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "LAKTOSFRI MJÖLK",
     "price": "42:-",
     "unit": null,
@@ -1188,6 +1118,16 @@
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-4.webp&w=300&x1r=0.7194&x2r=0.9506&y1r=0.2095&y2r=0.4864&s=7b433e42b073742464aa0ca6f4409adb"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "CHEDDAR",
+    "price": "139.90:-",
+    "unit": null,
+    "description": "1 kg • 139,90 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "139,90",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-5.webp&w=300&x1r=0.372&x2r=0.6747&y1r=0.2677&y2r=0.4953&s=deb1b95541ae89bebddb3e11e42185e6"
   },
   {
     "store": "ICA Maxi",
@@ -1221,16 +1161,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "GRILLOUMI, HALLOUMI",
-    "price": "59:-",
-    "unit": null,
-    "description": "2x200-240 g • 147,50 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "147,50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-5.webp&w=300&x1r=0.0641&x2r=0.3705&y1r=0.2656&y2r=0.4985&s=17662810b1818b2abbaca0a8d8b66c7a"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "FILMJÖLK",
     "price": "19.90:-",
     "unit": null,
@@ -1238,6 +1168,16 @@
     "ord_pris": null,
     "jfr_pris": "19,90",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-4.webp&w=300&x1r=0.4439&x2r=0.6406&y1r=0.7147&y2r=0.9555&s=a70504afa2c4e372dbfa58d6f83f378c"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "GRILLOUMI, HALLOUMI",
+    "price": "59:-",
+    "unit": null,
+    "description": "2x200-240 g • 147,50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "147,50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-5.webp&w=300&x1r=0.0641&x2r=0.3705&y1r=0.2656&y2r=0.4985&s=17662810b1818b2abbaca0a8d8b66c7a"
   },
   {
     "store": "ICA Maxi",
@@ -1301,16 +1241,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "FRYSTA THAIBOXAR",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.3502&x2r=0.5576&y1r=0.0264&y2r=0.3369&s=a3d0beb37292f01b89e360c793543f83"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "POTATISGRATÄNG",
     "price": "57.90:-",
     "unit": null,
@@ -1341,13 +1271,13 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "FRYST PIZZA RISTORANTE",
+    "name": "FRYSTA THAIBOXAR",
     "price": "89:-",
     "unit": null,
-    "description": "3x320-360 g • 92,71 kr/kg",
+    "description": null,
     "ord_pris": null,
-    "jfr_pris": "92,71",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.4898&x2r=0.7429&y1r=0.649&y2r=0.9555&s=1f12de5786a0a7152cdde345a5ff5215"
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.3502&x2r=0.5576&y1r=0.0264&y2r=0.3369&s=a3d0beb37292f01b89e360c793543f83"
   },
   {
     "store": "ICA Maxi",
@@ -1371,8 +1301,18 @@
   },
   {
     "store": "ICA Maxi",
+    "name": "FRYST PIZZA RISTORANTE",
+    "price": "89:-",
+    "unit": null,
+    "description": "3x320-360 g • 92,71 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "92,71",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.4898&x2r=0.7429&y1r=0.649&y2r=0.9555&s=1f12de5786a0a7152cdde345a5ff5215"
+  },
+  {
+    "store": "ICA Maxi",
     "name": "FRYST HAMBURGARE",
-    "price": "Medlemspris",
+    "price": "139:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1401,16 +1341,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "KYLD SÅS, DRESSING",
-    "price": "35:-",
-    "unit": null,
-    "description": "2x170-255 ml • 102,94 kr/l",
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.5357&x2r=0.7534&y1r=0.0329&y2r=0.3326&s=15af357edd4972c1155ebf61144f6163"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "TE",
     "price": "39:-",
     "unit": null,
@@ -1428,6 +1358,16 @@
     "ord_pris": null,
     "jfr_pris": "21,33",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.7179&x2r=0.9597&y1r=0.6546&y2r=0.9649&s=b3cd687cf40446ee98478528ecb161ad"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KYLD SÅS, DRESSING",
+    "price": "35:-",
+    "unit": null,
+    "description": "2x170-255 ml • 102,94 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-6.webp&w=300&x1r=0.5357&x2r=0.7534&y1r=0.0329&y2r=0.3326&s=15af357edd4972c1155ebf61144f6163"
   },
   {
     "store": "ICA Maxi",
@@ -1462,7 +1402,7 @@
   {
     "store": "ICA Maxi",
     "name": "TÄNDKUBER",
-    "price": "Medlemspris",
+    "price": "69:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1572,7 +1512,7 @@
   {
     "store": "ICA Maxi",
     "name": "TOALETTPAPPER, HUSHÅLLSPAPPER CLASSIC",
-    "price": "Medlemspris",
+    "price": "95:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1582,7 +1522,7 @@
   {
     "store": "ICA Maxi",
     "name": "FLYTANDE TVÄTTMEDEL",
-    "price": "Medlemspris",
+    "price": "119:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1622,7 +1562,7 @@
   {
     "store": "ICA Maxi",
     "name": "ENGÅNGSHANDSKE",
-    "price": "Medlemspris",
+    "price": "75:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1642,7 +1582,7 @@
   {
     "store": "ICA Maxi",
     "name": "WC-SET",
-    "price": "Medlemspris",
+    "price": "40:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1652,12 +1592,22 @@
   {
     "store": "ICA Maxi",
     "name": "MATLÅDA",
-    "price": "Medlemspris",
+    "price": "50:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-11.webp&w=300&x1r=0.5595&x2r=0.9573&y1r=0.7555&y2r=0.9606&s=96d76f24546f183fa5346819ecb17d25"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "VED 30 L",
+    "price": "80:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-15.webp&w=300&x1r=0.3724&x2r=0.7049&y1r=0.2291&y2r=0.4062&s=b72137b22f84fd44ad28efd251fe5064"
   },
   {
     "store": "ICA Maxi",
@@ -1702,22 +1652,12 @@
   {
     "store": "ICA Maxi",
     "name": "DOFTLJUS",
-    "price": "Medlemspris",
+    "price": "50:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-1.webp&w=300&x1r=0.039&x2r=0.261&y1r=0.6995&y2r=0.9634&s=291f80f16cf4d33f0270f8c91cdc1b59"
-  },
-  {
-    "store": "ICA Maxi",
-    "name": "VED 30 L",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-15.webp&w=300&x1r=0.3724&x2r=0.7049&y1r=0.2291&y2r=0.4062&s=b72137b22f84fd44ad28efd251fe5064"
   },
   {
     "store": "ICA Maxi",
@@ -1762,12 +1702,22 @@
   {
     "store": "ICA Maxi",
     "name": "BATTERIER",
-    "price": "Medlemspris",
+    "price": "75:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-15.webp&w=300&x1r=0.7143&x2r=0.9596&y1r=0.3979&y2r=0.6653&s=d2c5df37e9fc6937684f28c24fc292ef"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "KNAPPCELLSBATTERI",
+    "price": "50:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-15.webp&w=300&x1r=0.4905&x2r=0.7152&y1r=0.4052&y2r=0.6703&s=485a344b1a0c7feffc9ecad74baa2d3a"
   },
   {
     "store": "ICA Maxi",
@@ -1781,18 +1731,8 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "KNAPPCELLSBATTERI",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-15.webp&w=300&x1r=0.4905&x2r=0.7152&y1r=0.4052&y2r=0.6703&s=485a344b1a0c7feffc9ecad74baa2d3a"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "LADDKABEL USB-C-USB-C",
-    "price": "Medlemspris",
+    "price": "75:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1802,7 +1742,7 @@
   {
     "store": "ICA Maxi",
     "name": "VÄGGLADDARE USB-A",
-    "price": "Medlemspris",
+    "price": "75:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1812,7 +1752,7 @@
   {
     "store": "ICA Maxi",
     "name": "VÄGGLADDARE USB-C",
-    "price": "Medlemspris",
+    "price": "99:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1822,7 +1762,7 @@
   {
     "store": "ICA Maxi",
     "name": "LADDKABEL LIGHTNING",
-    "price": "Medlemspris",
+    "price": "129:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -1871,6 +1811,16 @@
   },
   {
     "store": "ICA Maxi",
+    "name": "TOFFLOR VUXEN",
+    "price": "149:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-14.webp&w=300&x1r=0.7276&x2r=0.955&y1r=0.279&y2r=0.4853&s=51b7fd56e51583cc3a72cd1630c6c232"
+  },
+  {
+    "store": "ICA Maxi",
     "name": "JEANS",
     "price": "249:-",
     "unit": null,
@@ -1911,16 +1861,6 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "TOFFLOR VUXEN",
-    "price": "149:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-14.webp&w=300&x1r=0.7276&x2r=0.955&y1r=0.279&y2r=0.4853&s=51b7fd56e51583cc3a72cd1630c6c232"
-  },
-  {
-    "store": "ICA Maxi",
     "name": "PILÉJACKA",
     "price": "179:-",
     "unit": null,
@@ -1951,6 +1891,26 @@
   },
   {
     "store": "ICA Maxi",
+    "name": "FLYTANDE TVÅL REFILL",
+    "price": "39:-",
+    "unit": null,
+    "description": "2x500 ml • 39 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-7.webp&w=300&x1r=0.2707&x2r=0.5303&y1r=0.6465&y2r=0.9619&s=9c5e16fc5a0626cb19840f5b3922b08a"
+  },
+  {
+    "store": "ICA Maxi",
+    "name": "ONEBLADE",
+    "price": "229:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-12.webp&w=300&x1r=0.0407&x2r=0.2995&y1r=0.3379&y2r=0.7362&s=5f0a1705849d491af0f2ab7638fdccc2"
+  },
+  {
+    "store": "ICA Maxi",
     "name": "TANDKRÄM, TANDBORSTE",
     "price": "28:-",
     "unit": null,
@@ -1971,6 +1931,16 @@
   },
   {
     "store": "ICA Maxi",
+    "name": "ONEBLADE RAKBLAD 3-PACK",
+    "price": "349:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-12.webp&w=300&x1r=0.304&x2r=0.529&y1r=0.3678&y2r=0.6558&s=37d81a3dba0de00aa7ad8b119a23a89b"
+  },
+  {
+    "store": "ICA Maxi",
     "name": "DEO SPRAY",
     "price": "59:-",
     "unit": null,
@@ -1981,23 +1951,13 @@
   },
   {
     "store": "ICA Maxi",
-    "name": "FLYTANDE TVÅL REFILL",
-    "price": "39:-",
+    "name": "DUSCHCREME",
+    "price": "55:-",
     "unit": null,
-    "description": "2x500 ml • 39 kr/l",
+    "description": "2x450 ml • 61,11 kr/l",
     "ord_pris": null,
     "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-7.webp&w=300&x1r=0.2707&x2r=0.5303&y1r=0.6465&y2r=0.9619&s=9c5e16fc5a0626cb19840f5b3922b08a"
-  },
-  {
-    "store": "ICA Maxi",
-    "name": "ONEBLADE RAKBLAD 3-PACK",
-    "price": "349:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-12.webp&w=300&x1r=0.304&x2r=0.529&y1r=0.3678&y2r=0.6558&s=37d81a3dba0de00aa7ad8b119a23a89b"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-7.webp&w=300&x1r=0.0463&x2r=0.2714&y1r=0.6468&y2r=0.9553&s=6000cf4068a48b26266e1708f5e53e39"
   },
   {
     "store": "ICA Maxi",
@@ -2012,32 +1972,12 @@
   {
     "store": "ICA Maxi",
     "name": "Apolosophy Hair",
-    "price": "Medlemspris",
+    "price": "55:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-9.webp&w=300&x1r=0.66&x2r=0.9586&y1r=0.0292&y2r=0.1887&s=e444ed49d8409fdd2d7ba759a80be2ca"
-  },
-  {
-    "store": "ICA Maxi",
-    "name": "DUSCHCREME",
-    "price": "55:-",
-    "unit": null,
-    "description": "2x450 ml • 61,11 kr/l",
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-7.webp&w=300&x1r=0.0463&x2r=0.2714&y1r=0.6468&y2r=0.9553&s=6000cf4068a48b26266e1708f5e53e39"
-  },
-  {
-    "store": "ICA Maxi",
-    "name": "Fuktfavoriter för dig",
-    "price": "71:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhPrjwBsB%2Fp-9.webp&w=300&x1r=0.0421&x2r=0.6471&y1r=0.622&y2r=0.8207&s=c084cf92effa8682fbfb32e0f42de916"
   },
   {
     "store": "ICA Maxi",
@@ -2071,16 +2011,6 @@
   },
   {
     "store": "ICA Kvantum",
-    "name": "Apelsiner i nät",
-    "price": "15:-",
-    "unit": null,
-    "description": "1 kg • 15 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "15",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-1.webp&w=300&x1r=0.013&x2r=0.3214&y1r=0.4689&y2r=0.6866&s=98f0d0d360dcf96e41fc4279197c5150"
-  },
-  {
-    "store": "ICA Kvantum",
     "name": "Jordgubbar i ask",
     "price": "30:-",
     "unit": null,
@@ -2088,6 +2018,16 @@
     "ord_pris": null,
     "jfr_pris": "120",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.058&x2r=0.3141&y1r=0.1689&y2r=0.449&s=87464b3d21694859b50325398b3414f2"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Apelsiner i nät",
+    "price": "15:-",
+    "unit": null,
+    "description": "1 kg • 15 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "15",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.4936&x2r=0.7792&y1r=0.1767&y2r=0.4504&s=2d285169d373cb1b7a83950d23403244"
   },
   {
     "store": "ICA Kvantum",
@@ -2101,26 +2041,6 @@
   },
   {
     "store": "ICA Kvantum",
-    "name": "Päron Conference",
-    "price": "20:-",
-    "unit": null,
-    "description": "1 kg • 20 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "20",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.7479&x2r=0.972&y1r=0.2345&y2r=0.4476&s=f4d2cc3688fc369d9764e085a1babf18"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Palsternackor i påse",
-    "price": "10:-",
-    "unit": null,
-    "description": "500 g • 20 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "20",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.0528&x2r=0.2877&y1r=0.4503&y2r=0.7152&s=52b3b1394dd2a21fe965ee4bd9941157"
-  },
-  {
-    "store": "ICA Kvantum",
     "name": "Plommontomater i ask",
     "price": "20:-",
     "unit": null,
@@ -2131,6 +2051,16 @@
   },
   {
     "store": "ICA Kvantum",
+    "name": "Päron Conference",
+    "price": "20:-",
+    "unit": null,
+    "description": "1 kg • 20 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "20",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.7479&x2r=0.972&y1r=0.2345&y2r=0.4476&s=f4d2cc3688fc369d9764e085a1babf18"
+  },
+  {
+    "store": "ICA Kvantum",
     "name": "Stor grön kiwi",
     "price": "20:-",
     "unit": null,
@@ -2138,6 +2068,16 @@
     "ord_pris": null,
     "jfr_pris": "53,33",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.6278&x2r=0.9681&y1r=0.0442&y2r=0.2452&s=c18d4cff88b7c51dc2b2cd5e5d51d623"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Palsternackor i påse",
+    "price": "10:-",
+    "unit": null,
+    "description": "500 g • 20 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "20",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-8.webp&w=300&x1r=0.0528&x2r=0.2877&y1r=0.4503&y2r=0.7152&s=52b3b1394dd2a21fe965ee4bd9941157"
   },
   {
     "store": "ICA Kvantum",
@@ -2202,7 +2142,7 @@
   {
     "store": "ICA Kvantum",
     "name": "Kaviar",
-    "price": "Medlemspris",
+    "price": "55:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2222,12 +2162,12 @@
   {
     "store": "ICA Kvantum",
     "name": "Färsk kycklingfilé",
-    "price": "Medlemspris",
+    "price": "119:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-4.webp&w=300&x1r=0.6729&x2r=0.9734&y1r=0.415&y2r=0.5758&s=16efd7cbc4f2d491a6b7761f378b7c31"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.6763&x2r=0.9649&y1r=0.2616&y2r=0.5194&s=fb2806d04d5587f90157a0224441b86a"
   },
   {
     "store": "ICA Kvantum",
@@ -2241,6 +2181,16 @@
   },
   {
     "store": "ICA Kvantum",
+    "name": "Kebab",
+    "price": "130:-",
+    "unit": null,
+    "description": "4x275 g • 118,18 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "118,18",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-2.webp&w=300&x1r=0.352&x2r=0.97&y1r=0.0518&y2r=0.3296&s=9f5b11de4ecc81e10964bbb893ce6cc5"
+  },
+  {
+    "store": "ICA Kvantum",
     "name": "Nötytterlår",
     "price": "149:-",
     "unit": null,
@@ -2248,16 +2198,6 @@
     "ord_pris": null,
     "jfr_pris": "149",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwClCGEoL%2Fp-5.webp&w=300&x1r=0.4721&x2r=0.9501&y1r=0.0529&y2r=0.2675&s=694af3ddfdeb0d373c4cd32436bfff15"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Falukorv",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.0596&x2r=0.3914&y1r=0.2274&y2r=0.5121&s=8c48e6e21ce0854fe9dc06b812b5c253"
   },
   {
     "store": "ICA Kvantum",
@@ -2321,16 +2261,6 @@
   },
   {
     "store": "ICA Kvantum",
-    "name": "Präst, Herrgård, Grevé, Morfars",
-    "price": "139:-",
-    "unit": null,
-    "description": "1 kg • 139 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "139",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.4921&x2r=0.7189&y1r=0.0543&y2r=0.2859&s=7f969f577fc9476b6beee745b5452623"
-  },
-  {
-    "store": "ICA Kvantum",
     "name": "Färskost",
     "price": "20:-",
     "unit": null,
@@ -2338,6 +2268,16 @@
     "ord_pris": null,
     "jfr_pris": "137,93",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-5.webp&w=300&x1r=0.4417&x2r=0.7251&y1r=0.7272&y2r=0.9409&s=f38c42a37409c36495f83c4cb84278f8"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Präst, Herrgård, Grevé, Morfars",
+    "price": "139:-",
+    "unit": null,
+    "description": "1 kg • 139 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "139",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.4921&x2r=0.7189&y1r=0.0543&y2r=0.2859&s=7f969f577fc9476b6beee745b5452623"
   },
   {
     "store": "ICA Kvantum",
@@ -2402,7 +2342,7 @@
   {
     "store": "ICA Kvantum",
     "name": "Smörgåsmat",
-    "price": "Medlemspris",
+    "price": "40:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2441,16 +2381,6 @@
   },
   {
     "store": "ICA Kvantum",
-    "name": "Frysta pastarätter",
-    "price": "120:-",
-    "unit": null,
-    "description": "2x1000-1100 g • 60 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "60",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-5.webp&w=300&x1r=0.4653&x2r=0.7117&y1r=0.4767&y2r=0.7303&s=c9710c191c1e58e098f932e2fed739ef"
-  },
-  {
-    "store": "ICA Kvantum",
     "name": "Gräddglass",
     "price": "70:-",
     "unit": null,
@@ -2458,6 +2388,16 @@
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.2662&x2r=0.492&y1r=0.704&y2r=0.9433&s=bb29ff0b1062c6f0d570705b93dc01aa"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Frysta pastarätter",
+    "price": "120:-",
+    "unit": null,
+    "description": "2x1000-1100 g • 60 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "60",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-5.webp&w=300&x1r=0.4653&x2r=0.7117&y1r=0.4767&y2r=0.7303&s=c9710c191c1e58e098f932e2fed739ef"
   },
   {
     "store": "ICA Kvantum",
@@ -2472,22 +2412,12 @@
   {
     "store": "ICA Kvantum",
     "name": "Fryst hamburgare",
-    "price": "Medlemspris",
+    "price": "139:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.3729&x2r=0.6906&y1r=0.2224&y2r=0.5182&s=c5b53cece12331c7b8ed68cc847c59ea"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Frysta Thaiboxar",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.0618&x2r=0.3754&y1r=0.5095&y2r=0.7951&s=292ad27998e77355b903b5ee3dca7cc1"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-10.webp&w=300&x1r=0.6681&x2r=0.9661&y1r=0.256&y2r=0.4504&s=9e1a6ca8edad3904fe6daea436e36fae"
   },
   {
     "store": "ICA Kvantum",
@@ -2501,6 +2431,16 @@
   },
   {
     "store": "ICA Kvantum",
+    "name": "Frysta Thaiboxar",
+    "price": "89:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.0618&x2r=0.3754&y1r=0.5095&y2r=0.7951&s=292ad27998e77355b903b5ee3dca7cc1"
+  },
+  {
+    "store": "ICA Kvantum",
     "name": "Pulled beef taco",
     "price": "62.90:-",
     "unit": null,
@@ -2508,16 +2448,6 @@
     "ord_pris": null,
     "jfr_pris": "170,00",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-4.webp&w=300&x1r=0.3666&x2r=0.6639&y1r=0.5614&y2r=0.7674&s=053b34a4db254446b6905efcd37cf603"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Snabbkaffe refill",
-    "price": "169:-",
-    "unit": null,
-    "description": "2x200 g • 422,50 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "422,50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.0351&x2r=0.2752&y1r=0.7057&y2r=0.9404&s=ab173d4e15953ca5fc167ed805c5a3db"
   },
   {
     "store": "ICA Kvantum",
@@ -2531,6 +2461,16 @@
   },
   {
     "store": "ICA Kvantum",
+    "name": "Snabbkaffe refill",
+    "price": "169:-",
+    "unit": null,
+    "description": "2x200 g • 422,50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "422,50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.0351&x2r=0.2752&y1r=0.7057&y2r=0.9404&s=ab173d4e15953ca5fc167ed805c5a3db"
+  },
+  {
+    "store": "ICA Kvantum",
     "name": "Smaksatta riskakor, majskakor",
     "price": "60:-",
     "unit": null,
@@ -2538,46 +2478,6 @@
     "ord_pris": null,
     "jfr_pris": "100",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-3.webp&w=300&x1r=0.6493&x2r=0.9534&y1r=0.4619&y2r=0.9469&s=dce36ad993cd93cb721eaada2abbd189"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Färsk pasta",
-    "price": "10:-",
-    "unit": null,
-    "description": "200-250 g • 50 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-1.webp&w=300&x1r=0.7182&x2r=0.9482&y1r=0.2264&y2r=0.4786&s=be9e6550dba649cf05c55446590e144f"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Flingor",
-    "price": "59:-",
-    "unit": null,
-    "description": "2x330-375 g • 89,39 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "89,39",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.4289&x2r=0.7123&y1r=0.2765&y2r=0.4715&s=01971c1c4fd083bbd1a739b26adb7d40"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Gulaschsoppa",
-    "price": "70:-",
-    "unit": null,
-    "description": "2x560 g • 62,50 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "62,50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-5.webp&w=300&x1r=0.0257&x2r=0.2532&y1r=0.4815&y2r=0.7267&s=9044d5c8be752a5ed8d09df2371f0912"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Krossade tomater",
-    "price": "30:-",
-    "unit": null,
-    "description": "2x400 g • 37,50 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "37,50",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-2.webp&w=300&x1r=0.0549&x2r=0.3521&y1r=0.625&y2r=0.9479&s=d82dd208738ea20c95e56fb7a3f46fd1"
   },
   {
     "store": "ICA Kvantum",
@@ -2591,18 +2491,58 @@
   },
   {
     "store": "ICA Kvantum",
-    "name": "Glutenfri pasta",
-    "price": "35:-",
+    "name": "Färsk pasta",
+    "price": "10:-",
     "unit": null,
-    "description": "2x400 g • 43,75 kr/kg",
+    "description": "200-250 g • 50 kr/kg",
     "ord_pris": null,
-    "jfr_pris": "43,75",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-5.webp&w=300&x1r=0.2413&x2r=0.4816&y1r=0.4847&y2r=0.7326&s=2c48724368714d4274ed770872282d8a"
+    "jfr_pris": "50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-4.webp&w=300&x1r=0.6785&x2r=0.9755&y1r=0.792&y2r=0.9408&s=405712aa85b902889622be2061572ec4"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Flingor",
+    "price": "59:-",
+    "unit": null,
+    "description": "2x330-375 g • 89,39 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "89,39",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.4289&x2r=0.7123&y1r=0.2765&y2r=0.4715&s=01971c1c4fd083bbd1a739b26adb7d40"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Krossade tomater",
+    "price": "30:-",
+    "unit": null,
+    "description": "2x400 g • 37,50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "37,50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-2.webp&w=300&x1r=0.0549&x2r=0.3521&y1r=0.625&y2r=0.9479&s=d82dd208738ea20c95e56fb7a3f46fd1"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Gulaschsoppa",
+    "price": "70:-",
+    "unit": null,
+    "description": "2x560 g • 62,50 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "62,50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-5.webp&w=300&x1r=0.0257&x2r=0.2532&y1r=0.4815&y2r=0.7267&s=9044d5c8be752a5ed8d09df2371f0912"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "MAJS",
+    "price": "19.95:-",
+    "unit": null,
+    "description": "480 g • 41,56 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "41,56",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtaWdWBX0%2Fp-1.webp&w=300&x1r=0.0187&x2r=0.6613&y1r=0.1608&y2r=0.3464&s=f929a8075fe860ccf2f94999b7fd23cd"
   },
   {
     "store": "ICA Kvantum",
     "name": "Läsk",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2612,7 +2552,7 @@
   {
     "store": "ICA Kvantum",
     "name": "Kolsyrat vatten",
-    "price": "Medlemspris",
+    "price": "28:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2671,16 +2611,6 @@
   },
   {
     "store": "ICA Kvantum",
-    "name": "Rosta",
-    "price": "15:-",
-    "unit": null,
-    "description": "450 g • 33,33 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "33,33",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.7039&x2r=0.9618&y1r=0.0615&y2r=0.2829&s=5ddd37302a4bc7df76e11fc7414027fd"
-  },
-  {
-    "store": "ICA Kvantum",
     "name": "Hamburgerbröd",
     "price": "15:-",
     "unit": null,
@@ -2688,6 +2618,16 @@
     "ord_pris": null,
     "jfr_pris": "50",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-4.webp&w=300&x1r=0.3645&x2r=0.6677&y1r=0.7491&y2r=0.9395&s=bca3c6e48eb4247d773b2aaaa99a89a1"
+  },
+  {
+    "store": "ICA Kvantum",
+    "name": "Rosta",
+    "price": "15:-",
+    "unit": null,
+    "description": "450 g • 33,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "33,33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-9.webp&w=300&x1r=0.7039&x2r=0.9618&y1r=0.0615&y2r=0.2829&s=5ddd37302a4bc7df76e11fc7414027fd"
   },
   {
     "store": "ICA Kvantum",
@@ -2722,22 +2662,22 @@
   {
     "store": "ICA Kvantum",
     "name": "Toalettpapper, Hushållspapper Classic",
-    "price": "Medlemspris",
+    "price": "95:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.3557&x2r=0.6586&y1r=0.516&y2r=0.7938&s=cd1d53af975fe6b3013f5439021c5a28"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-10.webp&w=300&x1r=0.0638&x2r=0.3723&y1r=0.6712&y2r=0.9389&s=41253a505b299493038592ccba8db9c1"
   },
   {
     "store": "ICA Kvantum",
     "name": "Flytande tvättmedel",
-    "price": "Medlemspris",
+    "price": "119:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-12.webp&w=300&x1r=0.6602&x2r=0.9715&y1r=0.515&y2r=0.7949&s=4bc830e530efa83c7325eeeac8b4ea09"
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-10.webp&w=300&x1r=0.3678&x2r=0.7299&y1r=0.667&y2r=0.9378&s=a33d855299a65991b8fbc2d4ba0bc185"
   },
   {
     "store": "ICA Kvantum",
@@ -2801,6 +2741,16 @@
   },
   {
     "store": "ICA Kvantum",
+    "name": "Schampo, balsam",
+    "price": "59:-",
+    "unit": null,
+    "description": "2x200-250 ml • 147,50 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-11.webp&w=300&x1r=0.0312&x2r=0.3063&y1r=0.0519&y2r=0.3254&s=371c3f19f96b2f8c516a1af7a291ce75"
+  },
+  {
+    "store": "ICA Kvantum",
     "name": "Hårfärg, Root concealer",
     "price": "149:-",
     "unit": null,
@@ -2822,22 +2772,12 @@
   {
     "store": "ICA Kvantum",
     "name": "Apolosophy Hair",
-    "price": "Medlemspris",
+    "price": "55:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-6.webp&w=300&x1r=0.5207&x2r=0.9557&y1r=0.6641&y2r=0.897&s=01962ebee7db0af30089d746001bb89c"
-  },
-  {
-    "store": "ICA Kvantum",
-    "name": "Schampo, balsam",
-    "price": "59:-",
-    "unit": null,
-    "description": "2x200-250 ml • 147,50 kr/l",
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUyNKFHOS%2Fp-11.webp&w=300&x1r=0.0312&x2r=0.3063&y1r=0.0519&y2r=0.3254&s=371c3f19f96b2f8c516a1af7a291ce75"
   },
   {
     "store": "ICA Kvantum",
@@ -2901,18 +2841,8 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Kommande",
-    "price": "9:-",
-    "unit": null,
-    "description": "500 g • 18 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "18",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fss8eM4ao%2Fp-3.webp&w=300&x1r=0.651&x2r=0.9501&y1r=0.4734&y2r=0.8501&s=c3bc64e2b6e2da3b3ebd0d0c9e5b3873"
-  },
-  {
-    "store": "Stora Coop",
     "name": "Gröna druvor",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -2931,16 +2861,6 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Blomkål",
-    "price": "25:-",
-    "unit": null,
-    "description": "1 kg • 25 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "25",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-5.webp&w=300&x1r=0.5606&x2r=0.9556&y1r=0.0314&y2r=0.2734&s=1b0cc750c564e8cef3fb78a9839aa68b"
-  },
-  {
-    "store": "Stora Coop",
     "name": "Mango",
     "price": "30:-",
     "unit": null,
@@ -2948,6 +2868,26 @@
     "ord_pris": null,
     "jfr_pris": "45,45",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-5.webp&w=300&x1r=0.6003&x2r=0.9465&y1r=0.6374&y2r=0.8903&s=f40369639527346f639d23da874834a7"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kommande",
+    "price": "9:-",
+    "unit": null,
+    "description": "500 g • 18 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "18",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fss8eM4ao%2Fp-3.webp&w=300&x1r=0.651&x2r=0.9501&y1r=0.4734&y2r=0.8501&s=c3bc64e2b6e2da3b3ebd0d0c9e5b3873"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Blomkål",
+    "price": "25:-",
+    "unit": null,
+    "description": "1 kg • 25 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "25",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-5.webp&w=300&x1r=0.5606&x2r=0.9556&y1r=0.0314&y2r=0.2734&s=1b0cc750c564e8cef3fb78a9839aa68b"
   },
   {
     "store": "Stora Coop",
@@ -3002,7 +2942,7 @@
   {
     "store": "Stora Coop",
     "name": "Kycklinglårfilé",
-    "price": "Medlemspris",
+    "price": "129:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3012,22 +2952,12 @@
   {
     "store": "Stora Coop",
     "name": "Kebab/Falafel/Gyros",
-    "price": "Medlemspris",
+    "price": "99:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-3.webp&w=300&x1r=0.0643&x2r=0.6507&y1r=0.1982&y2r=0.522&s=e84fdacc1ada66cff94e4e90dc833bb1"
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Bacon",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-3.webp&w=300&x1r=0.0468&x2r=0.389&y1r=0.6539&y2r=0.7985&s=c45ab09362a7e911d9e8c5b8f5fd2351"
   },
   {
     "store": "Stora Coop",
@@ -3038,6 +2968,16 @@
     "ord_pris": null,
     "jfr_pris": "289",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-4.webp&w=300&x1r=0.5669&x2r=0.944&y1r=0.5898&y2r=0.7416&s=53a338ab28675548191f3d8e4f3d7a69"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Handskalade räkor",
+    "price": "89:-",
+    "unit": null,
+    "description": "240 g • 370,83 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "370,83",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-4.webp&w=300&x1r=0.5599&x2r=0.8632&y1r=0.727&y2r=0.8791&s=798bcee9a4ea0a15a73b815a55dc64d1"
   },
   {
     "store": "Stora Coop",
@@ -3052,7 +2992,7 @@
   {
     "store": "Stora Coop",
     "name": "Havremjölk",
-    "price": "Medlemspris",
+    "price": "40:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3072,7 +3012,7 @@
   {
     "store": "Stora Coop",
     "name": "Riven ost",
-    "price": "Medlemspris",
+    "price": "40:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3082,7 +3022,7 @@
   {
     "store": "Stora Coop",
     "name": "Gräddfil",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3101,6 +3041,16 @@
   },
   {
     "store": "Stora Coop",
+    "name": "Yoghurt",
+    "price": "46:-",
+    "unit": null,
+    "description": "2x1000 g • 23 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "23",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-6.webp&w=300&x1r=0.0565&x2r=0.3559&y1r=0.4395&y2r=0.6331&s=88fdf061f9345e197e762ab1ec9dd849"
+  },
+  {
+    "store": "Stora Coop",
     "name": "Vegetariskt pålägg",
     "price": "20:-",
     "unit": null,
@@ -3112,7 +3062,7 @@
   {
     "store": "Stora Coop",
     "name": "Smörgåspålägg",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3152,7 +3102,7 @@
   {
     "store": "Stora Coop",
     "name": "Matpaj",
-    "price": "Medlemspris",
+    "price": "55:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3172,22 +3122,12 @@
   {
     "store": "Stora Coop",
     "name": "Tex mex",
-    "price": "Medlemspris",
+    "price": "50:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-3.webp&w=300&x1r=0.3653&x2r=0.665&y1r=0.525&y2r=0.7485&s=b656e28c8677555ac7b12dca5724d2ae"
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Granola",
-    "price": "75:-",
-    "unit": null,
-    "description": "2x375 g • 100 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "100",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-6.webp&w=300&x1r=0.3417&x2r=0.6994&y1r=0.4712&y2r=0.6355&s=4685f24be8c102a57d90772cf9794b4a"
   },
   {
     "store": "Stora Coop",
@@ -3198,6 +3138,16 @@
     "ord_pris": null,
     "jfr_pris": "267,86",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-3.webp&w=300&x1r=0.0541&x2r=0.3714&y1r=0.5262&y2r=0.6728&s=486cb4c96f769d9ff4dd0dcea30a3c0d"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Granola",
+    "price": "75:-",
+    "unit": null,
+    "description": "2x375 g • 100 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "100",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-6.webp&w=300&x1r=0.3417&x2r=0.6994&y1r=0.4712&y2r=0.6355&s=4685f24be8c102a57d90772cf9794b4a"
   },
   {
     "store": "Stora Coop",
@@ -3272,7 +3222,7 @@
   {
     "store": "Stora Coop",
     "name": "Snacks",
-    "price": "Medlemspris",
+    "price": "65:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3291,16 +3241,6 @@
   },
   {
     "store": "Stora Coop",
-    "name": "Choklad stycksaker",
-    "price": "25:-",
-    "unit": null,
-    "description": "3x37-60 g • 225,23 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "225,23",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-7.webp&w=300&x1r=0.5172&x2r=0.9465&y1r=0.021&y2r=0.2675&s=961f0666beeef73dc30fa3645e050d24"
-  },
-  {
-    "store": "Stora Coop",
     "name": "Chokladsnacks",
     "price": "49:-",
     "unit": null,
@@ -3308,6 +3248,16 @@
     "ord_pris": null,
     "jfr_pris": "272,22",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-7.webp&w=300&x1r=0.0329&x2r=0.6177&y1r=0.0201&y2r=0.4553&s=78717e4e9d580cc82bb65b833b744725"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Choklad stycksaker",
+    "price": "25:-",
+    "unit": null,
+    "description": "3x37-60 g • 225,23 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "225,23",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnjyFppA3%2Fp-7.webp&w=300&x1r=0.5172&x2r=0.9465&y1r=0.021&y2r=0.2675&s=961f0666beeef73dc30fa3645e050d24"
   },
   {
     "store": "Stora Coop",
@@ -3338,6 +3288,16 @@
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fa2UE5dad%2Fp-16.webp&w=300&x1r=0.0415&x2r=0.4308&y1r=0.6308&y2r=0.9132&s=4485370fb6502886b442d2387ee20939"
+  },
+  {
+    "store": "Stora Coop",
+    "name": "Kökstextil",
+    "price": "29.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fa2UE5dad%2Fp-15.webp&w=300&x1r=0.4945&x2r=0.9892&y1r=0.477&y2r=0.9256&s=db33cecd19dbaa30825fbeb92c009eab"
   },
   {
     "store": "Stora Coop",
@@ -3398,16 +3358,6 @@
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fa2UE5dad%2Fp-15.webp&w=300&x1r=0.0416&x2r=0.5&y1r=0.6498&y2r=0.7941&s=f57c13cbbb0369c63ad77570a749dfe0"
-  },
-  {
-    "store": "Stora Coop",
-    "name": "Glasunderlägg 4-pack",
-    "price": "29.90:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fa2UE5dad%2Fp-15.webp&w=300&x1r=0.0363&x2r=0.5293&y1r=0.7787&y2r=0.9178&s=8f390b5b957b46799a86575701eec04e"
   },
   {
     "store": "Stora Coop",
@@ -3592,7 +3542,7 @@
   {
     "store": "Coop",
     "name": "Gröna druvor",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3621,6 +3571,16 @@
   },
   {
     "store": "Coop",
+    "name": "Frysta grönsaker",
+    "price": "49:-",
+    "unit": null,
+    "description": "3x400-500 g • 40,83 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "40,83",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwXxBfvoC%2Fp-2.webp&w=300&x1r=0.329&x2r=0.6589&y1r=0.4697&y2r=0.7132&s=58ccc3cdc158df6f0acbc077641b423f"
+  },
+  {
+    "store": "Coop",
     "name": "Ekologisk sallad i påse",
     "price": "30:-",
     "unit": null,
@@ -3641,16 +3601,6 @@
   },
   {
     "store": "Coop",
-    "name": "Frysta grönsaker",
-    "price": "49:-",
-    "unit": null,
-    "description": "3x400-500 g • 40,83 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "40,83",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwXxBfvoC%2Fp-2.webp&w=300&x1r=0.329&x2r=0.6589&y1r=0.4697&y2r=0.7132&s=58ccc3cdc158df6f0acbc077641b423f"
-  },
-  {
-    "store": "Coop",
     "name": "Champinjoner",
     "price": "30:-",
     "unit": null,
@@ -3662,7 +3612,7 @@
   {
     "store": "Coop",
     "name": "Färsk kycklingfilé",
-    "price": "Medlemspris",
+    "price": "79:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3701,8 +3651,18 @@
   },
   {
     "store": "Coop",
+    "name": "Färsk biff",
+    "price": "59.90:-",
+    "unit": null,
+    "description": "180 g • 332,78 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "332,78",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBcO3S8Zx%2Fp-2.webp&w=300&x1r=0.6434&x2r=0.9938&y1r=0.7103&y2r=0.9564&s=72abe87708d7d43f4e4c5c651fda283d"
+  },
+  {
+    "store": "Coop",
     "name": "Svenskt smör",
-    "price": "Medlemspris",
+    "price": "55:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3762,7 +3722,7 @@
   {
     "store": "Coop",
     "name": "Glass",
-    "price": "Medlemspris",
+    "price": "99:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3772,22 +3732,12 @@
   {
     "store": "Coop",
     "name": "Pizza",
-    "price": "Medlemspris",
+    "price": "85:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXJpi94g0%2Fp-4.webp&w=300&x1r=0.6426&x2r=0.9596&y1r=0.7034&y2r=0.9179&s=263124b9f7f35ae639f51fdd89cb538a"
-  },
-  {
-    "store": "Coop",
-    "name": "Vegetariskt protein",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXJpi94g0%2Fp-4.webp&w=300&x1r=0.6378&x2r=0.9702&y1r=0.0182&y2r=0.2544&s=e81a5ef3303d78cc966a69cdec9251c2"
   },
   {
     "store": "Coop",
@@ -3801,8 +3751,18 @@
   },
   {
     "store": "Coop",
+    "name": "Vegetariskt protein",
+    "price": "99:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXJpi94g0%2Fp-4.webp&w=300&x1r=0.6378&x2r=0.9702&y1r=0.0182&y2r=0.2544&s=e81a5ef3303d78cc966a69cdec9251c2"
+  },
+  {
+    "store": "Coop",
     "name": "Matpaj",
-    "price": "Medlemspris",
+    "price": "55:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3832,7 +3792,7 @@
   {
     "store": "Coop",
     "name": "Kaffe",
-    "price": "Medlemspris",
+    "price": "109:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3852,7 +3812,7 @@
   {
     "store": "Coop",
     "name": "Tex-mex",
-    "price": "Medlemspris",
+    "price": "50:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3891,6 +3851,16 @@
   },
   {
     "store": "Coop",
+    "name": "Nötter",
+    "price": "49:-",
+    "unit": null,
+    "description": "2x150-300 g • 163,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "163,33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXJpi94g0%2Fp-6.webp&w=300&x1r=0.6479&x2r=0.9614&y1r=0.4763&y2r=0.695&s=c7f23e7292dd0310f07e6c7609e5584c"
+  },
+  {
+    "store": "Coop",
     "name": "Läsk",
     "price": "35:-",
     "unit": null,
@@ -3922,7 +3892,7 @@
   {
     "store": "Coop",
     "name": "Baguette",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -3961,16 +3931,6 @@
   },
   {
     "store": "Coop",
-    "name": "Chokladkakor",
-    "price": "35:-",
-    "unit": null,
-    "description": "100 g • 350,00 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "350,00",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FWlt1ICpk%2Fp-2.webp&w=300&x1r=0.0262&x2r=0.4944&y1r=0.4483&y2r=0.8023&s=6b246795941921dec0ee93679cae9b22"
-  },
-  {
-    "store": "Coop",
     "name": "Snacks",
     "price": "55:-",
     "unit": null,
@@ -3978,6 +3938,16 @@
     "ord_pris": null,
     "jfr_pris": "785,71",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXJpi94g0%2Fp-6.webp&w=300&x1r=0.0399&x2r=0.6518&y1r=0.0442&y2r=0.468&s=f895250594bcd3cd978da53e8d33ee9b"
+  },
+  {
+    "store": "Coop",
+    "name": "Chokladkakor",
+    "price": "35:-",
+    "unit": null,
+    "description": "100 g • 350,00 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "350,00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FWlt1ICpk%2Fp-2.webp&w=300&x1r=0.0262&x2r=0.4944&y1r=0.4483&y2r=0.8023&s=6b246795941921dec0ee93679cae9b22"
   },
   {
     "store": "Coop",
@@ -3992,7 +3962,7 @@
   {
     "store": "Coop",
     "name": "Kex TUC",
-    "price": "Medlemspris",
+    "price": "20:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4061,6 +4031,16 @@
   },
   {
     "store": "Willys",
+    "name": "GRÖNA VINDRUVOR 500G",
+    "price": "29.90:-",
+    "unit": null,
+    "description": "500 g • 59,80 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "59,80",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-8.webp&w=300&x1r=0.5014&x2r=0.7475&y1r=0.5285&y2r=0.7916&s=3a55bcd71542e91db1b0577562359c01"
+  },
+  {
+    "store": "Willys",
     "name": "HEL SPETSKÅL",
     "price": "19.90:-",
     "unit": null,
@@ -4091,26 +4071,6 @@
   },
   {
     "store": "Willys",
-    "name": "ÄPPLE INGRID MARIE",
-    "price": "19.90:-",
-    "unit": null,
-    "description": "1 kg • 19,90 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "19,90",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-8.webp&w=300&x1r=0.7379&x2r=0.9911&y1r=0.5436&y2r=0.7953&s=07a8504e9144a9e51791f7de055d74d3"
-  },
-  {
-    "store": "Willys",
-    "name": "GRÖNA VINDRUVOR 500G",
-    "price": "29.90:-",
-    "unit": null,
-    "description": "500 g • 59,80 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "59,80",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-1.webp&w=300&x1r=0.4311&x2r=0.6398&y1r=0.6373&y2r=0.9276&s=661e2e8e4a4a5b6c2f94e555cc842d4b"
-  },
-  {
-    "store": "Willys",
     "name": "BLADPERSILJA 250G",
     "price": "19.90:-",
     "unit": null,
@@ -4121,8 +4081,18 @@
   },
   {
     "store": "Willys",
+    "name": "ÄPPLE INGRID MARIE",
+    "price": "19.90:-",
+    "unit": null,
+    "description": "1 kg • 19,90 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "19,90",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-8.webp&w=300&x1r=0.7379&x2r=0.9911&y1r=0.5436&y2r=0.7953&s=07a8504e9144a9e51791f7de055d74d3"
+  },
+  {
+    "store": "Willys",
     "name": "BLANDFÄRS",
-    "price": "Medlemspris",
+    "price": "89.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4132,7 +4102,7 @@
   {
     "store": "Willys",
     "name": "LÖVBIFF",
-    "price": "Medlemspris",
+    "price": "179:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4142,7 +4112,7 @@
   {
     "store": "Willys",
     "name": "HEL MAJSKYCKLING",
-    "price": "Medlemspris",
+    "price": "59.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4152,7 +4122,7 @@
   {
     "store": "Willys",
     "name": "LAXFILÉ 4-PACK",
-    "price": "Medlemspris",
+    "price": "79.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4162,7 +4132,7 @@
   {
     "store": "Willys",
     "name": "FÄRSK FLÄSKFILÉ",
-    "price": "Medlemspris",
+    "price": "79.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4172,7 +4142,7 @@
   {
     "store": "Willys",
     "name": "KYCKLINGBEN",
-    "price": "Medlemspris",
+    "price": "59.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4182,7 +4152,7 @@
   {
     "store": "Willys",
     "name": "FÄRSKA HAMBURGARE",
-    "price": "Medlemspris",
+    "price": "44.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4192,7 +4162,7 @@
   {
     "store": "Willys",
     "name": "VARMRÖKT REGNBÅGSLAX",
-    "price": "Medlemspris",
+    "price": "119:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4211,18 +4181,18 @@
   },
   {
     "store": "Willys",
-    "name": "LAXBURGARE 2-PACK",
-    "price": "Medlemspris",
+    "name": "SKIVAT BACON 5-PACK",
+    "price": "58.90:-",
     "unit": null,
-    "description": null,
+    "description": "5x100 g • 117,80 kr/kg",
     "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-2.webp&w=300&x1r=0.4663&x2r=0.7769&y1r=0.0109&y2r=0.2427&s=aad60a3cdf7cdcac96d62df125587032"
+    "jfr_pris": "117,80",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-2.webp&w=300&x1r=0.0156&x2r=0.2635&y1r=0.5999&y2r=0.9547&s=05b869add0c68e336f3c9c65b5b1663a"
   },
   {
     "store": "Willys",
     "name": "PRÄST®, HERRGÅRD®, GREVÉ",
-    "price": "Medlemspris",
+    "price": "79.80:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4232,7 +4202,7 @@
   {
     "store": "Willys",
     "name": "SMÖR",
-    "price": "Medlemspris",
+    "price": "49.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4242,7 +4212,7 @@
   {
     "store": "Willys",
     "name": "BREGOTT",
-    "price": "Medlemspris",
+    "price": "44.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4252,7 +4222,7 @@
   {
     "store": "Willys",
     "name": "EKOLOGISK HUMLAN",
-    "price": "Medlemspris",
+    "price": "89.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4262,7 +4232,7 @@
   {
     "store": "Willys",
     "name": "MOZZARELLA",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4282,7 +4252,7 @@
   {
     "store": "Willys",
     "name": "SMAKSATT CRÈME FRAICHE",
-    "price": "Medlemspris",
+    "price": "14.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4291,8 +4261,18 @@
   },
   {
     "store": "Willys",
+    "name": "MJUKOST",
+    "price": "34.80:-",
+    "unit": null,
+    "description": "230-275 g • 151,30 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "151,30",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-4.webp&w=300&x1r=0.4452&x2r=0.9089&y1r=0.4779&y2r=0.6451&s=c905f19a266c8bdbd2ec2978bdd78ba7"
+  },
+  {
+    "store": "Willys",
     "name": "HAMBURGEROST",
-    "price": "Medlemspris",
+    "price": "17.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4301,18 +4281,8 @@
   },
   {
     "store": "Willys",
-    "name": "OSTBRICKA",
-    "price": "64.90:-",
-    "unit": null,
-    "description": "155 g • 418,71 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "418,71",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-5.webp&w=300&x1r=0.6699&x2r=0.9932&y1r=0.7339&y2r=0.948&s=56c9ea1289518c6de0c32df3189f818c"
-  },
-  {
-    "store": "Willys",
     "name": "GRILLOST",
-    "price": "Medlemspris",
+    "price": "28:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4342,7 +4312,7 @@
   {
     "store": "Willys",
     "name": "BEEF BURGER",
-    "price": "Medlemspris",
+    "price": "99:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4391,6 +4361,16 @@
   },
   {
     "store": "Willys",
+    "name": "OVO VEGETARISKA MÅLTIDSDELAR",
+    "price": "49.90:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-6.webp&w=300&x1r=0.0073&x2r=0.3069&y1r=0.6527&y2r=0.9537&s=483c31f6289fc496431fef41a3e441a5"
+  },
+  {
+    "store": "Willys",
     "name": "MAJSKOLVAR",
     "price": "35:-",
     "unit": null,
@@ -4398,16 +4378,6 @@
     "ord_pris": null,
     "jfr_pris": "43,75",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-2.webp&w=300&x1r=0.5617&x2r=0.9854&y1r=0.5138&y2r=0.7009&s=555e32007617e1a3f2a2262e89b14096"
-  },
-  {
-    "store": "Willys",
-    "name": "OVO VEGETARISKA MÅLTIDSDELAR",
-    "price": "Medlemspris",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-6.webp&w=300&x1r=0.0073&x2r=0.3069&y1r=0.6527&y2r=0.9537&s=483c31f6289fc496431fef41a3e441a5"
   },
   {
     "store": "Willys",
@@ -4432,7 +4402,7 @@
   {
     "store": "Willys",
     "name": "FOND",
-    "price": "Medlemspris",
+    "price": "25.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4472,7 +4442,7 @@
   {
     "store": "Willys",
     "name": "KYLDA SÅSER",
-    "price": "Medlemspris",
+    "price": "14.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4492,7 +4462,7 @@
   {
     "store": "Willys",
     "name": "HAMBURGERGURKA",
-    "price": "Medlemspris",
+    "price": "23.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4522,7 +4492,7 @@
   {
     "store": "Willys",
     "name": "LÄSK",
-    "price": "Medlemspris",
+    "price": "25:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4542,7 +4512,7 @@
   {
     "store": "Willys",
     "name": "JUICE",
-    "price": "Medlemspris",
+    "price": "23.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4562,7 +4532,7 @@
   {
     "store": "Willys",
     "name": "BRIOCHE HAMBURGERBRÖD 4-PACK",
-    "price": "Medlemspris",
+    "price": "35:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4572,7 +4542,7 @@
   {
     "store": "Willys",
     "name": "PAVÉ NAPOLI",
-    "price": "Medlemspris",
+    "price": "14.90:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4602,7 +4572,7 @@
   {
     "store": "Willys",
     "name": "NATURGODIS",
-    "price": "Medlemspris",
+    "price": "149:-",
     "unit": null,
     "description": null,
     "ord_pris": null,
@@ -4621,16 +4591,6 @@
   },
   {
     "store": "Willys",
-    "name": "GODISPÅSAR",
-    "price": "39:-",
-    "unit": null,
-    "description": "3x120-170 g • 108,33 kr/kg",
-    "ord_pris": null,
-    "jfr_pris": "108,33",
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-5.webp&w=300&x1r=0.0085&x2r=0.2833&y1r=0.4419&y2r=0.689&s=e278bd67aea54f11ad94434887a7b8c9"
-  },
-  {
-    "store": "Willys",
     "name": "CHEEZ DOODLES",
     "price": "34.80:-",
     "unit": null,
@@ -4641,8 +4601,18 @@
   },
   {
     "store": "Willys",
+    "name": "GODISPÅSAR",
+    "price": "39:-",
+    "unit": null,
+    "description": "3x120-170 g • 108,33 kr/kg",
+    "ord_pris": null,
+    "jfr_pris": "108,33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-5.webp&w=300&x1r=0.0085&x2r=0.2833&y1r=0.4419&y2r=0.689&s=e278bd67aea54f11ad94434887a7b8c9"
+  },
+  {
+    "store": "Willys",
     "name": "TVÄTTMEDEL, SKÖLJMEDEL",
-    "price": "Medlemspris",
+    "price": "79:-",
     "unit": null,
     "description": "Max 3 st | För dig med WillysPlus. SPARA 31:70-58:70. VIA • COMFORT • 760g • 760-925ml Olika sorter • Jämförpris 0:431:39 kr/tvätt • Max 3 köp/hushåll Lägsta 30-dgrspris 36:90-44:90 kr. | Max 3 st | För dig med WillysPlus. SPARA 31:70-58:70. VIA • COMFORT • 760g • 760-925ml Olika sorter • Jämförpris 0:431:39 kr/tvätt • Max 3 köp/hushåll Lägsta 30-dgrspris 36:90-44:90 kr.",
     "ord_pris": "36:90-44:90",
@@ -4672,22 +4642,12 @@
   {
     "store": "Willys",
     "name": "BLÖJOR",
-    "price": "Medlemspris",
+    "price": "169:-",
     "unit": null,
     "description": "Max 2 st | För dig med WillysPlus. SPARA 57:00-69:00. PAMPERS • 26-42p • Olika sorter • Jämförpris 2:01-3:25 kr/st. Max 2 köp/hushåll. • Lägsta 30-dgrspris 113:00-119:00 kr. | Max 2 st | För dig med WillysPlus. SPARA 57:00-69:00. PAMPERS • 26-42p • Olika sorter • Jämförpris 2:01-3:25 kr/st. Max 2 köp/hushåll. • Lägsta 30-dgrspris 113:00-119:00 kr.",
     "ord_pris": "113:00-119:00",
     "jfr_pris": "25",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.6173&x2r=0.9915&y1r=0.4844&y2r=0.9401&s=19d766cb331d136f41f153cf2eccfc1e"
-  },
-  {
-    "store": "Willys",
-    "name": "MUNSKÖLJ",
-    "price": "24.90:-",
-    "unit": null,
-    "description": "500 ml • 49,80 kr/l",
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.28&x2r=0.5703&y1r=0.2566&y2r=0.5231&s=51869c11f8a2297547cfbbf8adf8b7ec"
   },
   {
     "store": "Willys",
@@ -4698,6 +4658,16 @@
     "ord_pris": null,
     "jfr_pris": null,
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.6893&x2r=0.9879&y1r=0.0021&y2r=0.2615&s=e831d5ac58ff7299d8f14e6987e056b3"
+  },
+  {
+    "store": "Willys",
+    "name": "MUNSKÖLJ",
+    "price": "24.90:-",
+    "unit": null,
+    "description": "500 ml • 49,80 kr/l",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.28&x2r=0.5703&y1r=0.2566&y2r=0.5231&s=51869c11f8a2297547cfbbf8adf8b7ec"
   },
   {
     "store": "Willys",
@@ -4721,16 +4691,6 @@
   },
   {
     "store": "Willys",
-    "name": "TANDBORSTE, TANDKRÄM",
-    "price": "28:-",
-    "unit": null,
-    "description": null,
-    "ord_pris": null,
-    "jfr_pris": null,
-    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.7303&x2r=0.9914&y1r=0.2555&y2r=0.4926&s=4fde458965928d8a316d8101f3fdb457"
-  },
-  {
-    "store": "Willys",
     "name": "BINDOR, TROSSKYDD",
     "price": "40:-",
     "unit": null,
@@ -4741,6 +4701,16 @@
   },
   {
     "store": "Willys",
+    "name": "TANDBORSTE, TANDKRÄM",
+    "price": "28:-",
+    "unit": null,
+    "description": null,
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.7303&x2r=0.9914&y1r=0.2555&y2r=0.4926&s=4fde458965928d8a316d8101f3fdb457"
+  },
+  {
+    "store": "Willys",
     "name": "TAMPONGER",
     "price": "67.90:-",
     "unit": null,
@@ -4748,5 +4718,1475 @@
     "ord_pris": "74:90-79:90",
     "jfr_pris": "26",
     "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FyUuvPglg%2Fp-7.webp&w=300&x1r=0.2993&x2r=0.621&y1r=0.7468&y2r=0.9513&s=fa2f49770ef516436e6566d909b6f4e9"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Färsk kycklingfilé",
+    "price": "119:-",
+    "unit": "/kg",
+    "description": "Ca 925 g | Naturell | Kronfågel | Ord.pris 163:90 kr.",
+    "ord_pris": "163:90",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fbc6cdf46c7d9947e3582c7d8ac0c6b4b&w=568&s=55798203b8c36ccc5e38979c53827913"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Fryst hamburgare",
+    "price": "139:-",
+    "unit": "2 för",
+    "description": "720 g | 8-pack | ICA | Max 1 köp/hushåll | Jfr pris 96:53/kg | Ord.pris 88:90 kr.",
+    "ord_pris": "88:90",
+    "jfr_pris": "96:53",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F1e4abb26ebc3fd0d2becce1017e9dd68&w=272&s=1bdab00deeca642eb26c8f33b6aa603b"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Flytande tvättmedel",
+    "price": "119:-",
+    "unit": "4 för",
+    "description": "880-920 ml | A+ | Max 1 köp/hushåll | Jfr pris 1:29-1:35/tvätt | Ord.pris 47:90-48:90 kr.",
+    "ord_pris": "47:90-48:90",
+    "jfr_pris": "1:29-1:35",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F705165b1e3dcd159a8b23b9a7b4fbc8a&w=272&s=c41f86d3b31a63b1d7661baf53c8fb43"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Cookies",
+    "price": "50:-",
+    "unit": "2 för",
+    "description": "132-184 g | Gäller: XL Cookies, Home style, Choko Moment, Choco Whoopies, Brownie, Brookie | Marabou | Jfr pris 135:87-189:39/kg | Ord.pris 33:90-37:90 kr.",
+    "ord_pris": "33:90-37:90",
+    "jfr_pris": "135:87-189:39",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F32501a3f6b3c222b6c2766b1af192064&w=288&s=dc88d9b75a5b2378dc2576724b685d17"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Cognacsmedwurst",
+    "price": "169:-",
+    "unit": "/kg",
+    "description": "Ord.pris 219:00 kr.",
+    "ord_pris": "219:00",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-stg-assets%2Fuploads%2F9cb4wA%2FVUdcMn99wJxFpuoeXECEt&w=127&s=5c68c34c0d9adc19869a05e54174150f"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Röda kärnfria druvor i ask",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA | Jfr pris 60:00/kg | Ord.pris 39:90 kr.",
+    "ord_pris": "39:90",
+    "jfr_pris": "60:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F13e970b11f58bed03a7aff22ca8e2655&w=276&s=1b2a2c4b201a8aec2084577895c76ebd"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Tulpaner 12-pack",
+    "price": "99:-",
+    "unit": "/st",
+    "description": "Flera färger. 3 kr går till Glada Hudik | ICA | Jfr pris 99:00/st | Ord.pris 119:90 kr.",
+    "ord_pris": "119:90",
+    "jfr_pris": "99:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4a2bdd3edaa948f6b62cb5d8344b0b99&w=176&s=0dace4a07d1c37db5dbfbd76471d9378"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Yoghurt",
+    "price": "45:-",
+    "unit": "2 för",
+    "description": "1000 g | Gäller Original och Mini. Gäller ej laktosfri | Yoggi | Jfr pris 22:50/kg | Ord.pris 28:90-29:90 kr.",
+    "ord_pris": "28:90-29:90",
+    "jfr_pris": "22:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdb48f5526a71957ba588cca3f850b9f9&w=176&s=f7efe16bd51a0d69f7764b7beb9aee53"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Schampo, balsam",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "200-250 ml | Elvital | Jfr pris 110:00-137:50/liter | Ord.pris 40:90 kr.",
+    "ord_pris": "40:90",
+    "jfr_pris": "110:00-137:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Ff4089f049893a20805cd31fd0b297ac8&w=176&s=f0cd6eb852f9a6017636fac7dc2f44bb"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Räkor med skal 90/120",
+    "price": "79:-",
+    "unit": "2 för",
+    "description": "400 g | Fryst | Royal Greenland | Jfr pris 98:75/kg | Ord.pris 55:90 kr.",
+    "ord_pris": "55:90",
+    "jfr_pris": "98:75",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fe3b2f519f6e88461b017bdf084f6dce3&w=276&s=da51616d93aec780ee7d424353ea2d76"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Renskav",
+    "price": "75:-",
+    "unit": "/st",
+    "description": "240 g | Lapin Liha | Max 2 köp/hushåll | Jfr pris 312:50/kg | Ord.pris 86:90 kr. 30dgr.pris 86:90 kr.",
+    "ord_pris": "86:90",
+    "jfr_pris": "312:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F1eb2b17fedd0ebb42e94e294fba0d323&w=276&s=a2b8f4e2e6dbcf442b26c85bbded1055"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Vegetariska produkter",
+    "price": "55:-",
+    "unit": "2 för",
+    "description": "220-320 g | Fryst. Gäller Färs, Filè, Bitar, Lasagne | Quorn | Jfr pris 85:94-125:00/kg | Ord.pris 37:90-43:90 kr.",
+    "ord_pris": "37:90-43:90",
+    "jfr_pris": "85:94-125:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F90795f3429010bf7dd3fefe54ba11173&w=276&s=3d83c2b5642c5291fad7233f19638b25"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Panpizza",
+    "price": "95:-",
+    "unit": "/st",
+    "description": "1530 g | Storpack Fryst | Billys | Max 2 köp/hushåll | Jfr pris 62:09/kg | Ord.pris 110:90 kr. 30dgr.pris 95:00 kr.",
+    "ord_pris": "110:90",
+    "jfr_pris": "62:09",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fffff5a0547d877c2a2d01bbb1920a12a&w=276&s=6716f7e90e5672a190898412d18675ea"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Levainbröd",
+    "price": "30:-",
+    "unit": "/st",
+    "description": "650 g | Gäller råg- och vetelevain | Pågen | Jfr pris 46:15/kg | Ord.pris 40:90 kr.",
+    "ord_pris": "40:90",
+    "jfr_pris": "46:15",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdf64e3e6b34ee3524573b8150f4ca20b&w=276&s=e1ea902cea9a6ca840eddbf4cddb80f5"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Majs-, Riskakor",
+    "price": "35:-",
+    "unit": "2 för",
+    "description": "120-125 g | Gäller ej tunna och ekologiska | Friggs | Jfr pris 140:00-145:83/kg | Ord.pris 22:90 kr.",
+    "ord_pris": "22:90",
+    "jfr_pris": "140:00-145:83",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4e143ad28ec3305230865d562798341a&w=276&s=24dfa05210b86509351881448ad911b4"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Frysta Thaiboxar",
+    "price": "89:-",
+    "unit": "3 för",
+    "description": "300-350 g | Kitchen Joy | Jfr pris 84:76-98:89/kg | Ord.pris 41:90 kr.",
+    "ord_pris": "41:90",
+    "jfr_pris": "84:76-98:89",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fc412ff45e9f72f3c87b0e20bff3838ff&w=276&s=bde15bf38998cf215ed8229fc984089d"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Ätklara kycklingdelar",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "350-500 g | Fryst. Gäller ej salladskyckling och kycklingspett bbq | Guldfågeln | Jfr pris 69:00-98:57/kg | Ord.pris 42:90 kr.",
+    "ord_pris": "42:90",
+    "jfr_pris": "69:00-98:57",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4bd0612fbea50cd0973da7b18f07a728&w=276&s=10279f604ddc5983029fe2d57b4672ef"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Dagens Enportionsrätter",
+    "price": "60:-",
+    "unit": "2 för",
+    "description": "340-400 g | Fryst. Flera olika sorter | Findus | Jfr pris 75:00-88:24/kg | Ord.pris 37:90 kr.",
+    "ord_pris": "37:90",
+    "jfr_pris": "75:00-88:24",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Ff058ead86bb2c1720446d2128b0c3af2&w=276&s=e0730a83d5d9e42124336742e5e52e7b"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Gräddglass, Sorbet",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "0,5 liter | Gäller ej Finaste | SIA Glass | Jfr pris 30:00/liter | Ord.pris 20:90-22:90 kr.",
+    "ord_pris": "20:90-22:90",
+    "jfr_pris": "30:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F37b5f203f1f78842ce832c72505a5dc6&w=276&s=1983f124225316f2e0699b4dcf0d308f"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Falukorv",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "800 g | Scan | Max 1 köp/hushåll | Jfr pris 43:12/kg | Ord.pris 40:90 kr.",
+    "ord_pris": "40:90",
+    "jfr_pris": "43:12",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fc565c59956f8ab34e5e906b665f13e12&w=276&s=6dd974f4b33702d58286fa796e18a3a8"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Grevé®, Herrgård®, Präst®, Rike®, Ära®",
+    "price": "79:-",
+    "unit": "/st",
+    "description": "670 g | 28-35%. Mildlagrad | Skånemejerier | Jfr pris 117:91/kg | Ord.pris 92:90 kr.",
+    "ord_pris": "92:90",
+    "jfr_pris": "117:91",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F4c8a9a7088268c83673ee4d38ba15475&w=276&s=6651e73eb98b88d20c0ac2d10432a76a"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Basturökt skinka",
+    "price": "269:-",
+    "unit": "/kg",
+    "description": "Från vår manuella | Lönneberga | Ord.pris 309:00 kr.",
+    "ord_pris": "309:00",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F22d7b3eeb73a324f5beb6780ae90d49e&w=276&s=c8b296d224d7e6a3497a62e12f58613d"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Skinkstek",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1100 g | ICA | Max 2 köp/hushåll | Ord.pris 97:90 kr.",
+    "ord_pris": "97:90",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F5e81e74988d197818f51f94cd35e8f3d&w=276&s=ee9200358420b929f56bb5e9d78344da"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Broccoli",
+    "price": "15:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA | Jfr pris 30:00/kg | Ord.pris 28:90 kr.",
+    "ord_pris": "28:90",
+    "jfr_pris": "30:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F59a43c753781d2e8cc8f8c7d40bd5566&w=276&s=9a211c7d10b86174170d4e9edcfb6f0d"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Babyplommontomater i ask",
+    "price": "25:-",
+    "unit": "/st",
+    "description": "500 g | Klass 1 | ICA | Jfr pris 50:00/kg | Ord.pris 37:90 kr.",
+    "ord_pris": "37:90",
+    "jfr_pris": "50:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F2f0b89b9b00b5e2bce930fc1f3ff432c&w=276&s=fe9b62d0866873e0e3a75dfc049561f2"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Blodapelsiner i nät",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "1 kg | Klass 1 | ICA | Jfr pris 20:00/kg | Ord.pris 29:90-31:90 kr.",
+    "ord_pris": "29:90-31:90",
+    "jfr_pris": "20:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-stg-assets%2Fuploads%2F9cb4wA%2FVUdcMn99wJxFpuoeXECEt&w=127&s=5c68c34c0d9adc19869a05e54174150f"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Avokado",
+    "price": "20:-",
+    "unit": "2 för",
+    "description": "165 g | Klass 1 | Spanien/Marocko/Chile | Jfr pris 55:56/kg | Ord.pris 13:90 kr.",
+    "ord_pris": "13:90",
+    "jfr_pris": "55:56",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Ff107f0c734ad2443780e57afdcce8b72&w=276&s=1c6bdf595756ebf29586b142b96b997c"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Svenska äpplen",
+    "price": "20:-",
+    "unit": "/kg",
+    "description": "Klass 1. Flera sorter | ICA | Ord.pris 27:90-30:90 kr.",
+    "ord_pris": "27:90-30:90",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fbf2e7746f1f22dc84c49733914afa703&w=276&s=1758f994da6eadd070709fa512057721"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Köttbullar",
+    "price": "69:-",
+    "unit": "/st",
+    "description": "1000 g | Kylda | Scan | Max 2 köp/hushåll | Jfr pris 69:00/kg | Ord.pris 79:90 kr.",
+    "ord_pris": "79:90",
+    "jfr_pris": "69:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F580b05d3c0e669fd8e209463159c42a8&w=276&s=2f2c9609846165a75058ea6b5cf20255"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Smörgåsmat",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "90-105 g | Plånbokspackad. Gäller ej basturökt kalkon | Lönneberga | Jfr pris 190:48-222:22/kg | Ord.pris 29:90 kr.",
+    "ord_pris": "29:90",
+    "jfr_pris": "190:48-222:22",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fd9b887d0d87d70b57f12619c393d4961&w=276&s=087594405d9a8889fa973768f4475dee"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Skinkschnitzel",
+    "price": null,
+    "unit": "/st",
+    "description": "300 g | ICA | Jfr pris 156:33/kg | Ord.pris 53:90 kr.",
+    "ord_pris": "53:90",
+    "jfr_pris": "156:33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F55c23989ce2ac758ee3c171bbf935d63&w=276&s=54703ebfa7137c332d9b8bfa57e61b21"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Färskost",
+    "price": "40:-",
+    "unit": "2 för",
+    "description": "145-200 g | Flera olika sorter | Philadelphia | Jfr pris 100:00-137:93/kg | Ord.pris 25:90-32:90 kr.",
+    "ord_pris": "25:90-32:90",
+    "jfr_pris": "100:00-137:93",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F013ecf464aa616bca9e2a265b2ef07b3&w=276&s=ee2a7e67f7b67205c4d29fddf4135acd"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Västerbottensost®",
+    "price": "89:-",
+    "unit": "/st",
+    "description": "450 g | Norrmejerier | Max 2 köp/hushåll | Jfr pris 197:78/kg | Ord.pris 111:90 kr.",
+    "ord_pris": "111:90",
+    "jfr_pris": "197:78",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fa04c4c28047f61553b21aaefa051cc78&w=276&s=d887965913f980a8b5918bfcff36c2ef"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Bacon, Stekfläsk",
+    "price": "115:-",
+    "unit": "/st",
+    "description": "1000 g | Skivat | Tulip | Jfr pris 115:00/kg | Ord.pris 141:90-154:90 kr.",
+    "ord_pris": "141:90-154:90",
+    "jfr_pris": "115:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F42c8de58ac723092a395ea4c61d2ea28&w=276&s=7aac5fbacb522095fbe0b2d41392329b"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Pannkakor",
+    "price": "20:-",
+    "unit": "/st",
+    "description": "200-240 g | Flera olika sorter | POP! Bakery | Jfr pris 83:33-100:00/kg | Ord.pris 26:90-30:90 kr.",
+    "ord_pris": "26:90-30:90",
+    "jfr_pris": "83:33-100:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fe512690c8ebe0f84abc53fb0c4a6bbb8&w=572&s=df9e266790589f70eccc99b81dc7eacf"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Spareribs",
+    "price": null,
+    "unit": "/kg",
+    "description": "Ca 1200 g | ICA | Ord.pris 82:90 kr.",
+    "ord_pris": "82:90",
+    "jfr_pris": null,
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F09f2db66c9f2a54b39207c77c4627ecb&w=276&s=8213a96ea9a83623b6b07a256b45ac61"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Umamifärs",
+    "price": null,
+    "unit": "/st",
+    "description": "500 g | Kryddad fläskfärs. Max 20% fetthalt. | ICA | Jfr pris 79:80/kg | Ord.pris 50:90 kr.",
+    "ord_pris": "50:90",
+    "jfr_pris": "79:80",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fef1f8fb2fb940453763fae240c405e05&w=276&s=633a604afe40f9f1425ffd13e937ece1"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Duschtvål",
+    "price": "34:-",
+    "unit": "2 för",
+    "description": "250 ml | Gäller ej Ren baby | Barnängen | Jfr pris 68:00/l | Ord.pris 22:90-24:90 kr.",
+    "ord_pris": "22:90-24:90",
+    "jfr_pris": "68:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fd97c6b10ab681dda2afbd6358310803f&w=572&s=d72fa26a6536cad0df106725f6c8326a"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Batterier",
+    "price": "69:-",
+    "unit": "2 för",
+    "description": "10-pack | Finns som AA och AAA | ICA | Jfr pris 3:45/st | Ord.pris 42:90 kr.",
+    "ord_pris": "42:90",
+    "jfr_pris": "3:45",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F200ec064e01a69b79e0ad6a6bb4a3ddf&w=572&s=c497563ee6a29cd519485cae0655fc17"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Crème Fraiche",
+    "price": "24:-",
+    "unit": "2 för",
+    "description": "2 dl | Naturell. Gäller även eko och laktosfri | Arla, Arla Köket | Jfr pris 60:00/liter | Ord.pris 14:90-20:90 kr.",
+    "ord_pris": "14:90-20:90",
+    "jfr_pris": "60:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fe4a5a2d3f12bd5bb2c2bf0ae99a7f4c1&w=276&s=a40012f70d339ca8c265924c0ce713f5"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Juice",
+    "price": "40:-",
+    "unit": "/st",
+    "description": "1,75-2 liter | Flera olika sorter, även Nektar Apelsin. Gäller ej Apelsinjuice. | Bravo | Jfr pris 20:00-22:86/liter | Ord.pris 47:90-48:90 kr.",
+    "ord_pris": "47:90-48:90",
+    "jfr_pris": "20:00-22:86",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F17d455967f172b39cb6fd5469d594383&w=276&s=6fda1c6e069f8b5164d9106dcf6745a2"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Risi-, Mannafrutti",
+    "price": "40:-",
+    "unit": "4 för",
+    "description": "165-175 g | Gäller även vegansk & laktosfri | Risifrutti | Max 1 köp/hushåll | Jfr pris 57:14-60:61/kg | Ord.pris 13:90-15:90 kr.",
+    "ord_pris": "13:90-15:90",
+    "jfr_pris": "57:14-60:61",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fd1377badbcdd2705d0c0ea91ea128379&w=276&s=fe31191dd5ba886d8e33cff5da2f8a63"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Toalettpapper, Hushållspapper Classic",
+    "price": "95:-",
+    "unit": "3 för",
+    "description": "8-pack, 4-pack | Lambi | Jfr pris 40:81-65:43/kg | Ord.pris 40:90-54:90 kr.",
+    "ord_pris": "40:90-54:90",
+    "jfr_pris": "40:81-65:43",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F221726ffd059771428f05bbe9d500067&w=276&s=4377e5fc9c1785567fa65b8129b219f2"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Fond",
+    "price": "60:-",
+    "unit": "2 för",
+    "description": "180 ml | Gäller ej Eko | Touch of taste | Jfr pris 7:50/liter drickklar | Ord.pris 36:90 kr.",
+    "ord_pris": "36:90",
+    "jfr_pris": "7:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F672e4b4a1b6ccd191d780c641b203616&w=276&s=39b2c688613022d873b72f9a1a741261"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Läsk",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "1,5 liter | Flera olika sorter | Coca-Cola, Fanta, Sprite | Max 1 köp/hushåll | Jfr pris 10:00/liter + pant | Ord.pris 22:90 kr.",
+    "ord_pris": "22:90",
+    "jfr_pris": "10:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F95dbbf590a0eb6f34be05bb221f64f77&w=276&s=2e8c62107de7f13c4f9afa8ea0b63bf4"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Kexchoklad",
+    "price": "40:-",
+    "unit": "5 för",
+    "description": "60 g | Cloetta | Jfr pris 133:33/kg | Ord.pris 11:90 kr.",
+    "ord_pris": "11:90",
+    "jfr_pris": "133:33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fd469bbc3a7c4892377ae0156288a485a&w=276&s=058fd0a2f3a3ce673023a6920d0dce4d"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Pumpakärnor, Chiafrön",
+    "price": "35:-",
+    "unit": "/st",
+    "description": "300 g | Risenta | Jfr pris 116:67/kg | Ord.pris 42:90-61:90 kr. 30dgr.pris 42:90-61:90 kr.",
+    "ord_pris": "42:90-61:90",
+    "jfr_pris": "116:67",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F67303a7b8e2de4fd9c93a5cc56ca7f1f&w=276&s=9d60fb7f84b448a0759bf35629890465"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Excellence",
+    "price": "65:-",
+    "unit": "2 för",
+    "description": "100 g | Gäller Lindt Excellence | Lindt | Jfr pris 325:00/kg | Ord.pris 42:90 kr.",
+    "ord_pris": "42:90",
+    "jfr_pris": "325:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fd4d77119789264435364c955953bde4f&w=276&s=0b2f90862a71fce6cef32837606016c7"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Tomater på burk",
+    "price": "45:-",
+    "unit": "3 för",
+    "description": "400 g | Finkrossade, körsbärs, hela original | Mutti | Jfr pris 62:50/kg utan spad, 37:50/kg | Ord.pris 20:90-22:90 kr.",
+    "ord_pris": "20:90-22:90",
+    "jfr_pris": "62:50",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F54dcb4d78f27d3f382d813a94f111f7e&w=276&s=44dc24617ef409825df59ee557488360"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Kolsyrat vatten",
+    "price": "19:-",
+    "unit": "2 för",
+    "description": "1,5 liter | Loka | Jfr pris 6:33/liter + pant | Ord.pris 12:90 kr.",
+    "ord_pris": "12:90",
+    "jfr_pris": "6:33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F05789d41036e609b336595061ffdd0b3&w=276&s=1c85b33bd2ea8205a3e7dd5b7f598464"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Tortillabröd, Tacosås, Chips",
+    "price": "100:-",
+    "unit": "10 för",
+    "description": "200 g, 320 g, 230 g, 185 g | Gäller tortilla bröd 200 g, 320 g, tacosås och salsasås 230 g samt chips och nacho 185 g. Max 1 köp/hushåll | Santa Maria | Max 1 köp/hushåll | Jfr pris 31:25-54:05/kg | Ord.pris 15:90-25:90 kr.",
+    "ord_pris": "15:90-25:90",
+    "jfr_pris": "31:25-54:05",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fdb837cfd40b25b1f89d948910e0f0c44&w=276&s=6acb0529b002b7fd99081fc854947e0d"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Energidryck",
+    "price": "30:-",
+    "unit": "2 för",
+    "description": "330-355 ml | Nocco | Jfr pris 42:25-45:45/lit exkl pant | Ord.pris 20:90-22:90 kr.",
+    "ord_pris": "20:90-22:90",
+    "jfr_pris": "42:25-45:45",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2F1ab8b57d3cdb67fc5fa85ca803c9d800&w=276&s=512bb85f800da116c57afa243072e794"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Chips, Ostbågar",
+    "price": "50:-",
+    "unit": "2 för",
+    "description": "200-275 g | OLW | Jfr pris 90:91-125:00/kg | Ord.pris 33:90-35:90 kr.",
+    "ord_pris": "33:90-35:90",
+    "jfr_pris": "90:91-125:00",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fbe166ca9adadad264a92b1cbe0932f5d&w=276&s=f165d8bc8bdd8f52f27c11c6eb6af16f"
+  },
+  {
+    "store": "ICA Globen",
+    "name": "Kryddor små glas",
+    "price": "45:-",
+    "unit": "3 för",
+    "description": "3-83 g | Flera olika sorter. Gäller ej ekologisk, salvia och vaniljstång | Santa Maria | Max 1 köp/hushåll | Jfr pris 333:33/kg utan spad, 180:72-5 000:00/kg | Ord.pris 17:90-38:90 kr.",
+    "ord_pris": "17:90-38:90",
+    "jfr_pris": "333:33",
+    "image": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F1d1dvA%2Fc17daeb21ea2c41ea237608b2ac75a5f&w=276&s=1d827e6f704e519f75617a985450f152"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Tex-mex (Santa Maria)",
+    "price": "4 för 50:-",
+    "unit": "st",
+    "description": "185-320 g.  Välj mellan nacho/tortillachips, tacosås och tortillabröd original M.",
+    "ord_pris": null,
+    "jfr_pris": "54,35-67,57/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1469923616/155895.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Kebab/falafel (Schysst Käk)",
+    "price": "3 för 99:-",
+    "unit": "st",
+    "description": "275 g. Kyld. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "120kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1759061660/cloud/525818.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Gröna druvor  (Sydafrika)",
+    "price": "25:-",
+    "unit": "st",
+    "description": "500 g. Klass 1. Kärnfria. I ask.",
+    "ord_pris": null,
+    "jfr_pris": "50kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1439907017/49160.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Torskryggfilé 3-pack (Royal Greenland)",
+    "price": "99:-",
+    "unit": "st",
+    "description": "3x125 g. Fryst.",
+    "ord_pris": null,
+    "jfr_pris": "264kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1662383206/cloud/258232.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Tacokrydda (Santa Maria)",
+    "price": "2 för 15:-",
+    "unit": "st",
+    "description": "28 g. Original.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1632500631/cloud/234450.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Bacon (Sverige/Scan)",
+    "price": "2 för 25:-",
+    "unit": "st",
+    "description": "125-140 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "89,29-100kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1760709767/cloud/544555.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Matpaj (Felix)",
+    "price": "2 för 55:-",
+    "unit": "st",
+    "description": "210-220 g. Fryst. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1722929515/cloud/376085.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Snacks  (OLW)",
+    "price": "3 för 65:-",
+    "unit": "st",
+    "description": "200-275 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "78,79-108,33/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1759059092/cloud/525788.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Kycklinglårfilé (Sverige/Kronfågel)",
+    "price": "2 för 129:-",
+    "unit": "st",
+    "description": "700 g. Fryst.",
+    "ord_pris": null,
+    "jfr_pris": "92,14/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1760094541/cloud/539116.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Smörgåspålägg (Sverige/Jakobsdals)",
+    "price": "25:-",
+    "unit": "st",
+    "description": "80-100 g. Kylda. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "250-312,50/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1741862045/cloud/453369.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Yoghurt (Yoggi)",
+    "price": "2 för 46:-",
+    "unit": "st",
+    "description": "1000 g. Välj mellan olika sorters original och mini. Gäller ej laktosfri.",
+    "ord_pris": null,
+    "jfr_pris": "23kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1597388279/405157.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Brustabletter  (Berocca Performance)",
+    "price": "2 för 99:-",
+    "unit": "st",
+    "description": "15 st. Välj mellan Berocca Boost och Energy.",
+    "ord_pris": null,
+    "jfr_pris": "3,3/st.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1639267001/cloud/130478.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Parmesanost (Coop)",
+    "price": "45:-",
+    "unit": "st",
+    "description": "150 g.",
+    "ord_pris": null,
+    "jfr_pris": "300kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1731322925/cloud/402120.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Lammrostbiff (Nya Zeeland/Naturkött)",
+    "price": "289:-",
+    "unit": "kg",
+    "description": "Ca 750 g. Kyld. I bit.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1631416809/cloud/163877.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Svenska äpplen (Sverige)",
+    "price": "25:-",
+    "unit": "kg",
+    "description": "Klass 1. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1750241210/cloud/492021.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Klämmis (Hipp)",
+    "price": "9 för 99:-",
+    "unit": "st",
+    "description": "100 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "110kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1624401268/229562.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Mjukt bröd (Fazer)",
+    "price": "25:-",
+    "unit": "st",
+    "description": "420 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "59,52/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1734560404/cloud/418314.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Kryddor i småglas (Kockens)",
+    "price": "2 för 39:-",
+    "unit": "st",
+    "description": "8-53 g. Välj mellan olika sorter. Gäller ej ekologiskt eller vaniljstång.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1652350707/cloud/252001.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Blomkål  (Frankrike/Italien)",
+    "price": "25:-",
+    "unit": "kg",
+    "description": "Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1440401585/50169.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Energidryck (Joluca)",
+    "price": "2 för 30:-",
+    "unit": "st",
+    "description": "330 ml. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "45,45/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1759039870/cloud/525576.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Läsk 4-pack (Coca-Cola)",
+    "price": "59.9:-",
+    "unit": "st",
+    "description": "4x150 cl.  Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "9,98/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1646735685/cloud/248795.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Strimlad kyckling (Sverige/Guldfågeln)",
+    "price": "79.9:-",
+    "unit": "st",
+    "description": "600 g.  Kyld. Välj mellan marinerad och naturell.",
+    "ord_pris": null,
+    "jfr_pris": "133,17/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1725451855/cloud/383128.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Lasagne (Dafgårds)",
+    "price": "79:-",
+    "unit": "st",
+    "description": "1000-1400 g. Fryst. Välj mellan lyxlasagne och Karins familjelasagne.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1598877290/406267.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Korv (Sverige/Lithells)",
+    "price": "59:-",
+    "unit": "st",
+    "description": "750-900 g. Kyld. Välj mellan varmkorv och wienerkorv.",
+    "ord_pris": null,
+    "jfr_pris": "65,56-78,67/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1764407950/cloud/564130.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Granola (Färsking)",
+    "price": "2 för 75:-",
+    "unit": "st",
+    "description": "375 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "100kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1730874482/cloud/400130.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Blandfärs (EU/John's Selection)",
+    "price": "85:-",
+    "unit": "st",
+    "description": "800 g. Kyld. 50/50 nöt/fläsk. Fetthalt max 20%.",
+    "ord_pris": null,
+    "jfr_pris": "106,25/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1740498630/cloud/445092.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Dessertost (Castello)",
+    "price": "30:-",
+    "unit": "st",
+    "description": "125-150 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "200-240kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1702637060/cloud/311427.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Kattmat (Latz)",
+    "price": "2 för 99:-",
+    "unit": "st",
+    "description": "890-1020 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "48,53-55,62/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1729156538/cloud/394718.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Kassler (Sverige/Scan)",
+    "price": "99:-",
+    "unit": "kg",
+    "description": "Ca 1000 g. Kyld. I bit.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1742480940/cloud/457132.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Färsk fläskkotlett (Sverige/Coop)",
+    "price": "109:-",
+    "unit": "kg",
+    "description": "Ca 1200 g. Kyld. I bit. Med ben.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1764378035/cloud/563208.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Ekologisk sallad i påse (Land: se förp./Coop)",
+    "price": "2 för 30:-",
+    "unit": "st",
+    "description": "65 g. Klass 1. Välj mellan babyspenat, rucola och säsongsmix.",
+    "ord_pris": null,
+    "jfr_pris": "230,77/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1730104836/cloud/397274.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Majskakor  (Friggs)",
+    "price": "2 för 35:-",
+    "unit": "st",
+    "description": "120-130 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "140-145,83/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1646040715/cloud/168923.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Riven ost (Coop)",
+    "price": "2 för 40:-",
+    "unit": "st",
+    "description": "150 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "133,33/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1705474382/cloud/319392.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Chokladsnacks (Olw)",
+    "price": "2 för 49:-",
+    "unit": "st",
+    "description": "90-150 g. Välj mellan smash och choco crush.",
+    "ord_pris": null,
+    "jfr_pris": "163,33-272,22/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1730986005/cloud/401019.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Havredryck (Coop)",
+    "price": "3 för 40:-",
+    "unit": "st",
+    "description": "1 liter. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "13,33/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1726758135/cloud/387404.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Kakor (Marabou)",
+    "price": "2 för 49:-",
+    "unit": "st",
+    "description": "132-184 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "133,15-185,61/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1624290431/222556.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Glass flerpack (GB Glace)",
+    "price": "2 för 85:-",
+    "unit": "st",
+    "description": "4-12 st. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1715853683/cloud/354972.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Plommontomater (Spanien/Marocko/Coop)",
+    "price": "25:-",
+    "unit": "st",
+    "description": "500 g. Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": "50kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1678363076/cloud/276480.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Pizza Suprema (Dr. Oetker)",
+    "price": "2 för 105:-",
+    "unit": "st",
+    "description": "487-520 g. Fryst. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1724662600/cloud/380853.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Färsk högrev (Irland/John's Selection)",
+    "price": "175:-",
+    "unit": "kg",
+    "description": "Ca 1200 g. Kyld. Av nöt. I bit.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1696841581/cloud/292536.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Gräddfil (Sverige/Coop)",
+    "price": "2 för 25:-",
+    "unit": "st",
+    "description": "300 ml.",
+    "ord_pris": null,
+    "jfr_pris": "41,67/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1726648286/cloud/386564.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Rödbetor i påse (Sverige)",
+    "price": "12:-",
+    "unit": "st",
+    "description": "1 kg. Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1634125714/cloud/236499.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Vegetariskt pålägg (Quorn)",
+    "price": "20:-",
+    "unit": "st",
+    "description": "100 g.",
+    "ord_pris": null,
+    "jfr_pris": "200kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1757944081/cloud/515293.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Sockerärtor/sugarsnaps/haricots verts (Guatemala/Zimbabwe/Kenya)",
+    "price": "2 för 55:-",
+    "unit": "st",
+    "description": "150 g. Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": "183,33/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1760516186/cloud/543345.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Halstabletter (Vicks)",
+    "price": "2 för 32:-",
+    "unit": "st",
+    "description": "72 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "222,22/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1758601895/cloud/520632.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Dubbla Stycksaker (Marabou)",
+    "price": "3 för 25:-",
+    "unit": "st",
+    "description": "37-60 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "138,89-225,23/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1765164784/cloud/574366.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Handskalade räkor/kräftstjärtar (Kosterfiskarn)",
+    "price": "89:-",
+    "unit": "st",
+    "description": "420 g. Kylda. Handskalade.",
+    "ord_pris": null,
+    "jfr_pris": "370,83/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1523673446/289192.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Nötter (OLW)",
+    "price": "2 för 45:-",
+    "unit": "st",
+    "description": "150-300 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "75-150kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1593588377/402636.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Färskost (Philadelphia)",
+    "price": "20:-",
+    "unit": "st",
+    "description": "145-200 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "100-137,93/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1738578139/cloud/431347.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Ätmogen mango  (Brasilien/Peru)",
+    "price": "2 för 30:-",
+    "unit": "st",
+    "description": "Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1678273590/cloud/276415.png"
+  },
+  {
+    "store": "Stora Coop Västberga",
+    "name": "Dammsugare (Electrolux)",
+    "price": "1295:-",
+    "unit": "st",
+    "description": "Av 37% återvunnen plast. Max 750W. Sköljbart hygienfilter. Modell Clean 500.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1726576478/cloud/386343.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kebab/falafel (Schysst Käk)",
+    "price": "3 för 99:-",
+    "unit": "st",
+    "description": "275 g. Kyld. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "120kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1759061660/cloud/525818.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kaffe (Coop)",
+    "price": "2 för 109:-",
+    "unit": "st",
+    "description": "450 g.",
+    "ord_pris": null,
+    "jfr_pris": "121,11/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1612355760/419963.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Makaroner (Kungsörnen)",
+    "price": "2 för 22:-",
+    "unit": "st",
+    "description": "750 g. Välj mellan snabbmakaroner och gammeldags idealmakaroner.",
+    "ord_pris": null,
+    "jfr_pris": "14,67/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1765947088/cloud/588997.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Gröna druvor  (Sydafrika)",
+    "price": "25:-",
+    "unit": "st",
+    "description": "500 g. Klass 1. Kärnfria. I ask.",
+    "ord_pris": null,
+    "jfr_pris": "50kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1439907017/49160.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Tex-mex (Santa Maria)",
+    "price": "4 för 50:-",
+    "unit": "st",
+    "description": "185-320 g.  Välj mellan nacho/tortillachips, tacosås och tortillabröd original M.",
+    "ord_pris": null,
+    "jfr_pris": "39,06-67,57/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1469923616/155895.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Svenskt smör (Sverige/Arla)",
+    "price": "55:-",
+    "unit": "st",
+    "description": "500 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "110kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1623365419/131876.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Matpaj (Felix)",
+    "price": "2 för 55:-",
+    "unit": "st",
+    "description": "210-220 g. Fryst. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1722929515/cloud/376085.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Korv (Sverige/Lithells)",
+    "price": "59:-",
+    "unit": "st",
+    "description": "750-900 g. Kyld. Välj mellan varmkorv och wienerkorv.",
+    "ord_pris": null,
+    "jfr_pris": "65,56-78,67/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1764407950/cloud/564130.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kex TUC (LU)",
+    "price": "2 för 20:-",
+    "unit": "st",
+    "description": "100 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "100kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1739969408/cloud/442646.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kylda såser/Dressing (Eriks såser)",
+    "price": "2 för 45:-",
+    "unit": "st",
+    "description": "170-255 ml.  Kyld. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "88,24-132,35/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1741798252/cloud/453006.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Ost (Arla)",
+    "price": "139:-",
+    "unit": "kg",
+    "description": "Ca 500-550 g. Fetthalt 10-17%.Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1671187246/cloud/269640.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Proteinbar (Nick's)",
+    "price": "2 för 35:-",
+    "unit": "st",
+    "description": "35-50 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "350-500kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1747725122/cloud/482139.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Snabbkaffe Original (Nescafè)",
+    "price": "2 för 130:-",
+    "unit": "st",
+    "description": "200 g.",
+    "ord_pris": null,
+    "jfr_pris": "325kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1724405109/cloud/380641.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Vitkål (Sverige/Tyskland)",
+    "price": "12:-",
+    "unit": "kg",
+    "description": "Klass 1. ",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1440061754/49479.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Glass (Häagen-Dazs)",
+    "price": "2 för 99:-",
+    "unit": "st",
+    "description": "460 ml.  Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "107,61/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1647915366/cloud/133475.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Maskindisktabletter (Finish)",
+    "price": "69:-",
+    "unit": "st",
+    "description": "30-42 st. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "1,64-2,30/disk.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1707918474/cloud/327545.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Fruktdryck (Proviva)",
+    "price": "30:-",
+    "unit": "st",
+    "description": "1 liter. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1674493463/cloud/272466.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kebabsås (Schysst Käk)",
+    "price": "2 för 45:-",
+    "unit": "st",
+    "description": "250 ml. Kyld. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "90kr/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1706697242/cloud/323966.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kalkonköttbullar/Kalkonfärs (Sverige/Ingelsta)",
+    "price": "57.9:-",
+    "unit": "st",
+    "description": "400-500 g. Frysta.",
+    "ord_pris": null,
+    "jfr_pris": "115,80-144,75/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1523660812/288326.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Pizza (Grandiosa)",
+    "price": "2 för 85:-",
+    "unit": "st",
+    "description": "575 g. Fryst. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1659000444/cloud/256152.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Kycklingfärs (Coop)",
+    "price": "45:-",
+    "unit": "st",
+    "description": "500 g.  Kyld.",
+    "ord_pris": null,
+    "jfr_pris": "90kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1572944375/385017.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Stor kaviar (Kalles)",
+    "price": "37.9:-",
+    "unit": "st",
+    "description": "250-300 g.  Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "126,33-151,60/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1719984088/cloud/369490.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Biff (Irland/John's Selection)",
+    "price": "59.9:-",
+    "unit": "st",
+    "description": "180 g. Kyld. Med kappa.",
+    "ord_pris": null,
+    "jfr_pris": "332,78/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1677606651/cloud/275171.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Champinjoner i ask (Polen/Litauen/Coop)",
+    "price": "2 för 30:-",
+    "unit": "st",
+    "description": "250 g. Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": "60kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1710421662/cloud/336197.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Ekologisk sallad i påse (Land: se förp./Änglamark)",
+    "price": "2 för 30:-",
+    "unit": "st",
+    "description": "65 g. Klass 1. Välj mellan babyspenat, rucola och säsongsmix.",
+    "ord_pris": null,
+    "jfr_pris": "230,77/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1730104836/cloud/397274.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Dessertost (Falbygdens Rekommenderar)",
+    "price": "59.9:-",
+    "unit": "st",
+    "description": "150-180 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "332,78-399,33/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1702645510/cloud/311556.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Bacon (Tulip)",
+    "price": "49:-",
+    "unit": "st",
+    "description": "375-500 g. Kyld. Välj mellan 3-pack och tärnat.",
+    "ord_pris": null,
+    "jfr_pris": "98-130,67/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1636729802/cloud/238985.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Färsk skinkstek (Sverige)",
+    "price": "89:-",
+    "unit": "kg",
+    "description": "Ca 900-1200 g. Kyld. Av fläsk.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1667206977/cloud/264396.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Snacks  (OLW)",
+    "price": "2 för 55:-",
+    "unit": "st",
+    "description": "35-450 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "61,11-785,71/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1759059092/cloud/525788.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Nötter (OLW)",
+    "price": "2 för 49:-",
+    "unit": "st",
+    "description": "150-300 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "81,67-163,33/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1593588377/402636.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Veganskt protein (Hälsans Kök)",
+    "price": "2 för 99:-",
+    "unit": "st",
+    "description": "440-450 g. Fryst. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "107,61-117,86/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1760255689/cloud/540901.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Läsk (Coca-Cola/Fanta/Sprite)",
+    "price": "5 för 35:-",
+    "unit": "st",
+    "description": "33 cl. Välj mellan olika sorter. Pant tillkommer.",
+    "ord_pris": null,
+    "jfr_pris": "21,21/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1700128864/cloud/302214.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Färskost (Philadelphia)",
+    "price": "22:-",
+    "unit": "st",
+    "description": "145-200 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "110-151,72/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1738578139/cloud/431347.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Torskryggfilé 3-pack (Royal Greenland)",
+    "price": "129:-",
+    "unit": "st",
+    "description": "3x125 g. Fryst.",
+    "ord_pris": null,
+    "jfr_pris": "344kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1662383206/cloud/258232.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Majskakor  (Friggs)",
+    "price": "2 för 39:-",
+    "unit": "st",
+    "description": "120-130 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "150-156kr/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1768923497/cloud/601467.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Blåbär (Chile/Peru)",
+    "price": "49:-",
+    "unit": "st",
+    "description": "300 g. Klass 1.",
+    "ord_pris": null,
+    "jfr_pris": "163,33/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1749626711/cloud/487628.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Chokladkaka (Marabou)",
+    "price": "2 för 50:-",
+    "unit": "st",
+    "description": "160-180 g. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "139,89-156,25/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1758884557/cloud/523795.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Tvättmedel/sköljmedel (A+/Noora)",
+    "price": "2 för 79:-",
+    "unit": "st",
+    "description": "725 g, 880-928 ml. Gäller flytande tvättmedel 880-920 ml, pulvertvättmedel 725 g samt sköljmedel 928 ml.",
+    "ord_pris": null,
+    "jfr_pris": "0,68-2,82/tvätt.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1628670846/cloud/231887.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Fläsklägg  (Sverige/Dalsjöfors)",
+    "price": "49.9:-",
+    "unit": "kg",
+    "description": "Ca 1200 g. Kyld. Rimmad. Med ben.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1704783923/cloud/317183.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Smaksatt creme fraiche (Arla Köket)",
+    "price": "2 för 30:-",
+    "unit": "st",
+    "description": "2 dl. Välj mellan olika sorter.",
+    "ord_pris": null,
+    "jfr_pris": "75kr/liter.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1664279475/cloud/259277.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Lasagne (Rana)",
+    "price": "49.9:-",
+    "unit": "st",
+    "description": "350 g. Kyld. Välj mellan lasagne bolognese och lasagne ricotta & spenat.",
+    "ord_pris": null,
+    "jfr_pris": "142,57/kg.",
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1718952088/cloud/366698.png"
+  },
+  {
+    "store": "Coop Fruängen",
+    "name": "Stekpanna 28 cm (Köksträdgården)",
+    "price": "299:-",
+    "unit": "st",
+    "description": "Av återvunnet stål och PFAS-fri, tålig, keramisk beläggning.",
+    "ord_pris": null,
+    "jfr_pris": null,
+    "image": "https://res.cloudinary.com/coopsverige/image/upload/v1742204322/cloud/454471.png"
   }
 ]
