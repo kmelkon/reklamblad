@@ -40,8 +40,9 @@ python scrape_recipes.py    # Re-scrape ICA recipes
 - Score thresholds: 1.0 exact, 0.9 substring, 0.85 synonym, 0.75 word overlap, 0.7 fuzzy
 
 **Deal Scraping** (`scrape_deals.py`):
-- Two strategies: API interception (Incito JSON, paged-publications) and inventory view (?publication=inventory)
-- Stores using inventory view: Willys, ICA Maxi, ICA Kvantum, Stora Coop, Coop
+- ereklamblad.se: API interception (Incito JSON, paged-publications) or inventory view (?publication=inventory)
+- coop.se: Direct API (`external.api.coop.se/dke/offers/{store_id}`) for store-specific Coop pages
+- Cloudinary images from coop.se require transforms (`w_400,f_auto,q_auto`) - raw images are 10-20MB, optimized ~35KB
 - Falls back to DOM parsing if API capture fails
 
 ## Key Files
