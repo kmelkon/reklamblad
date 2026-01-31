@@ -12,6 +12,15 @@ class RecipeApp {
         this.currentSort = 'match';
         this.currentCategory = 'all';
         this.categories = [];
+        this.activeNutritionFilters = new Set();
+
+        // Nutrition filter definitions
+        this.nutritionFilters = [
+            { id: 'high-protein', label: 'Proteinrikt', field: 'protein', min: 25 },
+            { id: 'extra-protein', label: 'Extra protein', field: 'protein', min: 35 },
+            { id: 'low-carb', label: 'Låg kolhydrat', field: 'carbs', max: 20 },
+            { id: 'low-cal', label: 'Kalorisnålt', field: 'calories', max: 400 },
+        ];
 
         this.elements = {
             recipeGrid: document.getElementById('recipeGrid'),
@@ -22,12 +31,13 @@ class RecipeApp {
             dealCount: document.getElementById('dealCount'),
             sortSelect: document.getElementById('sortSelect'),
             categoryPills: document.getElementById('categoryPills'),
+            nutritionPills: document.getElementById('nutritionPills'),
         };
 
         this.filtersExpanded = false;
 
         // Validate required elements
-        const required = ['recipeGrid', 'searchInput', 'sortSelect', 'categoryPills', 'filterGroup'];
+        const required = ['recipeGrid', 'searchInput', 'sortSelect', 'categoryPills', 'nutritionPills', 'filterGroup'];
         for (const id of required) {
             if (!this.elements[id]) {
                 console.error(`Missing required element: #${id}`);
@@ -85,6 +95,7 @@ class RecipeApp {
             });
             this.categories = Array.from(categorySet).sort();
             this.renderCategoryPills();
+            this.renderNutritionPills();
 
             // Build store filter buttons
             this.renderStoreFilters();
@@ -119,6 +130,21 @@ class RecipeApp {
             this.currentCategory = pill.dataset.category;
             this.filterRecipes();
         });
+
+        // Nutrition pills (multi-select)
+        this.elements.nutritionPills.addEventListener('click', (e) => {
+            const pill = e.target.closest('.nutrition-pill');
+            if (!pill) return;
+            const id = pill.dataset.nutrition;
+            if (this.activeNutritionFilters.has(id)) {
+                this.activeNutritionFilters.delete(id);
+                pill.classList.remove('active');
+            } else {
+                this.activeNutritionFilters.add(id);
+                pill.classList.add('active');
+            }
+            this.filterRecipes();
+        });
     }
 
     renderCategoryPills() {
@@ -128,6 +154,30 @@ class RecipeApp {
             `<button class="category-pill" data-category="${Utils.escapeHtml(cat)}">${Utils.escapeHtml(cat)}</button>`
         ).join('');
         container.innerHTML = allPill + pills;
+    }
+
+    renderNutritionPills() {
+        const container = this.elements.nutritionPills;
+        const pills = this.nutritionFilters.map(filter => {
+            const thresholdText = filter.min ? `≥${filter.min}g` : `≤${filter.max}${filter.field === 'calories' ? ' kcal' : 'g'}`;
+            return `<button class="nutrition-pill" data-nutrition="${filter.id}" title="${thresholdText}">${filter.label}</button>`;
+        }).join('');
+        container.innerHTML = pills;
+    }
+
+    parseNutritionValue(str) {
+        if (!str) return null;
+        const match = str.match(/[\d.]+/);
+        return match ? parseFloat(match[0]) : null;
+    }
+
+    checkNutritionFilter(recipe, filter) {
+        if (!recipe.nutrition) return false;
+        const value = this.parseNutritionValue(recipe.nutrition[filter.field]);
+        if (value === null) return false;
+        if (filter.min !== undefined && value < filter.min) return false;
+        if (filter.max !== undefined && value > filter.max) return false;
+        return true;
     }
 
     renderStoreFilters() {
@@ -275,7 +325,19 @@ class RecipeApp {
             const matchesCategory = this.currentCategory === 'all' ||
                 (recipe.category && recipe.category.split(',').some(c => c.trim() === this.currentCategory));
 
-            return matchesSearch && matchesStore && matchesCategory;
+            // Nutrition filter (all active filters must match)
+            let matchesNutrition = true;
+            if (this.activeNutritionFilters.size > 0) {
+                for (const id of this.activeNutritionFilters) {
+                    const filter = this.nutritionFilters.find(f => f.id === id);
+                    if (filter && !this.checkNutritionFilter(recipe, filter)) {
+                        matchesNutrition = false;
+                        break;
+                    }
+                }
+            }
+
+            return matchesSearch && matchesStore && matchesCategory && matchesNutrition;
         });
 
         this.sortRecipes();

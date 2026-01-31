@@ -679,6 +679,39 @@ body {
     border-color: var(--color-ink);
 }
 
+/* Nutrition Pills */
+.nutrition-pills {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-lg);
+    animation: slideUp 0.6s var(--ease-out) 0.28s both;
+}
+
+.nutrition-pill {
+    padding: var(--space-sm) var(--space-md);
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    background: var(--color-paper);
+    border: 1px solid var(--color-forest-soft);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s var(--ease-out);
+    color: var(--color-forest);
+}
+
+.nutrition-pill:hover {
+    background: color-mix(in srgb, var(--color-forest-soft) 30%, var(--color-paper));
+    border-color: var(--color-forest);
+}
+
+.nutrition-pill.active {
+    background: var(--color-forest);
+    color: var(--color-paper);
+    border-color: var(--color-forest);
+}
+
 /* Stats Bar */
 .stats-bar {
     display: flex;
