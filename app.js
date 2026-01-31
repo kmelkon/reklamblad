@@ -192,91 +192,59 @@ class RecipeApp {
             storeCounts[store] = (storeCounts[store] || 0) + 1;
         });
 
-        // Sort stores by deal count (descending)
-        const sortedStores = Object.entries(storeCounts)
-            .sort((a, b) => b[1] - a[1])
-            .map(([store]) => store);
+        // Categorize stores: national chains vs specific stores
+        const nationalStores = ['ICA Supermarket', 'ICA Nära', 'ICA Maxi', 'ICA Kvantum', 'Stora Coop', 'Coop', 'Willys'];
+        const specificStores = ['ICA Globen', 'Stora Coop Västberga', 'Coop Fruängen'];
 
-        const PRIMARY_COUNT = 3;
-        const primaryStores = sortedStores.slice(0, PRIMARY_COUNT);
-        const overflowStores = sortedStores.slice(PRIMARY_COUNT);
+        // Filter to only stores that have deals
+        const availableNational = nationalStores.filter(s => storeCounts[s]);
+        const availableSpecific = specificStores.filter(s => storeCounts[s]);
 
         const container = this.elements.filterGroup;
 
-        // "Alla butiker" button
         let html = `
-            <button class="filter-btn active" data-store="all">
-                <span class="filter-icon">◉</span>
-                Alla butiker
-            </button>
+            <div class="store-select-wrapper">
+                <select id="storeSelect" class="store-select">
+                    <option value="all">Alla butiker</option>
         `;
 
-        // Primary store buttons
-        primaryStores.forEach(store => {
-            const storeClass = Utils.getStoreClass(store);
-            const shortName = Utils.getShortStoreName(store);
-            html += `
-                <button class="filter-btn" data-store="${Utils.escapeHtml(store)}">
-                    <span class="filter-dot ${storeClass}"></span>
-                    ${Utils.escapeHtml(shortName)}
-                </button>
-            `;
-        });
-
-        // Overflow toggle + container
-        if (overflowStores.length > 0) {
-            html += `
-                <button class="filter-toggle" id="filterToggle">
-                    <span>Fler</span>
-                    <span class="filter-count">${overflowStores.length}</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 18l6-6-6-6"/>
-                    </svg>
-                </button>
-                <div class="filter-overflow" id="filterOverflow">
-            `;
-
-            overflowStores.forEach(store => {
-                const storeClass = Utils.getStoreClass(store);
-                const shortName = Utils.getShortStoreName(store);
-                html += `
-                    <button class="filter-btn" data-store="${Utils.escapeHtml(store)}">
-                        <span class="filter-dot ${storeClass}"></span>
-                        ${Utils.escapeHtml(shortName)}
-                    </button>
-                `;
+        if (availableNational.length > 0) {
+            html += `<optgroup label="Kedjor">`;
+            availableNational.forEach(store => {
+                const count = storeCounts[store];
+                html += `<option value="${Utils.escapeHtml(store)}">${Utils.escapeHtml(store)} (${count})</option>`;
             });
-
-            html += `</div>`;
+            html += `</optgroup>`;
         }
+
+        if (availableSpecific.length > 0) {
+            html += `<optgroup label="Mina butiker">`;
+            availableSpecific.forEach(store => {
+                const count = storeCounts[store];
+                html += `<option value="${Utils.escapeHtml(store)}">${Utils.escapeHtml(store)} (${count})</option>`;
+            });
+            html += `</optgroup>`;
+        }
+
+        html += `
+                </select>
+                <svg class="store-select-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6"/>
+                </svg>
+            </div>
+        `;
 
         container.innerHTML = html;
         this.bindFilterEvents();
     }
 
     bindFilterEvents() {
-        // Store filter buttons
-        /** @type {NodeListOf<HTMLElement>} */
-        const filterBtns = this.elements.filterGroup.querySelectorAll('.filter-btn');
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                this.currentStore = btn.dataset.store;
+        const storeSelect = document.getElementById('storeSelect');
+        if (storeSelect) {
+            storeSelect.addEventListener('change', (e) => {
+                const target = /** @type {HTMLSelectElement} */ (e.target);
+                this.currentStore = target.value;
                 this.filterRecipes();
-            });
-        });
-
-        // Toggle button for overflow
-        const toggleBtn = document.getElementById('filterToggle');
-        const overflow = document.getElementById('filterOverflow');
-        if (toggleBtn && overflow) {
-            toggleBtn.addEventListener('click', () => {
-                this.filtersExpanded = !this.filtersExpanded;
-                this.elements.filterGroup.classList.toggle('expanded', this.filtersExpanded);
-                toggleBtn.classList.toggle('expanded', this.filtersExpanded);
-                toggleBtn.querySelector('span:first-child').textContent =
-                    this.filtersExpanded ? 'Färre' : 'Fler';
             });
         }
     }

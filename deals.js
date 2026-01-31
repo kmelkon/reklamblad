@@ -99,24 +99,53 @@ class DealsApp {
     }
 
     /**
-     * Render store filter chips
+     * Render store filter dropdown
      */
     renderFilterChips() {
         if (!this.elements.filterGroup) return;
 
-        const stores = this.getStores();
-        let html = `<button class="filter-chip active" data-store="all">Alla</button>`;
-
-        stores.forEach(store => {
-            const storeClass = Utils.getStoreClass(store);
-            const shortName = Utils.getShortStoreName(store);
-            html += `
-                <button class="filter-chip" data-store="${Utils.escapeHtml(store)}">
-                    <span class="chip-dot ${storeClass}"></span>
-                    ${Utils.escapeHtml(shortName)}
-                </button>
-            `;
+        const storeCounts = {};
+        this.deals.forEach(deal => {
+            storeCounts[deal.store] = (storeCounts[deal.store] || 0) + 1;
         });
+
+        const nationalStores = ['ICA Supermarket', 'ICA Nära', 'ICA Maxi', 'ICA Kvantum', 'Stora Coop', 'Coop', 'Willys'];
+        const specificStores = ['ICA Globen', 'Stora Coop Västberga', 'Coop Fruängen'];
+
+        const availableNational = nationalStores.filter(s => storeCounts[s]);
+        const availableSpecific = specificStores.filter(s => storeCounts[s]);
+
+        let html = `
+            <div class="store-select-wrapper">
+                <select id="dealsStoreSelect" class="store-select">
+                    <option value="all">Alla butiker</option>
+        `;
+
+        if (availableNational.length > 0) {
+            html += `<optgroup label="Kedjor">`;
+            availableNational.forEach(store => {
+                const count = storeCounts[store];
+                html += `<option value="${Utils.escapeHtml(store)}">${Utils.escapeHtml(store)} (${count})</option>`;
+            });
+            html += `</optgroup>`;
+        }
+
+        if (availableSpecific.length > 0) {
+            html += `<optgroup label="Mina butiker">`;
+            availableSpecific.forEach(store => {
+                const count = storeCounts[store];
+                html += `<option value="${Utils.escapeHtml(store)}">${Utils.escapeHtml(store)} (${count})</option>`;
+            });
+            html += `</optgroup>`;
+        }
+
+        html += `
+                </select>
+                <svg class="store-select-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6"/>
+                </svg>
+            </div>
+        `;
 
         this.elements.filterGroup.innerHTML = html;
     }
@@ -137,17 +166,11 @@ class DealsApp {
             });
         }
 
-        // Filter chips (event delegation)
-        if (this.elements.filterGroup) {
-            this.elements.filterGroup.addEventListener('click', (e) => {
-                const chip = e.target.closest('.filter-chip');
-                if (!chip) return;
-
-                this.elements.filterGroup.querySelectorAll('.filter-chip').forEach(c =>
-                    c.classList.remove('active')
-                );
-                chip.classList.add('active');
-                this.currentStore = chip.dataset.store;
+        // Store filter dropdown
+        const storeSelect = document.getElementById('dealsStoreSelect');
+        if (storeSelect) {
+            storeSelect.addEventListener('change', (e) => {
+                this.currentStore = e.target.value;
                 this.filterDeals();
             });
         }
