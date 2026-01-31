@@ -395,12 +395,12 @@ class DealsApp {
         if (!this.elements.selectionBar) return;
 
         const count = this.selectedIds.size;
-        const addBtn = document.getElementById('addToListBtn');
+        const addBtn = /** @type {HTMLButtonElement | null} */ (document.getElementById('addToListBtn'));
 
         if (count > 0) {
             this.elements.selectionBar.classList.add('visible');
             if (this.elements.selectionCount) {
-                this.elements.selectionCount.textContent = count;
+                this.elements.selectionCount.textContent = String(count);
             }
             if (addBtn) addBtn.disabled = false;
         } else {
@@ -409,7 +409,7 @@ class DealsApp {
         }
 
         // Sync select-all checkbox state
-        const selectAllCheckbox = document.getElementById('selectAllDeals');
+        const selectAllCheckbox = /** @type {HTMLInputElement | null} */ (document.getElementById('selectAllDeals'));
         if (selectAllCheckbox) {
             const allSelected = this.filteredDeals.length > 0 &&
                 this.filteredDeals.every(deal => this.selectedIds.has(this.getDealId(deal)));
