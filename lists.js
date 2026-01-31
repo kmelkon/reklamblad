@@ -262,7 +262,7 @@ class BottomSheet {
 
         // Focus first focusable element
         requestAnimationFrame(() => {
-            const focusable = this.sheet.querySelector('button, input, [tabindex]:not([tabindex="-1"])');
+            const focusable = /** @type {HTMLElement | null} */ (this.sheet.querySelector('button, input, [tabindex]:not([tabindex="-1"])'));
             if (focusable) focusable.focus();
         });
     }
@@ -483,8 +483,9 @@ class ListsApp {
         const sheetContent = document.getElementById('bottomSheetContent');
         if (sheetContent) {
             sheetContent.addEventListener('click', (e) => {
+                const target = /** @type {HTMLElement} */ (e.target);
                 // Add to existing list
-                const listBtn = e.target.closest('.sheet-list-btn');
+                const listBtn = /** @type {HTMLElement | null} */ (target.closest('.sheet-list-btn'));
                 if (listBtn) {
                     const listId = listBtn.dataset.listId;
                     this.addDealsToList(listId, deals);
@@ -492,7 +493,7 @@ class ListsApp {
                 }
 
                 // Create new list
-                if (e.target.closest('#sheetCreateListBtn')) {
+                if (target.closest('#sheetCreateListBtn')) {
                     this.showCreateListForm(deals);
                     return;
                 }
@@ -525,7 +526,7 @@ class ListsApp {
         bottomSheet.open(html);
 
         // Focus and select input
-        const input = document.getElementById('newListName');
+        const input = /** @type {HTMLInputElement | null} */ (document.getElementById('newListName'));
         if (input) {
             input.focus();
             input.select();
@@ -866,7 +867,9 @@ class ListsApp {
 
         // Menu actions
         menu.addEventListener('click', (e) => {
-            const action = e.target.closest('.menu-item')?.dataset.action;
+            const target = /** @type {HTMLElement} */ (e.target);
+            const menuItem = /** @type {HTMLElement | null} */ (target.closest('.menu-item'));
+            const action = menuItem?.dataset.action;
             if (action === 'rename') {
                 this.renameList(listId);
             } else if (action === 'delete') {
@@ -910,7 +913,7 @@ class ListsApp {
 
         bottomSheet.open(html);
 
-        const input = document.getElementById('renameListInput');
+        const input = /** @type {HTMLInputElement | null} */ (document.getElementById('renameListInput'));
         const saveBtn = document.getElementById('renameSaveBtn');
         const cancelBtn = document.getElementById('renameCancelBtn');
 

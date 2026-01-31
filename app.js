@@ -111,19 +111,22 @@ class RecipeApp {
     bindEvents() {
         // Search
         this.elements.searchInput.addEventListener('input', (e) => {
-            this.searchQuery = e.target.value.toLowerCase().trim();
+            const target = /** @type {HTMLInputElement} */ (e.target);
+            this.searchQuery = target.value.toLowerCase().trim();
             this.filterRecipes();
         });
 
         // Sort select
         this.elements.sortSelect.addEventListener('change', (e) => {
-            this.currentSort = e.target.value;
+            const target = /** @type {HTMLSelectElement} */ (e.target);
+            this.currentSort = target.value;
             this.filterRecipes();
         });
 
         // Category pills (event delegation)
         this.elements.categoryPills.addEventListener('click', (e) => {
-            const pill = e.target.closest('.category-pill');
+            const target = /** @type {HTMLElement} */ (e.target);
+            const pill = /** @type {HTMLElement | null} */ (target.closest('.category-pill'));
             if (!pill) return;
             this.elements.categoryPills.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
             pill.classList.add('active');
@@ -133,7 +136,8 @@ class RecipeApp {
 
         // Nutrition pills (multi-select)
         this.elements.nutritionPills.addEventListener('click', (e) => {
-            const pill = e.target.closest('.nutrition-pill');
+            const target = /** @type {HTMLElement} */ (e.target);
+            const pill = /** @type {HTMLElement | null} */ (target.closest('.nutrition-pill'));
             if (!pill) return;
             const id = pill.dataset.nutrition;
             if (this.activeNutritionFilters.has(id)) {
@@ -252,6 +256,7 @@ class RecipeApp {
 
     bindFilterEvents() {
         // Store filter buttons
+        /** @type {NodeListOf<HTMLElement>} */
         const filterBtns = this.elements.filterGroup.querySelectorAll('.filter-btn');
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
@@ -345,8 +350,8 @@ class RecipeApp {
     }
 
     updateStats() {
-        this.elements.recipeCount.textContent = this.recipes.length;
-        this.elements.dealCount.textContent = this.deals.length;
+        this.elements.recipeCount.textContent = String(this.filteredRecipes.length);
+        this.elements.dealCount.textContent = String(this.deals.length);
     }
 
     updateLastUpdated() {
@@ -532,7 +537,9 @@ class RecipeApp {
 
         // Trigger ring animations after render
         requestAnimationFrame(() => {
-            document.querySelectorAll('.score-ring-progress').forEach(ring => {
+            /** @type {NodeListOf<SVGElement>} */
+            const rings = document.querySelectorAll('.score-ring-progress');
+            rings.forEach(ring => {
                 ring.style.transition = 'stroke-dashoffset 1s cubic-bezier(0.16, 1, 0.3, 1)';
             });
         });

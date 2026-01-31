@@ -24,3 +24,6 @@ jobs:
 
       - name: Stylelint
         run: npm run lint:css
+
+      - name: TypeCheck
+        run: npm run typecheck

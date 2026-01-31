@@ -84,7 +84,9 @@ class Router {
      * @param {string} path - Route path
      */
     switchPage(path) {
-        document.querySelectorAll('.page').forEach(page => {
+        /** @type {NodeListOf<HTMLElement>} */
+        const pages = document.querySelectorAll('.page');
+        pages.forEach(page => {
             const pagePath = page.dataset.page;
             const isActive = pagePath === path || (pagePath === '/recipes' && path === '/');
             page.style.display = isActive ? '' : 'none';
@@ -105,14 +107,18 @@ class Router {
     bindNav() {
         const updateActiveNav = (path) => {
             // Update desktop tabs
-            document.querySelectorAll('.nav-tab').forEach(tab => {
+            /** @type {NodeListOf<HTMLElement>} */
+            const tabs = document.querySelectorAll('.nav-tab');
+            tabs.forEach(tab => {
                 const route = tab.dataset.route;
                 const isActive = route === path || (route === '/recipes' && path === '/');
                 tab.classList.toggle('active', isActive);
             });
 
             // Update mobile nav
-            document.querySelectorAll('.mobile-nav-item').forEach(item => {
+            /** @type {NodeListOf<HTMLElement>} */
+            const mobileItems = document.querySelectorAll('.mobile-nav-item');
+            mobileItems.forEach(item => {
                 const route = item.dataset.route;
                 const isActive = route === path || (route === '/recipes' && path === '/');
                 item.classList.toggle('active', isActive);
