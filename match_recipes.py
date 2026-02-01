@@ -4,7 +4,7 @@
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from difflib import SequenceMatcher
 
 SYNONYMS = {
@@ -161,6 +161,7 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
         'url': recipe.get('url'),
         'image': recipe.get('image'),
         'category': recipe.get('category') or recipe.get('ica_category'),
+        'source': recipe.get('source', 'ica'),
         'total_ingredients': len(ingredients),
         'matched_count': len(matched_ingredients),
         'match_percentage': round(match_percentage, 1),
@@ -174,19 +175,60 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
     }
 
 
+def deduplicate_recipes(recipes: list[dict]) -> list[dict]:
+    """Remove duplicate recipes by name, keeping the one with most reviews."""
+    by_name = {}
+    for r in recipes:
+        name = r.get('name', '')
+        existing = by_name.get(name)
+        if not existing or (r.get('reviews') or 0) > (existing.get('reviews') or 0):
+            by_name[name] = r
+    return list(by_name.values())
+
+
+def load_recipes(script_dir: str) -> list[dict]:
+    """Load recipes from all sources (ICA + HelloFresh)."""
+    recipes = []
+
+    # Load ICA recipes
+    ica_file = os.path.join(script_dir, 'recipes.json')
+    if os.path.exists(ica_file):
+        with open(ica_file, 'r') as f:
+            ica_recipes = json.load(f)
+            for r in ica_recipes:
+                r.setdefault('source', 'ica')
+            recipes.extend(ica_recipes)
+            print(f"  ICA: {len(ica_recipes)} recipes")
+
+    # Load HelloFresh recipes
+    hf_file = os.path.join(script_dir, 'hellofresh_recipes.json')
+    if os.path.exists(hf_file):
+        with open(hf_file, 'r') as f:
+            hf_recipes = json.load(f)
+            recipes.extend(hf_recipes)
+            print(f"  HelloFresh: {len(hf_recipes)} recipes")
+
+    # Deduplicate by name (HelloFresh republishes same recipes)
+    before = len(recipes)
+    recipes = deduplicate_recipes(recipes)
+    if before != len(recipes):
+        print(f"  Deduplicated: {before} → {len(recipes)} recipes")
+
+    return recipes
+
+
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     deals_file = os.path.join(script_dir, 'deals.json')
-    recipes_file = os.path.join(script_dir, 'recipes.json')
 
     with open(deals_file, 'r') as f:
         deals = json.load(f)
 
-    with open(recipes_file, 'r') as f:
-        recipes = json.load(f)
+    print("Loading recipes...")
+    recipes = load_recipes(script_dir)
 
-    print(f"Loaded {len(deals)} deals and {len(recipes)} recipes\n")
+    print(f"\nLoaded {len(deals)} deals and {len(recipes)} recipes\n")
 
     results = []
     for recipe in recipes:
@@ -197,7 +239,7 @@ def main():
 
     # Add metadata
     output = {
-        'last_updated': datetime.utcnow().isoformat() + 'Z',
+        'last_updated': datetime.now(timezone.utc).isoformat(),
         'total_deals': len(deals),
         'total_recipes': len(recipes),
         'recipes': results

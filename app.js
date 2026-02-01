@@ -411,7 +411,7 @@ class RecipeApp {
 
         const items = [];
         if (recipe.nutrition.calories) {
-            const cal = recipe.nutrition.calories.replace(' calories', '');
+            const cal = recipe.nutrition.calories.replace(/ ?(calories|kcal)/gi, '');
             items.push({ label: 'Kalorier', value: cal, unit: 'kcal' });
         }
         if (recipe.nutrition.protein) {
@@ -504,7 +504,7 @@ class RecipeApp {
                     ${recipe.rating ? `
                         <div class="rating">
                             <span class="rating-star">★</span>
-                            ${recipe.rating}
+                            ${Number(recipe.rating).toFixed(1)}
                             ${recipe.reviews ? `<span>(${recipe.reviews})</span>` : ''}
                         </div>
                     ` : ''}
