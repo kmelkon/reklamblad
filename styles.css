@@ -902,10 +902,129 @@ body {
 
 /* Ingredients */
 .ingredients-section {
-    padding: var(--space-md) var(--space-lg);
-    padding-bottom: var(--space-lg);
+    padding: var(--space-sm) var(--space-lg);
 }
 
+/* Ingredients Accordion */
+.ingredients-accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--space-sm) 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-ink-soft);
+    transition: color 0.2s var(--ease-out);
+}
+
+.ingredients-accordion:hover {
+    color: var(--color-ink);
+}
+
+.ingredients-accordion:focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 2px;
+    border-radius: var(--border-radius-sm);
+}
+
+.accordion-icon {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s var(--ease-out);
+    flex-shrink: 0;
+}
+
+.ingredients-accordion.open .accordion-icon {
+    transform: rotate(180deg);
+}
+
+.ingredients-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s var(--ease-out);
+}
+
+.ingredients-accordion-content.open {
+    max-height: 500px;
+}
+
+/* Ingredient Rows */
+.ingredient-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--border-softer);
+}
+
+.ingredient-row:last-child {
+    border-bottom: none;
+}
+
+.ingredient-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-ink);
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ingredient-deal {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-shrink: 0;
+}
+
+.store-badge {
+    padding: 2px 6px;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    background: var(--color-cream);
+    color: var(--color-ink-muted);
+}
+
+.store-badge.ica {
+    background: var(--color-ica-soft);
+    color: var(--color-ica);
+}
+
+.store-badge.coop {
+    background: var(--color-coop-soft);
+    color: var(--color-coop);
+}
+
+.store-badge.willys {
+    background: var(--color-willys-soft);
+    color: var(--color-willys);
+}
+
+.ingredient-deal .deal-price {
+    font-family: var(--font-display);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-terracotta);
+}
+
+.ingredient-deal .price-original {
+    font-size: 0.75rem;
+    color: var(--color-ink-muted);
+    text-decoration: line-through;
+}
+
+/* Legacy ingredient tags (keep for backwards compat) */
 .ingredients-title {
     font-size: 0.75rem;
     font-weight: 600;

@@ -149,6 +149,21 @@ class RecipeApp {
             }
             this.filterRecipes();
         });
+
+        // Ingredients accordion (event delegation)
+        this.elements.recipeGrid.addEventListener('click', (e) => {
+            const target = /** @type {HTMLElement} */ (e.target);
+            const accordion = /** @type {HTMLElement | null} */ (target.closest('.ingredients-accordion'));
+            if (!accordion) return;
+
+            const isOpen = accordion.classList.toggle('open');
+            accordion.setAttribute('aria-expanded', String(isOpen));
+
+            const content = accordion.nextElementSibling;
+            if (content && content.classList.contains('ingredients-accordion-content')) {
+                content.classList.toggle('open', isOpen);
+            }
+        });
     }
 
     renderCategoryPills() {
@@ -441,6 +456,41 @@ class RecipeApp {
         `;
     }
 
+    renderIngredientRows(matchedIngredients) {
+        if (!matchedIngredients || matchedIngredients.length === 0) {
+            return '<div class="ingredient-row"><span class="ingredient-name">Inga träffar</span></div>';
+        }
+
+        return matchedIngredients.map(ing => {
+            const storeClass = Utils.getStoreClass(ing.deal_store);
+            const storeName = this.getShortStoreName(ing.deal_store);
+            const priceDisplay = ing.deal_price || '';
+            const originalPrice = ing.ord_pris || '';
+            // Strip "sats " prefix from ICA ingredient kit names
+            const ingredientName = (ing.ingredient || '').replace(/^sats\s+/i, '');
+
+            return `
+                <div class="ingredient-row">
+                    <span class="ingredient-name">${Utils.escapeHtml(ingredientName)}</span>
+                    <div class="ingredient-deal">
+                        <span class="store-badge ${storeClass}">${Utils.escapeHtml(storeName)}</span>
+                        <span class="deal-price">${Utils.escapeHtml(priceDisplay)}</span>
+                        ${originalPrice ? `<span class="price-original">${Utils.escapeHtml(originalPrice)}</span>` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    getShortStoreName(store) {
+        if (!store) return '';
+        // Shorten long store names for badge display
+        if (store.startsWith('ICA ')) return 'ICA';
+        if (store.startsWith('Stora Coop')) return 'Coop';
+        if (store.startsWith('Coop ')) return 'Coop';
+        return store;
+    }
+
     createRecipeCard(recipe) {
         const time = this.formatTime(recipe.time);
         const percentage = recipe.match_percentage || 0;
@@ -452,11 +502,8 @@ class RecipeApp {
             ? `<img class="card-image" src="${Utils.escapeHtml(imageUrl)}" alt="${Utils.escapeHtml(recipe.name)}" loading="lazy">`
             : '';
 
-        const matchedHtml = (recipe.matched_ingredients || []).slice(0, 5).map(ing => {
-            const storeClass = Utils.getStoreClass(ing.deal_store);
-            const priceHtml = this.renderPriceComparison(ing);
-            return `<span class="ingredient-tag matched ${storeClass}">${Utils.escapeHtml(ing.ingredient)} ${priceHtml}</span>`;
-        }).join('');
+        const matchedCount = recipe.matched_count || 0;
+        const ingredientRowsHtml = this.renderIngredientRows(recipe.matched_ingredients);
 
         return `
             <article class="recipe-card">
@@ -486,9 +533,14 @@ class RecipeApp {
                 </div>
 
                 <div class="ingredients-section">
-                    <div class="ingredients-title">På rea just nu</div>
-                    <div class="ingredient-tags">
-                        ${matchedHtml || '<span class="ingredient-tag">Inga träffar</span>'}
+                    <button class="ingredients-accordion" aria-expanded="false">
+                        <span>${matchedCount} ingrediens${matchedCount !== 1 ? 'er' : ''} på rea</span>
+                        <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="ingredients-accordion-content">
+                        ${ingredientRowsHtml}
                     </div>
                 </div>
 
