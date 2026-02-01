@@ -7,7 +7,7 @@ class RecipeApp {
         this.recipes = [];
         this.deals = [];
         this.filteredRecipes = [];
-        this.currentStore = 'all';
+        this.currentStore = this.loadStoredStore();
         this.searchQuery = '';
         this.currentSort = 'match';
         this.currentCategory = 'all';
@@ -235,15 +235,40 @@ class RecipeApp {
         `;
 
         container.innerHTML = html;
+
+        // Validate stored store exists, sync dropdown, apply filter
+        const availableStores = [...availableNational, ...availableSpecific];
+        if (this.currentStore !== 'all' && !availableStores.includes(this.currentStore)) {
+            this.currentStore = 'all';
+        }
+        const storeSelect = /** @type {HTMLSelectElement|null} */ (document.getElementById('storeSelect'));
+        if (storeSelect) {
+            storeSelect.value = this.currentStore;
+        }
+        this.filterRecipes();
         this.bindFilterEvents();
     }
 
+    loadStoredStore() {
+        try {
+            return localStorage.getItem('selectedStore') || 'all';
+        } catch {
+            return 'all';
+        }
+    }
+
+    saveStoredStore(store) {
+        try {
+            localStorage.setItem('selectedStore', store);
+        } catch { /* ignore */ }
+    }
+
     bindFilterEvents() {
-        const storeSelect = document.getElementById('storeSelect');
+        const storeSelect = /** @type {HTMLSelectElement|null} */ (document.getElementById('storeSelect'));
         if (storeSelect) {
-            storeSelect.addEventListener('change', (e) => {
-                const target = /** @type {HTMLSelectElement} */ (e.target);
-                this.currentStore = target.value;
+            storeSelect.addEventListener('change', () => {
+                this.currentStore = storeSelect.value;
+                this.saveStoredStore(this.currentStore);
                 this.filterRecipes();
             });
         }

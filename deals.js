@@ -7,7 +7,7 @@ class DealsApp {
         this.deals = [];
         this.filteredDeals = [];
         this.selectedIds = new Set();
-        this.currentStore = 'all';
+        this.currentStore = this.loadStoredStore();
         this.searchQuery = '';
         this.sortBy = 'name';
         this.sortAsc = true;
@@ -148,6 +148,31 @@ class DealsApp {
         `;
 
         this.elements.filterGroup.innerHTML = html;
+
+        // Validate stored store exists, sync dropdown, apply filter
+        const availableStores = [...availableNational, ...availableSpecific];
+        if (this.currentStore !== 'all' && !availableStores.includes(this.currentStore)) {
+            this.currentStore = 'all';
+        }
+        const storeSelect = /** @type {HTMLSelectElement|null} */ (document.getElementById('dealsStoreSelect'));
+        if (storeSelect) {
+            storeSelect.value = this.currentStore;
+        }
+        this.filterDeals();
+    }
+
+    loadStoredStore() {
+        try {
+            return localStorage.getItem('selectedStore') || 'all';
+        } catch {
+            return 'all';
+        }
+    }
+
+    saveStoredStore(store) {
+        try {
+            localStorage.setItem('selectedStore', store);
+        } catch { /* ignore */ }
     }
 
     /**
@@ -171,6 +196,7 @@ class DealsApp {
         if (storeSelect) {
             storeSelect.addEventListener('change', () => {
                 this.currentStore = storeSelect.value;
+                this.saveStoredStore(this.currentStore);
                 this.filterDeals();
             });
         }
