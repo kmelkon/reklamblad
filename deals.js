@@ -167,10 +167,10 @@ class DealsApp {
         }
 
         // Store filter dropdown
-        const storeSelect = document.getElementById('dealsStoreSelect');
+        const storeSelect = /** @type {HTMLSelectElement|null} */ (document.getElementById('dealsStoreSelect'));
         if (storeSelect) {
-            storeSelect.addEventListener('change', (e) => {
-                this.currentStore = e.target.value;
+            storeSelect.addEventListener('change', () => {
+                this.currentStore = storeSelect.value;
                 this.filterDeals();
             });
         }
