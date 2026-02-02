@@ -139,22 +139,31 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
         matches = find_matching_deals(ing, deals)
 
         if matches:
-            best_match = matches[0]
-            deal = best_match['deal']
-            matched_ingredients.append({
-                'ingredient': ing,
-                'deal_name': deal['name'],
-                'deal_price': deal.get('price'),
-                'deal_store': deal.get('store'),
-                'deal_unit': deal.get('unit'),
-                'ord_pris': deal.get('ord_pris'),
-                'jfr_pris': deal.get('jfr_pris'),
-                'match_score': best_match['score']
-            })
+            # Group by store - keep best match per store for each ingredient
+            by_store = {}
+            for m in matches:
+                store = m['deal'].get('store')
+                if store not in by_store or m['score'] > by_store[store]['score']:
+                    by_store[store] = m
+
+            for store, best_match in by_store.items():
+                deal = best_match['deal']
+                matched_ingredients.append({
+                    'ingredient': ing,
+                    'deal_name': deal['name'],
+                    'deal_price': deal.get('price'),
+                    'deal_store': deal.get('store'),
+                    'deal_unit': deal.get('unit'),
+                    'ord_pris': deal.get('ord_pris'),
+                    'jfr_pris': deal.get('jfr_pris'),
+                    'match_score': best_match['score']
+                })
         else:
             unmatched_ingredients.append(ing)
 
-    match_percentage = len(matched_ingredients) / len(ingredients) * 100 if ingredients else 0
+    # Count unique matched ingredients (not total entries which may have multiple stores)
+    unique_matched = len({m['ingredient'] for m in matched_ingredients})
+    match_percentage = unique_matched / len(ingredients) * 100 if ingredients else 0
 
     return {
         'name': recipe.get('name'),
@@ -163,7 +172,7 @@ def analyze_recipe(recipe: dict, deals: list[dict]) -> dict:
         'category': recipe.get('category') or recipe.get('ica_category'),
         'source': recipe.get('source', 'ica'),
         'total_ingredients': len(ingredients),
-        'matched_count': len(matched_ingredients),
+        'matched_count': unique_matched,
         'match_percentage': round(match_percentage, 1),
         'matched_ingredients': matched_ingredients,
         'unmatched_ingredients': unmatched_ingredients,
