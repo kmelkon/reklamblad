@@ -1,86 +1,127 @@
 #!/usr/bin/env python3
-"""Scrape current deals from ereklamblad.se and coop.se."""
+"""Scrape current deals from ereklamblad.se and coop.se.
+
+This scraper uses Playwright to fetch weekly deals from Swedish grocery stores.
+It employs multiple strategies:
+1. API interception (primary method) - captures JSON responses
+2. DOM parsing (fallback) - extracts visible content
+3. Store-specific APIs - uses native store APIs when available
+"""
 
 import json
 import os
 import re
+import sys
 from playwright.sync_api import sync_playwright
+
+# Configuration constants
+TIMEOUT_NAVIGATION = 30000  # 30 seconds for page navigation
+TIMEOUT_NETWORK = 20000     # 20 seconds for network idle
+TIMEOUT_API_REQUEST = 10000 # 10 seconds for API requests
+MAX_SCROLL_ITERATIONS = 25
+SCROLL_STEP_PX = 500
+VIEWPORT_WIDTH = 1280
+VIEWPORT_HEIGHT = 900
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+
+# Cloudinary image optimization params
+CLOUDINARY_TRANSFORMS = 'w_400,f_auto,q_auto'  # width 400, auto format, auto quality
 
 
 def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
-    """Scrape deals from coop.se store page using their API."""
+    """Scrape deals from coop.se store page using their API.
+    
+    Args:
+        page: Playwright page instance
+        store_name: Display name of the store
+        coop_url: Full URL to the store page
+        
+    Returns:
+        List of deal dictionaries with standardized fields
+        
+    Raises:
+        None - Errors are logged and empty list is returned
+    """
     print(f"\n=== Scraping {store_name} (coop.se) ===")
     print(f"URL: {coop_url}")
 
     offers_data = []
 
     def handle_response(response):
+        """Capture API responses containing offer data."""
         if 'dke/offers' in response.url and 'json' in response.headers.get('content-type', ''):
             try:
-                offers_data.extend(response.json())
-            except Exception:
-                pass
+                data = response.json()
+                if isinstance(data, list):
+                    offers_data.extend(data)
+            except Exception as e:
+                print(f"  Warning: Failed to parse response: {e}")
 
     page.on('response', handle_response)
 
     try:
-        page.goto(coop_url, timeout=30000)
-        page.wait_for_load_state('networkidle', timeout=20000)
+        page.goto(coop_url, timeout=TIMEOUT_NAVIGATION)
+        page.wait_for_load_state('networkidle', timeout=TIMEOUT_NETWORK)
     except Exception as e:
         print(f"  Navigation error: {e}")
+        return []
 
     page.remove_listener('response', handle_response)
 
     products = []
     for offer in offers_data:
-        content = offer.get('content', {})
-        price_info = offer.get('priceInformation', {})
+        try:
+            content = offer.get('content', {})
+            price_info = offer.get('priceInformation', {})
 
-        name = content.get('title', '')
-        brand = content.get('brand', '')
-        if brand and brand.lower() not in name.lower():
-            name = f"{name} ({brand})"
+            name = content.get('title', '')
+            brand = content.get('brand', '')
+            if brand and brand.lower() not in name.lower():
+                name = f"{name} ({brand})"
 
-        # Build price string
-        price_val = price_info.get('discountValue')
-        min_amount = price_info.get('minimumAmount', 1)
-        unit = price_info.get('unit', 'st')
+            # Build price string
+            price_val = price_info.get('discountValue')
+            min_amount = price_info.get('minimumAmount', 1)
+            unit = price_info.get('unit', 'st')
 
-        if price_val:
-            if min_amount > 1:
-                price = f"{min_amount} för {price_val}:-"
+            if price_val:
+                if min_amount > 1:
+                    price = f"{min_amount} för {price_val}:-"
+                else:
+                    price = f"{price_val}:-"
             else:
-                price = f"{price_val}:-"
-        else:
-            price = None
+                price = None
 
-        # Image URL - add Cloudinary transforms for smaller file size
-        image = content.get('imageUrl', '')
-        if image and image.startswith('//'):
-            image = 'https:' + image
-        if image and 'cloudinary.com' in image and '/upload/' in image:
-            # Add resize/format transforms: w_400 (width), f_auto (webp/avif), q_auto (quality)
-            image = image.replace('/upload/', '/upload/w_400,f_auto,q_auto/')
+            # Image URL - add Cloudinary transforms for smaller file size
+            image = content.get('imageUrl', '')
+            if image and image.startswith('//'):
+                image = 'https:' + image
+            if image and 'cloudinary.com' in image and '/upload/' in image:
+                # Add resize/format transforms: w_400 (width), f_auto (webp/avif), q_auto (quality)
+                image = image.replace('/upload/', f'/upload/{CLOUDINARY_TRANSFORMS}/')
 
-        # Description and comparison price
-        description = content.get('description', '')
-        amount_info = content.get('amountInformation', '')
-        if amount_info:
-            description = f"{amount_info} {description}".strip()
+            # Description and comparison price
+            description = content.get('description', '')
+            amount_info = content.get('amountInformation', '')
+            if amount_info:
+                description = f"{amount_info} {description}".strip()
 
-        jfr_pris = content.get('comparativePriceText', '')
+            jfr_pris = content.get('comparativePriceText', '')
 
-        if name:
-            products.append({
-                'store': store_name,
-                'name': name.strip(),
-                'price': price,
-                'unit': unit if unit else None,
-                'description': description if description else None,
-                'ord_pris': None,
-                'jfr_pris': jfr_pris if jfr_pris else None,
-                'image': image if image else None,
-            })
+            if name:
+                products.append({
+                    'store': store_name,
+                    'name': name.strip(),
+                    'price': price,
+                    'unit': unit if unit else None,
+                    'description': description if description else None,
+                    'ord_pris': None,
+                    'jfr_pris': jfr_pris if jfr_pris else None,
+                    'image': image if image else None,
+                })
+        except Exception as e:
+            print(f"  Warning: Failed to parse offer: {e}")
+            continue
 
     print(f"  Found {len(products)} products via coop.se API")
     return products
@@ -651,6 +692,11 @@ def scrape_dom_fallback(page, store_name: str) -> list[dict]:
 
 
 def main():
+    """Main entry point for the scraper.
+    
+    Scrapes deals from configured stores and saves to deals.json.
+    Exit code 0 on success, 1 on failure.
+    """
     # National chain pages
     stores = [
         ('ICA Supermarket', 'https://ereklamblad.se/ICA-Supermarket/'),
@@ -667,36 +713,53 @@ def main():
     ]
 
     all_products = []
+    failed_stores = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            locale='sv-SE',
-            viewport={'width': 1280, 'height': 900},
-            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-        )
-        page = context.new_page()
+    print("=" * 60)
+    print("STARTING DEAL SCRAPER")
+    print("=" * 60)
 
-        # Stores that use inventory view for better price data
-        inventory_stores = {'Willys', 'ICA Maxi', 'ICA Kvantum', 'Stora Coop', 'Coop'}
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(
+                locale='sv-SE',
+                viewport={'width': VIEWPORT_WIDTH, 'height': VIEWPORT_HEIGHT},
+                user_agent=USER_AGENT
+            )
+            page = context.new_page()
 
-        for store_name, url in stores:
-            try:
-                if 'coop.se/butiker-erbjudanden' in url:
-                    # Use coop.se API for store-specific Coop stores
-                    products = scrape_coop_se(page, store_name, url)
-                elif '/butiker/' in url:
-                    # ereklamblad store-specific pages
-                    products = scrape_store_specific(page, store_name, url)
-                elif store_name in inventory_stores:
-                    products = scrape_inventory_view(page, store_name, url)
-                else:
-                    products = scrape_ereklamblad(page, store_name, url)
-                all_products.extend(products)
-            except Exception as e:
-                print(f"Error scraping {store_name}: {e}")
+            # Stores that use inventory view for better price data
+            inventory_stores = {'Willys', 'ICA Maxi', 'ICA Kvantum', 'Stora Coop', 'Coop'}
 
-        browser.close()
+            for store_name, url in stores:
+                try:
+                    if 'coop.se/butiker-erbjudanden' in url:
+                        # Use coop.se API for store-specific Coop stores
+                        products = scrape_coop_se(page, store_name, url)
+                    elif '/butiker/' in url:
+                        # ereklamblad store-specific pages
+                        products = scrape_store_specific(page, store_name, url)
+                    elif store_name in inventory_stores:
+                        products = scrape_inventory_view(page, store_name, url)
+                    else:
+                        products = scrape_ereklamblad(page, store_name, url)
+                    
+                    if products:
+                        all_products.extend(products)
+                    else:
+                        print(f"  ⚠ Warning: No products found for {store_name}")
+                        failed_stores.append(store_name)
+                        
+                except Exception as e:
+                    print(f"  ✗ Error scraping {store_name}: {e}")
+                    failed_stores.append(store_name)
+
+            browser.close()
+            
+    except Exception as e:
+        print(f"\n✗ Fatal error: {e}")
+        sys.exit(1)
 
     # Deduplicate by name
     seen = set()
@@ -708,22 +771,51 @@ def main():
             unique_products.append(p)
 
     print("\n" + "=" * 60)
-    print("DEALS FOUND")
+    print("SCRAPING RESULTS")
     print("=" * 60)
+    print(f"Total products scraped: {len(all_products)}")
+    print(f"Unique products: {len(unique_products)}")
+    
+    if failed_stores:
+        print(f"\n⚠ Warning: {len(failed_stores)} stores failed or returned no products:")
+        for store in failed_stores:
+            print(f"  - {store}")
+    
+    # Validate we got a reasonable number of products
+    if len(unique_products) < 50:
+        print(f"\n⚠ Warning: Only {len(unique_products)} products found - this seems low")
+        print("  Consider investigating scraper issues")
+    
+    if len(unique_products) == 0:
+        print("\n✗ Error: No products found at all!")
+        sys.exit(1)
 
-    for product in unique_products:
+    # Show sample of products
+    print("\nSample products:")
+    for product in unique_products[:5]:
         price_str = f" - {product['price']}" if product.get('price') else ""
         unit_str = f" {product['unit']}" if product.get('unit') else ""
-        print(f"[{product['store']}] {product['name']}{price_str}{unit_str}")
-
-    print(f"\nTotal: {len(unique_products)} unique products")
+        print(f"  [{product['store']}] {product['name']}{price_str}{unit_str}")
 
     # Save to JSON (relative path for repo)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_file = os.path.join(script_dir, 'deals.json')
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(unique_products, f, ensure_ascii=False, indent=2)
-    print(f"Saved to: {output_file}")
+    
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(unique_products, f, ensure_ascii=False, indent=2)
+        print(f"\n✓ Saved {len(unique_products)} products to: {output_file}")
+        
+        # Report file size
+        file_size = os.path.getsize(output_file)
+        print(f"  File size: {file_size / 1024:.1f} KB")
+        
+    except Exception as e:
+        print(f"\n✗ Error saving deals: {e}")
+        sys.exit(1)
+    
+    print("\n✓ Scraping completed successfully")
+    sys.exit(0 if not failed_stores else 0)  # Exit 0 even with partial failures
 
 
 if __name__ == '__main__':
