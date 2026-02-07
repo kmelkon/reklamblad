@@ -68,26 +68,38 @@ def match_score(deal_name: str, ingredient: str) -> float:
     deal_norm = normalize(deal_name)
     ing_norm = normalize(ingredient)
 
+    # Skip ignored pantry staples
     if ing_norm in IGNORE_WORDS or any(ing_norm.startswith(w) for w in IGNORE_WORDS):
         return 0.0
 
+    # Exact match
+    if deal_norm == ing_norm:
+        return 1.0
+
+    # Check FALSE_MATCHES before substring matching
+    # This prevents bad matches like "ris" matching "riskakor"
     for ing_pattern, deal_pattern in FALSE_MATCHES:
         if ing_pattern in ing_norm and deal_pattern in deal_norm:
             return 0.0
 
-    if deal_norm == ing_norm:
-        return 1.0
-
+    # Substring match (only after FALSE_MATCHES check)
     if len(ing_norm) >= 4:
         if deal_norm in ing_norm or ing_norm in deal_norm:
+            # Re-check FALSE_MATCHES for substring matches
+            for ing_pattern, deal_pattern in FALSE_MATCHES:
+                if (ing_pattern == ing_norm and deal_pattern in deal_norm) or \
+                   (deal_pattern == deal_norm and ing_pattern in ing_norm):
+                    return 0.0
             return 0.9
 
+    # Synonym matching
     for base, variants in SYNONYMS.items():
         deal_matches = deal_norm == base or any(deal_norm == v or v in deal_norm for v in variants)
         ing_matches = ing_norm == base or any(ing_norm == v or v in ing_norm for v in variants)
         if deal_matches and ing_matches:
             return 0.85
 
+    # Word overlap matching
     deal_words = set(deal_norm.split())
     ing_words = set(ing_norm.split())
 
@@ -101,6 +113,7 @@ def match_score(deal_name: str, ingredient: str) -> float:
         if significant:
             return 0.75
 
+    # Fuzzy string matching for similar words
     if len(deal_norm) > 5 and len(ing_norm) > 5:
         ratio = SequenceMatcher(None, deal_norm, ing_norm).ratio()
         if ratio > 0.8:

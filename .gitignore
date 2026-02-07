@@ -5,3 +5,11 @@ tmp/
 node_modules/
 .claude/settings.local.json
 .notes/
+*_optimized.json
+*_optimized_debug.json
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
