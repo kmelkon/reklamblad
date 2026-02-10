@@ -663,6 +663,7 @@ def main():
         # Specific stores (ICA via ereklamblad, Coop via coop.se for better data)
         ('ICA Globen', 'https://ereklamblad.se/ICA-Supermarket/butiker/d4d20iz'),
         ('Stora Coop Västberga', 'https://www.coop.se/butiker-erbjudanden/stora-coop/stora-coop-vastberga/'),
+        ('Coop Västertorp', 'https://www.coop.se/butiker-erbjudanden/coop/coop-vastertorp/'),
         ('Coop Fruängen', 'https://www.coop.se/butiker-erbjudanden/coop/coop-fruangen/'),
     ]
 
