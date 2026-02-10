@@ -4,7 +4,21 @@
 import json
 import os
 import re
+import requests
 from playwright.sync_api import sync_playwright
+
+# JavaScript to extract store ID from coop.se page
+STORE_ID_EXTRACTOR_JS = """() => {
+    const elem = document.querySelector('[data-store-id]');
+    if (elem) return elem.getAttribute('data-store-id');
+    // Try to find it in page scripts or data
+    const scripts = Array.from(document.querySelectorAll('script'));
+    for (const script of scripts) {
+        const match = script.textContent.match(/"storeId":"([^"]+)"/);
+        if (match) return match[1];
+    }
+    return null;
+}"""
 
 
 def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
@@ -62,21 +76,10 @@ def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
         print(f"  No API calls detected at all")
         # Try to extract store ID from page and make direct API call
         try:
-            store_id = page.evaluate("""() => {
-                const elem = document.querySelector('[data-store-id]');
-                if (elem) return elem.getAttribute('data-store-id');
-                // Try to find it in page scripts or data
-                const scripts = Array.from(document.querySelectorAll('script'));
-                for (const script of scripts) {
-                    const match = script.textContent.match(/"storeId":"([^"]+)"/);
-                    if (match) return match[1];
-                }
-                return null;
-            }""")
+            store_id = page.evaluate(STORE_ID_EXTRACTOR_JS)
             
             if store_id:
                 print(f"  Found store ID: {store_id}, attempting direct API call")
-                import requests
                 api_url = f"https://external.api.coop.se/dke/offers/{store_id}"
                 try:
                     resp = requests.get(api_url, timeout=10)
