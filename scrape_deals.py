@@ -33,6 +33,21 @@ def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
     try:
         page.goto(coop_url, timeout=30000)
         page.wait_for_load_state('networkidle', timeout=20000)
+        
+        # Try to trigger offers loading by scrolling and waiting
+        try:
+            # Scroll down to trigger lazy-loaded content
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(2000)
+            
+            # Look for offers section and try to interact with it
+            offers_section = page.locator('[class*="offer"], [class*="erbjudanden"], [data-testid*="offer"]').first
+            if offers_section.is_visible(timeout=5000):
+                offers_section.scroll_into_view_if_needed()
+                page.wait_for_timeout(2000)
+        except Exception:
+            pass  # No worries if offers section not found
+            
     except Exception as e:
         print(f"  Navigation error: {e}")
 
@@ -707,7 +722,7 @@ def main():
         ('Willys', 'https://ereklamblad.se/Willys/'),
         # Specific stores (ICA via ereklamblad, Coop via coop.se for better data)
         ('ICA Globen', 'https://ereklamblad.se/ICA-Supermarket/butiker/d4d20iz'),
-        ('Stora Coop Västberga', 'https://www.coop.se/butiker-erbjudanden/stora-coop/stora-coop-vastberga/'),
+        ('Stora Coop Västberga', 'https://ereklamblad.se/Stora-Coop/butiker/RWgqhxGLTIGKJuleKNhPS'),
         ('Coop Fruängen', 'https://www.coop.se/butiker-erbjudanden/coop/coop-fruangen/'),
     ]
 
