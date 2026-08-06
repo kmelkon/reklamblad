@@ -28,11 +28,21 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
+      - name: Run tests
+        run: |
+          echo "Running unit tests..."
+          python test_match_recipes.py
+
       - name: Scrape deals
         run: python scrape_deals.py
 
       - name: Match recipes
         run: python match_recipes.py
+
+      - name: Validate data
+        run: |
+          echo "Validating generated data..."
+          python validate_data.py
 
       - name: Commit and push
         run: |
