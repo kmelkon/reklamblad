@@ -4,7 +4,21 @@
 import json
 import os
 import re
+import requests
 from playwright.sync_api import sync_playwright
+
+# JavaScript to extract store ID from coop.se page
+STORE_ID_EXTRACTOR_JS = """() => {
+    const elem = document.querySelector('[data-store-id]');
+    if (elem) return elem.getAttribute('data-store-id');
+    // Try to find it in page scripts or data
+    const scripts = Array.from(document.querySelectorAll('script'));
+    for (const script of scripts) {
+        const match = script.textContent.match(/"storeId":"([^"]+)"/);
+        if (match) return match[1];
+    }
+    return null;
+}"""
 
 
 def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
@@ -13,23 +27,72 @@ def scrape_coop_se(page, store_name: str, coop_url: str) -> list[dict]:
     print(f"URL: {coop_url}")
 
     offers_data = []
+    api_calls_seen = []
 
     def handle_response(response):
+        # Log all API-like requests for debugging
+        if 'api' in response.url or 'dke' in response.url:
+            api_calls_seen.append(response.url)
+        
         if 'dke/offers' in response.url and 'json' in response.headers.get('content-type', ''):
             try:
-                offers_data.extend(response.json())
-            except Exception:
-                pass
+                data = response.json()
+                offers_data.extend(data)
+                print(f"  Captured {len(data)} offers from API")
+            except Exception as e:
+                print(f"  Failed to parse API response: {e}")
 
     page.on('response', handle_response)
 
     try:
         page.goto(coop_url, timeout=30000)
         page.wait_for_load_state('networkidle', timeout=20000)
+        
+        # Try to trigger offers loading by scrolling and waiting
+        try:
+            # Scroll down to trigger lazy-loaded content
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(2000)
+            
+            # Look for offers section and try to interact with it
+            offers_section = page.locator('[class*="offer"], [class*="erbjudanden"], [data-testid*="offer"]').first
+            if offers_section.is_visible(timeout=5000):
+                offers_section.scroll_into_view_if_needed()
+                page.wait_for_timeout(2000)
+        except Exception:
+            pass  # No worries if offers section not found
+            
     except Exception as e:
         print(f"  Navigation error: {e}")
 
     page.remove_listener('response', handle_response)
+    
+    # Debug: show what API calls were seen
+    if not offers_data and api_calls_seen:
+        print(f"  No offers found, but saw {len(api_calls_seen)} API calls:")
+        for call in api_calls_seen[:5]:  # Show first 5
+            print(f"    - {call}")
+    elif not offers_data:
+        print(f"  No API calls detected at all")
+        # Try to extract store ID from page and make direct API call
+        try:
+            store_id = page.evaluate(STORE_ID_EXTRACTOR_JS)
+            
+            if store_id:
+                print(f"  Found store ID: {store_id}, attempting direct API call")
+                api_url = f"https://external.api.coop.se/dke/offers/{store_id}"
+                try:
+                    resp = requests.get(api_url, timeout=10)
+                    if resp.ok:
+                        data = resp.json()
+                        offers_data.extend(data)
+                        print(f"  Direct API call successful: {len(data)} offers")
+                    else:
+                        print(f"  Direct API call failed: {resp.status_code}")
+                except Exception as e:
+                    print(f"  Direct API call error: {e}")
+        except Exception as e:
+            print(f"  Could not extract store ID: {e}")
 
     products = []
     for offer in offers_data:
@@ -662,7 +725,7 @@ def main():
         ('Willys', 'https://ereklamblad.se/Willys/'),
         # Specific stores (ICA via ereklamblad, Coop via coop.se for better data)
         ('ICA Globen', 'https://ereklamblad.se/ICA-Supermarket/butiker/d4d20iz'),
-        ('Stora Coop Västberga', 'https://www.coop.se/butiker-erbjudanden/stora-coop/stora-coop-vastberga/'),
+        ('Stora Coop Västberga', 'https://ereklamblad.se/Stora-Coop/butiker/RWgqhxGLTIGKJuleKNhPS'),
         ('Coop Fruängen', 'https://www.coop.se/butiker-erbjudanden/coop/coop-fruangen/'),
     ]
 
